@@ -1,0 +1,3781 @@
+%PDF-1.2
+%‚„œ”
+1 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.089]
+/Gamma [1.8 1.8 1.8]
+/Matrix [0.4497 0.2446 0.02518 0.3613 0.672 0.1412 0.1845 0.08334 0.9227]
+>>
+]
+endobj
+2 0 obj
+<<
+/CreationDate (D:20051002233622-0300)
+/Producer (pod2pdf)
+/Title (Cafe Perl v0.6)
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /emdash
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F00
+/Encoding 5 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F01
+/Encoding 5 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F02
+/Encoding 5 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F03
+/Encoding 5 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 5 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 5 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/Encoding 5 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F20
+/Encoding 5 0 R
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F21
+/Encoding 5 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F22
+/Encoding 5 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F23
+/Encoding 5 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+0 g
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F21 12 Tf
+1 0 0 1 72.0 752.0 Tm
+0.0000 Tw
+(CaFe Perl v0.6 - Peri\363dico de la Comunidad Perl de Capital Federal ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 730.4 Tm
+0.0000 Tw
+(Editorial ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 718.4 Tm
+0.0000 Tw
+(Hola Perl Mongers, bienvenidos a un nuevo n\372mero de CaFe Perl !! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 694.4 Tm
+1.0939 Tw
+(Este mes comenzamos un nuevo camino en la secci\363n Mordiditas de aqu\355 y de all\341. La idea es poder) Tj
+1 0 0 1 102.0 682.4 Tm
+1.4420 Tw
+(seguir llegando llegar a la mayor cantidad de gente con los conocimientos m\341s dispares, entonces la) Tj
+1 0 0 1 102.0 670.4 Tm
+1.3120 Tw
+(metodolog\355a usada es primero presentar el problema junto con la soluci\363n para poder usarlo como si) Tj
+1 0 0 1 102.0 658.4 Tm
+0.2622 Tw
+(fuera una receta \(para los que quieren usarlo sin mas vueltas\), y despu\351s la explicaci\363n de c\363mo se llega) Tj
+1 0 0 1 102.0 646.4 Tm
+0.4433 Tw
+(a esta receta final pero aumentando la complejidad progresivamente dentro del art\355culo. Igual que Perl :) Tj
+1 0 0 1 102.0 634.4 Tm
+0.0000 Tw
+("one size fits all". ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 610.4 Tm
+0.3605 Tw
+(Se va a seguir respetando esa idea, pero esta vez vamos a usar un poco mas de metodolog\355a, y para esto) Tj
+1 0 0 1 102.0 598.4 Tm
+1.0188 Tw
+(nos vamos a guiar por los cap\355tulos de "Programming Perl - 3rd. Edition". Esto no es casual, primero) Tj
+1 0 0 1 102.0 586.4 Tm
+1.6425 Tw
+(porque es la forma en que Larry Wall va generando sus "especificaciones" de Perl 6 \(Apocalipsis -) Tj
+1 0 0 1 102.0 574.4 Tm
+0.0000 Tw
+(http://dev.perl.org/perl6/doc/apocalypse.html\), y adem\341s por una raz\363n pedag\363gica. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 550.4 Tm
+1.7906 Tw
+(La raz\363n para este cambio obedece, en cierta forma, a un e-mail que all\341 por el 2001 escribi\363 una) Tj
+1 0 0 1 102.0 538.4 Tm
+0 Tw
+(persona dedicada al QA \(Quality Assurance\) de software \(pueden leerlo en) Tj
+1 0 0 1 102.0 526.4 Tm
+0.8500 Tw
+(http://www.underlevel.net/jordan/erik-perl.txt \) y que en la lista de discusi\363n del libro High Order Perl) Tj
+1 0 0 1 102.0 514.4 Tm
+0.5121 Tw
+(\(http://hop.perl.plover.com/ de Mark Jason Dominus\) gener\363 todo un revuelo y debate. Uno puede o no) Tj
+1 0 0 1 102.0 502.4 Tm
+0.4238 Tw
+(estar de acuerdo con ese e-mail, pero hay algo cierto y es que se ve a Perl como un lenguaje incapaz de) Tj
+1 0 0 1 102.0 490.4 Tm
+1.6457 Tw
+(generar aplicaciones mantenibles, y aqu\355 la palabra clave es mantenibles, y no aplicaciones. En este) Tj
+1 0 0 1 102.0 478.4 Tm
+0 Tw
+(punto me quedo con el m\341s brillante de los e-mails de ese thread \() Tj
+1 0 0 1 102.0 466.4 Tm
+0.0000 Tw
+(http://hop.perl.plover.com/~alias/list.cgi?2:mss:340:eabblnfenfegfacjkjhd \). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 442.4 Tm
+1.5988 Tw
+(Como conclusi\363n Mordiditas de aqu\355 y de all\341 va a mejorar metodol\363gicamente, y para eso se va a) Tj
+1 0 0 1 102.0 430.4 Tm
+0.1492 Tw
+(orientar en la b\372squeda de las mejores pr\341cticas para obtener aplicaciones mantenibles, robustas, seguras) Tj
+1 0 0 1 102.0 418.4 Tm
+0.8138 Tw
+(y que hagan buen uso de sus recursos, utilizando para esto los principios establecidos de Ingenier\355a de) Tj
+1 0 0 1 102.0 406.4 Tm
+1.5264 Tw
+(Software \(modularidad, orientaci\363n a objetos, etc.\) y toda herramienta que tengamos a la mano para) Tj
+1 0 0 1 102.0 394.4 Tm
+1.3295 Tw
+(hacerlo. No es casual que en este camino tambi\351n se encuentre Perl 6, con lo cual tambi\351n nos va a) Tj
+1 0 0 1 102.0 382.4 Tm
+0.0000 Tw
+(servir para afianzarnos en Perl 5 y poder hacer una transici\363n lo m\341s c\363moda posible. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 358.4 Tm
+1.4607 Tw
+(Como \372ltima novedad les cuento que moment\341neamente Andr\351s no nos va a poder acompa\361ar en la) Tj
+1 0 0 1 102.0 346.4 Tm
+0.1052 Tw
+(secci\363n Peace of Code, as\355 que esta secci\363n no va a ser fija sino que estar\341 en los n\372meros que alguno de) Tj
+1 0 0 1 102.0 334.4 Tm
+1.7243 Tw
+(ustedes, queridos integrantes de la comunidad Perl, me acerque alg\372n c\363digo que hayan hecho, que) Tj
+1 0 0 1 102.0 322.4 Tm
+1.0935 Tw
+(desaf\355e las leyes de la gravedad o que simplemente tenga una duda y busquemos la forma de llevarla) Tj
+1 0 0 1 102.0 310.4 Tm
+0.0000 Tw
+(adelante como un divertimento. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 286.4 Tm
+0.0000 Tw
+(Espero que lo disfruten. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 274.4 Tm
+0.0000 Tw
+(Hasta la pr\363xima taza de CaFe Perl !!! ... eso s\355, caf\351 del bueno ;-\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 250.4 Tm
+0.0000 Tw
+(V\355ctor A. Rodr\355guez \(Bit-Man\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 220.4 Tm
+0.0000 Tw
+( PERlitas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 208.4 Tm
+0.0000 Tw
+(Entrevista realizada y traducida al espa\361ol por V\355ctor A. Rodr\355guez ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 184.4 Tm
+0.1729 Tw
+(gtk2-perl es el nombre dado a un conjunto de perl bindings para Gtk+ 2.x y varias librer\355as relacionadas.) Tj
+1 0 0 1 102.0 172.4 Tm
+2.1267 Tw
+(Estos hacen que sea mucho m\341s f\341cil escribir aplicaciones Gtk y Gnome usando una sintaxis m\341s) Tj
+1 0 0 1 102.0 160.4 Tm
+0.0000 Tw
+(orientada a Perl y objetos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 136.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Por favor muppet, una presentaci\363n para el grupo CaFe.pm) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 112.4 Tm
+0.0589 Tw
+(Soy un m\372sico y programador de 30 a\361os de edad que vive en Lexington, Kentucky, USA con mi esposa) Tj
+1 0 0 1 102.0 100.4 Tm
+4.5046 Tw
+(y mis hijas mellizas. Tengo un t\355tulo universitario en Ingenier\355a El\351ctrica, pero trabaj\351 casi) Tj
+1 0 0 1 102.0 88.4 Tm
+0 Tw
+(exclusivamente en software desde mi graduaci\363n. Compongo y toco m\372sica rock ecl\351ctica) Tj
+1 0 0 1 102.0 76.4 Tm
+0.5954 Tw
+(\(http://seasonone.org/\) cuando no estoy persiguiendo a mis hijas, hackeando software, o trabado en una) Tj
+1 0 0 1 102.0 64.4 Tm
+0.0000 Tw
+(conversaci\363n geek con mi esposa. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 517.44 37 Tm
+(1) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+19 0 obj
+6148
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 20 0 R
+/Contents 18 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 23 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+2.8787 Tw
+(Puede servir el saber que mi apodo ?muppet?[1] proviene de mis d\355as en los dormitorios de la) Tj
+1 0 0 1 102.0 758.0 Tm
+0.5006 Tw
+(Universidad de Kentucky, donde era conocido por mi largo cabello rubio al viento y mi inclinaci\363n por) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(el humor de vaudeville. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Cu\341l fue la motivaci\363n para construir Gtk2-Perl ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(Versi\363n corta: lo necesitaba y no exist\355a. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 674.0 Tm
+1.6306 Tw
+(Versi\363n larga: Hice mucho procesamiento de datos de texto en mi trabajo y perl fue la herramienta) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0165 Tw
+(correcta para ese trabajo. Tambi\351n era un usuario \341vido de Linux y Gnome, y cuando necesit\351 ponerle un) Tj
+1 0 0 1 102.0 650.0 Tm
+0.9080 Tw
+(interfaz gr\341fica \(GUI\), eleg\355 Gtk-Perl. Tambi\351n estaba trabajando en una librer\355a de C para an\341lisis de) Tj
+1 0 0 1 102.0 638.0 Tm
+0.2118 Tw
+(im\341genes, y conectarla con perl usando XS, de tal manera que podr\355a usar DBI para poner los resultados) Tj
+1 0 0 1 102.0 626.0 Tm
+0.9394 Tw
+(del an\341lisis directamente en una base SQL. Las combinaci\363n de C para el trabajo de bajo nivel y Perl) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(para la l\363gica de aplicaci\363n fue una combinaci\363n ganadora. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 590.0 Tm
+1.1759 Tw
+(Despu\351s de un par de a\361os de usar Gtk-Perl en aislamiento, me preguntaba cu\341l ser\355a el soporte para) Tj
+1 0 0 1 102.0 578.0 Tm
+2.5279 Tw
+(gtk+ 2.x, y me un\355 a gtk-perl-list en gnome.org. Result\363 que quienes lo manten\355an originalmente) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0964 Tw
+(abandonaron el proyecto en forma sigilosa, y algunos miembros de la lista estaban discutiendo comenzar) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(un nuevo proyecto. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.0300 Tw
+(Pasaron varios meses, mientras mi software casero creci\363 alrededor de GObject y gtk+ 2.0. Cuando lleg\363) Tj
+1 0 0 1 102.0 518.0 Tm
+0.4325 Tw
+(el tiempo de hacer funcionar mi c\363digo con perl, encontr\351 que el Gtk2-Perl inline \(por entonces versi\363n) Tj
+1 0 0 1 102.0 506.0 Tm
+0.3854 Tw
+(0.12\) no era suficientemente extensible para permitirme conectar con perl, de una manera interoperable,) Tj
+1 0 0 1 102.0 494.0 Tm
+2.5794 Tw
+(mi propia librer\355a basada en GObject. En Abril de 2003 hice un hack de un prototipo de nueva) Tj
+1 0 0 1 102.0 482.0 Tm
+0 Tw
+(arquitectura para los bindings, y lo present\351 a G\366ran y Guillaume en la lista) Tj
+1 0 0 1 102.0 470.0 Tm
+0 Tw
+(\(http://mail.gnome.org/archives/gtk-perl-list/2003-April/msg00015.html\). Para mi sorpresa me) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(respondieron d\341ndome el mantenimiento del proyecto. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 434.0 Tm
+1.5706 Tw
+(En honor a la verdad, yo no constru\355 por mi mismo a Gtk2-Perl. Hubo mucho de arte previo; tom\351) Tj
+1 0 0 1 102.0 422.0 Tm
+0.6900 Tw
+(mucho prestado del Gtk-Perl original, de la versi\363n Gtk2- Perl inline y de pygtk. Ross McFarland hizo) Tj
+1 0 0 1 102.0 410.0 Tm
+0.5694 Tw
+(mucho del trabajo pesado para cambiar el prototipo original en algo \372til, y Torsten Sch\366nfeld nos llev\363) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(directo a los bindings de TreeView y cre\363 la mayor\355a de nuestra suite de testing. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(No me queda claro que son los GObjects) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+0.8583 Tw
+(gtk+ es un sistema de widgets basado en objetos; GObject es la clase base abstracta de la jerarqu\355a de) Tj
+1 0 0 1 102.0 338.0 Tm
+0 Tw
+(objetos y tambi\351n la librer\355a que exporta este objeto. Todo Gnome se basa en \351l) Tj
+1 0 0 1 102.0 326.0 Tm
+1.0550 Tw
+(\(http://developer.gnome.org/doc/API/2.0/gobject/index.html\). Son referencias-contadas a objetos C que) Tj
+1 0 0 1 102.0 314.0 Tm
+0.7193 Tw
+(soportan propiedades tipadas y notificaciones. Perl no tiene un objeto base, as\355 que no tengo realmente) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+(una analog\355a. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 278.0 Tm
+2.0069 Tw
+() Tj
+/F01 10 Tf
+2.0069 Tw
+(Y c\363mo se sinti\363 cuando G\366ran y Guillaume le dieron el rol de mantenimiento ?? Lo acept\363) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(inmediatamente ?? Se sinti\363 c\363modo ?? Qu\351 vacilaciones tuvo ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 242.0 Tm
+0.6950 Tw
+(Estaba sorprendido, para ser honesto. No lo esperaba, no fue nada formal. Ya ten\355a permiso para hacer) Tj
+1 0 0 1 102.0 230.0 Tm
+0.7318 Tw
+(commit, y GC un d\355a me dio permiso de mantenimiento y dijo, ?aqu\355 vas?[1] \(sourceforge tiene un rol) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+(espec\355fico de mantenimiento\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Obtuvo alguna ayuda de otros proyectos Open Source ?? \(c\363digo, consejos, programadores, etc.\)) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.9971 Tw
+(S\355. Marc Lehmann ayud\363 a perfeccionar la conexi\363n entre los GObject en C y las referencias de perl.) Tj
+1 0 0 1 102.0 158.0 Tm
+2.1407 Tw
+(Los desarrolladores de gtk+ siempre ayudaron a determinar d\363nde estaban los bugs, ya sea en los) Tj
+1 0 0 1 102.0 146.0 Tm
+0.1047 Tw
+(bindings o en el gtk+ mismo. Frecuentemente he mirado el c\363digo del viejo Gtk-Perl y pygkt como gu\355a.) Tj
+/F00 10 Tf
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 habilidades, relacionadas a Perl o no, adquiri\363 mientras constru\355a Gkt2- Perl ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+0.4162 Tw
+(Aprend\355 mucho sobre el manejo de proyectos, cu\341nto trabajo toma el hacer que un software sea estable,) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+(qu\351 hace buena a un API, sin mencionar las idas y vueltas de GObject. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(2) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+23 0 obj
+6268
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 24 0 R
+/Contents 22 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 consejo le dar\355a a los futuros dise\361adores y hobistas que encaran un nuevo proyecto ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(No subestimes el valor de tu comunidad de usuarios. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+2.0263 Tw
+() Tj
+/F01 10 Tf
+2.0263 Tw
+(En qu\351 partes del c\363digo le aconsejar\355a ver a quien reci\351n comienza en Perl, para tener una) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(experiencia placentera ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 686.0 Tm
+0.0993 Tw
+(Presumo que quien est\341 comenzando querr\341 conocer c\363mo usar Gtk2-Perl. El mejor lugar para comenzar) Tj
+1 0 0 1 102.0 674.0 Tm
+0.4128 Tw
+(ser\355an los ejemplos y demos que vienen con el c\363digo fuente del m\363dulo Gtk2, los tutoriales varios y la) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(documentaci\363n cuyos links est\341n en http://gtk2-perl.sourceforge.net/ ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+1.1273 Tw
+(Para alguien que busca crearon o mantener bindings del lenguaje, es algo diferente. Los bindings son) Tj
+1 0 0 1 102.0 626.0 Tm
+1.2258 Tw
+(casi todos XS, el lenguaje de extensi\363n de subs externas de Perl \(es un dialecto de C y directivas de) Tj
+1 0 0 1 102.0 614.0 Tm
+2.8385 Tw
+(preprocesamiento\). El trabajo pesado ocurre en el m\363dulo Glib. Las dem\341s extensiones son s\363lo) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(plantillas, que usan utilidades provistas por Glib. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(C\363mo se puede colaborar con Gtk2-Perl ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.2556 Tw
+(La lista de e-mail, gtk-perl-list@gnome.org, es el mejor lugar para comenzar. All\355 se toman patches y se) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(discute en general. Tambi\351n estamos en #gtk-perl en irc.gnome.org. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+0.5520 Tw
+(Tenemos un peque\361o grupo de desarrolladores para los m\363dulos base. Ross McFarland y yo hicimos la) Tj
+1 0 0 1 102.0 506.0 Tm
+0.1083 Tw
+(mayor parte del trabajo durante el verano del 2003. Sobre el final de ese verano comenzamos a tener una) Tj
+1 0 0 1 102.0 494.0 Tm
+0.3127 Tw
+(cantidad de muy buenos patches de un estudiante alem\341n de f\355sica llamado Torsten Sch\366nfeld; de hecho) Tj
+1 0 0 1 102.0 482.0 Tm
+0.6665 Tw
+(tantos patches y de tal calidad que le dimos permiso de commit y comenzamos a pedirle opini\363n sobre) Tj
+1 0 0 1 102.0 470.0 Tm
+3.0540 Tw
+(nuestros cambios. El a\361o pasado, cuando el trabajo comenz\363 a manifestarse en la forma de un) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0844 Tw
+(mantenimiento efectivo tanto para Ross como para mi, le pasamos la mayor parte de la responsabilidad a) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(Torsten, que hizo un gran trabajo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 422.0 Tm
+0.5350 Tw
+(Algunos de los m\363dulos en la colecci\363n a\372n necesitan de quienes los mantengan, y siempre estamos en) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(la b\372squeda de voluntarios. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 funcionalidades cree que no est\341n, y cu\341les se agregar\341n pronto ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.6062 Tw
+(No importa que tan completo creemos que est\351, siempre alguien reporta que no est\341 alguna oscura API) Tj
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+(que necesita. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(Estamos revisando las API para hacer la conexi\363n entre los bindings Cairo de Ross y Gtk2. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 302.0 Tm
+1.9187 Tw
+(El equipo gtk+ est\341 trabajando en agregar una introspecci\363n de toda el API, y estamos preparando) Tj
+1 0 0 1 102.0 290.0 Tm
+0.8873 Tw
+(nuestro propio soporte para esto. Esto nos llevar\341, esperamos, a algo muy cercano a la automatizaci\363n) Tj
+1 0 0 1 102.0 278.0 Tm
+1.7021 Tw
+(completa de los bindings, menos problemas relacionados a las versiones para los usuarios, y menos) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(trabajo para nosotros de mantenimiento. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 242.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 tipo de introspecci\363n est\341n realizando y c\363mo impactar\355a en Gtk2-Perl ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 218.0 Tm
+0.5712 Tw
+(Ahora GObject te permite preguntar a cada objeto ?qu\351 propiedades soporta ? cu\341les son sus tipos ?? y) Tj
+1 0 0 1 102.0 206.0 Tm
+2.8800 Tw
+(?qu\351 se\361ales soporta ? Cu\341les son sus firmas ??, pero eso es todo. Las dem\341s funciones deben) Tj
+1 0 0 1 102.0 194.0 Tm
+0.8461 Tw
+(expl\355citamente tener bindings con algo de XS y eso es verdad para todos los lenguajes, y no s\363lo para) Tj
+1 0 0 1 102.0 182.0 Tm
+0.0000 Tw
+(Gtk2-Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 158.0 Tm
+0.1400 Tw
+(La propuesta de la introspecci\363n es agregar la habilidad de preguntar a la librer\355a por informaci\363n acerca) Tj
+1 0 0 1 102.0 146.0 Tm
+0.6126 Tw
+(de cada funci\363n y tipo de dato que exporta. De esa forma los bindings del lenguaje no tienen que tener) Tj
+1 0 0 1 102.0 134.0 Tm
+0 Tw
+(demasiado mantenimiento manual. Estamos planeando soportarlo con AUTOLOAD y libffi...) Tj
+1 0 0 1 102.0 122.0 Tm
+0.0164 Tw
+(\(http://sourceware.org/libffi/\). Si tu script pregunta por una funci\363n que no existe, AUTOLOAD se fija si) Tj
+1 0 0 1 102.0 110.0 Tm
+1.2858 Tw
+(la librer\355a la exporta; si es as\355 se fija c\363mo llamarla, entonces crea y guarda un stub para llamarla la) Tj
+1 0 0 1 102.0 98.0 Tm
+1.4965 Tw
+(pr\363xima vez. Si funciona va a estar muy bueno, porque cuando una nueva versi\363n de gtk+ salga, la) Tj
+1 0 0 1 102.0 86.0 Tm
+0.7038 Tw
+(versi\363n de Gtk2 que ya ten\351s m\341gicamente soportar\341 estas nuevas funciones \(actualmente tenemos que) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+(agregar soporte para las nuevas funciones seg\372n son agregadas a gtk+\). ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 517.44 37 Tm
+(3) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+27 0 obj
+6217
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 28 0 R
+/Contents 26 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 31 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0295 Tw
+(Y no va a ser necesario que seas un mago del XS para crear perl wrappers para tu librer\355a favorita basada) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(en GObject !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Alg\372n m\363dulo de CPAN favorito ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+0 Tw
+(Deber\355a ser Acme::Scurvy::Whoreson::BilgeRat. :-\) \() Tj
+1 0 0 1 102.0 698.0 Tm
+4.3700 Tw
+(http://search.cpan.org/dist/Acme-Scurvy-Whoreson- BilgeRat/lib/Acme/Scurvy/Whoreson/BilgeRat.pm) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Tiene un Grupo Perl en su \341rea ?? Participa en \351l ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(El grupo local, Lexington.pm es algo, ejem, de bajo tr\341fico. http://lexington.pm.org/ ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 614.0 Tm
+0.8314 Tw
+(Parece que mucha de la gente que participar\355a est\341n involucrados con el Lexington Professional Linux) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(Users Group: http://lplug.org/ ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.2311 Tw
+(En su lugar, estuve suscripto a London.pm por alg\372n tiempo, a pesar de estar a varios miles de millas de) Tj
+1 0 0 1 102.0 566.0 Tm
+0.7740 Tw
+(distancia y nunca haberlos visitado. Hay mucho de superposici\363n entre london.pm y \(void\), as\355 que no) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(me sent\355 demasiado fuera de lugar. Al menos no me echaron, todav\355a =\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.7831 Tw
+() Tj
+/F01 10 Tf
+0.7831 Tw
+(Tiene alguna experiencia, divertida o no tanto, mientras hac\355a Gtk2-Perl y que quiera compartir) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(con nosotros ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+1.3879 Tw
+(La raz\363n principal por la que estaba dispuesto a pasar varios meses a costa de mis tardes y fines de) Tj
+1 0 0 1 102.0 482.0 Tm
+0.4472 Tw
+(semana sobre Gtk2-Perl, fue que mi esposa estaba embarazada y no se sent\355a bien como para salir de la) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(casa. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(Excepto por Ross, nunca me reun\355 con ning\372n usuario de Gtk2-Perl en la vida real. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Algo m\341s que quiera contarnos y no le preguntamos ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(Us\351 Perl para hacer muchas cosas, pero ?no? us\351 perl para desarrollos web. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Para qu\351 usa Perl ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+1.4413 Tw
+(De todo un poco... por un largo tiempo, estuve acomodando n\372meros en archivos de texto, entonces) Tj
+1 0 0 1 102.0 338.0 Tm
+0.1318 Tw
+(hacer data crunching y ponerlos en una base de datos SQL. Ahora tengo herramientas para hacer scan de) Tj
+1 0 0 1 102.0 326.0 Tm
+0.7806 Tw
+(archivos de logs y enviarme e-mails en eventos interesantes, algo para buscar en c\363digo por la palabra) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+(FIXME en los comentarios cada noche, otra herramienta que genera stubs para un proyecto en C... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(De todo un poco :-\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 260.0 Tm
+0.0000 Tw
+( SudorNews ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 245.6 Tm
+0.0000 Tw
+(Internacionalizaci\363n de Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 233.6 Tm
+0 Tw
+(En la primer p\341gina de la interesante entrevista a Autrijus Tang \() Tj
+1 0 0 1 102.0 221.6 Tm
+0.6850 Tw
+(http://www.perl.com/pub/a/2005/09/08/autrijus-tang.html \) generador de una implementaci\363n de Perl 6,) Tj
+1 0 0 1 102.0 209.6 Tm
+0.0740 Tw
+(habla sobre las herramientas para convertir a cualquier programa en Perl a multi-lenguaje. Un buen lugar) Tj
+1 0 0 1 102.0 197.6 Tm
+0.0000 Tw
+(para empezar. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 171.2 Tm
+0.0000 Tw
+(Los mejores scripts de Perl ... en Microsoft !? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 159.2 Tm
+0.0729 Tw
+(En http://www.microsoft.com/technet/scriptcenter/scripts/perl/prlindex.mspx vas a poder a encontrar una) Tj
+1 0 0 1 102.0 147.2 Tm
+0.5875 Tw
+(serie de scripts Perl para administrar m\341quinas Windows : el gigante de Redmond no puede resistirse a) Tj
+1 0 0 1 102.0 135.2 Tm
+0.0000 Tw
+(Perl ni al Open Source ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 108.8 Tm
+0.0000 Tw
+(Se lo que hicieron el verano pasado ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 96.8 Tm
+1.5250 Tw
+(Adem\341s del t\355tulo de una pel\355cula puede ser una afirmaci\363n que muchos de los asistentes al Google) Tj
+1 0 0 1 102.0 84.8 Tm
+1.1818 Tw
+(Summer of Code \( http://code.google.com/summerofcode.html \) pueden tomar de muy buena manera.) Tj
+1 0 0 1 102.0 72.8 Tm
+0.7529 Tw
+(En este publicitado programa Google acept\363 a ocho estudiantes para proyectos relacionados con Perl a) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(4) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+31 0 obj
+5184
+endobj
+32 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 32 0 R
+/Contents 30 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 35 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.7263 Tw
+(trav\351s de The Perl Foundation \( http://www.perlfoundation.org/news/2005/googlesoc2.html \). Google) Tj
+1 0 0 1 102.0 758.0 Tm
+0.3241 Tw
+(dar\341 U$S 4500 a cada estudiante que complete el proyecto propuesto, y U$S 500 a The Perl Foundation) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(por cada proyecto. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+(GPL 3 ya da que hablar ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 707.6 Tm
+0.9013 Tw
+(La presunta inclusi\363n de penalidades para el software propietario y DRM en la nueva versi\363n de GPL) Tj
+1 0 0 1 102.0 695.6 Tm
+0 Tw
+(lanz\363 una avalancha de comentarios. La nueva versi\363n a\372n est\341 en sus primeros pasos \() Tj
+1 0 0 1 102.0 683.6 Tm
+1.5650 Tw
+(http://www.fsf.org/news/gplv3, fechado el 6 de Septiembre ppdo. \). La verdad es que no hab\355a nada) Tj
+1 0 0 1 102.0 671.6 Tm
+2.9143 Tw
+(cierto sobre esta restricci\363n para principios de Septiembre, cuando MSNBC se hizo eco de esta) Tj
+1 0 0 1 102.0 659.6 Tm
+1.2410 Tw
+(posibilidad, m\341s especulativa que otra cosa \( http://www.msnbc.msn.com/id/9225821/ \). Esto tambi\351n) Tj
+1 0 0 1 102.0 647.6 Tm
+0 Tw
+(tuvo su pronta respuesta por parte de la Free Software Foundation \() Tj
+1 0 0 1 102.0 635.6 Tm
+0.6520 Tw
+(http://mail.fsfeurope.org/pipermail/discussion/2005-September/005190.html \) donde claramente que eso) Tj
+1 0 0 1 102.0 623.6 Tm
+2.1444 Tw
+(s\363lo podr\355a estar en la cabeza de Richard Stallman, o sea que cualquier cosa que se diga es pura) Tj
+1 0 0 1 102.0 611.6 Tm
+0.0000 Tw
+(especulaci\363n. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 599.6 Tm
+0 Tw
+(Finalmente en una entrevista a este personaje fundamental del GPL \() Tj
+1 0 0 1 102.0 587.6 Tm
+2.9257 Tw
+(http://www.onlamp.com/pub/a/onlamp/2005/09/22/gpl3.html \) establece que hacerlo no ayudar\355a en) Tj
+1 0 0 1 102.0 575.6 Tm
+0.0000 Tw
+(nada. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 549.2 Tm
+0.0000 Tw
+(Para pr\341cticas, las mejores !! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 537.2 Tm
+0 Tw
+(Del ya conocido Damian Conway sali\363 el libro Perl Best Practices \() Tj
+1 0 0 1 102.0 525.2 Tm
+1.6630 Tw
+(http://www.oreilly.com/catalog/perlbp/ \), una colecci\363n de 2^8 lineamientos que prometen un jugoso) Tj
+1 0 0 1 102.0 513.2 Tm
+0 Tw
+(desempe\361o, a juzgar por el cap\355tulo de ejemplo \() Tj
+1 0 0 1 102.0 501.2 Tm
+0 Tw
+(http://www.oreilly.com/catalog/perlbp/chapter/ch09.pdf \) o por la review de Linux Journal \() Tj
+1 0 0 1 102.0 489.2 Tm
+0.6369 Tw
+(http://www.linuxjournal.com/article/8567 \) ... o ser\341 que mi t\363pico preferido es el de la modularizaci\363n) Tj
+1 0 0 1 102.0 477.2 Tm
+0.0000 Tw
+(?? ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 450.8 Tm
+0.0000 Tw
+(Qu\351 es el Open Source ? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 438.8 Tm
+0.0012 Tw
+(Antes explicar qu\351 era el Open Source era m\341s f\341cil, ahora involucra muchos m\341s factores que hacen que) Tj
+1 0 0 1 102.0 426.8 Tm
+0 Tw
+(esta tarea quede para unos pocos \() Tj
+1 0 0 1 102.0 414.8 Tm
+0.0000 Tw
+(http://www.onlamp.com/pub/a/onlamp/2005/09/15/what-is-opensource.html \) ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 388.4 Tm
+0.0000 Tw
+(Otra vez la cebolla !! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 376.4 Tm
+0.3078 Tw
+(Son famosas las ?State of the Onion? de Larry Wall donde hace referencia a Perl y el movimiento Open) Tj
+1 0 0 1 102.0 364.4 Tm
+0 Tw
+(Source. Esta vez lo hace a trav\351s de una serie de personajes \() Tj
+1 0 0 1 102.0 352.4 Tm
+0.0000 Tw
+(http://www.perl.com/pub/a/2005/09/22/onion.html \). Algo entretenido para leer ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(YAPC:EU::2005 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 314.0 Tm
+0 Tw
+(Est\341n comenzando a estar disponibles las charlas de esta Perl Conference \() Tj
+1 0 0 1 102.0 302.0 Tm
+0.0709 Tw
+(http://perl-hackers.net/YAPC-05/ \). Pr\363ximamente tambi\351n van a estar disponibles dos versiones de cada) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(charla \(una grande y otra m\341s peque\361a\) ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 263.6 Tm
+0.0000 Tw
+(Nuevo site para comenzar a aprender Perl !! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 251.6 Tm
+0.7314 Tw
+(En http://perlmeme.org/ vas a poder encontrar FAQ, HOWTOs y tutoriales \(todos en ingl\351s\). Hay para) Tj
+1 0 0 1 102.0 239.6 Tm
+1.1837 Tw
+(todos los gustos : para qui\351n reci\351n empieza, para qui\351n ya sabe y para el que quiere saber a\372n m\341s.) Tj
+1 0 0 1 102.0 227.6 Tm
+0.0000 Tw
+(Tambi\351n sirve para saber qu\351 es un meme. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 197.6 Tm
+0.0000 Tw
+( Lo b\341sico \(Mordiditas de aqu\355 y de all\341\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 185.6 Tm
+0.4526 Tw
+(En esta entrega empezamos con lo b\341sico del lenguaje Perl, pero a ver, que se entienda que no vamos a) Tj
+1 0 0 1 102.0 173.6 Tm
+0.7625 Tw
+(empezar con el t\355pico ?los tipos de datos de Perl son? o ?la sentencia if ...? sino que vamos a empezar) Tj
+1 0 0 1 102.0 161.6 Tm
+0.0000 Tw
+(por algo m\341s b\341sico y m\341s general : la filosof\355a detr\341s de Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 137.6 Tm
+0.7147 Tw
+(Si bien parece algo abstracto vamos a ver que es absolutamente tangible y de mucho de lo que aqu\355 se) Tj
+1 0 0 1 102.0 125.6 Tm
+0.0000 Tw
+(vea, seguramente, van a recordar situaciones en las que se encontraron con c\363digo que lo ejemplifique. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 101.6 Tm
+2.4982 Tw
+(Hay muchas evidencias que la tendencia es que todo el que trabaje con Perl se sienta c\363modo :) Tj
+1 0 0 1 102.0 89.6 Tm
+1.0562 Tw
+(comenzando con Perl[1] , siguiendo por perl[2] y finalizando con la comunidad que los soporta y sus) Tj
+1 0 0 1 102.0 77.6 Tm
+2.4717 Tw
+(distintas manifestaciones \(CPAN, Perl Mongers, Perl Monks, etc.\). En particular Perl permite una) Tj
+1 0 0 1 102.0 65.6 Tm
+0.3717 Tw
+(cantidad de usos del lenguaje que hacen que se pueda empezar a aprender el lenguaje de una forma casi) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 517.44 37 Tm
+(5) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+35 0 obj
+6002
+endobj
+36 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 36 0 R
+/Contents 34 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 39 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(inmediata : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 743.6 Tm
+1.4200 Tw
+() Tj
+ET
+q
+102 744.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 743.6 Tm
+/F20 10 Tf
+1.4200 Tw
+(- no hay tipos de datos estrictos : al momento de empezar a programar no hay nada m\341s) Tj
+1 0 0 1 102.0 731.6 Tm
+2.0931 Tw
+(insidioso que encontrarse con la conversi\363n de tipos de datos y esos molestos mensajes) Tj
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+(sobre la imposibilidad de establecer una conversi\363n impl\355cita entre tipos de datos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 705.2 Tm
+1.4879 Tw
+() Tj
+ET
+q
+102 706.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 705.2 Tm
+/F20 10 Tf
+1.4879 Tw
+(- hay s\363lo tres estructuras de datos : son simples, poderosas y sumamente din\341micas \(en) Tj
+1 0 0 1 102.0 693.2 Tm
+0.4314 Tw
+(todo sentido\) que nos hacen que no tengamos que desviar nuestra atenci\363n en problemas de) Tj
+1 0 0 1 102.0 681.2 Tm
+3.5580 Tw
+(implementaci\363n tales como alocar memoria, especificar longitudes de strings, saber de) Tj
+1 0 0 1 102.0 669.2 Tm
+1.7050 Tw
+(antemano la cantidad de dimensiones y el tama\361o de un array, etc. Simplemente usar sin) Tj
+1 0 0 1 102.0 657.2 Tm
+0.0000 Tw
+(preocupaciones ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 642.8 Tm
+3.9969 Tw
+() Tj
+ET
+q
+102 643.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 642.8 Tm
+/F20 10 Tf
+3.9969 Tw
+(- posee las sentencias m\341s usuales : lo m\341s com\372n de la programaci\363n imperativa) Tj
+1 0 0 1 102.0 630.8 Tm
+3.1855 Tw
+(\(condicionales y loops\), y las herramientas para modularizar m\341s usuales \(subrutinas y) Tj
+1 0 0 1 102.0 618.8 Tm
+1.9200 Tw
+(m\363dulos\), lo que hace que todo conocimiento que tengamos de un lenguaje imperativo lo) Tj
+1 0 0 1 102.0 606.8 Tm
+0.0171 Tw
+(podamos reutilizar, resultando en una ganancia de tiempo y una reducci\363n del stress propio de) Tj
+1 0 0 1 102.0 594.8 Tm
+0.0000 Tw
+(comenzar a aprender un nuevo lenguaje. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 582.8 Tm
+0.4133 Tw
+(Pero esto no se detiene en este punto, simplemente porque el dise\361o est\341 basado en los Principios de un) Tj
+1 0 0 1 102.0 570.8 Tm
+0.5883 Tw
+(Lenguaje Natural \(http://www.wall.org/~larry/natural.html\) y eso entre otras cosas significa que se va a) Tj
+1 0 0 1 102.0 558.8 Tm
+0.2179 Tw
+(prendiendo mientras se avanza, se reusa el conocimiento y que inevitablemente hay cierta redundancia y) Tj
+1 0 0 1 102.0 546.8 Tm
+0.6225 Tw
+(varias formas de decir lo mismo, lo cual por un lado esto no es bueno al momento de usar los recursos) Tj
+1 0 0 1 102.0 534.8 Tm
+0.4783 Tw
+(computacionales, pero se produce una devoluci\363n de ese valor en una forma no esperada y es que al no) Tj
+1 0 0 1 102.0 522.8 Tm
+0.0671 Tw
+(haber una sola forma de hacerlo no es necesario obtener un titulo de ?master? para empezar a programar,) Tj
+1 0 0 1 102.0 510.8 Tm
+0.8319 Tw
+(con lo que tanto la ecuaci\363n econ\363mica como de satisfacci\363n personal dan un balance positivo casi de) Tj
+1 0 0 1 102.0 498.8 Tm
+0.5111 Tw
+(inmediato \(la clave motora de Perl es TMTOWTDI : There`s More Than One Way To Do It ? hay m\341s) Tj
+1 0 0 1 102.0 486.8 Tm
+0.0000 Tw
+(de una forma de hacerlo\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 462.8 Tm
+1.4393 Tw
+(Avanzando un paso m\341s tambi\351n vemos que Perl soporta m\372ltiples sintaxis, con lo cual nos permite) Tj
+1 0 0 1 102.0 450.8 Tm
+0.6529 Tw
+(expresarnos de la forma m\341s conveniente a nuestro estilo, nivel de conocimiento o reglas determinadas) Tj
+1 0 0 1 102.0 438.8 Tm
+0.0000 Tw
+(por el ambiente \(reglas de programaci\363n, de estilo, etc.\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 414.8 Tm
+0.5725 Tw
+(Para dar un ejemplo de esto que acabo de comentar introduzc\341monos en una tarea bastante com\372n, que) Tj
+1 0 0 1 102.0 402.8 Tm
+0.5280 Tw
+(puede ser la de leer un archivo y procesar cada l\355nea . Normalmente abro el archivo, hago un loop y en) Tj
+1 0 0 1 102.0 390.8 Tm
+0.0000 Tw
+(cada iteraci\363n lo proceso, mas o menos de la siguiente forma : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 360.8 Tm
+0.0000 Tw
+( my $line;  ) Tj
+1 0 0 1 102.0 348.8 Tm
+0.0000 Tw
+( while $line \(<$arch>\)\{ ) Tj
+1 0 0 1 102.0 336.8 Tm
+0.0000 Tw
+( process_line\( $line \); ) Tj
+1 0 0 1 102.0 324.8 Tm
+0.0000 Tw
+( \} ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 300.8 Tm
+0.0000 Tw
+(en tanto que un loop tambi\351n lo puedo hacer con un for/foreach y utilizando la variable default $_ : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 270.8 Tm
+0.0000 Tw
+( process_line\( $_ \) ) Tj
+1 0 0 1 150.0 258.8 Tm
+0.0000 Tw
+(for \( <$arch> \); ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 234.8 Tm
+1.9413 Tw
+(Y si a\372n esto no nos satisface podemos desligarnos completamente de la forma de loop evaluando) Tj
+1 0 0 1 102.0 222.8 Tm
+0.3006 Tw
+(igualmente <$arch> en un contexto de array pero sin que sea expl\355citamente reconocido como un loop a) Tj
+1 0 0 1 102.0 210.8 Tm
+0.0000 Tw
+(primera vista, al menos no para el ojo no entrenado. ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 180.8 Tm
+0.0000 Tw
+( map process_line\( $_ \), <$arch>; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 156.8 Tm
+0.3487 Tw
+(Si miramos lo anteriormente desde otro punto de vista podemos vislumbrar otra de las caracter\355sticas de) Tj
+1 0 0 1 102.0 144.8 Tm
+0.1517 Tw
+(Perl, y es que soporta m\372ltiples paradigmas, y si bien es un lenguaje imperativo puede dar cabida a otros) Tj
+1 0 0 1 102.0 132.8 Tm
+0.4306 Tw
+(paradigmas como el de orientaci\363n a objetos. Por supuesto puede resultar mas o menos dif\355cil seg\372n las) Tj
+1 0 0 1 102.0 120.8 Tm
+2.4338 Tw
+(caracter\355sticas del paradigma a implementar en relaci\363n con las de Perl mismo. Adicionalmente a) Tj
+1 0 0 1 102.0 108.8 Tm
+1.3519 Tw
+(medida que uno se va sintiendo c\363modo con el lenguaje comienza a tomar conciencia de estos otros) Tj
+1 0 0 1 102.0 96.8 Tm
+0.9356 Tw
+(aspectos y formas de trabajo que, para ciertas situaciones son m\341s \372tiles y podr\355an ser utilizadas, pero) Tj
+1 0 0 1 102.0 84.8 Tm
+0.0000 Tw
+(que en otros lenguajes ser\355a imposible de utilizar a menos que se cambie a otro lenguaje. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(6) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+39 0 obj
+6147
+endobj
+40 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 40 0 R
+/Contents 38 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 43 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.4956 Tw
+(Para que tengan una idea m\341s acabada que mejor que usar las propias palabras de Larry Wall acerca de) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(Perl. Lo que sigue es una traducci\363n del documento Natural Language Principles in Perl. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.0000 Tw
+(Apr\351ndalo una vez, \372selo muchas veces ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 719.6 Tm
+0.5400 Tw
+(Se aprende un lenguaje natural una vez y se lo usa muchas. La lecci\363n para una dise\361ador de lenguajes) Tj
+1 0 0 1 102.0 707.6 Tm
+0.3819 Tw
+(es que un lenguaje deber\355a estar optimizado para potenciar su expresividad en lugar de para su facilidad) Tj
+1 0 0 1 102.0 695.6 Tm
+0.3411 Tw
+(de aprendizaje. Es f\341cil aprender a manejar un carro de golf, pero es dif\355cil poder expresarse con uno de) Tj
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+(ellos. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 657.2 Tm
+0.0000 Tw
+(Aprenda mientras avanza ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 645.2 Tm
+0.5059 Tw
+(Uno no aprende un lenguaje natural ni siquiera una vez, en el sentido que nunca termina de aprenderlo.) Tj
+1 0 0 1 102.0 633.2 Tm
+0.8331 Tw
+(Nunca nadie ha aprendido un lenguaje natural completamente. Desafortunadamente, en el inter\351s de la) Tj
+1 0 0 1 102.0 621.2 Tm
+0.3750 Tw
+(ortogonalidad, muchos lenguajes de computadora son dise\361ados de tal forma que cada grado de libertad) Tj
+1 0 0 1 102.0 609.2 Tm
+2.4087 Tw
+(\(dimensi\363n\) est\341 disponible en todo lugar. Esto tiene sus puntos a favor si se comprende todo el) Tj
+1 0 0 1 102.0 597.2 Tm
+3.4507 Tw
+(lenguaje, pero de lo contrario puede llevar a confusi\363n. Uno quisiera ignorar algunas de estas) Tj
+1 0 0 1 102.0 585.2 Tm
+0.9006 Tw
+(dimensiones para empezar. Uno quisiera poder hablar como los beb\351s y ser entendido. Est\341 bien si un) Tj
+1 0 0 1 102.0 573.2 Tm
+0.0000 Tw
+(lenguaje es dif\355cil de aprender, en tanto y en cuanto no deba aprenderse todo el lenguaje a la vez. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 546.8 Tm
+0.0000 Tw
+(Muchos niveles aceptables de competencia ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 534.8 Tm
+2.2383 Tw
+(Es mas una caracter\355stica social, comparado con "aprenda mientras avanza", que una caracter\355stica) Tj
+1 0 0 1 102.0 522.8 Tm
+0.2094 Tw
+(psicol\363gica. A la gente no le importa si se habla un subconjunto de un lenguaje natural, especialmente si) Tj
+1 0 0 1 102.0 510.8 Tm
+0.7142 Tw
+(se es un ni\361o o un extranjero \(excepto en Par\355s, por supuesto\). Si un lenguaje es dise\361ado de tal forma) Tj
+1 0 0 1 102.0 498.8 Tm
+2.4373 Tw
+(que se "aprende mientras se avanza", entonces se espera que todos est\351n aprendiendo, y eso est\341) Tj
+1 0 0 1 102.0 486.8 Tm
+0.0000 Tw
+(correcto. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 460.4 Tm
+0.0000 Tw
+(Muchas formas de decir lo mismo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 448.4 Tm
+0.0553 Tw
+(Esta es mas una caracter\355stica antropol\363gica. La gente no solo aprende mientras avanza, sino que adem\341s) Tj
+1 0 0 1 102.0 436.4 Tm
+3.2350 Tw
+(proviene de distintos ambientes, y aprender\341 primero un subconjunto distinto del lenguaje. Est\341) Tj
+1 0 0 1 102.0 424.4 Tm
+1.6087 Tw
+(oficialmente bien en Perl programar en el subconjunto de Perl correspondiente a sed, awk, C, shell,) Tj
+1 0 0 1 102.0 412.4 Tm
+0.7756 Tw
+(BASIC, Lisp o Python. O a\372n FORTRAN. S\363lo porque Perl es un crisol lenguajes de computadora no) Tj
+1 0 0 1 102.0 400.4 Tm
+0.0000 Tw
+(significa que uno tenga que convertirse en una mezcla. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(No hay verg\374enza en pedir prestado ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.1732 Tw
+(En Ingl\351s[1] \(y otros idiomas que no sufren una crisis de identidad\), a la gente no le importa tomar ideas) Tj
+1 0 0 1 102.0 350.0 Tm
+0.2388 Tw
+(de otros idiomas y hacerlas parte del propio. Esfuerzos para mantener la "pureza" de un idioma \(sea este) Tj
+1 0 0 1 102.0 338.0 Tm
+1.2512 Tw
+(natural o no\) s\363lo son exitosos en establecer una elite de personas que conozcan "la jerga". La gente) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(com\372n conoce mejor al idioma, aunque no conozcan "la jerga". ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 299.6 Tm
+0.0000 Tw
+(Dimensionalidad indeterminada ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 287.6 Tm
+1.2578 Tw
+(A los cient\355ficos les gusta ubicar las cosas dando un "vector" que es, una lista de coordenadas en un) Tj
+1 0 0 1 102.0 275.6 Tm
+0.5535 Tw
+(espacio de una dimensionalidad dada. Esta es una de las razones por las que les gusta la ortogonalidad:) Tj
+1 0 0 1 102.0 263.6 Tm
+0.9217 Tw
+(significa que los distintos componentes del vector son independientes entre si. Desafortunadamente, el) Tj
+1 0 0 1 102.0 251.6 Tm
+0.6387 Tw
+(mundo real no est\341 hecho de esta forma. La mayor\355a de los problemas, incluyendo los ling\374\355sticos, son) Tj
+1 0 0 1 102.0 239.6 Tm
+0.5253 Tw
+(una cuesti\363n de ir de aqu\355 hasta all\355, y la geograf\355a que hay entre estos tiene una influencia muy grande) Tj
+1 0 0 1 102.0 227.6 Tm
+2.0800 Tw
+(sobre qu\351 soluciones son pr\341cticas. Los problemas tienen una disposici\363n a ser resueltos en varios) Tj
+1 0 0 1 102.0 215.6 Tm
+2.8950 Tw
+(niveles. Un viaje t\355pico podr\355a involucrar sus piernas, su auto, una escalera mec\341nica, una cinta) Tj
+1 0 0 1 102.0 203.6 Tm
+0.5088 Tw
+(transportadora, un avi\363n, un taxi, y un ascensor. En cada uno de estos niveles, no hay muchos "\341ngulos) Tj
+1 0 0 1 102.0 191.6 Tm
+0.3684 Tw
+(rectos", y todo es mas de naturaleza fractal. En t\351rminos del idioma, uno dice algo que se aproxima a lo) Tj
+1 0 0 1 102.0 179.6 Tm
+0.8006 Tw
+(que quiere decir, y entonces comienza a refinarlo, de la misma forma en que plane\363 su itinerario entre) Tj
+1 0 0 1 102.0 167.6 Tm
+0.0000 Tw
+(los aeropuertos, y solamente m\341s tarde se preocup\363 en como llegar y salir de cada aeropuerto. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 141.2 Tm
+0.0000 Tw
+(La ambig\374edad local est\341 bien ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 129.2 Tm
+2.0142 Tw
+(La gente prospera sobre la ambig\374edad, siempre y cuando sea resuelta r\341pidamente. Generalmente,) Tj
+1 0 0 1 102.0 117.2 Tm
+0.9247 Tw
+(dentro de un lenguaje natural, al ambig\374edad se resuelve r\341pidamente usando temas y palabras de uso) Tj
+1 0 0 1 102.0 105.2 Tm
+0.9108 Tw
+(reciente. Pronombre somo "eso" se refieren a cosas que est\341n cercanas, sint\341cticamente hablando. Perl) Tj
+1 0 0 1 102.0 93.2 Tm
+0.0175 Tw
+(est\341 repleto de peque\361as ambig\374edades que la gente nunca nota porque se resuelven en forma r\341pida. Por) Tj
+1 0 0 1 102.0 81.2 Tm
+0.7514 Tw
+(ejemplo, muchos t\351rminos y operadores en Perl comienzan con los mismos caracteres. Perl lo resuelve) Tj
+1 0 0 1 102.0 69.2 Tm
+0.1515 Tw
+(basado en lo que espera encontrar, si es un t\351rmino o un operador, igual que lo har\355a una persona. Si uno) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 517.44 37 Tm
+(7) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+43 0 obj
+6978
+endobj
+44 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+45 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 44 0 R
+/Contents 42 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 47 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.6653 Tw
+(codifica 1 & 2, Perl sabe que & es una operaci\363n AND, pero si uno dice &foo, entonces sabe que) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(estamos llamando a la subrutina "foo" ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+3.4917 Tw
+(En contraste, muchos lenguajes fuertemente orientados al tipo de datos tienen una ambig\374edad) Tj
+1 0 0 1 102.0 722.0 Tm
+0.1036 Tw
+("distante". C++ es uno de los peores en este sentido, porque uno puede mirar a "a + b" y no tener idea de) Tj
+1 0 0 1 102.0 710.0 Tm
+2.0419 Tw
+(qu\351 est\341 haciendo el operador +, y menos en d\363nde est\341 definido. Enviamos gente a estudiar para) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(aprender a resolver esta ambig\374edades distantes. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 671.6 Tm
+0.0000 Tw
+(Puntuaci\363n por prosodia[2] en Inflexi\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 659.6 Tm
+0.2231 Tw
+(El lenguaje natural es naturalmente puntuado por los cambios de tono, \351nfasis y pausas que usamos para) Tj
+1 0 0 1 102.0 647.6 Tm
+1.6771 Tw
+(indicar c\363mo se relacionan las palabras. El llamado "lenguaje corporal" tambi\351n est\341 en juego aqu\355.) Tj
+1 0 0 1 102.0 635.6 Tm
+0.9200 Tw
+(Alguna de esta puntuaci\363n est\341 escrita en Espa\361ol[1], pero mucha de esta no lo est\341, o lo es en forma) Tj
+1 0 0 1 102.0 623.6 Tm
+0.0000 Tw
+(aproximada. La tendencia en las comunicaciones electr\363nicas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 611.6 Tm
+0.0000 Tw
+(ha sido inventar varias formas de puntuaci\363n :-\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 587.6 Tm
+1.1686 Tw
+(Algunos dise\361adores de lenguajes de computadoras tienden a pensar que la puntuaci\363n es da\361ina. No) Tj
+1 0 0 1 102.0 575.6 Tm
+0.0000 Tw
+(creo que sus maestras/os de idioma piensen lo mismo. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 549.2 Tm
+0.1786 Tw
+(Quitando la ambig\374edad a trav\351s del n\372mero, las may\372sculas y el orden de las palabras) Tj
+/F00 10 Tf
+1 0 0 1 102.0 525.2 Tm
+0.6047 Tw
+(Parte de la raz\363n por la que un lenguaje puede seguir adelante con ciertas ambig\374edades locales es que) Tj
+1 0 0 1 102.0 513.2 Tm
+0.4413 Tw
+(otras ambig\374edades son suprimidas por varios mecanismos. En Ingl\351s[2] se usan el orden de n\372meros y) Tj
+1 0 0 1 102.0 501.2 Tm
+0.1350 Tw
+(palabras, con vestigios de un sistema de may\372sculas en los pronombres: ?El hombre mir\363 a los hombres,) Tj
+1 0 0 1 102.0 489.2 Tm
+2.9673 Tw
+(y ellos le devolvieron la mirada". Est\341 perfectamente claro qui\351n le est\341 haciendo que a qui\351n.) Tj
+1 0 0 1 102.0 477.2 Tm
+0.1675 Tw
+(Similarmente, Perl tiene marcadores de n\372mero en sus sustantivos; esto es, $perro es s\363lo, uno y @perro) Tj
+1 0 0 1 102.0 465.2 Tm
+0.3875 Tw
+(es \(potencialmente\) m\341s de uno, As\355 que $ y @ son como "este" y "estos". Perl tambi\351n usa el orden de) Tj
+1 0 0 1 102.0 453.2 Tm
+1.7850 Tw
+(las palabras: ?sub use? significa algo totalmente distinto de ?use sub?. Perl no hace mucho con las) Tj
+1 0 0 1 102.0 441.2 Tm
+0.4721 Tw
+(distinci\363n entre may\372sculas/min\372sculas como lo hacen los shells que diferencian el uso de la definici\363n) Tj
+1 0 0 1 102.0 429.2 Tm
+1.2541 Tw
+(usando $ como prefijo. Aunque imagino que si lo permito, se podr\355an contar a las comillas como un) Tj
+1 0 0 1 102.0 417.2 Tm
+0.3765 Tw
+(marcador. En un nivel ligeramente m\341s rebuscado, el operador de Perl ?\\? es una especie de marcador o) Tj
+1 0 0 1 102.0 405.2 Tm
+1.9062 Tw
+(indicativo de preposici\363n mas que de uso, Pero como en la mayor\355a de los lenguajes, las nociones) Tj
+1 0 0 1 102.0 393.2 Tm
+0.1477 Tw
+(preposicionales com\372nmente se expresan en forma posicional dentro de una lista de argumentos \(aunque) Tj
+1 0 0 1 102.0 381.2 Tm
+0.1840 Tw
+(es altamente posible escribir llamadas usando par\341metros nominales en Perl y claves de acceso a hashes,) Tj
+1 0 0 1 102.0 369.2 Tm
+0.0000 Tw
+(a veces funcionan como preposiciones\) ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 339.2 Tm
+0.0000 Tw
+( move $rook from => $qr_pos, to => "kb3"; ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 318.8 Tm
+0.0000 Tw
+(Topicalizaci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 306.8 Tm
+1.1114 Tw
+(Con respecto a la topizalizaci\363n, deber\355a precisar que esta oraci\363n empieza con una. Un topicalizador) Tj
+1 0 0 1 102.0 294.8 Tm
+0.0175 Tw
+(simplemente introduce al tema acerca del que se est\341 tratando de hablar. Hay varias formas sint\341cticas en) Tj
+1 0 0 1 102.0 282.8 Tm
+0.8720 Tw
+(ingl\351s[3], la m\341s simple es un sustantivo: "Zanahorias, las odio!. El lenguaje Pascal tiene una cl\341usula) Tj
+1 0 0 1 102.0 270.8 Tm
+0.7693 Tw
+("with" que funciona como topicalizador. Los topicalizadores a veces pueden dar una lista de temas, en) Tj
+1 0 0 1 102.0 258.8 Tm
+0.4824 Tw
+(los que se ven palabras como "para ESTO yESTO, entonces haga ESTO". En Perl hay varias cosas que) Tj
+1 0 0 1 102.0 246.8 Tm
+0.0000 Tw
+(funcionan como ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 234.8 Tm
+0.0000 Tw
+(topicalizadores. Se puede decir : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 204.8 Tm
+0.0000 Tw
+( foreach \(@dog\) \{ print $_ \} ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 180.8 Tm
+0.0000 Tw
+(Esto tambi\351n puede usarse singularmente como : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 150.8 Tm
+0.0000 Tw
+( for \($some_long_name\) \{ s/foo/bar/g; tr/a-z/A-Z/; print; \} ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 126.8 Tm
+0.4158 Tw
+(Las coincidencias de patrones[4] \(y algunos condicionales\) tienden a funcionar como topicalizadores en) Tj
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(Perl : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 84.8 Tm
+0.0000 Tw
+( /^Subject: \(.*\)/ and print $1; ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 64.4 Tm
+0.0000 Tw
+(Estructura del discurso ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(8) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+47 0 obj
+5809
+endobj
+48 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 48 0 R
+/Contents 46 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 51 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.9807 Tw
+(La estructura del discurso significa c\363mo una alocuci\363n m\341s grande que una oraci\363n puede ser puesta) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0663 Tw
+(toda junta. Distintos lenguajes y culturas tienen reglas diferentes de c\363mo contar un chiste o una historia,) Tj
+1 0 0 1 102.0 746.0 Tm
+0.4227 Tw
+(por ejemplo, o c\363mo escribir un libro sobre Perl. Algunos lenguajes de computadoras tienen reglas fijas) Tj
+1 0 0 1 102.0 734.0 Tm
+0.5394 Tw
+(para grandes estructuras. Me vienen a la cabeza COBOL y Pascal. Perl tiende a ser bastante libre sobre) Tj
+1 0 0 1 102.0 722.0 Tm
+0.2594 Tw
+(en qu\351 orden uno pone las oraciones, con excepci\363n que es bastante Aristot\351lico al momento de requerir) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(que uno provea una inicio y ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.5533 Tw
+(fin expl\355citos para estructuras grandes, usando llaves. Pero f\341cilmente podr\355a decirse que #!/usr/bin/perl) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(corresponde a "Hab\355a una vez", mientras que __END__ significa "Y vivieron felices por siempre" ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 659.6 Tm
+0.0000 Tw
+(Pronominalizaci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 647.6 Tm
+1.7856 Tw
+(Todos sabemos acerca de los pronombres y sus usos. Hay una cantidad de pronombres en Perl: $_) Tj
+1 0 0 1 102.0 635.6 Tm
+1.7393 Tw
+(significa ?eso", y @_ significar\355a "ellos". \(pero $1, $2, etc. tambi\351n son referencias pronominales a) Tj
+1 0 0 1 102.0 623.6 Tm
+1.4931 Tw
+(substrings usados en la \372ltima coincidencia de patrones -pattern match-, que pueden funcionar como) Tj
+1 0 0 1 102.0 611.6 Tm
+1.7959 Tw
+(topicalizadores\). Dentro de un lazo foreach o un grep $_ no es simplemente una copia del \355tem en) Tj
+1 0 0 1 102.0 599.6 Tm
+0.2261 Tw
+(cuesti\363n, sino un alias. Similarmente, @_ es una lista de referencia a los argumentos de la funci\363n, y los) Tj
+1 0 0 1 102.0 587.6 Tm
+0.0000 Tw
+(argumentos pueden ser modificados cambiando elementos de @_. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 561.2 Tm
+0.0000 Tw
+(Sin armas te\363ricas para provocar  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 549.2 Tm
+0.3133 Tw
+(Los lenguajes naturales son usados por personas que mayormente no le dan importancia a cuan elegante) Tj
+1 0 0 1 102.0 537.2 Tm
+0.6212 Tw
+(es el dise\361o de este. A excepci\363n de unos pocos escritores que ponen empe\361o en asegurarse en hacerlo) Tj
+1 0 0 1 102.0 525.2 Tm
+1.0231 Tw
+(de la forma m\341s eficiente posible, la gente com\372n usa toda serie de redundancias en su comunicaci\363n) Tj
+1 0 0 1 102.0 513.2 Tm
+0.0213 Tw
+(para asegurarse de ser comprendidas. Usan cualquier palabra que tienen a la mano para hacerse entender,) Tj
+1 0 0 1 102.0 501.2 Tm
+0.2100 Tw
+(y trabajan sobre ello hasta que lo logran. Com\372nmente esto no es un problema. Son proclives a aprender) Tj
+1 0 0 1 102.0 489.2 Tm
+0.5041 Tw
+(un nuevo vocablo si ven que ser\341 \372til, y en contrario que los abogados o profesionales de computaci\363n,) Tj
+1 0 0 1 102.0 477.2 Tm
+0.0000 Tw
+(que sienten poca necesidad de definir cantidades de nuevas palabras para decir lo que quieren. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 453.2 Tm
+0.8514 Tw
+(En t\351rminos de lenguajes de computadora, esto argumenta en favor de predefinir los conceptos usados) Tj
+1 0 0 1 102.0 441.2 Tm
+1.1293 Tw
+(m\341s com\372nmente para que las personas no sientan la necesidad de hacer tantas definiciones. Algunos) Tj
+1 0 0 1 102.0 429.2 Tm
+0.8725 Tw
+(pocos scripts de Perl no contienen definiciones en absoluto. Los reto a encontrar un programa en C++) Tj
+1 0 0 1 102.0 417.2 Tm
+0.0000 Tw
+(sin una definici\363n. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 390.8 Tm
+0.0000 Tw
+(Estilo impuesto s\363lo por presi\363n de pares ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 378.8 Tm
+0.5194 Tw
+(No todos tenemos que escribir como Faulkner, o programar como Dijkstra. Le dir\351 a cualquiera cu\341l es) Tj
+1 0 0 1 102.0 366.8 Tm
+0.4219 Tw
+(mi estilo de programaci\363n, y les dir\351 d\363nde creo que su propio estilo no es claro o me hace dar vuelta a) Tj
+1 0 0 1 102.0 354.8 Tm
+0.6700 Tw
+(trav\351s de lazos \(loops\) mentales. Pero lo voy a hacer como un par, no como un Dios del Perl. Algunos) Tj
+1 0 0 1 102.0 342.8 Tm
+1.3493 Tw
+(dise\361adores de lenguajes esperan reforzar un estilo a trav\351s de medios tipogr\341ficos tales como forzar) Tj
+1 0 0 1 102.0 330.8 Tm
+0.1900 Tw
+(\(mas o menos\) una sentencia por l\355nea. Esto est\341 muy bien para la poes\355a, pero no creo que quiera forzar) Tj
+1 0 0 1 102.0 318.8 Tm
+0.3678 Tw
+(a cada uno a escribir poes\355a en Perl. Tales l\355mites estil\355sticos deber\355an ser auto- impuestos, o al menos a) Tj
+1 0 0 1 102.0 306.8 Tm
+0.0000 Tw
+(trav\351s de pol\355ticas por consenso entre sus pares. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 280.4 Tm
+0.0000 Tw
+(Dise\361o cooperativo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 268.4 Tm
+0.1000 Tw
+(Nadie dise\361a un lenguaje natural por si mismo, a menos que su nombre sea Tolkien. Todos contribuimos) Tj
+1 0 0 1 102.0 256.4 Tm
+0.1087 Tw
+(a dise\361ar nuestro propio lenguaje ya sea tomando prestado o acu\361ando nuevos t\351rminos, copiando lo que) Tj
+1 0 0 1 102.0 244.4 Tm
+2.8750 Tw
+(creemos es ?cool? y evitando lo que creemos es confuso. Los mejores lenguajes artificiales son) Tj
+1 0 0 1 102.0 232.4 Tm
+0.2783 Tw
+(colaborativos, a\372n con un lenguaje como Perl en el que una persona parece estar a cargo. La mayor\355a de) Tj
+1 0 0 1 102.0 220.4 Tm
+1.7129 Tw
+(las buenas ideas de Perl no son m\355as. Algunas de ellas vienen de otros lenguajes, y algunas fueron) Tj
+1 0 0 1 102.0 208.4 Tm
+0.0000 Tw
+(sugerencias hechas por varias personas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 196.4 Tm
+3.9723 Tw
+(a medida que avanzamos. Si considera que el lenguaje debe incluir varias trampas culturales) Tj
+1 0 0 1 102.0 184.4 Tm
+0.7453 Tw
+(\(bilbiotecas, directorio bin\) entonces siga adelante con el lenguaje, a\372n lenguajes como C, Ada, C++ o) Tj
+1 0 0 1 102.0 172.4 Tm
+0.0000 Tw
+(a\372n los shell de Unix son colaboraciones de muchas personas. Perl no es la excepci\363n. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 146.0 Tm
+0.0000 Tw
+(Divergencia inevitable ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 134.0 Tm
+0.4685 Tw
+(Debido a que un lenguaje es dise\361ado por muchas personas, cualquier lenguaje inevitablemente diverge) Tj
+1 0 0 1 102.0 122.0 Tm
+0.5894 Tw
+(en dialectos. Es posible dilatar esto, pero para cualquier lenguaje vivo las fuerzas de la divergencia son) Tj
+1 0 0 1 102.0 110.0 Tm
+1.6147 Tw
+(mas fuertes que las de convergencia. POSIX trat\363 de unificar System V y BSD, y tan pronto como) Tj
+1 0 0 1 102.0 98.0 Tm
+0.2020 Tw
+(estrecharon filas en esa dimensi\363n, la cantidad de variantes de Unix explotaron en otras dimensiones. La) Tj
+1 0 0 1 102.0 86.0 Tm
+0.0173 Tw
+(lecci\363n para un dise\361ador de lenguajes es construir un mecanismo expl\355cito que haga f\341cil identificar con) Tj
+1 0 0 1 102.0 74.0 Tm
+1.4387 Tw
+(qu\351 variante del lenguaje se est\341 tratando. Perl 5 tiene este mecanismo expl\355cito de extensi\363n el que) Tj
+1 0 0 1 102.0 62.0 Tm
+0.9141 Tw
+(especifica, usando cl\341usulas use, en qu\351 clase de sem\341ntica o dialecto se est\341 basando. Perl 4 no ten\355a) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 517.44 37 Tm
+(9) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+51 0 obj
+7355
+endobj
+52 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+53 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 52 0 R
+/Contents 50 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 55 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.3644 Tw
+(esto, y hab\355a considerablemente mayor presi\363n para poner varias cosas en el lenguaje que no estaban en) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(el n\372cleo del mismo. Afortunadamente ahora podemos estabilizar ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(un Perl b\341sico de tal forma que haya menos necesidad de inventar oraperl, sybperl, isqlperl, etc. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+0.9794 Tw
+(Bueno, hasta aqu\355 es donde llega este documento, espero que hayan captado al esencia de Perl y perl.) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(Simplemente lo que resta es ver que nos depara perl6. Algunos de los lineamientos para perl6 : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 683.6 Tm
+1.9440 Tw
+() Tj
+ET
+q
+102 684.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 683.6 Tm
+/F20 10 Tf
+1.9440 Tw
+(- las bases para perl6 son las mismas que para perl5 pero adicionalmente va a soportar) Tj
+1 0 0 1 102.0 671.6 Tm
+1.9247 Tw
+(m\372ltiples sintaxis. En cierta forma ahora lo est\341 haciendo cuando se usa un m\363dulo o se) Tj
+1 0 0 1 102.0 659.6 Tm
+0.0000 Tw
+(agrega alg\372n pragma \(use warnings, use strict, etc.\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 645.2 Tm
+0.6069 Tw
+() Tj
+ET
+q
+102 646.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 645.2 Tm
+/F20 10 Tf
+0.6069 Tw
+(- perl soporta m\372ltiples paradigmas, y como tal no se inclina por ninguno en particular con lo) Tj
+1 0 0 1 102.0 633.2 Tm
+0.2364 Tw
+(cual el peligro que cualquiera de los paradigmas de programaci\363n avance sobre perl6 es caso) Tj
+1 0 0 1 102.0 621.2 Tm
+0.0000 Tw
+(inexistente. perl continuar\341 siendo perl ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 606.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 607.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 606.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- perl seguir\341 siendo libre de limitaciones, tales como warnings y strict ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 592.4 Tm
+1.4071 Tw
+() Tj
+ET
+q
+102 593.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 592.4 Tm
+/F20 10 Tf
+1.4071 Tw
+(- la implementaci\363n de objetos de perl6 ser\341 mucho m\341s adecuada. En particular en perl5) Tj
+1 0 0 1 102.0 580.4 Tm
+0.2918 Tw
+(esta es algo pesada y si se contin\372a con esta en perl6 podr\355a convertirse en el factor principal) Tj
+1 0 0 1 102.0 568.4 Tm
+0.0000 Tw
+(de la ca\355da de Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 556.4 Tm
+0.7767 Tw
+(En general debemos decidir cuanto de nuestra cultura sobrevivir\341, y c\363mo hacer una migraci\363n lo m\341s) Tj
+1 0 0 1 102.0 544.4 Tm
+0.0000 Tw
+(simple posible hacia perl6. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(Infograf\355a ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 515.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 516.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 515.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- CPAN \( http://www.cpan.org \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 501.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 502.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 501.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl Mongers \( http://www.pm.org \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 486.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 487.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 486.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl Monks \( http://www.perlmonks.com \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 472.4 Tm
+2.7800 Tw
+() Tj
+ET
+q
+102 473.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 472.4 Tm
+/F20 10 Tf
+2.7800 Tw
+(- Natural Language Principles in Perl \( http://www.wall.org/~larry/natural.html traducido al) Tj
+1 0 0 1 102.0 460.4 Tm
+0.0000 Tw
+(espa\361ol en http://www.bit-man.com.ar/es/SoftwarePerlNatural \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 446.0 Tm
+0 Tw
+() Tj
+ET
+q
+102 447 4 4 re
+f
+Q
+BT
+1 0 0 1 110 446 Tm
+/F20 10 Tf
+0 Tw
+(- Apocalipsis 1 : The ugly, the bad and the Good \() Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(http://dev.perl.org/perl6/doc/design/apo/A01.html \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 419.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 420.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 419.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Sinopsis 1 : Overview \( http://dev.perl.org/perl6/doc/design/syn/S01.html \) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 401.6 Tm
+0.0000 Tw
+( POC \(peace of code\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 389.6 Tm
+0.0000 Tw
+(Este mes el acertijo lo propuso F\351lix Cuello. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 377.6 Tm
+0.0000 Tw
+(Dado el siguiente c\363digo : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 347.6 Tm
+0.0000 Tw
+( \{ ) Tj
+1 0 0 1 102.0 335.6 Tm
+0.0000 Tw
+( my $a; ) Tj
+1 0 0 1 102.0 323.6 Tm
+0.0000 Tw
+( $a = \\$a; ) Tj
+1 0 0 1 102.0 311.6 Tm
+0.0000 Tw
+( \} ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 291.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 292.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 291.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- viola alguna regla de perl5 ?? ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 276.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 277.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 276.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- qu\351 utilidad tiene ?? ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 262.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 263.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 262.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- qu\351 ocurre con el garbage collector ?? ) Tj
+/F21 12 Tf
+1 0 0 1 72.0 244.4 Tm
+0.0000 Tw
+(NOTES ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 230.0 Tm
+0.8285 Tw
+([1] N. del E.: muppet es quien se puede ver en http://seasonone.org/sights/2005-06-25/scotta2.jpg ] [2]) Tj
+1 0 0 1 102.0 218.0 Tm
+1.1100 Tw
+(N. del T. : en el original ?here you go? algo as\355 como ... y bueno ya que empezaste a caminar pod\351s) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(seguir haci\351ndolo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+([3] Especificaci\363n del lenguaje ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 182.0 Tm
+0.0000 Tw
+([4] Implementaci\363n del lenguaje Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.0000 Tw
+([5] N. del T. : en espa\361ol pasa lo mismo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 158.0 Tm
+0.0000 Tw
+([6] N. del T. : Parte de la gram\341tica que ense\361a la correcta pronunciaci\363n de las palabras ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 146.0 Tm
+0.0000 Tw
+([7] N. del T. : en el original se refiere a que el texto est\341 escrito en Ingl\351s ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 134.0 Tm
+0.0000 Tw
+([8] N. del T. : en espa\361ol tambi\351n !! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 122.0 Tm
+0.0000 Tw
+([9] N. del T. : tambi\351n en espa\361ol ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+([10] N. del T. : pattern matches ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(10) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+55 0 obj
+6201
+endobj
+56 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+57 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 56 0 R
+/Contents 54 0 R
+>>
+endobj
+58 0 obj
+<<
+/Length 59 0 R
+>>
+stream
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+/F20 24 Tf
+1 0 0 1 202.784 770 Tm
+(Table of Contents) Tj
+1 0 0 1 221.468 741.2 Tm
+(Cafe Perl v0.6) Tj
+/F20 10 Tf
+ET
+q
+0.95 g
+72 680.6 451 12 re
+f
+Q
+BT
+1 0 0 1 102 683.6 Tm
+(CaFe Perl v0.6 - Peri\363dico de la Comunidad Perl de Capital Federal) Tj
+1 0 0 1 487.44 683.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 668.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 671.6 Tm
+(Editorial) Tj
+1 0 0 1 487.44 671.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 656.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 659.6 Tm
+(Internacionalizaci\363n de Perl) Tj
+1 0 0 1 487.44 659.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 644.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 647.6 Tm
+(Los mejores scripts de Perl ... en Microsoft !?) Tj
+1 0 0 1 487.44 647.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 632.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 635.6 Tm
+(Se lo que hicieron el verano pasado) Tj
+1 0 0 1 487.44 635.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 620.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 623.6 Tm
+(GPL 3 ya da que hablar) Tj
+1 0 0 1 487.44 623.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 608.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 611.6 Tm
+(Para pr\341cticas, las mejores !!) Tj
+1 0 0 1 487.44 611.6 Tm
+(5) Tj
+ET
+q
+1 g
+72 596.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 599.6 Tm
+(Qu\351 es el Open Source ?) Tj
+1 0 0 1 487.44 599.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 584.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 587.6 Tm
+(Otra vez la cebolla !!) Tj
+1 0 0 1 487.44 587.6 Tm
+(5) Tj
+ET
+q
+1 g
+72 572.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 575.6 Tm
+(YAPC:EU::2005) Tj
+1 0 0 1 487.44 575.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 560.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 563.6 Tm
+(Nuevo site para comenzar a aprender Perl !!) Tj
+1 0 0 1 487.44 563.6 Tm
+(5) Tj
+ET
+q
+1 g
+72 548.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 551.6 Tm
+(- no hay tipos de datos estrictos : al momento de empezar a...) Tj
+1 0 0 1 487.44 551.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 536.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 539.6 Tm
+(- hay s\363lo tres estructuras de datos : son simples, poderosas...) Tj
+1 0 0 1 487.44 539.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 524.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 527.6 Tm
+(- posee las sentencias m\341s usuales : lo m\341s com\372n de...) Tj
+1 0 0 1 487.44 527.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 512.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 515.6 Tm
+(Apr\351ndalo una vez, \372selo muchas veces) Tj
+1 0 0 1 487.44 515.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 500.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 503.6 Tm
+(Aprenda mientras avanza) Tj
+1 0 0 1 487.44 503.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 488.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 491.6 Tm
+(Muchos niveles aceptables de competencia) Tj
+1 0 0 1 487.44 491.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 476.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 479.6 Tm
+(Muchas formas de decir lo mismo) Tj
+1 0 0 1 487.44 479.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 464.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 467.6 Tm
+(No hay verg\374enza en pedir prestado) Tj
+1 0 0 1 487.44 467.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 452.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 455.6 Tm
+(Dimensionalidad indeterminada) Tj
+1 0 0 1 487.44 455.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 440.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 443.6 Tm
+(La ambig\374edad local est\341 bien) Tj
+1 0 0 1 487.44 443.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 428.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 431.6 Tm
+(Puntuaci\363n por prosodia[2] en Inflexi\363n) Tj
+1 0 0 1 487.44 431.6 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 416.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 419.6 Tm
+(Quitando la ambig\374edad a trav\351s del n\372mero, las...) Tj
+1 0 0 1 487.44 419.6 Tm
+(8) Tj
+ET
+q
+1 g
+72 404.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 407.6 Tm
+(Topicalizaci\363n) Tj
+1 0 0 1 487.44 407.6 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 392.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 395.6 Tm
+(Estructura del discurso) Tj
+1 0 0 1 487.44 395.6 Tm
+(8) Tj
+ET
+q
+1 g
+72 380.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 383.6 Tm
+(Pronominalizaci\363n) Tj
+1 0 0 1 487.44 383.6 Tm
+(9) Tj
+ET
+q
+0.95 g
+72 368.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 371.6 Tm
+(Sin armas te\363ricas para provocar ) Tj
+1 0 0 1 487.44 371.6 Tm
+(9) Tj
+ET
+q
+1 g
+72 356.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 359.6 Tm
+(Estilo impuesto s\363lo por presi\363n de pares) Tj
+1 0 0 1 487.44 359.6 Tm
+(9) Tj
+ET
+q
+0.95 g
+72 344.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 347.6 Tm
+(Dise\361o cooperativo) Tj
+1 0 0 1 487.44 347.6 Tm
+(9) Tj
+ET
+q
+1 g
+72 332.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 335.6 Tm
+(Divergencia inevitable) Tj
+1 0 0 1 487.44 335.6 Tm
+(9) Tj
+ET
+q
+0.95 g
+72 320.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 323.6 Tm
+(- las bases para perl6 son las mismas que para perl5 pero...) Tj
+1 0 0 1 481.88 323.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 308.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 311.6 Tm
+(- perl soporta m\372ltiples paradigmas, y como tal no se inclina...) Tj
+1 0 0 1 481.88 311.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 296.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 299.6 Tm
+(- perl seguir\341 siendo libre de limitaciones, tales como...) Tj
+1 0 0 1 481.88 299.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 284.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 287.6 Tm
+(- la implementaci\363n de objetos de perl6 ser\341 mucho...) Tj
+1 0 0 1 481.88 287.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 272.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 275.6 Tm
+(Infograf\355a) Tj
+1 0 0 1 481.88 275.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 260.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 263.6 Tm
+(- CPAN \( http://www.cpan.org \)) Tj
+1 0 0 1 481.88 263.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 248.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 251.6 Tm
+(- Perl Mongers \( http://www.pm.org \)) Tj
+1 0 0 1 481.88 251.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 236.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 239.6 Tm
+(- Perl Monks \( http://www.perlmonks.com \)) Tj
+1 0 0 1 481.88 239.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 224.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 227.6 Tm
+(- Natural Language Principles in Perl \() Tj
+1 0 0 1 481.88 227.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 212.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 215.6 Tm
+(- Apocalipsis 1 : The ugly, the bad and the Good \() Tj
+1 0 0 1 481.88 215.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 200.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 203.6 Tm
+(- Sinopsis 1 : Overview \(...) Tj
+1 0 0 1 481.88 203.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 188.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 191.6 Tm
+(- viola alguna regla de perl5 ??) Tj
+1 0 0 1 481.88 191.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 176.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 179.6 Tm
+(- qu\351 utilidad tiene ??) Tj
+1 0 0 1 481.88 179.6 Tm
+(10) Tj
+ET
+q
+1 g
+72 164.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 167.6 Tm
+(- qu\351 ocurre con el garbage collector ??) Tj
+1 0 0 1 481.88 167.6 Tm
+(10) Tj
+ET
+q
+0.95 g
+72 152.6 451 12 re
+f
+Q
+BT
+1 0 0 1 102 155.6 Tm
+(NOTES) Tj
+1 0 0 1 481.88 155.6 Tm
+(10) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 520.22 37 Tm
+(i) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+59 0 obj
+6200
+endobj
+60 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+61 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 60 0 R
+/Contents 58 0 R
+>>
+endobj
+62 0 obj
+<<
+/Length 63 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.6) Tj
+1 0 0 1 438.55 797 Tm
+(Table of Contents) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(ii) Tj
+1 0 0 1 445.74 37 Tm
+(02 October 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+63 0 obj
+251
+endobj
+64 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+65 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 64 0 R
+/Contents 62 0 R
+>>
+endobj
+66 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 69 0 R
+/Contents 67 0 R
+>>
+endobj
+67 0 obj
+<<
+/Length 68 0 R
+>>
+stream
+q
+1 0 0 rg
+180 626 8 130 re
+F
+Q
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+210 626 m
+523 626 l
+s
+BT
+/F21 30 Tf
+1 0 0 1 210 706 Tm
+0 -30 TD
+(PeriÛdico de la Comunidad) Tj
+T* (Perl de Capital Federal) Tj
+0 0 0.8 rg
+/F22 30 Tf
+( ) Tj
+/F21 9 Tf
+T* (http://cafe.pm.org/boletines/) Tj
+/F03 48 Tf
+0 g
+1 0 0 1 156.86 371 Tm
+(Cafe Perl v0.6) Tj
+ET
+endstream
+endobj
+68 0 obj
+329
+endobj
+69 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F03 9 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+70 0 obj
+<<
+/Length 71 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Title Page) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.6) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 October 2005) Tj
+1 0 0 1 488.54 37 Tm
+(Fly leaf) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+71 0 obj
+250
+endobj
+72 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+73 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 72 0 R
+/Contents 70 0 R
+>>
+endobj
+75 0 obj
+<<
+/Parent 74 0 R
+/Dest [61 0 R /Fit]
+/First 76 0 R
+/Last 120 0 R
+/Count 45 
+/Title (Table of Contents)
+>>
+endobj
+76 0 obj
+<<
+/Parent 75 0 R
+/Dest [21 0 R /FitH 766.4]
+/Next 120 0 R
+/First 77 0 R
+/Last 77 0 R
+/Count 43 
+/Title (CaFe Perl v0.6 - Peri\363dico de la Comunidad Perl de Capital Federal)
+>>
+endobj
+77 0 obj
+<<
+/Parent 76 0 R
+/Dest [21 0 R /FitH 742.4]
+/First 78 0 R
+/Last 119 0 R
+/Count 42 
+/Title (Editorial)
+>>
+endobj
+78 0 obj
+<<
+/Parent 77 0 R
+/Dest [33 0 R /FitH 257.6]
+/Next 79 0 R
+/Title (Internacionalizaci\363n de Perl)
+>>
+endobj
+79 0 obj
+<<
+/Parent 77 0 R
+/Dest [33 0 R /FitH 183.2]
+/Previous 78 0 R
+/Next 80 0 R
+/Title (Los mejores scripts de Perl ... en Microsoft !?)
+>>
+endobj
+80 0 obj
+<<
+/Parent 77 0 R
+/Dest [33 0 R /FitH 120.8]
+/Previous 79 0 R
+/Next 81 0 R
+/Title (Se lo que hicieron el verano pasado)
+>>
+endobj
+81 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 731.6]
+/Previous 80 0 R
+/Next 82 0 R
+/Title (GPL 3 ya da que hablar)
+>>
+endobj
+82 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 561.2]
+/Previous 81 0 R
+/Next 83 0 R
+/Title (Para pr\341cticas, las mejores !!)
+>>
+endobj
+83 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 462.8]
+/Previous 82 0 R
+/Next 84 0 R
+/Title (Qu\351 es el Open Source ?)
+>>
+endobj
+84 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 400.4]
+/Previous 83 0 R
+/Next 85 0 R
+/Title (Otra vez la cebolla !!)
+>>
+endobj
+85 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 338]
+/Previous 84 0 R
+/Next 86 0 R
+/Title (YAPC:EU::2005)
+>>
+endobj
+86 0 obj
+<<
+/Parent 77 0 R
+/Dest [37 0 R /FitH 275.6]
+/Previous 85 0 R
+/Next 87 0 R
+/Title (Nuevo site para comenzar a aprender Perl !!)
+>>
+endobj
+87 0 obj
+<<
+/Parent 77 0 R
+/Dest [41 0 R /FitH 755.6]
+/Previous 86 0 R
+/Next 88 0 R
+/Title (- no hay tipos de datos estrictos : al momento de empezar a programar no hay)
+>>
+endobj
+88 0 obj
+<<
+/Parent 77 0 R
+/Dest [41 0 R /FitH 717.2]
+/Previous 87 0 R
+/Next 89 0 R
+/Title (- hay s\363lo tres estructuras de datos : son simples, poderosas y sumamente)
+>>
+endobj
+89 0 obj
+<<
+/Parent 77 0 R
+/Dest [41 0 R /FitH 654.8]
+/Previous 88 0 R
+/Next 90 0 R
+/Title (- posee las sentencias m\341s usuales : lo m\341s com\372n de la programaci\363n)
+>>
+endobj
+90 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 743.6]
+/Previous 89 0 R
+/Next 91 0 R
+/Title (Apr\351ndalo una vez, \372selo muchas veces)
+>>
+endobj
+91 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 669.2]
+/Previous 90 0 R
+/Next 92 0 R
+/Title (Aprenda mientras avanza)
+>>
+endobj
+92 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 558.8]
+/Previous 91 0 R
+/Next 93 0 R
+/Title (Muchos niveles aceptables de competencia)
+>>
+endobj
+93 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 472.4]
+/Previous 92 0 R
+/Next 94 0 R
+/Title (Muchas formas de decir lo mismo)
+>>
+endobj
+94 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 386]
+/Previous 93 0 R
+/Next 95 0 R
+/Title (No hay verg\374enza en pedir prestado)
+>>
+endobj
+95 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 311.6]
+/Previous 94 0 R
+/Next 96 0 R
+/Title (Dimensionalidad indeterminada)
+>>
+endobj
+96 0 obj
+<<
+/Parent 77 0 R
+/Dest [45 0 R /FitH 153.2]
+/Previous 95 0 R
+/Next 97 0 R
+/Title (La ambig\374edad local est\341 bien)
+>>
+endobj
+97 0 obj
+<<
+/Parent 77 0 R
+/Dest [49 0 R /FitH 683.6]
+/Previous 96 0 R
+/Next 98 0 R
+/Title (Puntuaci\363n por prosodia[2] en Inflexi\363n)
+>>
+endobj
+98 0 obj
+<<
+/Parent 77 0 R
+/Dest [49 0 R /FitH 561.2]
+/Previous 97 0 R
+/Next 99 0 R
+/Title (Quitando la ambig\374edad a trav\351s del n\372mero, las may\372sculas y el orden de las palabras)
+>>
+endobj
+99 0 obj
+<<
+/Parent 77 0 R
+/Dest [49 0 R /FitH 330.8]
+/Previous 98 0 R
+/Next 100 0 R
+/Title (Topicalizaci\363n)
+>>
+endobj
+100 0 obj
+<<
+/Parent 77 0 R
+/Dest [49 0 R /FitH 76.4000000000001]
+/Previous 99 0 R
+/Next 101 0 R
+/Title (Estructura del discurso)
+>>
+endobj
+101 0 obj
+<<
+/Parent 77 0 R
+/Dest [53 0 R /FitH 671.6]
+/Previous 100 0 R
+/Next 102 0 R
+/Title (Pronominalizaci\363n)
+>>
+endobj
+102 0 obj
+<<
+/Parent 77 0 R
+/Dest [53 0 R /FitH 573.2]
+/Previous 101 0 R
+/Next 103 0 R
+/Title (Sin armas te\363ricas para provocar )
+>>
+endobj
+103 0 obj
+<<
+/Parent 77 0 R
+/Dest [53 0 R /FitH 402.8]
+/Previous 102 0 R
+/Next 104 0 R
+/Title (Estilo impuesto s\363lo por presi\363n de pares)
+>>
+endobj
+104 0 obj
+<<
+/Parent 77 0 R
+/Dest [53 0 R /FitH 292.4]
+/Previous 103 0 R
+/Next 105 0 R
+/Title (Dise\361o cooperativo)
+>>
+endobj
+105 0 obj
+<<
+/Parent 77 0 R
+/Dest [53 0 R /FitH 158]
+/Previous 104 0 R
+/Next 106 0 R
+/Title (Divergencia inevitable)
+>>
+endobj
+106 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 695.6]
+/Previous 105 0 R
+/Next 107 0 R
+/Title (- las bases para perl6 son las mismas que para perl5 pero adicionalmente va)
+>>
+endobj
+107 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 657.2]
+/Previous 106 0 R
+/Next 108 0 R
+/Title (- perl soporta m\372ltiples paradigmas, y como tal no se inclina por ninguno en)
+>>
+endobj
+108 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 618.8]
+/Previous 107 0 R
+/Next 109 0 R
+/Title (- perl seguir\341 siendo libre de limitaciones, tales como warnings y strict)
+>>
+endobj
+109 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 604.4]
+/Previous 108 0 R
+/Next 110 0 R
+/Title (- la implementaci\363n de objetos de perl6 ser\341 mucho m\341s adecuada. En)
+>>
+endobj
+110 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 542]
+/Previous 109 0 R
+/Next 111 0 R
+/Title (Infograf\355a)
+>>
+endobj
+111 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 527.6]
+/Previous 110 0 R
+/Next 112 0 R
+/Title (- CPAN \( http://www.cpan.org \))
+>>
+endobj
+112 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 513.2]
+/Previous 111 0 R
+/Next 113 0 R
+/Title (- Perl Mongers \( http://www.pm.org \))
+>>
+endobj
+113 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 498.8]
+/Previous 112 0 R
+/Next 114 0 R
+/Title (- Perl Monks \( http://www.perlmonks.com \))
+>>
+endobj
+114 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 484.4]
+/Previous 113 0 R
+/Next 115 0 R
+/Title (- Natural Language Principles in Perl \()
+>>
+endobj
+115 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 458]
+/Previous 114 0 R
+/Next 116 0 R
+/Title (- Apocalipsis 1 : The ugly, the bad and the Good \()
+>>
+endobj
+116 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 431.6]
+/Previous 115 0 R
+/Next 117 0 R
+/Title (- Sinopsis 1 : Overview \( http://dev.perl.org/perl6/doc/design/syn/S01.html)
+>>
+endobj
+117 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 303.2]
+/Previous 116 0 R
+/Next 118 0 R
+/Title (- viola alguna regla de perl5 ??)
+>>
+endobj
+118 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 288.8]
+/Previous 117 0 R
+/Next 119 0 R
+/Title (- qu\351 utilidad tiene ??)
+>>
+endobj
+119 0 obj
+<<
+/Parent 77 0 R
+/Dest [57 0 R /FitH 274.4]
+/Previous 118 0 R
+/Title (- qu\351 ocurre con el garbage collector ??)
+>>
+endobj
+120 0 obj
+<<
+/Parent 75 0 R
+/Dest [57 0 R /FitH 258.8]
+/Previous 76 0 R
+/Title (NOTES)
+>>
+endobj
+74 0 obj
+<<
+/Type /Outlines
+/Count 46
+/First 75 0 R
+/Last 120 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 4 0 R
+/PageMode /UseOutlines
+/Outlines 74 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Pages
+/Kids [ 66 0 R 73 0 R 61 0 R 65 0 R 21 0 R 25 0 R 29 0 R 33 0 R 37 0 R 41 0 R 45 0 R 49 0 R 53 0 R 57 0 R ]
+/Count 14
+/MediaBox [0 0 595 842]
+>>
+endobj
+xref
+0 121
+0000000000 65535 f 
+0000000015 00000 n 
+0000000171 00000 n 
+0000083683 00000 n 
+0000083772 00000 n 
+0000000274 00000 n 
+0000002374 00000 n 
+0000002473 00000 n 
+0000002571 00000 n 
+0000002671 00000 n 
+0000002775 00000 n 
+0000002871 00000 n 
+0000002972 00000 n 
+0000003076 00000 n 
+0000003184 00000 n 
+0000003282 00000 n 
+0000003385 00000 n 
+0000003491 00000 n 
+0000003605 00000 n 
+0000009807 00000 n 
+0000009828 00000 n 
+0000009952 00000 n 
+0000010035 00000 n 
+0000016357 00000 n 
+0000016378 00000 n 
+0000016502 00000 n 
+0000016585 00000 n 
+0000022856 00000 n 
+0000022877 00000 n 
+0000023001 00000 n 
+0000023084 00000 n 
+0000028322 00000 n 
+0000028343 00000 n 
+0000028479 00000 n 
+0000028562 00000 n 
+0000034618 00000 n 
+0000034639 00000 n 
+0000034764 00000 n 
+0000034847 00000 n 
+0000041048 00000 n 
+0000041069 00000 n 
+0000041206 00000 n 
+0000041289 00000 n 
+0000048321 00000 n 
+0000048342 00000 n 
+0000048467 00000 n 
+0000048550 00000 n 
+0000054413 00000 n 
+0000054434 00000 n 
+0000054571 00000 n 
+0000054654 00000 n 
+0000062063 00000 n 
+0000062084 00000 n 
+0000062209 00000 n 
+0000062292 00000 n 
+0000068547 00000 n 
+0000068568 00000 n 
+0000068717 00000 n 
+0000068800 00000 n 
+0000075054 00000 n 
+0000075075 00000 n 
+0000075189 00000 n 
+0000075272 00000 n 
+0000075577 00000 n 
+0000075597 00000 n 
+0000075699 00000 n 
+0000075782 00000 n 
+0000075865 00000 n 
+0000076248 00000 n 
+0000076268 00000 n 
+0000076393 00000 n 
+0000076697 00000 n 
+0000076717 00000 n 
+0000076819 00000 n 
+0000083607 00000 n 
+0000076902 00000 n 
+0000077025 00000 n 
+0000077220 00000 n 
+0000077342 00000 n 
+0000077460 00000 n 
+0000077611 00000 n 
+0000077750 00000 n 
+0000077876 00000 n 
+0000078013 00000 n 
+0000078143 00000 n 
+0000078269 00000 n 
+0000078384 00000 n 
+0000078531 00000 n 
+0000078711 00000 n 
+0000078891 00000 n 
+0000079075 00000 n 
+0000079222 00000 n 
+0000079349 00000 n 
+0000079493 00000 n 
+0000079628 00000 n 
+0000079767 00000 n 
+0000079900 00000 n 
+0000080039 00000 n 
+0000080188 00000 n 
+0000080389 00000 n 
+0000080511 00000 n 
+0000080651 00000 n 
+0000080778 00000 n 
+0000080921 00000 n 
+0000081075 00000 n 
+0000081203 00000 n 
+0000081330 00000 n 
+0000081512 00000 n 
+0000081698 00000 n 
+0000081881 00000 n 
+0000082064 00000 n 
+0000082182 00000 n 
+0000082321 00000 n 
+0000082466 00000 n 
+0000082616 00000 n 
+0000082763 00000 n 
+0000082919 00000 n 
+0000083102 00000 n 
+0000083241 00000 n 
+0000083374 00000 n 
+0000083510 00000 n 
+trailer
+<<
+/Size 121
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+83948
+%%EOF

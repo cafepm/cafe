@@ -1,0 +1,85 @@
+Perl 6 and Parrot Essentials (2nd. Edition)
+===========================================
+Una revisión de Víctor A. Rodríguez
+
+Si hago un pequeño resumen, realmente esto va cada vez mejor. Alguien que escucha
+a la comunidad, que es respetado y una comunidad que se involucra y pone lo mejor
+para afrontar el desafío : corazón, experiencia y muchas ganas. Lo mejor de todo
+es que tanto la comunidad como su creador se devanan en estar uno a la altura del
+otro, situación que hace que sea imposible no enriquecerse.
+
+Paradójicamente la mitad de las páginas del libro están dedicadas a Perl 6 y la
+otra mitad a Parrot : un equilibrio que se ve venir (ambos proyectos son
+independientes) y que promete ... hasta en la cantidad de hojas.
+
+Los primeros tres capítulos son realmente algo fantástico porque de Perl no se
+habla nada ... pero se dice casi todo. El inicio, los objetivos, la forma en que
+la comunidad va respondiendo y participando forman una atmósfera en la cual uno
+no siente más que deseoso de participar. Como dato interesante, el tercer capítulo
+trata de la filosofía de diseño, y resulta maravillosa y sorprendentemente similar
+a los "Principos de un Lenguaje Natural en Perl" 
+(http://www.bit-man.com.ar/es/SoftwarePerlNatural)
+
+En el capítulo 4 se encuentra la sintaxis básica (basic syntax) y si bien esto
+empieza a tomar un poco de color, tampoco hay que perder de vista que se trata de
+un borrador (avanzado, pero borrador al fin). Debo confesar que empecé a leer el
+capítulo con miedo (miedo a Perl 6, al cambio y a ver que ahora iba a ser todo
+tan molestamente distinto), pero a medida que empecé a leer todo fue para mejor.
+Empezar viendo que el contenido de los arrays y hashes ahora se acceden con el
+sibil (identificación del tipo de variable @ y %) en lugar de con $ (o sea
+@array[5] = "Nombre" coloca el scalar "Nombre" dentro de la 6ta. entrada del
+array) y que el último índice puede accederse como @array.last me pareció casi
+una panacea (también debo reconocer que en las tres primeras páginas tuve la
+misma sensacón que cuando empecé a trabajar sobre Perl ... una especie de
+embotamiento).
+
+Esto es genial !!! durante media hora no pude parar de leer el capítulo 5 sobre
+Subroutines. Sencillamente es lo mismo que se puede hacer con Perl 5 (parámetro
+obligatorios, posicionales y otras yerbas) pero en lugar de manejarlo en código
+de la aplicación es el compilador quien hace los chequeos o genera los necesarios
+para hacerlos en run-time. Hay una serie de agregados y que en general son
+inesperados y de gran utilidad (no todo es barajar y dar de nuevo en las
+subrutinas) : Globally Scoped, Curried, Wrapped, Lvalue y Macros (la legalización
+de eval() en tiempo de compilación).
+
+En el capítulo 6 sobre objetos ... la idea de objetos hace tiempo que viene dando
+vueltas y Perl no es la primera vez que lo implementa (hoy en día en Perl 5
+disfrutamos de este modo de trabajar), pero con una excepción, esta vez la
+implementación del modelo de objetos no es un hack sino algo pensado de forma
+sólida y con la mayor flexibilidad y opciones posibles.
+
+No quiero ser injusto, así que voy a traducir una pequeña parte del prólogo de
+este capítulo : "Con Perl 6 buscamos una interfaz más simple y limpia para trabajar
+con objetos, pero también buscamos soportar un gran conjunto de ideas orientas a
+los objetos"
+
+No se si hubo algo que me impresionó demasiado, porque ya hemos visto varias
+implementaciones de objetos y cada una tiene sus más y sus menos. La de Perl 6
+no es diferencia. Si debo hacer mención de algo que no estoy muy seguro que a
+futuro no vaya a traer problemas, sobre todo al momento de la implementación del
+compilador, y es el famoso "operator overloading". C++ tiene/tuvo sus problemas
+por esto, y si mal no recuerdo en Java no se implementa así que no creo que la
+situación sea muy distinta para Perl 6.
+
+Si con las expresiones regulares hay momentos en que me pierdo, el tener todo un
+lenguaje dentro de las expresiones regulares sinceramente ya me parece un poco
+demasiado (ahora se llaman rules) ... aunque hay cosas dignas de mencionar en
+el Capítulo 7: los deferred matches, la definición de gramáticas y los assertions
+(una gran inclusión en Perl 6)
+
+No digo que sea un capítulo olvidable, pero creo que los anteriores estaban tan
+cargados de emoción y cosas excitantes que eclipsan, tal vez, a este.
+
+Con este capítulo se da el primer paso, y es husmear en Perl 6, porque se acaba
+de terminar todo lo relativo a él y ahora empieza lo relacionado con Parrot
+(máquina virtual sobre la que corre Perl 6).
+
+Los capítulos 8 y 9 cierran una gran visión y dan un acabado final a una tarea ya
+enorme y que recién comienza, no sin antes coronar al capítulo 9 como el más
+aburrido de todos para alguien que ya programó alguna vez en assembly, sea el tipo
+que sea.
+
+Si quieren encontran una análisis más extensivo, sobre este y otros libros, visiten
+el BLog http://www.bit-man.com.ar/es/BLogs/categorylist_html?cat_id=1
+
+

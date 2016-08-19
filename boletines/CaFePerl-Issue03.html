@@ -1,0 +1,1168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CaFe Perl v0.3 - Periódico de la Comunidad Perl de Capital Federal</title>
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#cafe_perl_v0_3__periódico_de_la_comunidad_perl_de_capital_federal">CaFe Perl v0.3 - Periódico de la Comunidad Perl de Capital Federal</a></li>
+	<ul>
+
+		<li><a href="#editorial">Editorial</a></li>
+		<li><a href="#perlitas">PERLitas</a></li>
+		<li><a href="#sudornews">SudorNews</a></li>
+		<li><a href="#manejo_de_excepciones__mordiditas_de_aquí_y_de_allá_">Manejo de Excepciones (Mordiditas de aquí y de allá)</a></li>
+		<ul>
+
+			<li><a href="#introducción">Introducción</a></li>
+			<li><a href="#el_problema_y_la_receta">El problema y la receta</a></li>
+			<li><a href="#la_explicación">La explicación</a></li>
+			<li><a href="#una_mirada_más_allá">Una mirada más allá</a></li>
+			<li><a href="#infografía">Infografía</a></li>
+		</ul>
+
+		<li><a href="#poc__peace_of_code_">POC (peace of code)</a></li>
+	</ul>
+
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<hr />
+<h1><a name="cafe_perl_v0_3__periódico_de_la_comunidad_perl_de_capital_federal">CaFe Perl v0.3 - Periódico de la Comunidad Perl de Capital Federal</a></h1>
+<p>
+</p>
+<h2><a name="editorial">Editorial</a></h2>
+<p>Este mes hay poca editorial y un poco más de contenido. Simplemente quiero
+agradecer a Manuel Sanguino por la ayuda en la traducción de la entrevista
+PERLitas de este mes, a Matías Palomec por el ``cacho'' de código para POC y a
+Leonardo Pigñer por la revisión de las ``Mordiditas de aquí y de allá''.</p>
+<p>Hay una innovación, para el alivio de más de uno, y es que la sección
+dedicada a ``CaFe Perl en Perl'' ya no existe más. En su lugar esa parte de la
+publicación va a estar dedicada a temitas sueltos, de esos que uno charla
+continuamente con los que comparte la vida, esos de las charlitas de café
+... y gracias a Matías que aportó un código propio para publicar ha sido
+bautizada como POC (Peace of Code).</p>
+<p>Espero que lo disfruten. Hasta la próxima taza de CaFe Perl !!! ... eso sí,
+café del bueno ;-).</p>
+<p>Víctor A. Rodríguez (Bit-Man)</p>
+<p>
+</p>
+<h2><a name="perlitas">PERLitas</a></h2>
+<p>OpenInteract es un servidor de aplicaciones web escrito en Perl. Este ofrece
+persistencia de data integrada, administración de usuarios y grupos de
+usuarios, mas una vía fácil para crear y distribuir completamente bases de
+datos de aplicaciones independientes.</p>
+<p><strong>Hola Cris, por favor una presentación para el grupo CaFe.pm</strong></p>
+<p>Mi nombre es Cris Winters y actualmente vivo en Pittsburg, Pennsylvania
+Estados Unidos. He estado casado por 5 años con mi persona favorita en el
+mundo.</p>
+<p>He estado usando Perl por aproximadamente 10 años o mas, los primeros dos
+años fue por encima y a tiempo completo desde 1997.</p>
+<p>Actualmente trabajo en Vocollect (http://www.vocollect.com/) haciendo
+aseguramiento de calidad de software (software quality assurance) sobre un
+producto Java basado en web; Pronto me mudaré a otra parte de la compañía
+para hacer más desarrollo embebido junto con la confección de sistemas de
+workflow personalizados</p>
+<p><strong>Cuáles son tu áreas de experiencia ?</strong></p>
+<p>Bueno yo no debería de llamarme experto en nada :-) Sin embargo estuve
+trabajando en el desarrollo de arquitectura y aplicaciones web por mas de
+ocho años y en frameworks por seis años. También he desarrollado sistemas de
+workflow bastante genéricos y herramientas de mapeo objeto-relacional
+(object-relational mapping) todo este tiempo.</p>
+<p>Uno de los aspectos interesantes de la arquitectura web es que si lo haces
+de forma correcta las ideas básicas se transfieren muy bien a otros
+lenguajes. En los últimos cuatro años mi trabajo pago ha sido escribir
+código en Java tanto para aplicaciones web como como procesos side-server en
+general. Y mucha de las ideas que aprendí de Perl también fueron
+implementadas en Java, aunque con mucho mas código !.</p>
+<p><strong>Qué lo impulsó a construir OpenInteract?</strong></p>
+<p>OpenInteract vino casi de la misma manera como creo mucho de los otros
+frameworks aparecieron. Uno construye un sistema para un cliente, lo instala
+y funciona bárbaro. Entonces uno construye otro sistema para otro cliente,
+que no es exactamente el mismo, pero lo suficientemente como para copiar-y-
+pegar y los conseguís para la ajustada fecha límite.</p>
+<p>Entonces uno construye otro sistema que difiere de los anteriores, y a la
+vez uno hace los mismos cambios que se necesitan aplicar a los dos
+anteriores. Entonces se empieza a encontrar concordancias entre ellas y
+construir un sistema que reuna estas necesidades.</p>
+<p>Hacé esto diez o mas veces y tendrás un Framework!!!</p>
+<p>Lo que también puede ser interesante de observar es que el sistema detrás de
+Kuro5hin (http://kuro5hin.org/) también liberado desde esta misma compañía
+cuando estos fueron desarrollados la primera vez tenían bastantes pocas
+cosas en común, pero estos rápidamente divergieron debido sus diferentes
+especialidades.</p>
+<p><strong>Que problemas resuelve OpenInteract ?</strong></p>
+<p>OpenInteract toma a su cargo mucha del trabajo de plomería (infraestructura
+??) que hay que hacer en la aplicaciones web :</p>
+<ul>
+<li><strong><a name="item__2d_administración_de_usuarios_y_grupos">- Administración de usuarios y grupos</a></strong><br />
+</li>
+<li><strong><a name="item__2d_seguridad_de_aplicaciones">- Seguridad de aplicaciones</a></strong><br />
+</li>
+<li><strong><a name="item__2d_acceso_a_bases_de_datos">- Acceso a bases de Datos</a></strong><br />
+</li>
+<li><strong><a name="item_plantillas">- Uso de un sistema de plantillas (template hooking)</a></strong><br />
+</li>
+<li><strong><a name="item__2d_caching">- Caching</a></strong><br />
+</li>
+<li><strong><a name="item__2d_construcción_de_código_independiente_de_la_bas">- Construcción de código independiente de la Base de datos</a></strong><br />
+</li>
+<li><strong><a name="item_aplicación">- Distribución de la aplicación (incluyendo código, templates, estructura de
+base de datos, datos iniciales, documentación, etc.)</a></strong><br />
+</li>
+<li><strong><a name="item_plataformas">- ejecución bajo diferentes plataformas (mod_perl 1.x, mod_perl 2.x,
+FastCGI, CGI, web server standalone)</a></strong><br />
+</li>
+</ul>
+<p>Como una servidor de aplicaciones (application server) no resuelve la
+problemática para los no desarrolladores, o por lo menos no los
+interesantes. Hay aplicaciones simples de ejemplo instaladas con el server,
+pero nada como Slashdot, un sistema de webmail o un CMS más sofisticado
+(Content Management System)</p>
+<p>Lo que hace OpenInteract es facilitar a los desarrolladores el crear ese tipo
+de aplicaciones complejas.</p>
+<p>Probablemente vale la pena hacer notar la diferencia entre OpenInteract v1.x
+y 2.x. OpenInteract 2.x es casi una completa re-escritura y tiene un mejor
+diseño y documentación. Si estás comenzando recomiendo fuertemente que mires
+ahí primero, aunque aún está en beta.</p>
+<p><strong>Qué consejo le daría a los futuros diseñadores ??</strong></p>
+<p>Cada uno aprende en forma diferente así que es difícil dar un consejo
+genérico. Pero en mi experiencia muchos desarrolladores aprender mejor
+haciendo. Y el open source nos da mucho con que trabajar ! Y con algo como
+OpenInteract es aún más fácil porque no hay que recompilar nada  se puede
+modificar un package, rearrancar el server y ver qué pasa. Algo del mejor
+aprendizaje puede suceder rompiendo cosas a propósito (o aún
+accidentalmente).</p>
+<p>Otra parte importante es que es duro cuando no se tiene trabajo qué hacer.
+Puedo decir que vayas por tal o cual código, pero no creo que realmente se
+te pegue a menos que tengas algo qué hacer con él.</p>
+<p>Así que pensá que cosas te interesan y avanzá con una aplicación simple que
+puedas escribir que las incluya. Por ejemplo, te puede gustar el observar
+aves y quiera crear una bitácora de tus avistamientos. O tal vez coleccionás
+revistas cómicas y querés una base de datos mejor para almacenar la
+información junto con imágenes de las portadas. O guardar tus recetas
+favoritas. No tiene que ser algo muy complicado, sólo algo en lo que estés
+realmente interesado.</p>
+<p><strong>En qué partes del código le aconsejaría mirar al novato en Perl , para tener
+un aprendizaje placentero ?</strong></p>
+<p>OpenInteract tiene mucho código e imagino que puede ser bastante intimidante,
+especialmente porque es un framework de aplicaciones que necesita tener
+hooks para muchas funcionalidades que la gente podría no necesitar nunca. Sin
+embargo, lo que podría ser interesantes es seguir el camino de un
+requerimiento según se mueve a través del server. Uno de los documentos que
+viene con OpenInteract2 (OpenInteract2::Manual::Architecture) tiene una
+sección Tracing a Request. Este te lleva a través del sistema en un alto
+nivel, y siguiéndolo como abre distintos módulos puede ser muy educativo (en
+verdad, mientras se lee esa sección probablemente será muy útil tener
+muestras del código de los diferentes módulos que aparecen)</p>
+<p><strong>Cuáles fueron las limitaciones impuestas por Perl al proyecto ?</strong></p>
+<p>Ninguna que pueda recordar, es decir no recuerdo haber pensado ``Me gustaría
+que Perl tuviera X''. Unas pocas posibilidades :</p>
+<ul>
+<li><strong><a name="item_objetos">- OI2 usa unas pocas clases y eso puede ser un problema para los no
+familiarizados con el sistema Orientado a Objetos (OO) de Perl</a></strong><br />
+</li>
+<li><strong><a name="item__2d_el_no_tener_un_mod_perl_práctico_sobre_win32_f">- El no tener un mod_perl práctico sobre win32 fue un problema para la serie
+1.x. Pero Apache 2.x/mod_perl 2.x aparentemente es tan robusto en win32 como
+en unix</a></strong><br />
+</li>
+</ul>
+<p><strong>Vió las características de Perl 6 ??</strong></p>
+<p>Muy poco. Se siente como Perl pero con mayor planificación, menos
+características por deposición. Pero sólo es una primer impresión.</p>
+<p><strong>Tiene alguna opinión o consejo acerca de él ??</strong></p>
+<p>Soy ambivalente. Como cualquiera quisiera que estuviera acá ahora mismo,
+particularmente por toda la atención hacia Ruby y, en menor cantidad, a
+Pyhton. Creo que el sistema OO de Perl 5 previno a mucha gente de bien
+usarlo o apegarse a él e introdujo la limpieza y su revisión. Dicho esto, no
+tenemos una gran pila de dinero para darle a la gente inteligente que diseña
+e implementa Perl6 y se cuán difícil es balancear la programación open
+source y un trabajo full-time (sin mencionar una familia, hobbies no
+técnicos, sueño ...). También, estoy aterrorizado por el progreso que
+Autrijius hizo en tan poco tiempo con Pugs (Perl 6 corriendo en Haskell). Es
+realmente sorprendente. Ojalé tuviera algo de tiempo de sobra para aprender
+más sobre él y ayudar.</p>
+<p><strong>Por qué cree que Perl no es tan ampliamente usado para el desarrollo de
+aplicaciones ??</strong></p>
+<p>Hay algunas razones, pero las primeras que me vienen a la mente :</p>
+<ul>
+<li><strong><a name="item_perl">- Perl tiene una reputación de ser sólo de escritura, que nadie más puede
+leer el código de otra persona. No crea que sea la culpa de Perl, cualquier
+lenguaje puede ser escrito en forma pobre. La flexibilidad de Perl trabaja
+en contra de esto, creo que muchas veces la gente escribe un script y no
+espera que dure mucho. Entonces se vuelve tan útil que el autor simplemente
+agrega una funcionalidad más aquí, otra más allá y se convierte en un lío. Y
+se le hecha la culpa a Perl (si se usara ``use strict'' como default habría
+ayudado algo)</a></strong><br />
+</li>
+<li><strong><a name="item__2d_mucha_gente_no_conoce_de_las_características_a">- Mucha gente no conoce de las características avanzadas de Perl, o les
+teme. El hecho de que se pueda mezclar programación funcional, procedural y
+OO es una gran ventaja</a></strong><br />
+</li>
+<li><strong><a name="item_usarla">- Falta de herramientas inteligentes. Yo escribo Perl en Xemacs y por mucho
+tiempo tuve una idea de un IDE. Pero hay una serie de IDEs en el mundo Java
+que hacen más que proveer un wrapper para la gente que le gusta usar el
+mouse. Cuando escribo algo no trivial en Java uso una herramienta llamada
+InteliJ IDEA. No es libre, no es open source, pero es tan poderosa que no
+puedo imaginar el no usarla (hay una herramienta llamada Eclipse pero no
+está tan pulida como IDEA, aunque Eclipse aparentemente tiene algún soporte
+para Perl)</a></strong><br />
+</li>
+</ul>
+<p>Java tiene tipos de datos estáticos, y ya que IDEA conoce mucho sobre Java
+hace fácil el renombrar un método llamad <code>execute()</code> en una clase Foo sea
+donde sea llamada, ignorando <code>execute()</code> en la clase Bar. O reemplazar todos
+los constructores con dos argumentos con la llamada a un solo método
+estático. O cambia el orden de los argumentos en un método. O muchas, muchas
+otras cosas. Es difícil explicar qué útil es esto, pero a un nivel profundo
+hace al código mucho más maleable porque uno sabe que cambiarlo es tan
+simple, lo mismo que el crear buenos de test unitarios le dan a uno la
+confianza de hacer cambios funcionales en el código (algunas de estas
+características están presentes en Emacs a través de J2EE, pero IMO no son
+tan usables ni potentes).</p>
+<p>Algunos aspectos de Perl hacen a esta clase de herramientas difíciles, pero
+espero que Perl 6 habilitará el uso de este tipo de herramientas.</p>
+<p><strong>Cómo se puede colaborar con OpenInteract ??</strong></p>
+<p>Depende de lo que quieras hacer !</p>
+<p>Por ejemplo, si se es un buen diseñador gráfico hay algo de trabajo a hacer
+relacionado con la falta de stylesheets (hojas de estilo) y técnicas de
+layout modernas en OpenInteract2. También queremos hacer el site de
+OpenInteract (http://www.openinteract.org/) un poco más amigable y con una
+vista más agradable.</p>
+<p>O si se es un desarrollador de aplicaciones se puede contribuir con ideas o
+implementaciones. O aún mejor, se puede desempeñar en una de las actividades
+más subvaluados: como usuario inteligente. Muchas veces la gente usa un
+proyecto open source pero algo del código no funciona de la forma esperada,
+o una interfaz es un poco dura de usar, o la documentación es confusa. Y no
+lo dicen al proyecto porque no quieren verse involucrados o no quieren ser
+un problema.</p>
+<p>Pero esto es información de mucho peso. Es fácil para la gente que trabaja
+en proyectos grandes el olvidarse como las personas lo usan, así que sus
+palabra, aún para algo simple, probablemente sean más útiles de lo que se
+piensa. Y aún si lo que dirigen el proyecto no están de acuerdo aún sigue
+siendo útil para ellos saber cómo se sienten para así modificar la
+documentación y llegar a lo que la gente espera, agregar puntos a la FAQ
+para enviar a la gente al lugar correcto, u otros cambios.</p>
+<p>Si estás usando OpenInteract2 y algo es confuso, entonces hacénoslo saber !</p>
+<p>Finalmente, ya que OpenInteract2 tiene soporte para internacionalización
+también necesitamos gente para traducir nuestros mensajes en Inglés a otros
+idiomas.</p>
+<p><strong>... y las habilidades mínimas requeridas ??</strong></p>
+<p>Creo que existe el trabajo suficiente para todo tipo de habilidades! Además,
+uno de los beneficios del open source es que se puede aprender mientras se
+hace.</p>
+<p><strong>Qué características cree que no están presentes, y cuáles agregará en el
+corto plazo ??</strong></p>
+<p>Cualquier idea que cualquier persona tenga sobre características o fixes
+deberá estar en nuestro sistema de seguimiento de problemas JIRA
+(http://jira.openinteract.org/). De lo contrario se cae por el costado y
+nunca se implementa.</p>
+<p><strong>Algún módulo favorito de CPAN ??</strong></p>
+<p>No hay forma de construir algo como OpenInteract sin CPAN y hay muchos
+módulos que use para hacer cosas simples y las hizo tan bien que nunca tuve
+que volver a pensar sobre ella. Sin embargo, de los que primero se me vienen
+a la mente, acá hay una lista de módulos que uso más frecuentemente para
+resolver los problemas más comunes :</p>
+<ul>
+<li><strong><a name="item__2d_template_toolkit">- Template Toolkit</a></strong><br />
+</li>
+<li><strong><a name="item__2d_dbi">- DBI</a></strong><br />
+</li>
+<li><strong><a name="item__2d_dbd_3a_3asqlite">- DBD::SQLite</a></strong><br />
+</li>
+<li><strong><a name="item__2d_datetime">- DateTime</a></strong><br />
+</li>
+<li><strong><a name="item__2d_log_3a_3alog4perl">- Log::Log4perl</a></strong><br />
+</li>
+<li><strong><a name="item__2d_cgi_3a_3awiki">- CGI::Wiki</a></strong><br />
+</li>
+<li><strong><a name="item__2d_www_3a_3amechanize">- WWW::Mechanize</a></strong><br />
+</li>
+</ul>
+<p>También uso un par mios que uso frecuentemente (Class::Factory and
+Class::Observable), pero no es junto ponerlos en la lista de favoritos :-)</p>
+<p><strong>Tiene alguna experiencia (divertida o no tanto) que le ocurrió mientras
+estaba haciendo OpenInteract y que quiera compartir con nosotros ??</strong></p>
+<p>Unas pocas cosas vienen a mi mente.</p>
+<p>La compañía desde donde OpenInteract surgió fue lo suficientemente generosa
+para hacerla open source. Creo que al final saldrán beneficiados de esto
+pero fue un gran honor (No tengo que poner un gran esfuerzo para hacerlo,
+sólo un poco).</p>
+<p>Hace poco más de un año le pregunté a la comunidad por fondos para poder
+comprar un server y poner el website de OpenInteract y el site de JIRA,
+junto con mi website :-) No me llenaron de dinero pero lo que obtuve me
+sorprendió, y fue altamente apreciado.</p>
+<p>Finalmente, tuve una gran sorpresa cuando alguien me mandó un e-mail para
+decirme que usaron OpenInteract para un proyecto y que estaba funcionando
+bien. De hecho, hace cerca de año y medio oí de una compañía en Alemania que
+tenía algo de dinero extra en su presupuesto. Me hicieron volar hasta ahí e
+hice un entrenamiento con los desarrolladores y aprendí acerca de su
+sistema. Fue un gran placer.</p>
+<p>
+</p>
+<h2><a name="sudornews">SudorNews</a></h2>
+<ul>
+<li><strong><a name="item__2d_administrador_linux_2funix_tiempo_completo">- Administrador Linux/Unix Tiempo Completo</a></strong><br />
+</li>
+</ul>
+<p>Job Description : Serán responsables de la instalación y soporte de
+centrales VOIP.</p>
+<p>Job Requirements : Incorporaremos un administrador Unix/Linux. Con
+conocimientos de programación en shell script, Perl y MySQL. Preferible
+contar con nociones de Asterisk, VOIP y SIP.</p>
+<p><a href="http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=74">http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=74</a></p>
+<ul>
+<li><strong><a name="item__2d_sysadmin_freelance">- Sysadmin freelance</a></strong><br />
+</li>
+</ul>
+<p>Job Description : Empresa de servicios profesionales con sede en EE.UU. que
+también opera en Argentina busca administradores de sistema calificados con
+residencia en el cono sur de Sudamérica. Necesitamos incorporar de manera
+inmediata administradores de sistemas Unix.</p>
+<p>Job Requirements : Los candidatos deben tener un excelente conocimiento de
+sistemas Unix (especialmente Linux) y experiencia en el manejo de Apache Web
+server, Sendmail y otros MTAs, Administración de bases de datos
+(especialmente MySQL, PostgreSQL), Seguridad y administración de firewall.
+De preferencia, experiencia de trabajo con Zope.</p>
+<p><a href="http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=73">http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=73</a></p>
+<ul>
+<li><strong><a name="item__2d_technical_manager">- Technical manager</a></strong><br />
+</li>
+</ul>
+<p>Para importante empresa de servicios y contenidos de telefonía celular,
+solicitamos la postulación de profesionales graduados de las carreras de
+Tecnología, preferentemente con experiencia en empresas de
+Telecomunicaciones o Internet, para incorporarse al área de Desarrollo de
+Sistemas en el Centro de mensajería de texto. Valoraremos los conocimientos
+de PHP, Mysql, Perl y Linux; los idiomas inglés y portugués son requeridos
+para esta posición.
+Las principales responsabilidades serán: la relación con los operadores
+celulares, desarrollo de proyectos y mantenimiento de plataformas, deberá
+coordinar el área técnica y monitorear las acciones operativas del día a
+día.</p>
+<p>Los interesados deberán aplicar su CV sin omitir remuneración pretendida</p>
+<p><a href="http://www.bumeran.com.ar/aplicantes/empleos/1075520.html">http://www.bumeran.com.ar/aplicantes/empleos/1075520.html</a></p>
+<ul>
+<li><strong><a name="item__2d_desarrollador_semi_senior_php__2f_sql">- Desarrollador Semi Senior PHP / SQL</a></strong><br />
+</li>
+</ul>
+<p>Incorporaremos a nuestro equipo de tecnología un desarrollador semi-senior.
+Los requisitos para postular son Experiencia comprobable en programación
+PHP, SQL y HTML. Conocimientos de desarrollo en ambientes Linux, lenguajes
+PERL, Bash, etc.</p>
+<p>Se valorará conocimientos en Oracle, XML. Disponibilidad full time or part-
+time.</p>
+<p><a href="http://www.bumeran.com.ar/aplicantes/empleos/1074830.html">http://www.bumeran.com.ar/aplicantes/empleos/1074830.html</a></p>
+<ul>
+<li><strong><a name="item__2d_administrador_unix">- Administrador Unix</a></strong><br />
+</li>
+</ul>
+<p>Experiencia actualizada y comprobable en administración de sistemas Unix (
+AIX, Solaris, Linux) con continuidad mínima de tres años. Conocimientos de
+bases de datos relacionales de envergadura, en particular Oracle e Informix.
+Conocimientos de programación en Shell Script, PERL. Conocimientos de
+herramientas de monitoreo y de herramientas de backup corporativo. No
+postularse si no se cumplen estrictamente los requerimientos establecidos.</p>
+<p><a href="http://www.bumeran.com.ar/aplicantes/empleos/1067720.html">http://www.bumeran.com.ar/aplicantes/empleos/1067720.html</a></p>
+<ul>
+<li><strong><a name="item__2d_database_administrator">- Database administrator</a></strong><br />
+</li>
+</ul>
+<p>SMS - San Martín, Suarez y Asociados - www.sms.com.ar Nuestro cliente una
+Compañìa de servicios de Telecomunicaciones Busca: Data Base Administrator
+(DBA) Buscamos especialista en DBA para administrar las bases de datos de la
+compañía. La posición requiere del diseño de nuevas soluciones, el
+mantenimiento, monitoreo y dimensionamiento de las mismas. Se valoran
+conocimientos en Administración de MS SQL7/2000 - POSTGRESQL y MYSQL, en
+Scripting para web (PERL/PHP) y shell scripting (BASH/CSH, Perl), lenguajes
+ANSI SQL, Pg/SQL, T-SQUL, PI-SQL. Serán altamente valorada experiencia en
+servicio de voz sobre IP. Apuntamos a un Lic o Ingeniero en Sistemas que le
+agrade experimentar con distintas tecnologías, sea creativo, orientado a la
+resoluciòn de problemas y con clara vocación de servicio hacia clientes
+internos/externos. Contratación en relación de dependencia. Entorno de
+trabajo dinámico, flexible y orientado a objetivos.</p>
+<p><a href="http://www.computrabajo.com.ar/bt-ofrd-9727-57456.htm">http://www.computrabajo.com.ar/bt-ofrd-9727-57456.htm</a></p>
+<ul>
+<li><strong><a name="item__2d_analista_programador">- Analista programador</a></strong><br />
+</li>
+</ul>
+<p>Para Importante Proyecto se requiere analistas programadores con experiencia
+en JAVA, J2EE, C, y PERL. Se ofrece muy buena contratación, viajes,
+posibilidad de desarrollo. Se ofrece excelente contratación, clima laboral y
+desarrollo profesional.</p>
+<p><a href="http://www.computrabajo.com.ar/bt-ofrd-aclavel-77976.htm">http://www.computrabajo.com.ar/bt-ofrd-aclavel-77976.htm</a></p>
+<ul>
+<li><strong><a name="item__2d_experienced_unix_perl_2bmysql_programmer_for_w">- Experienced UNIX perl+mysql programmer for web applications</a></strong><br />
+</li>
+</ul>
+<p>We are looking for a *NIX perl programmer in Argentina for an off-site
+position - full time and part time positions are available. Required skills:
+Perl, OOPerl, DBI, CGI, apache. Desired skills: mod_perl, PHP, C/C++,
+DHTML/JS/DOM, Tangram, Catalyst.</p>
+<p>Contact information: Send an email to <a href="mailto:busqueda@ank.com.ar">busqueda@ank.com.ar</a> - English or
+Spanish is OK. Need to be Argentine or hold a legal working visa for
+Argentina.</p>
+<p><a href="http://jobs.perl.org/job/2284">http://jobs.perl.org/job/2284</a></p>
+<ul>
+<li><strong><a name="item__2d_programador_en_perl_y_postgresql">- Programador en Perl y PostgreSQL</a></strong><br />
+</li>
+</ul>
+<p>Se busca programador para importante proyecto a desarrollarse en Perl y
+PostgreSQL, no es indispensable saber los dos lenguajes pero si muy
+importante tener muy buen conocimiento de alguno de los dos debido a los
+tiempos de entrega de desarrollo.</p>
+<p>El trabajo es para desarrollarse en nuestras oficinas y con alguna
+posibilidad de trabajo freelance dependiendo de conocimientos.</p>
+<p>No omitir referencias y trabajos realizados a Martin Archanco
+(<a href="mailto:martin@nulit.com.ar">martin@nulit.com.ar</a>)</p>
+<ul>
+<li><strong><a name="item__2d_ofertas_varias">- Ofertas varias</a></strong><br />
+</li>
+</ul>
+<p><a href="http://www.computrabajo.com.ar/bt-">http://www.computrabajo.com.ar/bt-</a>
+ofrlistado.htm?Bqd=&amp;Bqd=%2BTM031&amp;Bqd=&amp;Bqd=&amp;BqdPalabras=perl</p>
+<ul>
+<li><strong><a name="item__2d_nueva_lista_del_libro_higher_order_perl">- Nueva lista del libro Higher Order Perl</a></strong><br />
+</li>
+</ul>
+<p>Mark Jason Dominus comenzó una lista para discutir su libro ``High Order
+Perl''. Aún sin tener el libro, de próxima publicación free, los comentarios
+que se hacen son muy agudos y siempre dejan algo para pensar y leer un poco
+más.</p>
+<p><a href="http://hop.perl.plover.com/">http://hop.perl.plover.com/</a></p>
+<ul>
+<li><strong><a name="item__2d_perlcast">- Perlcast</a></strong><br />
+</li>
+</ul>
+<p>Perlcast es un podcast semanal que cubre varios temas relacionados con la
+programación Perl.</p>
+<p><a href="http://perlcast.com">http://perlcast.com</a></p>
+<ul>
+<li><strong><a name="item__2d_versión_cero_2c_noticias_sobre_programación">- Versión Cero, noticias sobre programación</a></strong><br />
+</li>
+</ul>
+<p>Para todos los que por pasión, trabajo o por curiosidad, están en esta tarea
+de la programación, un site de noticias sobre el mundo del desarrollo del
+software</p>
+<p><a href="http://www.versioncero.com/">http://www.versioncero.com/</a></p>
+<ul>
+<li><strong><a name="item__2d_gigantes_del_it_acusados_de_explotación_al_ope">- Gigantes del IT acusados de explotación al open source</a></strong><br />
+</li>
+</ul>
+<p>En resumidas cuentas, se acusa a los grandes como IBM, Sun y HP de usar al
+open source como una fábrica de software en lugar de empujarlos a seguir en
+la brecha de la generación de productos independientes de los comerciales.</p>
+<p><a href="http://www.zdnet.com.au/news/software/0,2000061733,39194786,00.htm">http://www.zdnet.com.au/news/software/0,2000061733,39194786,00.htm</a></p>
+<ul>
+<li><strong><a name="item__2d_la_gran_aventura_de_rob_pike">- La gran aventura de Rob Pike</a></strong><br />
+</li>
+</ul>
+<p>Para los que no lo conocen, Rob Pike es uno de los integrantes del mítico
+equipo que creo a Unix, y autor de los libros The Unix Programming
+Environment y The Practice of Programming se fue de Lucent (Bell Labs) hacia
+Google. Una nota de color.</p>
+<p><a href="http://www.nj.com/business/ledger/index.ssf?/base/business-">http://www.nj.com/business/ledger/index.ssf?/base/business-</a>
+0/1117947410116141.xml&amp;coll=1</p>
+<ul>
+<li><strong><a name="item__2d_perl_release_5_2e8_2e7">- Perl Release 5.8.7</a></strong><br />
+</li>
+</ul>
+<p>Básicamente en <a href="ftp://ftp.cpan.org/pub/CPAN/src/">ftp://ftp.cpan.org/pub/CPAN/src/</a></p>
+<ul>
+<li><strong><a name="item__2d_fue_lanzado_activeperl_para_mac_os_x">- Fue lanzado ActivePerl para Mac OS X</a></strong><br />
+</li>
+</ul>
+<p>La conocida distribución de Perl de la empresa ActiveState ahora también
+está disponible para la última versión de Mac OS X (10.4 - Tiger)</p>
+<p><a href="http://www.activestate.com/Products/ActivePerl/OEM/">http://www.activestate.com/Products/ActivePerl/OEM/</a></p>
+<ul>
+<li><strong><a name="item_pugs">- Nueva versión de Pugs (6.2.7) generada por Autrijus Tang</a></strong><br />
+</li>
+</ul>
+<p>Como es costumbre los releases de Pugs (Perl 6 implementado en Haskell) son
+cada vez más frecuentes. Esta vez dos en un mes, siendo la versión 6.2.7 la
+más reciente.</p>
+<p><a href="http://search.cpan.org/~autrijus/Perl6-Pugs-6.2.7/">http://search.cpan.org/~autrijus/Perl6-Pugs-6.2.7/</a></p>
+<ul>
+<li><strong><a name="item__2d_guidexml_2c_editor_de_xml_en_perl">- GuideXML, editor de XML en Perl</a></strong><br />
+</li>
+</ul>
+<p>Este editor de XML para la documentación de Gentoo generado en Perl parece
+ser un clásico en esta distribución de Linux.</p>
+<p><a href="http://download.iansview.com/gendocedit/releases/gendocedit-0.40.tar.gz">http://download.iansview.com/gendocedit/releases/gendocedit-0.40.tar.gz</a></p>
+<ul>
+<li><strong><a name="item__2d_minimal_perl_install">- Minimal perl install</a></strong><br />
+</li>
+</ul>
+<p>La gente de Gentoo está trabajando en una distribución minimalista de Perl.
+Aún experimental pero con un éxito moderado, esta distribución ocupa 930KB
+frente a las 12.300 KB de la distribución completa.</p>
+<p>
+</p>
+<h2><a name="manejo_de_excepciones__mordiditas_de_aquí_y_de_allá_">Manejo de Excepciones (Mordiditas de aquí y de allá)</a></h2>
+<p>Por Víctor A. Rodríguez</p>
+<p>
+</p>
+<h3><a name="introducción">Introducción</a></h3>
+<p>Otra entrega de Mordiditas de aquí y de allá, y esta vez el hincapié es
+sobre un tema que si bien es poco común y muchas veces no usado, nos va a
+hacer desaparecer una serie de problemas, mejorar la calidad del código, la
+estabilidad de nuestras aplicaciones y la posibilidad de poder ubicar
+rápidamente el código que está causando el problema en una falla. Entonces
+qué más podemos pedir ?? ... ah si claro, en esta oportunidad vamos a tratar
+el manejo de excepciones.</p>
+<p>Como se está haciendo costumbre, la forma de desarrollar el artículo es
+primero presentar el problema junto con la solución, cuestión que puedas
+usarlo como si fuera una receta, después viene la parte de la explicación de
+cómo se llega a esta receta final, y es la parte más jugosa de todo el
+asunto. Ahora a sumergirnos en el manejo de excepciones ...</p>
+<p>
+</p>
+<h3><a name="el_problema_y_la_receta">El problema y la receta</a></h3>
+<p>Básicamente cuando ejecutamos cualquier función de Perl esta devuelve datos
+y/o ejecuta alguna acción, y generalmente nos indica de alguna forma si la
+tarea falló o no y debido a qué problema. Normalmente esta forma es la
+devolución de un valor de error, el colocar el valor de error en un escalar
+(por ejemplo $Package::Error) y/o en el escalar especial $! que corresponde
+a errores del sistema operativo.</p>
+<p>Hasta acá nada nuevo, pero veamos un pedazo de código que se usa para enviar
+un e-mail utilizando el módulo Net::SMTP. Tenemos que ver en cada operación
+si esta falló y tomar las acciones necesarias (actualmente es parte del
+código es el que utilizo para enviar esta publicación a la lista todos los
+meses) :</p>
+<pre>
+ sub sendMail($$$$$) {
+        my $from = shift;
+        my $to = shift;
+        my $subject = shift;
+        my $msg = shift;
+        my $debug = shift;
+ 
+        my $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                        Port=&gt;$SMTP_port,
+                                        Hello=&gt;$thisMachine, 
+                                        Debug =&gt; $debug );
+        die &quot;No puedo mandar e-mail&quot; unless $smtp;
+ 
+        $smtp-&gt;mail( $from ) || do {
+                print &quot;Error en clásula MAIL\n&quot;;
+                return;
+        };
+        $smtp-&gt;to( $to ) || do {
+                print &quot;Error en clásula TO\n&quot;;
+                return;
+        };
+ 
+        $smtp-&gt;data() || do {
+                print &quot;Error en clásula DATA\n&quot;;
+                return;
+        };
+        $smtp-&gt;datasend(&quot;From: $from\n&quot;) || do {
+                print &quot;Error en clásula FROM\n&quot;;
+                return;
+        };
+        $smtp-&gt;datasend(&quot;To: $to\n&quot;) || do {
+                print &quot;Error en clásula TO\n&quot;;
+                return;
+        };
+        $smtp-&gt;datasend(&quot;Subject: $subject\n&quot;) || do {
+                print &quot;Error en clásula DATASEND\n&quot;;
+                return;
+        };
+        $smtp-&gt;datasend(&quot;Content-Type: text/plain\n&quot;) || do {
+                print &quot;Error en clásula CONTENT-TYPE\n&quot;;
+                return;
+        };
+        $smtp-&gt;datasend(&quot;\n&quot;) || do {
+                print &quot;Error en clásula HEADER-END\n&quot;;
+                return;
+        };
+        foreach( @$msg ) {
+                $smtp-&gt;datasend(&quot;$_&quot;) || do {
+                print &quot;Error en clásula MSG-BODY\n&quot;;
+                return;
+        };              
+ 
+        $smtp-&gt;dataend() || do {
+                print &quot;Error en clásula DATAEND\n&quot;;
+                return;
+        };
+ 
+        $smtp-&gt;quit || do {
+                print &quot;Error en clásula QUIT\n&quot;;
+                return;
+        };
+ };</pre>
+<p>Ocurre que el código se empieza a hacer bastante confuso porque en cada
+llamada a una sub (o método) tenemos que verificar la condición de error. Si
+bien esto ayuda al fortalecimiento del código (mas bien es indispensable)
+también complica la comprensión del mismo debido a que ataca directamente a
+su linealidad.</p>
+<p>Entonces si no hacemos un chequeo del código de error nuestro sistema se
+debilita y no funciona correctamente (damos por sentado que todo funcionó
+cuando puede no haber ocurrido así), en cambio si lo usamos tenemos
+problemas de legibilidad. Si nos ponemos a analizarlo, en realidad lo que
+nos molesta no es la detección misma de la condición de error, sino todo el
+código necesario para procesarla (en este caso no es abundante y ya resulta
+molesto). Una posible solución sería el poder discernir que parte es
+detección del error y cuál su tratamiento, pudiendo separar el código por
+tarea específica. Por ejemplo :</p>
+<pre>
+ use Error qw(:try);
+ 
+ try {
+        $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                        Port=&gt;$SMTP_port,
+                                        Hello=&gt;$thisMachine, 
+                                        Debug =&gt; $debug );
+        throw Error::Simple( &quot;No puedo mandar e-mail&quot;) unless $smtp;
+ 
+        $smtp-&gt;mail( $from ) || 
+                throw Error::Simple(&quot;Error en clásula MAIL&quot;);
+        $smtp-&gt;to( $to ) ||
+                throw Error::Simple(&quot;Error en clásula TO&quot;);
+ 
+        ## Mucho código innecesario para el ejemplo
+ 
+        $smtp-&gt;dataend() || 
+                throw Error::Simple(&quot;Error en clásula DATAEND&quot;);
+        $smtp-&gt;quit ||
+                throw Error::Simple(&quot;Error en clásula QUIT&quot;);
+ }
+ catch Error::Simple with {
+        my $error = shift;
+ 
+        print &quot;** $error-&gt;{-text}\n&quot;;
+        $smtp = 0; ## destroy the object
+        return;
+ };</pre>
+<p>Casualmente el módulo Error.pm implementa esta funcionalidad, y permite usar
+excepciones de la siguiente forma : dentro del bloque try{} se coloca el
+código que devuelve errores, ya a sea a través de variables o usando un
+mecanismo para arrojar excepciones (sentencia throw{}), y en caso de suceder
+la ejecución del bloque try{} se detiene y comienza la ejecución del bloque
+catch{}. En nuestro ejemplo, si se produce un error al crear un nuevo objeto
+Net::SMTP se creará una excepción (del tipo Error::Simple) que hará que siga
+la ejecución a partir de la sentencia catch{}, pasando una referencia a un
+hash como primer parámetro, y el texto del error (indicado en cada sentencia
+throw) como la clave -text de dicho hash (para conocer otras claves del hash
+puede consultarse la documentación del módulo Error en CPAN).</p>
+<p>Imagínense que si Net::SMTP también utilizara excepciones únicamente
+deberíamos llamar a los métodos correspondientes y la prueba de si hubo
+error se haría dentro del bloque catch{}, sin necesidad de incluirlo en el
+bloque try{}, resultando en un código completamente lineal (o al menos
+desprovisto de distracciones sobre el manejo de errores) :</p>
+<pre>
+ try {
+        $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                        Port=&gt;$SMTP_port,
+                                        Hello=&gt;$thisMachine, 
+                                        Debug =&gt; $debug );
+ 
+        $smtp-&gt;mail( $from );
+        $smtp-&gt;to( $to );
+ 
+        ## Mucho código innecesario para el ejemplo
+ 
+        $smtp-&gt;dataend();
+        $smtp-&gt;quit;
+ }
+ catch Error::Net::SMTP with {
+        my $error = shift;
+ 
+        print &quot;** $error-&gt;{-text}\n&quot;;
+        $smtp = 0;
+        return;
+};</pre>
+<p>Y colorín colorado, este cuento se ha terminado. O será que recién ha
+empezado ??</p>
+<p>
+</p>
+<h3><a name="la_explicación">La explicación</a></h3>
+<p>Vamos a empezar como siempre: por el principio. Básicamente podemos definir
+que una excepción es una situación que no sucede sino en ciertas situaciones
+llamadas no comunes ( o sea, excepcionales :-) ). Y este es exactamente el
+caso de los errores, entonces si volvemos al código para envío de e-mails y
+hacemos un pequeño análisis estadístico vamos a ver que aproximadamente por
+cada línea de código destinada al envío de e-mails (situación normal) hay
+dos líneas dedicadas al manejo de errores (situación de excepción), o sea la
+mayor parte de nuestro código (un 66% aprox.) lo estamos usando en ocasiones
+excepcionales, y además dificulta la lectura del código que implementa las
+funcionalidades principales de nuestro programa : desde todo punto de vista
+un verdadero desastre. Sólo para agregar un insulto adicional, el código que
+maneja las excepciones es muy similar entre si, con lo que ni siquiera nos
+preocupamos por hacer reuso de código (convengamos que aquí sólo se trata
+sólo de una sentencia print, por ser este es un caso muy simplificado).</p>
+<p>Empecemos a trabajar entonces. Si atacamos el reuso de código bien podría
+tratarse de encapsular el tratamiento de errores en una única sub que se
+llame <code>doError()</code> y que en nuestro caso sólo haría un print del texto pasado
+como primer y único parámetro :</p>
+<pre>
+ sub doError($) {
+        my $msg = shift;
+ 
+        print &quot;** Error fatal : $msg\n&quot;;
+ }</pre>
+<p>Ahora bien, si empezamos a investigar en los mecanismos que tiene Perl para
+el manejo de excepciones caemos en nuestros viejos amigos <a href="#item_die"><code>die()</code></a> y eval(). En
+principio cuando se encuentra una situación en la que nuestro código
+encuentra un error este lo puede señalar a través de la ejecución de la
+sentencia <a href="#item_die"><code>die()</code></a> pasando, opcionalmente, un string con la descripción del
+error. Por ejemplo cuando se genera una instancia de Net::SMTP (en nuestra
+sub sendMail) acto seguido se verifica que esta haya generado un valor en la
+variable $smtp y de no ser así se genera una excepción con la instrucción
+die ``No puedo mandar e-mail''. Si ejecutamos el script desde un shell y no
+podemos conectarnos al server de SMTP para enviar e-mails obtendremos el
+siguiente error :</p>
+<pre>
+ No puedo mandar e-mail at ./send.pl line 47.</pre>
+<p>Para hacer esto Perl utiliza un mecanismo de señales heredado de Unix.
+Básicamente las señales son eventos asíncronos que, en Perl, están
+accesibles a través del hash %SIG, y que pueden interceptarse asignando una
+referencia a un código al handler correspondiente a la señal. El mensaje
+generado anteriormente ocurre porque <a href="#item_die"><code>die()</code></a> genera la señal __DIE__ que es
+interceptada por Perl mismo, y hace que se muestre el string pasado a la
+sentencia <a href="#item_die"><code>die()</code></a> y termine la ejecución del script. Básicamente es como si
+Perl colocara un sentencia similar a la siguiente al principio de nuestro
+script para poder interceptar un <a href="#item_die"><code>die()</code></a> :</p>
+<pre>
+ $SIG{__DIE__} = sub { print STDERR $_[0]; exit $!; };</pre>
+<p>Ajhá !! entonces hagamos nuestra propia intercepción de la señal __DIE__ y
+tomemos el control (``dame dame dame todo el power...''). No nos hagamos
+problemas, esto mas o menos ya lo hace el eval(). Mágicamente si envolvemos
+una serie de sentencias de nuestro código con la sentencia <a href="#item_eval"><code>eval()</code></a> esta va a
+realizar una tarea similar, colocando el error que ocurra en el escalar $@ :</p>
+<pre>
+ eval {
+        $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                        Port=&gt;$SMTP_port,
+                                        Hello=&gt;$thisMachine, 
+                                        Debug =&gt; $debug );
+        die &quot;No puedo mandar e-mail&quot; unless $smtp;
+        $smtp-&gt;mail( $from ) || die &quot;Error en clásula MAIL&quot;;
+        $smtp-&gt;to( $to ) || die &quot;Error en clásula TO&quot;;
+ 
+        ## Muuuucho texto quitado por claridad ..
+ 
+        $smtp-&gt;dataend() || die &quot;Error en clásula DATAEND&quot;;
+        $smtp-&gt;quit || die &quot;Error en clásula QUIT&quot;;
+ };
+ if ($@) {
+        doError($@);
+        $smtp = 0; ## destroy the object
+        return;
+ };</pre>
+<p>Bueno bueno, sinceramente ahora si que está todo mucho más claro.</p>
+<p>Llegado a este punto vamos a analizar en dónde estamos ubicados, ver si
+logramos el objetivo, si hay algún efecto colateral y según estos resultados
+veremos de seguir avanzando o no.</p>
+<p>En principio logramos la reusabilidad de código con doError(), linealizamos
+nuestro código y centralizamos el manejo de las excepciones a través de las
+funciones <a href="#item_die"><code>die()</code></a> y eval().</p>
+<p>Ahora compliquemos un poco las cosas, y supongamos que queremos manejar más
+de una excepción, ya que no todos los errores indican lo mismo. Digamos que
+en nuestro ejemplo de enviar e-mails queremos que se tomen distintas
+acciones si hay un error al conectarnos al server (porque lo consideramos
+irrecuperable) o si lo hay dentro del protocolo SMTP porque lo consideramos
+recuperable. En este caso la forma de recuperar será esperar 10 segundos e
+intentar, como máximo 3 veces, el enviar el e-mail. Bueno, ahí vamos ...</p>
+<pre>
+ sub sendMail($$$$$) {
+        my $from = shift;
+        my $to = shift;
+        my $subject = shift;
+        my $msg = shift;
+        my $debug = shift;
+        my $smtp;
+ 
+        for my $tries (1..3) {
+                ## Try to execute ...
+                eval {
+                        $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                                        Port=&gt;$SMTP_port,
+                                                        Hello=&gt;$thisMachine, 
+                                                        Debug =&gt; $debug );
+                        die &quot;No puedo mandar e-mail&quot; unless $smtp;
+ 
+                        $smtp-&gt;mail( $from ) || die &quot;Error en clásula MAIL&quot;;
+                        $smtp-&gt;to( $to ) || die &quot;Error en clásula TO&quot;;
+                        $smtp-&gt;data() || die &quot;Error en clásula DATA&quot;;
+ 
+                        ## Muuuucho texto quitado por claridad ..
+ 
+                        $smtp-&gt;dataend() || die &quot;Error en clásula DATAEND&quot;;
+                        $smtp-&gt;quit || die &quot;Error en clásula QUIT&quot;;
+                };
+ 
+                ## Catch the error ...
+                if ($@) {
+                        $smtp = 0; ## destroy the object
+                        if ( $@ =~ /Error/ ) {
+                                doError (&quot;Error recuperable ($tries)...&quot;);
+                                sleep(10);
+                                next;
+                        };
+                        if ( $@ =~ /No puedo/ ) {
+                                doError(&quot;Error irrecuperable : $@&quot;);
+                                return;
+                        };
+ 
+                        ## Otherwise return
+                        return;
+                };
+        };
+ };
+ 
+ 
+ 
+Muy bien, no sólo hemos logrados nuestros objetivos sino que además podemos
+aplicar distintos tratamientos según los errores que se nos presenten. Pero
+(porque en definitiva uno nunca está satisfecho) nos queda algo pendiente, y
+es que si las subs/métodos no hacen uso de die() entonces tenemos que
+agregar la detección del error y convertirla en una excepción. En nuestro
+ejemplo de envío de e-mails pasa exactamente eso (todos los métodos de
+Net::SMTP indican que hubo un error devolviendo undef ) , entonces debemos
+verificarlo y en tal caso generar la excepción en cada una de las
+invocaciones.</pre>
+<p>En nuestro caso es relativamente simple, pero en grandes cantidades de
+código puede convertirse en un problema, entonces ... por qué no
+solucionarlo ??</p>
+<p>Como siempre viene en nuestra ayuda el amigo CPAN, y por ahí descubrimos un
+modulito que se llama Fatal y que permite exactamente hacer lo que
+necesitamos : en caso que una serie de subs/métodos devuelvan un valor falso
+como indicador de error este módulo los detecta y genera una excepción que
+puede ser capturada con eval(). Basta con que al poner la sentencia use le
+indiquemos qué módulos debe monitorear y quitar las verificaciones y
+sentencias <a href="#item_die"><code>die()</code></a> luego de cada una de los llamadas a los métodos de
+Net::SMTP ... entonces manos a la obra :</p>
+<pre>
+ use Fatal qw(Net::SMTP::new Net::SMTP::mail Net::SMTP::to
+                ## ... y el resto de los módulos ...
+                Net::SMTP::quit);
+ 
+ 
+Al ejecutar el código se genera la excepción como esperamos pero ya no
+detecta si el error se puede recuperar o no, y actuar en consecuencia, sino
+que ante un error termina la ejecución de sendMail sin mas. De vuelta al
+tablero de debugging vemos que en realidad al detectar la secuencia de error
+(comentario Catch the error ...) no reconoce ninguno de los dos strings
+&quot;Error&quot; o &quot;No puedo&quot; y la próxima sentencia que ejecuta es el return que
+sigue a los dos if. Esto ocurre básicamente debido a que usamos el mensaje
+de la excepción (almacenado en $@) para detectar que tipo de error se
+trataba y al delegarlo en el módulo Fatal estos han cambiado. Como ejercicio
+vamos a cambiar el bloque de manejo de errores por el siguiente :</pre>
+<pre>
+        ## Catch the error ...
+        if ($@) {
+                $smtp = 0; ## destroy the object
+                if ( $@ =~ /Error/ ) {
+                        doError (&quot;Error recuperable ($tries)...&quot;);
+                        sleep(10);
+                        next;
+                };
+                if ( $@ =~ /No puedo/ ) {
+                        doError(&quot;Error irrecuperable : $@&quot;);
+                        return;
+                };
+ 
+                ## Otherwise return
+                doError( &quot;Error no reconocido : \n $@&quot;);
+                return;
+        };</pre>
+<p>Si volvemos a ejecutar nos encontramos con la siguiente salida de la
+ejecución :</p>
+<pre>
+ ** Error fatal: Error no reconocido :
+ Can't to(Net::SMTP=GLOB(0x80fb38), victor@bit-manxxxxxxxxxxx.com.ar), $! is &quot;&quot; at (eval 5) line 3
+ main::__ANON__('Net::SMTP=GLOB(0x80fb38)','victor@bit-manxxxxxxxxxxx.com.ar') called at send.pl line 68
+ eval {...} called at send.pl line 60
+ main::sendMail('&quot;V\x{ed}ctor A. Rodr\x{ed}guez&quot; &lt;victor@bit-man.com.ar&gt;','victor@bit-manxxxxxxxxxxx.com.ar','TEST !!!','ARRAY(0x8741cc)',1) called at send.pl line 107</pre>
+<p>que no es sencillamente, nada mas ni nada menos, que el mensaje que coloca
+el módulo Fatal en la variable $@. Si miramos un poco vamos a ver que este
+contiene la sub que provocó el error, con qué argumentos fue llamada y la
+lista de sub que la llamaron (algo así como un stack trace). Evidentemente
+tratar de sacar algo de información este texto para ver si es un error
+recuperable, no recuperable o lo que sea se hace un tanto problemático (por
+no decir imposible, no recomendable ni apto para la salud mental propia o
+ajena).</p>
+<p>Oh, y ahora quién podrá defenderme ... pero nadie viene al rescate, así que
+no queda otra que seguir trabajando si queremos conseguir nuestro objetivo
+extra de linealizar completamente el código y mantener el manejo de
+excepciones en forma separada. Como de costumbre hay una serie de módulos
+que nos permiten hacerlo, y podemos decir que son generalizaciones del
+módulo Fatal que nos dejan no sólo actuar acorde al valor devuelto según sea
+verdadero o falso, sino algo más genérico : interceptar la llamada a una
+función y colocar un wrapper (envoltorio) alrededor de la misma de tal forma
+de ejecutar código antes y después de su ejecución. Así podemos validar el
+código de ejecución de cada sub o método, una vez ejecutado, y realizar la
+excepción a través de un <a href="#item_die"><code>die()</code></a> en caso que sea necesario ... y todo fuera de
+nuestro flujo normal !!!</p>
+<p>Este tipo de módulo se encuentran bajo el namespace Hook, y un muy buen
+ejemplo es Hook::Lexwrap (otros módulos que cumplen una función similar son
+Class::Hook , Hook::Scope, Hook::Heckle, Hook::WrapSub y Hook::PrePostCall
+). Su uso básico es decir a que sub o modos se desea hacer un wrapper ,
+cuándo (antes o después de su ejecución) y qué código ejecutar pasándole una
+referencia al mismo código. Por ejemplo, si queremos generar una excepción
+cuando <code>new()</code> no devuelve una referencia porque la creación del objeto falló
+entonces lo especificamos como un wrapping del método <code>new()</code> correspondiente
+al módulo Net::SMTP (específicamente Net::SMTP::new) pero sólo una vez que
+esta ha sido ejecutada (post) :</p>
+<pre>
+ use Hook::LexWrap;
+ 
+ wrap Net::SMTP::new,
+        post =&gt; sub { 
+                        die(&quot;No puedo mandar e-mail&quot;)
+                                if ! defined $_[-1];
+                };</pre>
+<p>Un breve detalle de implementación : a los argumentos recibidos (array @_ )
+se agrega un elemento uno adicional en el último lugar, y es el valor de
+vuelto por el sub o método. Este puede accederse como el elemento -1 (primer
+elemento desde el final).</p>
+<p>Hasta aquí los objetivos propuestos fueron logrados y seguramente hay muchos
+otros métodos más, con sus tantas y correspondientes ventajas y desventajas,
+que haría imposible la tarea de tratar de terminar de escribir este artículo
+alguna vez.</p>
+<p>Adicionalmente hay un pequeño problema, y es con la implementación de la
+excepción a través del mecanismo de eval()/die(). Esta tiene dos puntos
+débiles :</p>
+<ul>
+<li><strong><a name="item_eval">- <code>eval()</code> atrapado errores de compilación, sintaxis o los generados por <a href="#item_die"><code>die()</code></a>
+con lo que nos encontramos limitados a la detección de errores fatales como
+la imposibilidad de conexión a un dispositivo, a un socket, o la falta de
+implementación de funcionalidades en sistema operativos (symlink, etc.). Si
+bien puede utilizarse para otros propósitos (como en nuestro caso), esta
+implementación no es la pensada originalmente y puede tener sus efectos
+colaterales y las lógicas desviaciones</a></strong><br />
+</li>
+<li><strong><a name="item_códigos">- la única posibilidad de intercambio de información entre el código que
+genera el error y el que debe manejar esta excepción es el escalar $@, y
+este hace que la detección del tipo de error, para su tratamiento
+diferencial, dependa exclusivamente del texto del error. Esto es a todas
+luces erróneo y, básicamente, porque el texto es para comunicación humana,
+en tanto que los códigos (numéricos, alfabéticos, binarios, etc.) son más
+aptos para su uso computacional.</a></strong><br />
+</li>
+</ul>
+<p>Estos dos efectos, más el segundo que le primero, los pudimos sufrir y ver
+en el transcurso de este artículo.</p>
+<p>Una vez más si miramos en CPAN vamos a encontrar que alguien ya tuvo este
+problema y lo solucionó de una forma muy grácil y elegante. El módulo en
+cuestión se llama Error, y básicamente hace el mismo trabajo que estuvimos
+viendo con <a href="#item_eval"><code>eval()</code></a> y <a href="#item_die"><code>die()</code></a> pero encapsulado y con exposición de las
+excepciones a través de un mecanismo Object Oriented (OO - Orientado a
+Objetos) ... sin miedos, que solamente vamos a usar algo simple sin
+necesidad de conocer qué son y cómo se especifican o se codifican los
+objetos ( prometo que, si les interesa, en próximas ediciones de CaFe Perl
+va a aparecer un artículo sobre orientación a objetos y el uso específico
+con el manejo de excepciones ).</p>
+<p>Simplemente este módulo nos permite ejecutar el código que puede devolver
+errores dentro de una sentencia try(), manejar las excepciones en uno o más
+bloques <code>catch()</code> y si ocurre una excepción no especificada atraparla con
+<code>otherwise()</code> ... casualmente como en nuestro código ;-)</p>
+<p>Asimismo cuando detectamos un error, para convertirlo en una excepción lo
+hacemos a través de la función <code>throw()</code> usando una excepción del tipo
+Error::Simple (objeto usado para arrojar excepciones y cuya clase está
+definida en Error.pm ) aceptando el texto del error como único argumento :</p>
+<pre>
+ use Error qw(:try);
+ 
+ sub sendMail($$$$$) {
+        my $from = shift;
+        my $to = shift;
+        my $subject = shift;
+        my $msg = shift;
+        my $debug = shift;
+        my $smtp;
+ 
+        ## Try to execute ...
+        try {
+                $smtp = Net::SMTP-&gt;new( $SMTP_server, 
+                                                Port=&gt;$SMTP_port,
+                                                Hello=&gt;$thisMachine, 
+                                                Debug =&gt; $debug );
+ 
+                throw Error::Simple( &quot;No puedo mandar e-mail&quot; )
+                        unless $smtp;
+ 
+                $smtp-&gt;mail( $from ) 
+                        || throw Error::Simple( &quot;Error en clásula MAIL&quot; );
+                $smtp-&gt;to( $to ) 
+                        || throw Error::Simple(&quot;Error en clásula TO&quot;);
+ 
+                ## Muuuucho texto quitado por claridad ..
+ 
+                $smtp-&gt;quit 
+                        || throw Error::Simple( &quot;Error en clásula QUIT&quot; );
+        }
+ 
+        ## Catch the error ...
+        catch Error::Simple with {
+                my $error = shift; ## como primer argumento un hash con
+                                         ## data sobre el error.
+ 
+                doError( $error-&gt;{-text} );
+                $smtp = 0; ## destroy the object
+                return;
+        }
+ 
+        otherwise {
+                doError(&quot;Untrapped error&quot;);
+                $smtp = 0; ## destroy the object
+        };
+ 
+        return;
+ };
+ 
+ 
+Como ven no hay nada nuevo, simplemente que la implementación es más limpia
+... aunque aún tenemos el problema de tener que verificar y arrojar la
+excepción con throw(), también podemos mezclarla junto con los módulos Fatal
+o Hook::Lexwrap y obtener un manejo de las excepciones mejorado, como lo
+hicimos antes usando eval() y die().</pre>
+<p>
+</p>
+<h3><a name="una_mirada_más_allá">Una mirada más allá</a></h3>
+<p>No cabe duda que ir del manejo de errores al de excepciones es un gran paso
+en la mejora de nuestra capacidad de resolución de problemas. Hay un paso
+adicional, aunque seguramente habrá muchos más, y es el de exception-safety
+(excepciones seguras); este tiene que ver ya no con la linealidad de la
+codificación sino con la consistencia de los datos. Podríamos definir que un
+componente queda en un estado seguro, o consistente, cuando luego de
+producirse un error este no presenta efectos secundarios tales como cambio
+en sus especificaciones, comportamiento, o problemas como el consumo
+contínuo de memoria (memory leaks) y el no cerrado de file handlers. Para el
+caso de exception-safety también se especifica qué nivel de seguridad está
+soportado en el módulo o componente, pudiendo ir desde el ``no compromiso''
+(no hay seguridad de que el comportamiento siga siendo el mismo en caso de
+error) hasta el de ``transparencia a las fallas'' donde se asegura que no
+importa lo que ocurra la operación se llevará a cabo.</p>
+<p>Otro punto importante a destacar, de cara al futuro, es que el mecanismo de
+manejo de excepciones en Perl 6 está modelado según el módulo Error que se
+ve al final de este artículo, y en las siguientes RFCs de Perl 6 pueden ver
+más información sobre este tópico :</p>
+<ul>
+<li><strong><a name="item__2d_rfc_63_3a_exception_handling_syntax">- RFC 63: Exception handling syntax</a></strong><br />
+</li>
+<li><strong><a name="item__2d_rfc_70_3a_allow_exception_2dbased_error_2drepo">- RFC 70: Allow exception-based error-reporting.</a></strong><br />
+</li>
+</ul>
+<ul>
+<li><strong><a name="item__2d_rfc_80_3a_exception_objects_and_classes_for_bu">- RFC 80: Exception objects and classes for builtins</a></strong><br />
+</li>
+<li><strong><a name="item__2d_rfc_88_3a_omnibus_structured_exception_2ferror">- RFC 88: Omnibus Structured Exception/Error Handling Mechanism</a></strong><br />
+</li>
+</ul>
+<ul>
+<li><strong><a name="item__2d_rfc_96_3a_a_base_class_for_exception_objects">- RFC 96: A Base Class for Exception Objects</a></strong><br />
+</li>
+</ul>
+<ul>
+<li><strong><a name="item__2d_rfc_119_3a_object_neutral_error_handling_via_e">- RFC 119: Object neutral error handling via exceptions</a></strong><br />
+</li>
+<li><strong><a name="item__2d_rfc_140_3a_one_should_not_get_away_with_ignori">- RFC 140: One Should Not Get Away With Ignoring System Call Errors</a></strong><br />
+</li>
+<li><strong><a name="item__2d_rfc_151_3a_merge__24_21_2c__24_5ee_2c__24_40_a">- RFC 151: Merge $!, $^E, $@ and $?</a></strong><br />
+</li>
+</ul>
+<p>Que tenga una programación excepcional. Nos vemos la próxima !!!</p>
+<p>
+</p>
+<h3><a name="infografía">Infografía</a></h3>
+<ul>
+<li><strong><a name="item_components">- Exception-Safety in Generic Components
+(http://www.boost.org/more/generic_exception_safety.html)</a></strong><br />
+</li>
+<li><strong><a name="item_handling">- Exception handling (http://en.wikipedia.org/wiki/Exception_handling)</a></strong><br />
+</li>
+<li><strong><a name="item_functions">- Perl builtin functions
+(http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod)</a></strong><br />
+</li>
+<li><strong><a name="item_cookbook">- Perl CookBook (http://www.unix.org.ua/orelly/perl/cookbook/)</a></strong><br />
+</li>
+<li><strong><a name="item_client">- Net::SMTP - Simple Mail Transfer Protocol Client
+(http://search.cpan.org/~gbarr/libnet-1.19/Net/SMTP.pm)</a></strong><br />
+</li>
+<li><strong><a name="item_die">- Fatal - replace functions with equivalents which succeed or die
+(http://search.cpan.org/~nwclark/perl-5.8.7/lib/Fatal.pm)</a></strong><br />
+</li>
+<li><strong><a name="item_way">- Error - Error/exception handling in an OO-ish way
+(http://search.cpan.org/~uarun/Error-0.15/Error.pm)</a></strong><br />
+</li>
+<li><strong>- Project Object Oriented Exception Handling in Perl
+(http://www.perl.com/pub/a/2002/11/14/exception.html)</strong><br />
+</li>
+<li><strong><a name="item_index">- Perl6 RFC Index (http://dev.perl.org/perl6/rfc/)</a></strong><br />
+</li>
+</ul>
+<p>
+</p>
+<h2><a name="poc__peace_of_code_">POC (peace of code)</a></h2>
+<p>por Matías Palomec (<a href="mailto:matias@cafelug.org.ar">matias@cafelug.org.ar</a>)</p>
+<p>La idea de este script es poder mostrar cuál debe ser el contenido de la
+variable DISPLAY para poder usar X-Window en forma remota.</p>
+<p>Originalmente este script eran dos o tres líneas, parseaba el lastlog
+buscando la primer aparición del usuario UNIX. Luego se lo dí a una persona
+que también tiene problemas para encontrar la IP de la máquina que está
+utilizando, y tuve que ir modificando algunas cosas (usar el $ENV{'USER'} en
+vez del usuario a secas).</p>
+<p>La utilidad que tiene es bastante simple, comienza a leer el lastlog,
+buscando el TTY del shell en donde se ejecuta el script, y también el
+usuario. Cuando lo encuentra, saca la IP (ya sea que de la IP de una o que
+tenga que resolverla con el dig). Y al final muestra por pantalla la IP en
+la forma:</p>
+<pre>
+ export DISPLAY=10.10.10.10</pre>
+<p>Esto es más que nada para que ya me quede la línea armada para ponerla en
+algún server y levantar el display remoto sin problemas. Al no usar módulos,
+y los programas externos que uso son muy usuales, es bastante portable
+(salvo por el dig, pero es posible el reemplazarlo por el nslookup).</p>
+<pre>
+ #!/usr/bin/perl -w
+ 
+ my $flag=0;
+ my $tty=`/usr/bin/tty`;my $dig=&quot;/usr/bin/dig&quot;;
+ my $domain=&quot;dominio&quot;;
+ $tty=~s/(\n|\r|\r\n)$//;
+ $tty=~s|/dev/||;
+ my $ip = &quot;&quot;;
+ chop($tty);
+ my $tflag = 1;
+ open(&quot;TMP&quot;,&quot;last|&quot;) || die &quot;No pude ejecutar last: $!&quot;;
+ while (($tflag) &amp;&amp; ($line = &lt;TMP&gt;)){
+        if (($line =~ m/$ENV{'LOGNAME'}/) &amp;&amp; ($line =~ m/$tty/)
+                &amp;&amp; ($line =~ m/still/i)){
+                my @li = split(&quot; &quot;,$line);
+                $ip = $li[2];
+                close(TMP);
+                $tflag = 0;
+        }
+ }
+ if(($ip=~ m/(\d{1,3})?\.(\d{1,3})?\.(\d{1,3})?\.(\d{1,3})?/)
+        &amp;&amp;($1&lt;255)&amp;&amp;($2&lt;255)&amp;&amp;($3&lt; 255)&amp;&amp;($4&lt;255)){
+        $ip=&quot;$1.$2.$3.$4&quot;;
+        $flag=1;
+ }else{
+        @b=split(&quot; &quot;,$ip);
+        $b[2]=~ s/([a-b]*)\..*/$1/;
+        $b[2]=`$dig $b[2].dominio|grep $b[2]|grep -v &quot;^;&quot;|awk '{print \$5}'`;
+        $ip=$b[2];
+        $ip=~s/(\n|\r|\r|n)$//;
+        $flag=1;
+ }
+ print&quot;export DISPLAY=$ip:0\n&quot; if($flag);
+__END__</pre>
+
+</body>
+
+</html>

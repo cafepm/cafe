@@ -1,0 +1,463 @@
+#!/usr/bin/perl -w
+
+## CaFe Perl v0.0
+## Periódico de la Comunidad Perl de Capital Federal
+
+use strict;
+my @index;
+
+$index[0] = 'Editorial';
+$index[1] = 'Actividad de la lista';
+$index[2] = 'PERLitas';
+$index[3] = 'Sudor News';
+$index[4] = 'CaFe Perl en Perl';
+
+foreach ( @index ) {
+    /Editorial/ && do {
+    
+    ## Bienvenidos al "CaFe Perl" !! el boletín oficial del CaFe.pm ...
+    ##
+    ## Es un verdadero gusto para mi, poder presentarles a todos los Perl 
+    ## Mongers de Capital Federal, nuestro primer boletín ! :) Por supuesto,
+    ## que todo esto no sería posible sin alguien detrás del teclado, o mejor
+    ## conocido como "El Editor", y esa persona no es ni más ni menos que el
+    ## Sr. Víctor A. Rodríguez. Mis felicitaciones y la mejor de las suertes
+    ## para "bit-man" ;)
+    ##
+    ## No quiero extenderme demasiado, así que solo espero que todos disfruten 
+    ## de este primer boletín tanto como yo lo hice, y para el próximo número,
+    ## todos podamos colaborar con nuestro granito de arena.
+    ##
+    ## Recuerden que el CaFe.pm, somos todos!!
+    ##
+    ## Saludos,
+    ## Leonardo
+    ##
+    ##
+    ## Bueno, agradezco a Leonardo por la presentación, la libertad y la confianza
+    ## que me esta brindando en este espacio, y también espero estar a la altura
+    ## de CaFe.pm y de las necesidades de cada uno de ustedes.
+    ## Por otro lado me gustaría explicar un poco más el por qué, mi explicación
+    ## personal, de este publicación. Me acuerdo cuando era chico, y esperaba
+    ## que apareciera la revista Anteojito (si, la Billiken también aparecía en 
+    ## casa, no se preocupen), y cuando llegaba no me alcanzaba la cabeza para 
+    ## imaginarme todo lo que podía haber ahí adentro, ni los ojos para leerla,
+    ## ni las manos para armar las cosas que venían. A mi me gustaría que a 
+    ## ustedes les pase los mismo, que cuando vean en su bandeja de e-mail las 
+    ## palabras "CaFe Perl" no puedan esperar para hacer doble click.
+    ##
+    ## Por esto cada una de las secciones tiene su por qué y su cómo, además de
+    ## la motivación. En cada una se pone un esmero en poder entregar no solo un
+    ## contenido concreto sino también en poder plasmar una idea, hasta en las 
+    ## que simplemente parecen una lista de links sin mas.
+    ## Para zambullirnos les cuento la idea de cada una de las secciones :
+    ## 
+    ## Editorial : la puerta de entrada, la presentación, el primer toque y la
+    ##             bienvenida a un nuevo número.
+    ##
+    ## Actividad de la lista : La idea no es hacer un resumen, sino una visión
+    ##                         de alto nivel para tener un panorama de qué pasa
+    ##                         y qué deja de pasar durante el último mes.
+    ##
+    ## Sudor News: cómo hacer que Perl nos deje poner algo en el estómago, y 
+    ##             de paso estar al tanto de lo que le pasa a Perl. Inicialmente 
+    ##             las noticias son orientadas al ámbito local, aunque alguna que
+    ##             otra internacional se va a filtrar.
+    ##
+    ## PERLitas : nada más ni nada menos que esas perlas de Perl que sólo se
+    ##            pueden encontrar prestando atención o hilvanando mucho tiempo
+    ##            de navegación. Nada imposible, pero algo para compartir. Se
+    ##            los aseguro.
+    ##
+    ## CaFe Perl en Perl : se los describo al final de la lista, pero la idea es 
+    ##                     llevar todo un poco más allá es lo que nos hace 
+    ##                     diferentes, únicos y con todo lo necesario para hallar
+    ##                     nuevos horizontes ... y seguir viendo cada vez más lejos.
+    ##
+    ## Bueno, nada, simplemente que disfruten y que en el próximo número no puedan
+    ## esperar a hacer doble click cuando vean "CaFe Perl" en su bandeja de e-mail.
+    ##
+    ## Víctor A. Rodríguez - Bit-Man
+    
+    };
+    
+    /Actividad/ && do {
+
+    ## Actividad de la lista
+    ## =====================
+    ##
+    ## Para aquellos que están muy apurados, y no tienen tiempo de leer los
+    ## mensajes con detenimiento. Para los que leyeron todo pero quieren 
+    ## acordarse hasta el último detalle. Para los que quieren ver las cosas
+    ## que pasaron y como fue evolucionando. Un lugar para todos los dedicados
+    ## a Perl.
+    ## Por esta primera vez incluimos toda la actividad del año 2005 (Enero,
+    ## Febrero y Marzo) peor no se mal acostumbren, normalmente se van a incluir
+    ## los últimos 30 días, y como CaFe Perl va a salir cada principio de mes
+    ## entonces vas a poder ver todo lo que pasó el mes anterior.
+    ##
+    ## Descuento en O'Reilly
+    ## ---------------------
+    ## CaFe.pm ha sido suscripto al O'Reilly User Group Program [1]
+    ## lo que nos hace acreedores de un descuento del 20% en las compras
+    ## de libros publicados [2]
+    ## Adicionalmente pueden obtenerse libros gratis si nos comprometemos
+    ## a hacer un review y publicarlos ... ponete en la cola que están por
+    ## llegar los primeros !!!
+    ##
+    ## [1] http://ug.oreilly.com/
+    ## [2] http://www.oreilly.com/catalog/
+    ##
+    ## ----------------------------------------------------------------------
+    ##
+    ## Conectividad con Oracle
+    ## -----------------------
+    ## Parece ser que la base de datos Oracle desde Perl últimamente está siendo 
+    ## de gran uso. Eso si, hay que tener en cuenta que desde Perl se usa el
+    ## cliente de Oracle para conectarse a la base de datos. Binarios para la
+    ## plataforma adecuada, licencias y compatibilidad suelen ser un problema.
+    ##
+    ## http://mail.pm.org/mailman/private/cafe-pm/2005-March/000043.html
+    ## http://mail.pm.org/mailman/private/cafe-pm/2005-February/000007.html
+    ## ----------------------------------------------------------------------
+    ##
+    ## Manejo de PDF
+    ## -------------
+    ## Cuando se ve la documentación de PDF::Create [1] a primera vista parece
+    ## completa. Más allá de que es una buena documentación, al más pintado se
+    ## le escapa la liebre y hay detalles que faltan, como el manejo y devolución
+    ## de errores por parte del módulo. 
+    ## Soluciones hay muchas [2], y en Perl hay más.
+    ##
+    ## [1] http://search.cpan.org/~ftassin/PDF-Create-0.01/lib/PDF/Create.pm
+    ## [2] http://mail.pm.org/mailman/private/cafe-pm/2005-February/000018.html
+    ## ----------------------------------------------------------------------
+    ##
+    ## GUI en Perl
+    ## -----------
+    ## uno de los mitos en Perl es la interfaz gráfica. Normalmente el uso
+    ## parece estar mas orientado a CLI (texto) o CGI/HTML. Si te interesa
+    ## hay una una serie de tutoriales [1] sobre Perl-GTK como para empezar
+    ## a foguearte.
+    ##
+    ## [1] http://mail.pm.org/mailman/private/cafe-pm/2005-February/000030.html
+    ## ----------------------------------------------------------------------
+    ##
+    ## CPAN nuestro de cada día
+    ## ------------------------
+    ## Muchas veces en nuestro derrotero diario necesitamos hacer tareas que
+    ## en la concepción son simples, pero en los detalles es donde aparecen
+    ## las complicaciones. Dos ejemplos clásicos son la validación de una
+    ## dirección de e-mail [1] o el ajustar una párrafo de texto [2], y como
+    ## de costumbre nuestro amigo CPAN viene en nuestra ayuda, en este caso
+    ## a través de Email::Valid [3] y Text::Autoformat [4]
+    ## También, como es costumbre en Perl, no son los únicos módulos para llevar
+    ## a cabo estar tareas
+    ##
+    ## [1] http://mail.pm.org/mailman/private/cafe-pm/2005-February/000027.html
+    ## [2] http://mail.pm.org/mailman/private/cafe-pm/2005-February/000034.html
+    ## [3] http://search.cpan.org/~maurice/Email-Valid-0.15/Valid.pm
+    ## [4] http://search.cpan.org/dist/Text-Autoformat/
+    ## ----------------------------------------------------------------------
+
+    };
+
+    /PERLitas/ && do {
+    
+    ## PERLitas - F-Prot se vale de Perl
+    ## =================================
+    ## Víctor A. Rodríguez - Bit-Man
+    ##
+    ## Todos sabemos que Perl es la llamada "Duct Tape" de Internet, y básicamente
+    ## porque nos ayuda a unir esas partes que son de distinto material y que
+    ## "no se pegan", algo así como una suerte de "glue logic". También sabemos 
+    ## que esto es muy común entre los sysadmins (yo lo fui, y les puedo asegurar
+    ## que más de uno se asombró de la ductilidad de Perl), pero que lo use una
+    ## empresa como parte de su distribución ?? What is this Macaya, estoy crazy ??
+    ##
+    ## Locuras mas o menos, esto es lo que pasa con FRISK software y su legendario
+    ## producto antivirus F-Prot (también usado por mi hace años, cuando se 
+    ## conseguía a través de los BBSes) que para instalar el producto y buscar
+    ## actualizaciones desde Internet utilizan sendos script de Perl install-f-prot.pl
+    ## y check-updates.pl, respectivamente.
+    ##
+    ## Cuando empecé a ver estos scripts hubo algo que me llamó la atención, y es
+    ## que a pesar de ser scripts (normalmente relacionados con tareas "ad-hoc"
+    ## y por lo tanto alejados de una planificación/codificación mas o menos 
+    ## rigurosa) poseen una estructura bastante bien cuidada como para poder
+    ## ser mantenidos mas o menos fácilmente.
+    ##
+    ## Teniendo esto como mérito, me permito poder extraer algunas buenas y malas
+    ## prácticas (según la ocasión lo amerite, la misma práctica puede ser 
+    ## beneficiosa o no) que nos pueden servir como inspiración. Acá va la primera
+    ##
+    ## Módulos instalados
+    ## ------------------
+    ## Uno de los puntos de Perl al momento del deployment, o uso por un usuario,
+    ## son los módulos, eso que tanta ayuda nos brinda puede convertirse en una
+    ## molestia. Normalmente cuando un módulo quiere ser usado, podemos obtener
+    ## mensaje de error que normalmente pasa a ser Troviandés Básico para el que
+    ## no se encuentra metido de cabeza en Perl :
+    ##
+    ## "Can't locate SOAP.pm in @INC (@INC contains: c:/Alternative/Perl/lib 
+    ## c:/Alterna ive/Perl/site/lib .) at -e line 1.
+    ## BEGIN failed--compilation aborted at -e line 1.
+    ##
+    ## Para evitar esto (no los módulos sino estos mensajes) es que antes de
+    ## usarlos se hace un wrapping con eval() de tal forma que cualquier error
+    ## como el anterior queda atrapado y puede ser consultado a través de $@
+    ## A ser sincero esto no es la primera vez que lo veo, y para ser justicia
+    ## lo había visto en Locale::Maketext implementado en _try_use(), con un
+    ## poco más de pimienta pero básicamente en la misma rama.
+    ##
+    ## Por supuesto que además para cada módulo podríamos ponernos a buscar
+    ## alternativas y ver si están instaladas, haciendo que el script sea un
+    ## poco más inteligente y no dependa de la habilidad del operador. Bueno,
+    ## no será un alternativa de Inteligencia Artificial, pero puede significar
+    ## la diferencia entre que alguien use o no nuestro script.
+    ##
+    ## Warning con el warning
+    ## ----------------------
+    ## Un caso particular de la sección anterior son los warnings. Si bien es
+    ## recomendable habilitar este pragma (vean que en la primer línea del script
+    ## de CaFe Perl está habilitado), podría ser que algún port no lo implemente
+    ## entonces usando el pragma "use warnings" a través de un eval() podría llegar
+    ## a ayudarnos a salir de una embarazosa situación.
+    ##
+    ## A decir verdad, no conozco ningún port de Perl que no tenga implementado
+    ## este pragma, así que si alguien conoce alguno y (de paso) quiere escribir
+    ## un artículo para que aparezca en CaFe Perl, entonces bienvenido sea.
+    ##
+    ## Independencia
+    ## -------------
+    ## Uno de los puntos por los que más llamó la atención Perl es por la 
+    ## portabilidad del código escrito, y fue lo primero que me choqué cuando
+    ## quise hacer scripts que venían del mundo Unix : la llamada a programas
+    ## externos. Todavía me duele la vez que quise enviar un e-mail y no tenía
+    ## implementado sendmail. Justamente a esto me refiero, estos scripts hacen
+    ## un hincapié bastante fuerte en estos, pero en este caso se hace un uso
+    ## bastante cuidadoso porque simplemente estos scripts se usan en el mundo
+    ## Unix, con lo que basta tener en cuenta de utilizar el set común de
+    ## programas a todas las distribuciones (el máximo común denominador) y hacerse
+    ## eco de las diferencias entre ellas, como ser el uso de distintos switches
+    ## a la hora de ejecutarlos en una y otra plataforma
+    ##
+    ## Mucho no siempre es más
+    ## -----------------------
+    ## Y claro en el caso de los nombres de las subs esto está bastante bien 
+    ## hecho, sobre todo porque los nombres son bastantes descriptivos (largos
+    ## si, pero también útiles) y nos ayudan a comprender en una miradita de
+    ## que tarea desempeñan ... lástima que el contenido a veces no ayude
+    ## Que quede claro, mi monitor tiene una cantidad de líneas limitada y mi
+    ## vista no puede discernir qué son esos puntos si el font es más chico
+    ## que 10 puntos, con lo cual si estoy viendo el principio de la sub no puedo
+    ## ver el final (y viceversa) con lo que después de analizar algunas de estas
+    ## puedo terminar con la vista cansada y un poco mareado de subir y bajar la
+    ## pantalla para poder ver todo el código.
+    ##
+    ## Parametrización, pide a gritos la tribuna
+    ## -----------------------------------------
+    ## A esta altura dirán, "uy, este flaco vive criticando" (no es que no tengan
+    ## razón, pero ...) pero esperen que ya estamos terminando. El script de
+    ## instalación tiene al principio una buena cantidad de scalars que no
+    ## necesariamente son de parametrización, también se encuentran mezcladas
+    ## una serie de valores que son de uso interno. Vale aclarar que esto no pasa
+    ## en el script de búsqueda de actualizaciones.
+    ##
+    ## Un tema más es que internamente se utilizan nombres de archivos y que están
+    ## cableados (hardwired) en el código, y que para facilitar el mantenimiento
+    ## no estaría mal ponerlos como parámetros. Me resulta algo raro, porque esta
+    ## práctica es muy usual en los makefiles (no es que esté muy relacionado,
+    ## pero me acabo de acordar y me pareció una bonita nota de color)
+    ##
+    ## Conclusión
+    ## ----------
+    ## Es un poco lo que comenté al principio, y es que como scripts realmente
+    ## cumplen su cometido, pero si pensamos un poco más adelante, y de repente 
+    ## me encuentro trabajando dentro de FRISK software y quisiera convertir este
+    ## trabajo en una serie de módulos, o incluirlos en otro código de forma 
+    ## reusable habría que hacer una serie de cambios como el uso de die(),
+    ## print y las llamadas a system() que podrían llegar a imprimir por pantalla
+    ## (no hay una política global de redirección de STDERR y/o STDOUT a /dev/null
+    ## o a algún scalar para ser usados más tarde).
+    ##
+    ## No nos engañemos, se trata de dos script de mil líneas cada uno y eso no
+    ## asusta a ningún Ingeniero de Software ... ni a ningún buen programador Perl.
+
+    };
+    
+
+    /Sudor/ && do {
+
+    ## Sudor News
+    ## ==========
+    ##
+    ## "... y ganarás el pan con el sudor de tu frente" ... pero con los años
+    ## también vas a usar el mouse y el teclado, y te va a dar tendinitis.
+    ##
+    ## Randal Schwartz's Perls of Wisdom
+    ## ---------------------------------
+    ## El nuevo libro de Randal L. Schwartz (Perls of Wisdom) "es una colección
+    ## de 65 columnas seleccionadas que aparecieron en Linux Magazine, Unix Review 
+    ## y la extinta Web Techniques escritas entre Mayo de 1965 y Julio de 2004"
+    ##
+    ## http://books.slashdot.org/article.pl?sid=05/03/09/2024241
+    ## ----------------------------------------------------------------------
+    ##
+    ## Perl vulnerability (USN-94-1)
+    ## ----------------------------
+    ## Una condición de carrera (race condition) en la función rmtree en el módulo
+    ## File::Path (versiones de Perl previas a la 5.8.4) permite a un usuario local
+    ## el crear binarios con el bit setuid en la rama del directorio que está 
+    ## siendo borrada
+    ## 
+    ## http://marc.theaimsgroup.com/?l=bugtraq&m=111039131424834&w=2
+    ## ----------------------------------------------------------------------
+    ##
+    ## Desarrollador PERL (18-Feb)
+    ## ---------------------------
+    ## Se incorporará para importante proyecto internacional un profesional del
+    ## área de sistemas con conocimientos y experiencia en desarrollo de PERL 
+    ## (excluyente) y administración de Email-server preferentemente con 
+    ## conocimiento de SMTP / email concepts. Se necesita también conocimientos 
+    ## de: Mason, Linux, HTML, XML,Apache, RDBMS/Sql ? PostgreSQL, Oracle, Shell
+    ## scripting,RPM building,deployment CGI,C/C++, DNS,Shell scripting.
+    ## Muy buen dominio del idioma inglés. Indicar si posee ciudadanía europea
+    ##
+    ## http://www.bumeran.com.ar/aplicantes/empleo.ngmf?IDPOST=861600&NPAG=1
+    ## ----------------------------------------------------------------------
+    ##
+    ## Administrador Unix Sr (10-Mar)
+    ## ------------------------------
+    ## El puesto requiere sólidos conocimientos y experiencia mínima comprobable
+    ## de tres años en administración de sistemas Unix (AIX, Solaris, Linux) 
+    ## Oracle, Informix y otras bases de datos relacionales de envergadura, 
+    ## programación en shell script, PERL, herramientas de monitoreo y de backup 
+    ## corporativas. Inútil postularse si no se reunen los requisitos solicitados.
+    ##
+    ## http://www.bumeran.com.ar/aplicantes/empleo.ngmf?IDPOST=873580&NPAG=1
+    ## ----------------------------------------------------------------------
+    ##
+    ## Diseñador avanzado flash, php, perl (7-Mar)
+    ## -------------------------------------------
+    ## Se busca un diseñador no mayor de 25 años para la elaboración de un proyecto.
+    ##
+    ## http://www.computrabajo.com.ar/bt-ofrd-kanontower-0.htm?BqdPalabras=perl
+    ## ----------------------------------------------------------------------
+    ##
+    ## Programador PHP / Mysql / Perl (23-Feb)
+    ## ---------------------------------------
+    ## Programador PHP / Mysql / PERL avanzado, con experiencia en programación
+    ## javascript, MySQL, PostgreSQL, XML, JAVA. Programación orientada a objetos.
+    ## Entorno de trabajo LINUX o UNIX, Apache, CVS, Windows, Dreamweaver. 
+    ## Referencias de proyectos realizados, sus tecnologías y grado de participación.
+    ## Scripting en PERL para automatización de tareas y manejo de servicios. 
+    ## Comprometido con su crecimiento profesional, capaz de integrarse a un equipo 
+    ## de trabajo asumiendo las metas con responsabilidad. Posibilidades de progreso,
+    ## excelente ambiente laboral y condiciones de contratación inmediatas. 
+    ## 20 a 26 años.
+    ##
+    ## http://www.computrabajo.com.ar/bt-ofrd-metrocom-4104.htm?BqdPalabras=perl
+    ## ----------------------------------------------------------------------
+    ##
+    ## Administrador de Sistemas (10-Mar)
+    ## ----------------------------------
+    ## Administración de sistemas Unix (AIX, Solaris, Linux) con experiencia 
+    ## mínima de tres años. Conocimientos de Oracle, Informix o bases de datos 
+    ## relacionales de envergadura. Conocimientos de programación en shell script,
+    ## PERL.
+    ##
+    ## http://www.computrabajo.com.ar/bt-ofrd-aerlan-0.htm?BqdPalabras=perl
+    ## ----------------------------------------------------------------------
+    ##
+    ## Programadores UNIX (8-Mar)
+    ## --------------------------
+    ## Programadores Unix. Exp en Perl, Shell Scripting, Powerbuilder, Sybase, 
+    ## Crystal reports, MQ Series 
+    ##
+    ## http://www.computrabajo.com.ar/bt-ofrd-rosaura-116964.htm?BqdPalabras=perl
+    ## ----------------------------------------------------------------------
+    ##
+    ## DBA Oracle Junior - Ref. DBA 700 (21-Feb)
+    ## -----------------------------------------
+    ## Para importante empresa de telecomunicaciones, incorporaremos Administrador
+    ## de Base de Datos Oracle Junior. Objetivo del Puesto: Dar el soporte de bases
+    ## de datos y Unix para un nuevo proyecto. Descripción de las tareas: Creación
+    ## de tablas, índices, procedures y otros objetos Scripting (shell script, perl,
+    ## awk); Análisis de performance básicos; Administración de usuarios en ambientes
+    ## de desarrollo y test; Administración de IAS 10g. Requerimientos: Profesional
+    ## universitario o estudiante de Sistemas. Nivel medio de idioma Inglés. 
+    ## Experiencia: al menos 1 año de administración de bases de datos Oracle. 
+    ## Conocimientos: Fuertes conocimientos de administración bases de datos Oracle; 
+    ## Conocimientos de Unix/Linux. Deseable: Programación Java, entornos J2EE. Lugar
+    ## de trabajo: Capital Federal. Horario: 9.00 a 18.00. Se ofrece relación de 
+    ## dependencia con Reynox.
+    ##
+    ## http://www.computrabajo.com.ar/bt-ofrd-solcito-129276.htm?BqdPalabras=perl
+    ## ----------------------------------------------------------------------
+    ##
+    ## Experienced UNIX perl+mysql programmer for web applications (5-Mar)
+    ## -------------------------------------------------------------------
+    ## We are looking for a *NIX perl programmer in Argentina for an off-site 
+    ## position.  
+    ## Required skills: Perl, OOPerl, DBI, CGI, apache
+    ## Desired skills: mod_perl, PHP, C/C++, Java, DHTML/JS/DOM.
+    ##
+    ## http://jobs.perl.org/job/2284
+    ## ----------------------------------------------------------------------
+    ##
+    ## Varios agrupados
+    ## ----------------
+    ## http://www.lawebdelprogramador.com/trabajo/buscar.php?pais=Argentina&cadena=perl
+    ## ----------------------------------------------------------------------
+    
+    };
+
+    /CaFe Perl/ && do {
+
+    ## CaFe Perl en Perl
+    ## =================
+    ## Víctor A. Rodríguez - Bit-Man
+    ##
+    ## Hola. Saben qué ?? Resulta que es mi segunda experiencia editorial, la
+    ## primera fue hace como 20 años cuando apenas empezaba a hablarse de 
+    ## Desktop Publishing ... en una XT 10 MHz. Ahora existe, y desde entonces el
+    ## tijeretazo & plasticola pasó a ser Copy & Paste. Hace 20 años tampoco 
+    ## existía Perl y como ya puede editar una publicación completamente en forma
+    ## electrónica me doy cuenta que me encantaría poder tener una serie de 
+    ## herramientas para poder editar "CaFe Perl" ... pero que tengan la
+    ## flexibilidad de Perl y además estén hechas en Perl !!!
+    ##
+    ## Bien entonces, ese es el desafío que podemos enfrentar. Claro que es
+    ## mucho mejor si lo hacemos entre todos, cada uno aportando lo suyo.
+    ##
+    ## Qué se necesita ?? 
+    ## ------------------
+    ## En principio lo que estoy usando es un editor de texto para programación
+    ## llamado jEdit (http://www.jedit.org/) que está hecho en Java (como ven
+    ## adoro la portabilidad) y un chequedor de sintaxis que a veces es aspell
+    ## (http://aspell.sourceforge.net/) y otras es el famoso Ispell 
+    ## (http://www.gnu.org/software/ispell/ispell.html), así que si conocen
+    ## software hecho en Perl que cumpla con estas funcionalidades (o aunque sea
+    ## solo en parte), desarrollaron o están pensando en desarrollar algo así 
+    ## en Perl ya saben qué hacer !!
+    ##
+    ## Qué más se puede aportar ??
+    ## ---------------------------
+    ## Lo que se les ocurra que pueda ayudar en las tareas de edición, o lo que
+    ## crean conveniente pueda ser útil : trozos de código, referencias a programas
+    ## o lo que tengan a mano. Todo es útil !!
+    ## 
+    ## Cómo nos comunicamos ?? 
+    ## -----------------------
+    ## Simplemente a través de la lista Cafe-pm, enviando un e-mail a cafe-pm@pm.org
+    ## nuestro órgano de comunicación !!
+    ##
+    ## Y como llamamos al proyecto ??
+    ## ------------------------------
+    ## Una buena pregunta, y un buen comienzo para participar. Los nombres podemos
+    ## ir proponiéndolos en la lista y después elegir el que más nos convenza.
+
+    };
+
+};

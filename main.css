@@ -1,0 +1,36 @@
+body { 
+    font-family: arial, helvetica, sans-serif;
+}
+
+SPAN.justify {
+    text-align: justify;
+}
+
+SPAN.center {
+    text-align: center;
+}
+
+SPAN.red {
+    color: red;
+    background-color: white;
+}
+
+div.resaltado {
+    background-color: #FFEEEE;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+div.participar {
+        background-color:#F5FFFA; text-align: justify;
+	border:2px solid #CEF2E0;
+	padding: 8px;
+}
+
+div.eventos {
+	background-color:#F5FFFA;
+	font-family: Verdana;
+	font-size: 10px;
+        border:2px solid #CEF2E0;
+}
+

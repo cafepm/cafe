@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>XML::Simple (2)</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text20.html">Back</a> <a href="text22.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img21.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>XML::Simple (Generaci&oacute;n/Lectura)</b></i></font></h1><p>
+<ul><li><h2>use <b><font color=#0000FF>XML::Simple;</b></font></h2>
+<li><h2><font color=#CC6633>## Nombre de archivo</font></h2>
+<li><h2>my $ref1 = <b><font color=#FF0000>XMLin</b></font>('survey.xml');</h2>
+<li><h2><font color=#CC6633>## Nombre de archivo (directorio actual, script.xml)</font></h2>
+<li><h2>my $ref1a = <b><font color=#FF0000>XMLin</b></font>();</h2>
+<li><h2><font color=#CC6633>## Nombre de archivo (directorio actual + otros directorios</font>)</h2>
+<li><h2>my $ref1b = <b><font color=#FF0000>XMLin</b></font>(undef, </h2>
+<ul><li> SearchPath =&gt; ['/etc', '/usr/local/etc']);
+</ul></ul></ul></ul></ul><li><h2><font color=#CC6633>## String con XML</font></h2>
+<li><h2>my $ref2 = <b><font color=#FF0000>XMLin</b></font>('&lt;Survey&gt;&lt;name&gt;Bit-Man&lt;/name&gt;&lt;/Survey&gt;');</h2>
+<li><h2><font color=#CC6633>## IO::Handle object</font></h2>
+<li><h2>$fh = new IO::File('survey.xml');</h2>
+<li><h2>my $ref3 = <b><font color=#FF0000>XMLin</b></font>($fh);</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

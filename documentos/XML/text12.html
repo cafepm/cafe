@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>inline</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text11.html">Back</a> <a href="text13.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img12.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>Generaci&oacute;n de XML (inline)</b></i></font></h1><p>
+<ul><li><h2><font color=#FF0000></font></h2>
+<li><h2><font color=#FF0000>#!/usr/bin/perl</font></h2>
+<li><h2>use warnings;</h2>
+<li><h2>use strict;</h2>
+<li><h2>my <b><font color=#0000FF>$nombre</b></font> = shift @ARGV || <font color=#FF00FF>&quot;Celebridad an&oacute;nima&quot;</font>;</h2>
+<li><h2>my <b><font color=#0000FF>$encuesta</b></font> = shift @ARGV || <font color=#FF00FF>&quot;CaFePM.2005.Abr&quot;</font>;</h2>
+<li><h2>my $xml = &lt;&lt;<font color=#FF0000>DATA</font>;</h2>
+<li><h2><b>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;</b></h2>
+<li><h2><b>&lt;Survey  id=&quot;<font color=#0000FF>$encuesta</font>&quot;&gt;</b></h2>
+<ul><li><b>&lt;name&gt;<font color=#0000FF>$nombre</font>&lt;/name&gt;</b>
+<li><b>&lt;Answers nQuest=&quot;9&quot;&gt;</b>
+<li><b>&lt;/Answers&gt;</b>
+</ul><li><h2><b>&lt;/Survey&gt;</b></h2>
+<li><h2><font color=#FF0000>DATA</font></h2>
+<li><h2><font color=#FF0000></font></h2>
+<li><h2><font color=#996633>## Procesar contenido XML dentro ubicado en $xml</font></h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

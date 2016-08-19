@@ -1,0 +1,188 @@
+<html>
+
+ <head>
+  <title>Review de "Apache Security"</title>
+ <head>
+
+ <body>
+
+  <center>
+   <table cellpadding=0 cellspacing=0 width=90% border=0>
+    <tr>
+     <td>
+      <center>
+       <font face=arial size=6 color=blue><b>CaFe.pm - Perl Mongers de Capital Federal</b></font><br>
+       <font face=arial size=4 color=blue><b>http://cafe.pm.org/</b></font><br>
+      </center>
+      <hr>
+
+      <br>     
+
+      <table cellpadding=0 cellspacing=0 width=100% border=0>
+       <tr>
+        <td align="center" valign="top" width="30%">
+         <img src="apachesc.s.gif" width=145 height=190>
+        </td>
+        <td>
+         <font face=arial>
+         <font size=4><b>Review de "Apache Security"</b></font>
+         <br><br>
+         <font>por Leonardo Pig&ntilde;er (lpigner@gmail.com)</font>
+         <br><br><br>
+         Autor: Ivan Ristic<br>
+         Editorial: O'Reilly (Primera Edici&oacute;n Marzo del 2005)<br>
+         ISBN: 0-596-00724-8
+         </font>
+        </td>
+       </tr>
+      </table>
+
+      <br>
+
+      <hr>
+
+      <br>
+
+      <font face=arial size=4><b>Introducci&oacute;n</b></font>
+      <font face="arial">
+      <p align=justify>
+      Cuando este libro llego a mis manos, no ten&iacute;a demasiadas expectativas con lo que me iba a encontrar, pero
+      tras una breve ojeada al &iacute;ndice, y al contenido en general, eso r&aacute;pidamente cambio. Mi ansiedad por leerlo
+      fue mayor aun, cuando me di cuenta que el autor del libro, Ivan Ristic, era el mismo que cre&oacute; el conocido
+      modulo de seguridad para Apache, llamado mod_security, el cual tambi&eacute;n esta cubierto en esta publicaci&oacute;n.
+      <br><br>
+      Luego de haber le&iacute;do este libro, puedo decir que finalmente encontr&eacute; un recurso sobre seguridad en Apache
+      que es realmente completo, donde por lo general, podemos encontrar numerosos manuales y gu&iacute;as, que nunca
+      terminan de tratar todos los temas correctamente. Para todos los que se dedican al desarrollo, o a la administraci&oacute;n
+      de sistemas, este libro es m&aacute;s que recomendable para tenerlo en la biblioteca.
+      <br><br>
+      A continuaci&oacute;n iremos repasando cada uno de los cap&iacute;tulos de Apache Security:<br>
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 1 - Apache Security Principles</b></font>
+
+      <p align=justify>
+      Muy brevemente, el autor repasa algunas pol&iacute;ticas, definiciones, y convenciones de seguridad que se ver&aacute;n
+      a lo largo del libro, nada muy novedoso, pero para los que reci&eacute;n comienzan a meterse en la seguridad les
+      puede venir bien.       
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 2 - Installation and Configuration</b></font>
+
+      <p align=justify>
+      Una de las bases para una buena arquitectura de seguridad, de cualquier software que usemos, es una correcta
+      instalaci&oacute;n del producto. Sin dudas el autor esta consciente de esto, y hace una detallada explicaci&oacute;n de como
+      instalar Apache, como elegir apropiadamente los m&oacute;dulos que necesitamos, y cual es la mejor forma de asegurarlo.
+      <br><br>
+      Una de las cosas que me sorprendi&oacute;, porque raramente lo encontramos en gu&iacute;as y manuales, y a mi juicio es muy
+      importante, es que cubre como ocultar la informaci&oacute;n que brinda Apache para que sea m&aacute;s dif&iacute;cil identificarlo
+      con respecto a otro servidor web, y que tambi&eacute;n explica como "encerrar" al servidor, para que en caso de que posea
+      alguna vulnerabilidad y un atacante logre tomar control de el, no pueda salir hacia el sistema operativo.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 3 - PHP</b></font>
+
+      <p align=justify>
+      Ultimamente PHP se ha vuelto bastante popular para programar aplicaciones web, y junto con Apache, ya son como el
+      fernet con coca. En este cap&iacute;tulo, y en pocas hojas, podemos ver como instalar PHP con Apache de forma segura.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 4 - SSL and TLS</b></font>
+
+      <p align=justify>
+      Este es un cap&iacute;tulo interesante. Comienza con una primera parte teorica, en donde muy claramente, se explica la
+      necesidad de usar SSL, los diferentes tipos de criptograf&iacute;a, la historia de SSL, las ventajas y desventajas
+      que el protocolo SSL posee, y el funcionamiento de OpenSSL.
+      <br><br>
+      En una segunda parte, ya entramos mas a lo t&eacute;cnico, y vemos como instalar el modulo mod_ssl en Apache. Algo que
+      encuentro realmente bueno, es que esta explicado detalladamente, como generar los certificados digitales, y como
+      usarlos de las diferentes formas posibles con entidades certificantes.      
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 5 - Denial of Service Attacks</b></font>
+
+      <p align=justify>
+      Para los que no conocen demasiado sobre ataques de denegaci&oacute;n de servicio, este cap&iacute;tulo puede ser muy
+      instructivo. No solo cubre los conocidos ataques de DoS remotos, sino tambi&eacute;n los que se generan a partir
+      de pobres configuraciones de Apache, algunos DoS que se pueden hacer localmente, y varios tips para
+      prevenirlos a todos ellos.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 6 - Sharing Servers</b></font>
+
+      <p align=justify>
+      Nuevamente un cap&iacute;tulo que me sorprende. El principal foco de este cap&iacute;tulo, es la problem&aacute;tica de tener
+      numerosos usuarios con acceso al sistema, para que puedan actualizar sus websites, y el peligro que
+      representan los scripts que estos puedan usar. Vamos a encontrar muy buenos consejos para setear permisos
+      de directorios correctamente, y para que desde un script subido por un usuario no se pueda comprometer
+      todo el sistema.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 7 - Access Control</b></font>
+
+      <p align=justify>
+      Un cap&iacute;tulo muy breve, donde encontramos los m&eacute;todos b&aacute;sicos de autenticaci&oacute;n que posee Apache, para acceder a un
+      recurso determinado. Tambi&eacute;n hay un breve ejemplo, de como filtrar el acceso por la IP de origen del cliente,
+      lo que suele ser muy &uacute;til.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 8 - Logging and Monitoring</b></font>
+
+      <p align=justify>
+      La problem&aacute;tica del logging es muy importante, no solo para Apache sino para cualquier sistema, y en este
+      cap&iacute;tulo esta muy bien tratado. De una manera clara y concisa, el autor explica como interpretar los logs,
+      que cosas loguear, las diferentes formas en que podemos realizar el logging, como mantener los logs y las
+      estrategias que podemos usar para ello. Tambi&eacute;n muestra algunas herramientas para realizar estad&iacute;sticas y
+      monitoreo de los logs, y hasta el c&oacute;digo de algunos scripts que nos pueden servir, por supuesto en Perl!
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 9 - Infrastructure</b></font>
+
+      <p align=justify>
+      Este es un cap&iacute;tulo bastante te&oacute;rico. En una primera parte, vamos a encontrar una serie de pol&iacute;ticas de
+      seguridad b&aacute;sicas, que todo buen admin de sistemas (yo no conozco a ninguno) deber&iacute;a conocer, para mantener
+      a sus servidores seguros.<br><br>
+
+      La segunda parte, se vuelve un poco mas entretenida, y encontramos por ejemplo, diferentes dise&ntilde;os que podemos
+      realizar para situar nuestros servidores web dentro de la arquitectura de seguridad de nuestra red. Tambi&eacute;n
+      es muy interesante el trato que se le da a los Proxys Reversos, que no suelen ser muy populares, pero si
+      extremadamente &uacute;tiles.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 10 - Web Application Security</b></font>
+
+      <p align=justify>
+      La programaci&oacute;n segura de aplicaciones, es un tema que dar&iacute;a para libros completos, y es imposible de cubrir
+      en un simple cap&iacute;tulo. El autor consciente de ello, describe los errores m&aacute;s comunes que se pueden cometer
+      al programar una aplicaci&oacute;n web, y brinda una gran cantidad de links a diferentes recursos, para que el lector
+      pueda seguir investigando sobre ello.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 11 - Web Security Assessment</b></font>
+
+      <p align=justify>
+      Otro cap&iacute;tulo interesante, el autor describe como comprobar la seguridad de nuestro servidor web, utilizando
+      las mismas t&eacute;cnicas que un atacante externo usar&iacute;a. Luego, explica lo mismo pero con una metodolog&iacute;a diferente,
+      en donde al realizar los ataques ya poseemos informaci&oacute;n interna, como el c&oacute;digo fuente de las aplicaciones, o
+      la configuraci&oacute;n del Apache, por ejemplo. 
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 12 - Web Intrusion Detection</b></font>
+
+      <p align=justify>
+      Finalmente llegamos a la salsa del autor, mod_security. El cap&iacute;tulo comienza con un poco de teor&iacute;a sobre los
+      IDS (Intrusion Detection System), y luego se vuelca de lleno a mod_security. Este m&oacute;dulo le brinda a una
+      instalaci&oacute;n de Apache, un valor agregado inmenso, en lo que respecta a su seguridad, y deber&iacute;a ser tenido en
+      cuenta por cualquier buen admin de sistemas que se precie de serlo.
+      </p>
+
+     </font>
+
+     </td>
+    </tr>
+   </table>
+  </center>
+
+ </body>
+
+<html>

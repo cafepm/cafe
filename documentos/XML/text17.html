@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>Expat</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text16.html">Back</a> <a href="text18.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img17.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>Parsing (XML::Parser / Expat)</b></i></font></h1><p>
+<ul><li><h2>use <b><font color=#0000FF>XML::Parser</b></font>;</h2>
+<li><h2>my $p = new <b><font color=#0000FF>XML::Parser</b></font>(Handlers =&gt; {Start =&gt; \&amp;<b><font color=#FF0000>handle_start</b></font>,</h2>
+<li><h2>                                     End   =&gt; \&amp;<b><font color=#FF0000>handle_end</b></font> });</h2>
+<li><h2>$p-&gt;parsefile('<b>survey.xml</b>');</h2>
+<li><h2><b>sub</b> <b><font color=#FF0000>handle_start</b></font> {</h2>
+<li><h2>    my ($expat, $element, %attr) = @_;</h2>
+<li><h2>    <b>print</b> &quot;$element\n&quot;;</h2>
+<li><h2>    <b>print</b> &quot;$_ =&gt; $attr{$_}\n&quot;</h2>
+<li><h2>        <b>foreach</b> (keys %attr);</h2>
+<li><h2>    <b>print</b> &quot;-&quot; x 40 . &quot;\n&quot;;</h2>
+<li><h2>};</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

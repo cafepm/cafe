@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>uninstall</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text17.html">Back</a> <a href="text19.html">Continue</a> <a href="text24.html">Last page</a> <a href="CPAN.html">Overview</a> <a href="img18.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>C&oacute;mo desinstalo un m&oacute;dulo ?</b></i></font></h1><p>
+<ul><li><h2>Usando los m&oacute;dulos <b>ExtUtils::Installed</b> y <b>ExtUtils::Packlist</b></h2>
+<li><h2><font color=#FF0000>#!/usr/bin/perl</font></h2>
+<li><h2>use strict;</h2>
+<li><h2>use warnings;</h2>
+<li><h2>use <b><font color=#0000FF>ExtUtils::Packlist</b></font>;</h2>
+<li><h2>use <b><font color=#0000FF>ExtUtils::Installed</b></font>;</h2>
+<li><h2>$ARGV[0] or die &quot;Usage: $0 Module::Name\n&quot;;</h2>
+<li><h2>my $mod = $ARGV[0]; </h2>
+<li><h2>my $inst = ExtUtils::Installed-&gt;<font color=#008000>new</font>();</h2>
+<li><h2>foreach my $item (sort($inst-&gt;<font color=#008000>files</font>($mod))) {</h2>
+<ul><li>print &quot;removing $item\n&quot;;
+<li>unlink $item;
+</ul><li><h2>}</h2>
+<li><h2>my $packfile = $inst-&gt;<font color=#008000>packlist</font>($mod)-&gt;<font color=#008000>packlist_file</font>();</h2>
+<li><h2>print &quot;removing $packfile\n&quot;;</h2>
+<li><h2>unlink $packfile;</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

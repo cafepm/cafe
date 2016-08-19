@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>Expat 2</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text17.html">Back</a> <a href="text19.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img18.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>Parsing (XML::Parser / Expat)</b></i></font></h1><p>
+<ul><li><h2>use <b><font color=#0000FF>XML::Parser</b></font>;</h2>
+<li><h2>my $p = new <b><font color=#0000FF>XML::Parser</b></font>(Handlers =&gt; {Start =&gt; \&amp;<b><font color=#FF0000>handle_start</b></font>,</h2>
+<li><h2>                                     Char  =&gt; \&amp;<b><font color=#FF0000>handle_char</b></font>});</h2>
+<li><h2>$p-&gt;parsefile('<b>survey.xml</b>');</h2>
+<li><h2>print &quot;Nombre : $name\n&quot;;;</h2>
+<li><h2><b>sub</b> <b><font color=#800000>handle_start</b></font>() {</h2>
+<li><h2>    my ($expat, $element, %attr) = <b>@_</b>;</h2>
+<li><h2>    <b>return</b> if ( $element ne &quot;name&quot; );</h2>
+<li><h2>    <b><i><font color=#9999CC>$foundName</i></font><font color=#E6E64C> </b></font>= 1;</h2>
+<li><h2>};</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

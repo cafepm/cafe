@@ -1,0 +1,488 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.4  (Win32)">
+	<META NAME="CREATED" CONTENT="20050601;171000">
+	<META NAME="CHANGED" CONTENT="20051215;18253436">
+	<META NAME="SDFOOTNOTE" CONTENT=";;;;P">
+	<META NAME="SDENDNOTE" CONTENT="ARABIC">
+	<STYLE>
+	<!--
+		@page { size: 21cm 29.7cm; margin-left: 3.18cm; margin-right: 3.18cm; margin-top: 2.54cm; margin-bottom: 2.54cm }
+		P { margin-bottom: 0.21cm; text-align: justify }
+		P.western { font-family: "Futura"; font-size: 10pt; font-weight: medium }
+		H2 { margin-bottom: 0.21cm; text-align: justify }
+		H2.western { font-family: "Bitstream Vera Sans", sans-serif; font-size: 14pt; font-style: italic }
+		H2.cjk { font-family: "HG Mincho Light J", "MS Mincho", "HG Mincho J", "HG Mincho L", "HG Mincho", "Mincho", "MS PMincho", "HG Mincho Light J", "MS Gothic", "HG Gothic J", "HG Gothic B", "HG Gothic", "Gothic", "MS PGothic", "Andale Sans UI", "Arial Unicode MS", "Lucida Sans Unicode", "Tahoma"; font-size: 14pt; font-style: italic }
+		H2.ctl { font-family: "Lucidasans"; font-size: 14pt; font-style: italic }
+		PRE { text-align: justify }
+		PRE.western { font-weight: medium }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-AR" DIR="LTR">
+<H2 CLASS="western">Mordiditas de aqu&iacute; y de all&aacute;</H2>
+<H2 CLASS="western">Bits and Pieces - Typeglobs</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Generalmente las cosas y lo afectos, se valoran
+cuando se conocen,  y esta valoraci&oacute;n se acrecienta a&uacute;n
+m&aacute;s cuando los perdemos. Los typeglobs no son la excepci&oacute;n.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Yendo a lo nuestro, los typeglobs son la forma de
+acceder a las tablas de s&iacute;mbolos   (symbol tables) de perl.
+Pero ... qu&eacute; es esto ??</P>
+<P CLASS="western">Cada vez que perl guarda un scalar, array, hash,
+sub, file handle o nombre de package (m&oacute;dulo) lo hace con la
+estructura que vimos en el n&uacute;mero anterior (CaFe Perl 0.7b)
+pero la forma de direccionarlo/accederlo es a trav&eacute;s de un
+hash, relacionado con el namespace y nombre del dato. Esta estructura
+interna es accesible desde un programa de usuario, a trav&eacute;s de
+la siguiente estructura :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">*package::variable{SCALAR}	## \$package::variable
+*package::array{ARRAY}		## \@package::array
+*package::hash{HASH}		## \%package::hash
+*package::sub{CODE}		## \&amp;package::sub
+<SPAN STYLE="font-weight: medium">*package::glob{GLOB}		## \*</SPAN>package::glob
+*package::filehandle{IO}	## file handle interno, no hay equivalente
+*package::name{NAME}		## nombre de un s&iacute;mbolo
+*package::package{PACKAGE}	## nombre del package
+</PRE><P CLASS="western">
+Noten que esta variable se accede con el prefijo (sigil) asterisco
+(*).</P>
+<P CLASS="western">De esta forma si tenemos el siguiente  package :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">package myTest;
+
+$DEBUG = 1;
+
+sub DEBUG() {
+	return &ldquo;Esto es una rutina de debugging&rdquo;;
+};
+
+1;</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">el acceso a cada una de las estructuras es como
+sigue :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">$myTest::DEBUG;			## scalar DEBUG, forma tradicional.
+${ *myTest::DEBUG{SCALAR} };	## scalar DEBUG
+${ *myTest::DEBUG };		## scalar DEBUG
+&amp;{ *myTest::DEBUG{CODE} };	## sub DEBUG
+&amp;{ *myTest::DEBUG };		## sub DEBUG
+*myTest::DEBUG-&gt;();		## sub DEBUG
+</PRE><P CLASS="western">
+Hay algo m&aacute;s que interesante, y caracter&iacute;stico de perl,
+que es el manejo del contexto. Vemos como un scalar puede ser
+accedido bien a trav&eacute;s de la key SCALAR o bien anteponiendo el
+sigil $, indicando que se desea la key SCALAR del hash (lo mismo
+ocurre con CODE y el sigil &amp; o cualquiera de las otras
+estructuras). Como generalizaci&oacute;n el programa principal tiene
+como nombre de m&oacute;dulo main y los typeglobs correspondientes se
+acceden como *:: o *main::</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Hasta ac&aacute; no se trata nada mas ni nada
+menos que lo que se suele llamar como &ldquo;sintactic sugar&rdquo;
+(&ldquo;az&uacute;car sint&aacute;ctica&rdquo; o &ldquo;quiero que el
+c&oacute;digo se vea lindo como a mi me gusta&rdquo;), ya que no es
+m&aacute;s que otra forma de acceder los mismos datos que venimos
+accediendo desde nuestro primer programa Perl ... o al menos lo
+usamos as&iacute; hasta ahora. Analicemos un poco m&aacute;s en
+detalle.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">El que tengamos acceso a la estructura de c&oacute;mo
+Perl busca los datos en memoria nos puede ayudar a manipularlo en
+ciertas formas y ocasiones. Por ejemplo el typeglob *main::var1
+contiene referencias a todas las estructuras ubicadas en el programa
+principal cuyo nombre comienza con var1 ($var1, @var1, etc.) y algo
+similar ocurre con el typeglob *main::var2, que a su vez ambos son
+referencias a un hash que contiene las estructuras de datos
+correspondientes, con lo cual si una de ellas le asignamos la otra lo
+que estamos haciendo es, por ejemplo, copiar la referencia de var2 a
+var1 y ambas van a representar el mismo hash ... lo que equivale a
+generar dos puntos de entrada distintos a las mismas variable pero
+con distinto nombre !!!.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Tomemos el siguiente c&oacute;digo :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">local *var1;
+$var1 = &quot;Esto es un scalar&quot;;
+$var1{'aaa'} = 'bbbb';
+$var1{'ccc'} = 'dddd';
+push @var1, 'eeeee';
+push @var1, 'fffff';
+push @var1, 'ggggg';
+
+print &quot;-&quot; x 40 . &quot;\n&quot;;
+my $refScalar = *var1{SCALAR};
+print &quot;Scalar =&gt; &quot;. $$refScalar . &quot;\n&quot;;
+
+my $refArray = *var1{ARRAY};
+foreach ( @$refArray ) {
+    print &quot;Array  =&gt; $_\n&quot;;
+};
+
+my $refHash = *var1{HASH};
+foreach ( keys %$refHash ) {
+    print &quot;Hash   =&gt; $_ : &quot;. $refHash-&gt;{$_} .&quot;\n&quot;;
+};
+
+print &quot;-&quot; x 40 . &quot;\n&quot;;
+local $var2 = &quot;Nada 2&quot;;
+*var1 = \$var2;
+my $refScalar = *var1{SCALAR};
+print &quot;Scalar =&gt; &quot;. $$refScalar . &quot;\n&quot;;
+
+$refArray = *var1{ARRAY};
+foreach ( @$refArray ) {   ## Sigue existiendo el ARRAY
+    print &quot;Array  =&gt; $_\n&quot;;
+};
+
+
+print &quot;-&quot; x 40 . &quot;\n&quot;;
+local $var3 = &quot;Nada 3&quot;;
+*var1 = *var3;
+my $refScalar = *var1{SCALAR};
+print &quot;Scalar =&gt; &quot;. $$refScalar . &quot;\n&quot;;
+
+$refArray = *var1{ARRAY};
+foreach ( @$refArray ) {   ## NO HAY ARRAY
+    print &quot;Array  =&gt; $_\n&quot;;
+};</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">la salida que obtenemos al ejecutarlo es :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">----------------------------------------
+Scalar =&gt; Esto es un scalar
+Array  =&gt; eeeee
+Array  =&gt; fffff
+Array  =&gt; ggggg
+Hash   =&gt; aaa : bbbb
+Hash   =&gt; ccc : dddd
+----------------------------------------
+Scalar =&gt; Nada 2
+Array  =&gt; eeeee
+Array  =&gt; fffff
+Array  =&gt; ggggg
+----------------------------------------
+Scalar =&gt; Nada 3</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">En el primer bloque simplemente accedimos las
+variables con el nombre var1 a trav&eacute;s de su correspondiente
+typeglob *var1, que es lo que ven&iacute;amos viendo hasta ahora,
+pero en el segundo bloque hicimos algo un poco m&aacute;s interesante
+: asignar a la referencia de $var2 a $var1 (*var1 = \$var2), de tal
+forma que todo el namespace main::var1 siga igual excepto $var1 que
+ahora apunta al contenido de $var2 (y se sigue accediendo como $var1
+!!!). En el tercer bloque se hizo lo mismo peor a un nivel global,
+reemplazando todo el namespace main::var1 por main::var3 (*var1 =
+*var3).</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Copias, copias y m&aacute;s copias sabemos que es
+la base de la econom&iacute;a de escalas : producir lo mismo
+infinitamente y reducir los costos fijos a una suma infinitesimal,
+pero ... y d&oacute;nde queda el arte, la inventiva, el ocio
+creativo, eh ??</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Hay algo muy particular en esto, y es que al poder
+manipular los typeglobs podemos hacer lo propio con los namespaces de
+un package (no nos olvidemos que al programa principal lleva main
+como nombre de package), y en lugar de copiar una estructura podemos
+inyectarle un nuevo valor dentro de la misma. Trat&aacute;ndose de un
+scalar o un hash no es m&aacute;s que una asignaci&oacute;n hecha de
+otra forma, pero trat&aacute;ndose de c&oacute;digo ... mmmm ...
+podemos generar nuevas sub dentro del namespace del package que
+necesitemos. Ah&iacute; va un ejemplo :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">use strict;
+
+sub installsub($$) {
+    my $glob = shift; ## nombre de la sub a instalar
+    my $code = shift; ## c&oacute;digo de la sub
+
+    no strict 'refs';
+    *{ $glob } = $code;
+}
+
+
+eval( 'test();');
+print &quot;Error del eval() : \n\t$@\n&quot;;
+installsub( 'test', sub { print &quot;TEST!\n&quot; } );
+eval( 'test();');
+print &quot;Error del eval() : \n\t$@\n&quot;;</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">que al ejecutarlo nos muestra la siguiente salida
+:</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">Error del eval() :
+        Undefined subroutine &amp;main::test called at (eval 1) line 1.
+
+TEST!
+Error del eval() :</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">La magia est&aacute; toda contenida dentro de las
+l&iacute;neas minimalistas de installsub(), m&aacute;s precisamente
+en su &uacute;ltima l&iacute;nea donde se asigna al c&oacute;digo de
+la sub a un nombre dentro del package main usando typeglobs. Como se
+puede ver en la ejecuci&oacute;n antes de llamar a installsub() la
+funci&oacute;n eval() hace un trap del error de no definici&oacute;n
+de la sub test(), error que desaparece luego de ejecutar
+installsub(). Una nota de color, y algo para tener cuidado, es la
+sentencia previa a la asignaci&oacute;n del typeglob, y es que hay
+que quitar le uso estricto en cuento a referencias ya que en realidad
+estamos usando una referencia a una estructura a trav&eacute;s de su
+nombre, cosa que no est&aacute; permitida si estamos haciendo uso
+estricto (use strict).</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Se&ntilde;oras y se&ntilde;ores, si esto no es
+magia y creatividad entonces ni David Copperfield existir&iacute;a
+(tampoco Larry Wall).</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Si avanzamos un paso m&aacute;s, podemos ver que
+desde cualquier lugar (main o package) podemos manipular los
+typeglobs/namespace de cualquier otro lugar, llev&aacute;ndonos un
+paso m&aacute;s lejos en nuestra intr&eacute;pida b&uacute;squeda,
+con lo cual podr&iacute;amos insertar subs de un package en el
+package main y as&iacute; poderlas usar sin poner el calificador del
+package antes del nombre de cada sub. Otro ejemplo m&aacute;s para
+divertirnos :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">use strict;
+
+BEGIN {
+    package myTest;
+
+    sub hello() {
+        print &quot;Hello !!\n&quot;;
+    };
+
+    my @definedSub = ('hello', 'new' );
+
+    sub importSubs() {
+        foreach ( @definedSub ) {
+            print &quot;    --&gt; importing sub '$_'\n&quot;;
+            *{ &quot;main::$_&quot; } = *{ &quot;myTest::$_&quot; };
+        };
+    };
+}
+
+eval( 'hello();' );
+print &quot;Error del eval() --&gt; : \n\t$@\n&quot;;
+myTest::importSubs();
+eval( 'hello();' );
+print &quot;Error del eval() --&gt; : \n\t$@\n&quot;;</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">Obtenemos como salida :</P>
+<PRE CLASS="western">Error del eval() --&gt; :
+        Undefined subroutine &amp;main::hello called at (eval 1) line 1.
+
+    --&gt; importing sub 'hello'
+    --&gt; importing sub 'new'
+Hello !!(plain)
+Error del eval() --&gt; :</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">Nuevamente la magia est&aacute; con nosotros (&ldquo;The
+magic is back&rdquo;), y de una forma muy particular ya que
+exactamente este mismo proceso es el que usa para importar las subs
+al namespace main cada vez que hacemos un use() en nuestros scripts.
+Exactamente lo que hace Exporter.pm en su sub import(). Si la
+analizamos, salvo algunas consideraciones extras como manejo de cache
+, las lineas que hacen el import en el namespace que es el invocante
+son las mismas que hacen nuestra magia en installsub() !!!</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Y hablando de manejar namespaces, por qu&eacute;
+no manejar nuestro propio namespace ?? Por ejemplo supongamos que
+tenemos un package que tiene una cierta cantidad de subs, y ahora
+generamos una nueva versi&oacute;n pero que, por problemas de dise&ntilde;o,
+no va a mantener la misma interfaz que la anterior : hay nuevas subs,
+hay subs que desaparecen y las subs que quedan han cambiado la
+cantidad, el tipo o el orden de sus par&aacute;metros. Este es un
+t&iacute;pico problema de compatibilidad que podemos resolver usando
+typeglobs, adjuntando el package anterior (con un nombre distinto) y
+modificando el namespace actual para que aparezcan las subs actuales
+sean reemplazadas por las anteriores. 
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">En este ejemplo hay tres packages con las
+siguientes caracter&iacute;sticas :</P>
+<UL>
+	<LI><P CLASS="western">myTest_v1 : package original que s&oacute;lo
+	posee la sub hello()</P>
+	<LI><P CLASS="western">myTest_v2 : package de versi&oacute;n
+	posterior que agrega la sub bye()</P>
+	<LI><P CLASS="western">myTest : package final que s&oacute;lo posee
+	hello() y new() que permite habilitar alguna de las versiones de
+	package anteriores</P>
+</UL>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">package myTest_v1;
+our @definedSub = ('hello' );
+sub hello() {
+    print &quot;Hello (v1)\n&quot;;
+};
+
+
+package myTest_v2;
+
+our @definedSub = ('hello', 'bye' );
+sub hello() {
+    print &quot;Hello (v2)\n&quot;;
+};
+
+sub bye() {
+    print &quot;Bye (v2)\n&quot;;
+};
+
+
+package myTest;
+
+sub hello() {
+    print &quot;Hello !!(plain)\n&quot;;
+};
+
+sub new($) {
+    my $version = shift;
+    print &quot;About to install package myTest_v$version\n&quot;;
+    no strict 'refs';
+    
+    foreach ( @{ &quot;myTest_v&quot;.$version.&quot;::definedSub&quot; } ) {
+        print &quot;    --&gt; Assigning sub '$_'\n&quot;;
+        *{ &quot;myTest::$_&quot; } = *{ &quot;myTest_v&quot;.$version.&quot;::$_&quot; };
+    };
+};</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">y el programa principal que lo convoca :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">use strict;
+require myTest;
+
+myTest::hello();
+myTest::new(1);
+myTest::hello();    
+
+myTest::new(2);
+myTest::hello();
+myTest::bye();</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">teniendo como salida de la ejecuci&oacute;n :</P>
+<P CLASS="western"><BR><BR>
+</P>
+<PRE CLASS="western">Hello !!(plain)
+About to install package myTest_v1
+    --&gt; Assigning sub 'hello'
+Hello (v1)
+About to install package myTest_v2
+    --&gt; Assigning sub 'hello'
+    --&gt; Assigning sub 'bye'
+Hello (v2)
+Bye (v2)</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western">Como vemos se puede hacer un manejo de muy bajo
+nivel con los typeglobs que puede contribuir, o no, a la estabilidad
+y claridad de nuestro c&oacute;digo.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<H2 CLASS="western">Conclusiones</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Los typeglobs nos permiten manipular las
+estructuras de datos dentro de un namespace, pero  :</P>
+<UL>
+	<LI><P CLASS="western">no hay que abusar, es una caracter&iacute;stica
+	muy potente y que puede dificultar la lectura del c&oacute;digo</P>
+	<LI><P CLASS="western">hay que utilizarla en puntos del c&oacute;digo
+	espec&iacute;fico para manejos internos (un buen ejemplo es
+	Exporter.pm) y con una clara documentaci&oacute;n que incluya uso y
+	efectos</P>
+	<LI><P CLASS="western">no usarla s&oacute;lo para &ldquo;renombrar&rdquo;
+	ciertas estructuras con un nombre m&aacute;s corto o conveniente
+	(adem&aacute;s de ser un uso pobre puede llevar a confusi&oacute;n),
+	es preferible cambiar el nombre original y ajustar el c&oacute;digo
+	donde sea necesario</P>
+	<P CLASS="western"></P>
+</UL>
+<P CLASS="western">Debido a estas caracter&iacute;sticas y al cuidado
+necesario en su uso los typeglobs no van a estar presentes en Perl 6,
+aunque seguramente habr&aacute; una forma m&aacute;s elegante y
+c&oacute;moda de hacer este tipo de tareas.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<H2 CLASS="western">Infograf&iacute;a</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<UL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm"><SPAN STYLE="font-weight: medium">Programming
+	Perl, 3<SUP>rd</SUP>. Edition</SPAN></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Learnign Perl, 4<SUP>th</SUP>. edition</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Advanced Perl Programming</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Chromatic journal ( <A HREF="http://use.perl.org/~chromatic/journal/11712">http://use.perl.org/~chromatic/journal/11712</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Class::BuildMethods ( <A HREF="http://use.perl.org/~Ovid/journal/27712">http://use.perl.org/~Ovid/journal/27712</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Futility ( <A HREF="http://use.perl.org/~Whammo/journal/3066">http://use.perl.org/~Whammo/journal/3066</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm; font-weight: medium">
+	Exporter.pm (
+	<A HREF="http://search.cpan.org/~nwclark/perl-5.8.7/lib/Exporter.pm">http://search.cpan.org/~nwclark/perl-5.8.7/lib/Exporter.pm</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm"><SPAN STYLE="font-weight: medium">CPAN</SPAN>
+	( <A HREF="http://www.cpan.org/">http://www.cpan.org</A> )</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm">Apocalipsis
+	2 : Bits and Pieces (
+	<A HREF="http://dev.perl.org/perl6/doc/design/apo/A02.html">http://dev.perl.org/perl6/doc/design/apo/A02.html</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm">Sinopsis
+	2 : Bits and Pieces (
+	<A HREF="http://dev.perl.org/perl6/doc/design/syn/S01.html">http://dev.perl.org/perl6/doc/design/syn/S02.html</A>
+	)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm">Ex&eacute;gesis
+	2 : Bits and Pieces (
+	<A HREF="http://dev.perl.org/perl6/doc/design/exe/E02.html">http://dev.perl.org/perl6/doc/design/exe/E02.html</A>
+	)</P>
+</UL>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm"><BR>
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>mods instalados ?</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text12.html">Back</a> <a href="text14.html">Continue</a> <a href="text24.html">Last page</a> <a href="CPAN.html">Overview</a> <a href="img13.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>Qu&eacute; m&oacute;dulos tengo instalados ??</b></i></font></h1><p>
+<ul><li><h2><b><u>M&oacute;dulo ExtUtils::Installed</b></u></h2>
+<li><h2><font color=#FF0000></font></h2>
+<li><h2><font color=#FF0000>#!/usr/bin/perl</font></h2>
+<li><h2>use warnings;</h2>
+<li><h2>use strict;</h2>
+<li><h2>use <b><font color=#0000FF>ExtUtils::Installed</b></font>;</h2>
+<li><h2>my $inst = ExtUtils::Installed-&gt;<font color=#008000>new</font>();</h2>
+<li><h2>foreach <font color=#FF3333>my $module</font> ( $inst-&gt;<font color=#008000>modules</font>() ) {</h2>
+<li><h2>    print &quot;Module: $module, v&quot; . ( $inst-&gt;<font color=#008000>version</font>($module) ) . &quot;\n&quot;;</h2>
+<li><h2>    print &quot;    File: <font color=#FF3333>$_</font>\n&quot;</h2>
+<li><h2>        foreach ( $inst-&gt;<font color=#008000>files</font>($module) )</h2>
+<li><h2>};</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

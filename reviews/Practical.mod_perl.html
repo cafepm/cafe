@@ -1,0 +1,186 @@
+<html>
+
+ <head>
+  <title>Review de "Practical mod_perl"</title>
+ <head>
+
+ <body>
+
+  <center>
+   <table cellpadding=0 cellspacing=0 width=90% border=0>
+
+    <tr>
+     <td>
+      <center>
+       <font face=arial size=6 color=blue><b>CaFe.pm - Perl Mongers de Capital Federal</b></font><br>
+       <font face=arial size=4 color=blue><b>http://cafe.pm.org/</b></font><br>
+      </center>
+      <hr>
+
+      <br>     
+
+      <table cellpadding=0 cellspacing=0 width=100% border=0>
+       <tr>
+        <td align="center" valign="top" width="30%">
+         <img src="pmodperl.s.gif" width=145 height=190> 
+        </td>
+        <td>
+         <font face=arial>
+         <font size=4><b>Review de "Practical mod_perl"</b></font>
+
+         <br><br>
+         <font>por Víctor A. Rodríguez ( victor [at] bit-man [dot] com [dot] ar )</font>
+         <br><br><br>
+         Autor: Stas Bekman, Eric Cholet<br>
+         Editorial: O'Reilly<br>
+         ISBN: 0-596-00227-0
+         </font>
+
+        </td>
+       </tr>
+      </table>
+
+      <br>
+
+      <hr>
+
+      <br>
+
+      <font face=arial size=4><b>Introducci&oacute;n</b></font>
+
+      <font face="arial">
+      <p align=justify>
+      Sin dudas un libro completo, pero no completo sólo sobre mod_perl sino 
+      completo sobre todo lo que tiene que ver con performance de aplicaciones
+      web realizadas con Apache y mod_perl, mas unos cuantos litros de tinta 
+      vertidos en encontrar ese problemita que cuando hablamos de volúmenes
+      importantes (de hits, usuarios, bytes/sec o lo que se nos de la gana medir)
+      entonces cada hora empeñada va a ser una hora más de sueño ganado en esas
+      largas noches de invierno.
+      <br><br>
+      Sin dudarlo un libro para tener en la biblioteca como referencia sobre
+      performance. Todo un estilo de vida mostrado a través del Open Source.
+      <br><br>
+      </p>
+      
+
+      <!-- ** INICIO Bloque de capítulo ** -->
+      <font size=4><b>Part I - mod_perl Administration (at the beginning was the 
+      CLI, then the CGI)</b></font>
+
+      <font face="arial">
+      <p align=justify>
+      Cinco capítulo y 20 días de mi vida y mi lectura dedicados a cada una de 
+      las opciones de configuración de Apache, mod_perl y cada recóndito lugar 
+      del código que pueda ser alcanzado desde un archivo de configuración, sea 
+      durante la fase de compilación, instalación o configuración. Código Perl ... 
+      si, algo como para poder hacer magia con la configuración.
+      <br><br>
+      Lo jugoso fueron esos 10 días y monedas para terminar el último capítulo 
+      de esta primera parte, lleno de código, inspección de código, estructuras 
+      y memoria en busca de ese conocimiento sobre cómo trabajar con mod_perl. 
+      El código a la orden del día, nos deja un sabor difícil de olvidar, que 
+      alcanza su punto cúlmine en <b>El Misterio del Contador Fuera de sus Límites</b>
+      muy al principio del capítulo.
+      <br><br>
+      Esto es la Bienvenido al mundo web , pero bienvenido 
+      al mundo web del otro lado del browser (algo así como la bienvenida a 
+      Alicia al otro lado del espejo).
+      <br><br>
+      Sin duda Stas Bekman y Eric Cholet no dejan nada librado al azar ni suponen 
+      que uno pueda saber hacer mucho más que un click con el mouse para seguir 
+      los links de una página web (o presionar Enter, para los que usan Lynx ;-) ). 
+      Desde la historia del CGI hasta Apache 1.3 y mod_perl 1.0 todo lo que se 
+      pueda contar en 21 páginas, y sin dejar nada afuera, lo vas a encontrar en 
+      este primer capítulo.
+      <br><br>
+      Si tuvier que elegir un preferido, ese sería sin duda <b>Spoofing HTTP_USER_AGENT</b>, 
+      porque que uno no sepa nada sobre HTTP, CGI, y su mundo no significa que 
+      no se pueda enseñar un hack, no ??
+      <br><br>
+      Hay también una idea de arranque rápido en este mundo, si es un arranque 
+      rápido no hay nada que discutir : se puede empezar quick and dirty, obtener 
+      resultados, sentirse cómodo y sin mucha idea de cómo funciona en detalle, 
+      pero la satisfacción de empezar es el principal motor de esta parte.
+      <br><br>
+      Todo esto suena a una receta sin mucho que pensar, pero lo cierto es que este capítulo nos deja una serie de punteros hacia otros capítulos, para que podamos decidir por cual camino seguir.
+      <br><br>
+      </p>
+     </font>
+
+      <font size=4><b>Part II - mod_perl Performance (The Fast and the Fastest)</b></font>
+
+      <p align=justify>
+      Cuando uno entra a un lugar que le parece interesante, y sobre el que uno 
+      puso mucha expectativa, quiere hacer todo eso que vio y ya ... <i>si yo fuera 
+      tu esclavo te pediría más diría</i> Zumo en su apogeo (hoy en día me sigue 
+      sonando en la cabeza), y realmente a esta primera parte no puede pedírsele 
+      más, o por lo menos yo no puedo hacerlo, porque simplemente me dio un tiempo 
+      de revisión de esos temas que uno tiene en mente, vio en algún lado o escuchó 
+      en una conversación ajena ... pero no sabe donde. Por supuesto, acá hay más 
+      cosas de las que uno no sabe que las que recuerda o tiene una vaga idea : 
+      algo así como un compendio de todo lo bueno y todo lo malo.
+      <br><br>
+      </p>
+      
+      
+      <font size=4><b>Part III - Databases and mod_perl (Save me, save me, save me ...)</b></font>
+
+      <p align=justify>
+      DBI, Tie, locking ?? ... Lo que quieras está en esta parte. Breve, dura y ácida como las transacciones ;-)
+      <br><br>
+      </p>
+
+      
+      <font size=4><b>Part IV - Debugging and Troubleshooting (Help, I need somebody ... )</b></font>
+
+      <p align=justify>
+      Quién no fue soporte técnico alguna vez ?? Quién no sigue siéndolo !! (al 
+      menos para los parientes que llaman desesperados porque el último virus les
+      planchó la máquina por no usar Open Source !!) ... pero esta vez uno tiene 
+      todas las herramientas a mano y la ciencia y la tecnología también : desde 
+      el debug hasta el trace.
+      <br><br>
+      </p>
+
+
+      <font size=4><b>Part V - mod_perl 2.0 (I've seen the future ...)</b></font>
+
+      <p align=justify>
+      A quién no le gusta mirar para el futuro y sorprenderse con un nuevo modelo 
+      de mod_perl que habla de baldes, brigadas y APIs, todo mezclado en un mismo 
+      plato ??
+      <br><br>
+      Cómo no emocionarse al ver que lo mismo que se vio al principio del libro 
+      se ve de nuevo, pero con una mirada mucho más fructífera y digna del presente 
+      que siempre se nos escapa en pos de un futuro promisorio (o no tanto, pero 
+      que se escapa eso es seguro).
+      <br><br>
+      </p>
+
+      
+      <font size=4><b>Part VI - Appendixes (Nos plus ultra)</b></font>
+
+      <p align=justify>
+      Me pasó lo mismo que con el libro de <b>El se&ntilde;or de los anillos</b>, 
+      cuando parece que todo está dicho y todavía faltan una buena cantidad de 
+      hojas todavía hay lugar para el asombro.
+      <br><br>
+      La explicación del Template Toolkit me asombró pero no porque estuviera, 
+      sino por la claridad y la recomendación de su uso (al menos para mi no es 
+      común).
+      <br><br>
+      No todo está dicho, ni aún en el colofón.
+      <br><br>
+      </p>
+      </font>
+     
+     
+     </td>
+    </tr>
+   </table>
+  </center>
+
+ </body>
+
+<html>

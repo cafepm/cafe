@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>XML::SAX (3)</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text32.html">Back</a> <a href="text34.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img33.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>XML::SAX (Parsing)</b></i></font></h1><p>
+<ul><li><h2>use <b><font color=#0000FF>XML::SAX</b></font>;</h2>
+<li><h2><b>open</b>( $fh, &quot;&lt; survey.xml&quot; ) || <b>die</b> &quot;No puedo abrir survey.xml&quot;;</h2>
+<li><h2>my $parser = <b><font color=#0000FF>XML::SAX::ParserFactory</b></font>-&gt;parser(</h2>
+<li><h2>        Handler =&gt; <b><font color=#FF0000>MySAXHandler</b></font>-&gt;new</h2>
+<li><h2>);  </h2>
+<li><h2>$parser-&gt;parse_file( $fh );</h2>
+<li><h2>print &quot;Nombre : <b><i><font color=#00DCFF>${main::name}</b></i></font>\n&quot;;</h2>
+<li><h2><b><font color=#FF0000>package MySAXHandler</b></font>;</h2>
+<li><h2>use base qw(<b><font color=#0000FF>XML::SAX::Base</b></font>);</h2>
+<li><h2>my <b><i><font color=#00DCFF>$foundName</b></i></font> = 0;</h2>
+<li><h2>sub <b>start_element</b> {</h2>
+<li><h2>    my ($self, $data) = @_;</h2>
+<li><h2>    return if ( $data-&gt;{Name} ne &quot;name&quot;);</h2>
+<li><h2>    <b><i><font color=#00DCFF>$foundName</b></i></font> = 1;</h2>
+<li><h2>}</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

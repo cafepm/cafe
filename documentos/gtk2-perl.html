@@ -1,0 +1,423 @@
+<html>
+
+ <head>
+  <title>CaFe.pm - Intro a Gtk2-perl y otros accesorios</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+ </head>
+
+ <body bgcolor="#454e70">
+
+ <center>
+  <table width="95%" border="0" cellpadding="0" cellspacing="0">
+   <tr>
+    <td>
+     <font face=arial size=6 color=orange>
+      CaFe.pm - Perl Mongers de Capital Federal
+     </font>
+    </td>
+   </tr>
+  </table>
+ </center>
+
+ <br>
+
+<!-- INDICE BEGINS -->
+ <center>
+
+  <table bgcolor="orange" border="0" cellpadding="0" cellspacing="0" height="4%" width="95%">
+   <tbody><tr>
+    <td align="center">
+     <font face="verdana,helvetica,geneva,arial" size="2"><b>
+      <a href="http://cafe.pm.org/">Inicio</a> | 
+      <a href="http://cafe.pm.org/miembros/">Miembros</a> |
+      <a href="http://cafe.pm.org/reuniones/">Reuniones</a> | 
+      <a href="http://cafe.pm.org/boletines/">Boletines</a> |
+      <a href="http://cafe.pm.org/reviews/">Reviews</a> |
+      <a href="http://cafe.pm.org/eventos/">Eventos</a> |
+      <a href="http://cafe.pm.org/documentos/">Documentos</a> |
+      <a href="http://cafe.pm.org/biblos/">Biblioteca</a> |
+      <a href="http://cafe.pm.org/recursos/">Recursos</a>
+     </b></font>
+    </td>
+   </tr>
+  </tbody></table>
+ <center>
+<!-- INDICE ENDS -->
+
+
+ <br>
+
+ <center>
+  <table border=0 cellpadding=0 cellspacing=0 width=95% bgcolor=white>
+   <tr>
+    <td align=center>
+
+      <table border=0 cellpadding=0 cellspacing=0 width=80%>
+       <tr>
+        <td>
+         <br>
+         <b><i><font face=arial size=5>Intro a Gtk2-perl y otros accesorios</font></i></b>
+         <br/>
+         <b><i><font face=arial size=3>por Gaston Dall' Oglio (tongadall4_at_yahoo.com.ar)</font></i></b>
+         <br/>
+         <b><font face=arial size=1>&Uacute;ltima modificaci&oacute;n : 23 de Diciembre de 2005</font></b>
+         <hr>
+         <p align=justify>
+          <b><font face=arial size=4>Juego de Damas Chinas</font></b>
+          <br><br>
+          <font face=arial>
+          Este es un juego muy antiguo, y principalmente lo que se quiere demostrar
+          es la implementaci&oacute;n de una interfaz gr&aacute;fica implementando un juego
+          como el de las damas chinas utilizando, principalmente, Gtk2
+          </font>
+         </p>
+         
+         
+         <hr>
+         <p align=justify>
+          <b><font face=arial size=4>Manejo de clases (Perl6::Classes)</font></b>
+          <br><br>
+          <font face=arial>
+          Hasta perl5 (y donde yo se) se puede usar la notaci&oacute;n de orientaci&oacute;n a objetos
+al instanciar objetos y pasar mensajes a &eacute;stos, pero la declaraci&oacute;n de una
+clase (la herencia, la declaraci&oacute;n de m&eacute;todos y atributos) se hace usando
+paquetes, que no lucen como verdaderas clases. Una clase se define como un
+paquete que contiene las subrutinas que luego son utilizadas como m&eacute;todos, y
+los atributos se almacenan en un hash que es devuelto cuando se invoca el
+constructor de ella. Este hash, es practicamente el objeto que guarda una
+refererencia de a que paquete pertenece, significando la clase.
+<br /><br />
+El Perl6 la notaci&oacute;n de clases es natural en el lenguaje, pero para poder tener
+algo de &eacute;sto en Perl5, se puede usar el m&oacute;dulo Perl6::Classes, que simula parte
+del lenguaje de Perl6.
+<br /><br />
+Con &eacute;ste m&oacute;dulo se puede declarar las clases similar a otros lenguajes: C++,
+object pascal, java, etc. Esto debe facilitar la legibilidad y mantenimiento de
+los c&oacute;digos fuentes, entre otros.
+<br /><br />
+No hay que enga&ntilde;arse, la orientaci&oacute;n a objetos no es para aplicarla en todo
+momento y lugar, muchas problemas se pueden resolver sin ella de manera
+correcta y/o usarla es inapropiado. Pero cuando se trata de interfaz gr&aacute;fica de
+usuario, es muy &uacute;til.
+
+          </font>
+         </p>
+         <hr>
+         
+
+         <p align=justify>
+          <b><font face=arial size=4>Interfaz gr&aacute;fica (Gtk/Glib)</font></b>
+          <br><br>
+          <b><font face=arial size=3>¿Qu&eacute; es y qu&eacute; no es GTK?</font></b>
+          <br><br>
+          <font face=arial>
+          GTK quere decir GIMP Toolkit, y GIMP, GNU Image Manipulation Program. El GIMP
+es un programa de manipulaci&oacute;n gr&aacute;fica muy avanzado. Es decir, la GTK fu&eacute; creda
+para desarrollar el GIMP, por lo que esta librer&iacute;a tiene gran capacidad
+gr&aacute;fica. Y en segundo lugar, es solo eso, una librer&iacute;a gr&aacute;fica. Esto la
+diferencia bastante de Qt, la cual es mas que una librer&iacute;a gr&aacute;fica, es un
+framework para el desarrollo de aplicaciones multiplataforma (cross-platform).
+De la p&aacute;gina de <a href="http://www.trolltech.com/products/qt/qtlibrary.html">Qt:</a>
+<br />
+"Qt however goes far beyond being a GUI toolkit by providing functionality for
+file handling, networking, process handling, threading, database access, event
+loop processing,  XML processing,  OpenGL integration, and more."
+<br />
+Mientras que GTK no es un framework para desarrollo de aplicaciones, es solo
+esto :
+<br />
+"GTK (GIMP Toolkit) is a library for creating graphical user interfaces." 
+<a href="http://www.gtk.org/tutorial/c24.html">http://www.gtk.org/tutorial/c24.html</a>
+          </font>
+         </p>
+         
+         
+         <p align=justify>
+          <b><font face=arial size=3>¿Y porque eso deber&iacute;a ser mejor?</font></b>
+          <br><br>
+          <font face=arial>
+          Bueno, si uno ya dispone de librer&iacute;as para hacer todo lo que no tiene que ver
+con la interfaz gr&aacute;fica de usuario, para que quiere un ¿¿¿framework???
+Y Perl dispone de CPAN.
+<br /><br />
+Con esto no quero decir que GTK es superior y mas utilizable que Qt, sino que
+es solo esa fina y rica capa de interacci&oacute;n con el usuario, que se comunica con
+el Perl.
+<br /><br />
+Hace un tiempo yo utilizaba Delphi 6 y 7, los cuales para ser compatibles con
+Kylix (clon Delphi para Linux) se val&iacute;an de Qt en sus entra&ntilde;as. Entonces si uno
+mira la CLX (librer&iacute;a de clases com&uacute;n a &eacute;stos tres), se ve que muchas tareas se
+derivaban a librer&iacute;as de la Qt. Es decir, las clases de la CLX invocan a
+funciones de Qt en vez de realizar las tareas directamente, y esto porque Qt es
+un framework, lo hace todo. Ahora utilizo Lazarus, que es un IDE clon de Delphi
+para el compilador Free Pascal. Free Pascal no tiene interfaz de usuario
+gr&aacute;fica, por lo que Lazarus se vale para la parte gr&aacute;fica de... si se&ntilde;or, GTK.
+Con Perl sucede esto mismo, GTK hace lo que falta.
+<br /><br />
+Para entrar en detalles, la GTK consta de dos partes mas, la GDK (GIMP Drawing
+Kit) y la GLib. La GTK esta constru&iacute;da sobre la GDK, que es basicamente un
+envoltorio (wrapper) de las funciones de bajo nivel para el acceso a las
+funciones de manejo de ventanas. GLib b&aacute;sicamente, mejorta la portabilidad y
+desempe&ntilde;o de GTK.
+          </font>
+         </p>
+         <hr />
+         
+         
+         <p align=justify>
+          <b><font face=arial size=4>Configuraci&oacute;n (pkg-config y m&oacute;dulos relacionados)</font></b>
+          <br><br>
+          <font face=arial>
+          Decir qu&eacute; y como instalar y ser infalible es dif&iacute;cil porque depende de muchas
+cosas, plataforma, distribuciones, paquetes ya instalados y sus versiones,
+etc., pero lo que no hay que perder de vista es lo estrictamente necesario:
+primero tener GTK+ 2.x instalada y despues los m&oacute;dulos necesarios para
+enlazarse desde Perl.
+<br /><br />
+Voy a suponer que la GTK+ 2.x esta instalada, porque eso es mas largo de
+explicar. Para saber si esta instalada y que versi&oacute;n, se puede usar pkg-config,
+que sirve para devolver informaci&oacute;n sobre la librer&iacute;as instaladas:
+<br /><br />
+<pre>
+root@marita:~# pkg-config --list-all | grep gtk+
+gtk+-2.0                    GTK+ - GIMP Tool Kit (x11 target)
+...
+</pre>
+Entre varias librer&iacute;as, apareci&oacute; gtk+-2.0. Ahora que se el nombre de la
+librer&iacute;a, pido la versi&oacute;n:
+<pre>
+root@marita:~# pkg-config --modversion gtk+-2.0
+2.8.8
+</pre>
+Y tambi&eacute;n la GLib:
+<pre>
+root@marita:~# pkg-config --list-all | grep GLib
+glib-2.0                    GLib - C Utility Library
+...
+
+root@marita:~# pkg-config --modversion glib-2.0
+2.8.4
+</pre>
+Listo! Si se tiene instalada la GTK+ 1.x no es necesario desinstalarla, pueden
+estar las dos juntas sin problemas.
+          </font>
+         </p>
+         
+         
+         <p align=justify>
+          <b><font face=arial size=3>pkg-config</font></b>
+          <br><br>
+          <font face=arial>
+Si no se tiene instalada &eacute;sta herramienta, o no esta seteada la variable
+PKG_CONFIG_PATH correctamente, entonces puede haber problemas. Para ver si se
+tiene instalado pkg-config se puede usar whereis que busca binarios:
+<pre>
+root@marita:~# whereis pkg-config
+pkg-config: /usr/bin/pkg-config ...
+</pre>
+La variable PKG_CONFIG_PATH dice donde se guarda informaci&oacute;n sobre los paquetes
+instalados, y esta informaci&oacute;n son archivos con extenci&oacute;n .pc. De no estar
+seteada correctamente, se puede usar locate para encontar la ruta donde halla
+algunos:
+<pre>
+root@marita:~# locate *.pc
+...
+/usr/lib/pkgconfig/mozilla-plugin.pc
+/usr/lib/pkgconfig/gtkhex.pc
+/usr/lib/pkgconfig/xcomposite.pc
+/usr/lib/pkgconfig/gnet-2.0.pc
+/usr/lib/pkgconfig/mozilla-nss.pc
+/usr/lib/pkgconfig/esound.pc
+...
+</pre>
+As&iacute; que la ruta es /usr/lib/pkgconfig, y /usr/local/lib/pkgconfig por las
+dudas. Se establece la variable PKG_CONFIG_PATH:
+<pre>
+root@marita:~# PKG_CONFIG_PATH=:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig
+root@marita:~# export PKG_CONFIG_PATH
+</pre>
+Si directamente no estuviera instalado pkg-config, bajar el archivo de los
+fuentes (digamos pkg-config-0.20.tar.gz) a algun directorio y poner:
+<pre>
+root@marita:~/gtk+/v2.8/dependencies# tar xvzf pkg-config-0.20.tar.gz
+
+root@marita:~/gtk+/v2.8/dependencies# cd pkg-config-0.20
+
+root@marita:~/gtk+/v2.8/dependencies/pkg-config-0.20# ./configure 
+
+root@marita:~/gtk+/v2.8/dependencies/pkg-config-0.20# make
+
+root@marita:~/gtk+/v2.8/dependencies/pkg-config-0.20# make check
+
+root@marita:~/gtk+/v2.8/dependencies/pkg-config-0.20# make install
+
+root@marita:~/gtk+/v2.8/dependencies/pkg-config-0.20# make clean
+</pre>
+Esto por defecto lo instala en /usr/local/bin, /usr/local/man, etc. Si se
+quiere en otro lugar, digamos /usr/bin, /usr/man, reemplzar el ./configure
+anterior por ./configure --prefix=/usr/.
+<br /><br />
+Perfecto, ahora directo a los m&oacute;dulos Perl.
+          </font>
+         </p>
+         
+         
+         <p align=justify>
+          <b><font face=arial size=3>ExtUtils-Depends y ExtUtils-PkgConfig</font></b>
+          <br><br>
+          <font face=arial>
+El primero intenta facilitar la contrucci&oacute;n de extensiones Perl en base a otras
+extensiones Perl. El segundo es una interfaz para pkg-config (otra vez nuestro
+amigo).
+<br /><br />
+Los archivos fuentes son ExtUtils-Depends-0.205.tar.gz, y
+ExtUtils-PkgConfig-1.07.tar.gz. Voy a explicar con uno, con el otro es igual.
+<pre>
+root@marita:~/gtk2-perl# tar xvzf ExtUtils-Depends-0.205.tar.gz
+ExtUtils-Depends-0.205/
+...
+
+root@marita:~/gtk2-perl# cd ExtUtils-Depends-0.205
+
+root@marita:~/gtk2-perl/ExtUtils-Depends-0.205# perl Makefile.PL
+Writing Makefile for ExtUtils::Depends
+
+root@marita:~/gtk2-perl/ExtUtils-Depends-0.205# make
+Manifying blib/man3/ExtUtils::Depends.3
+
+root@marita:~/gtk2-perl/ExtUtils-Depends-0.205# make install
+Writing
+/usr/lib/perl5/site_perl/5.8.6/i486-linux/auto/ExtUtils/Depends/.packlist
+Appending installation info to /usr/lib/perl5/5.8.6/i486-linux/perllocal.pod
+
+root@marita:~/gtk2-perl/ExtUtils-Depends-0.205# make clean
+rm -rf ./blib Makefile.aperl blib/arch/auto/ExtUtils/Depends/extral ...
+</pre>
+Listo! ahora igual con ExtUtils-PkgConfig-1.07.tar.gz y conclu&iacute;da esta parte.
+
+          </font>
+         </p>
+         <hr />
+         
+         
+         <p align=justify>
+          <b><font face=arial size=4>Glib2 y Gtk2</font></b>
+          <br><br>
+          <font face=arial>
+          El primero es el m&oacute;dulo que enlaza a GLib2, y el segundo a GTK2.
+<br /><br />
+Los archivos fuentes son Glib-1.102.tar.gz, y Gtk2-1.102.tar.gz. Nuevamente,
+voy a explicar con uno, con el otro es igual.
+<pre>
+root@marita:~/gtk2-perl# tar xvzf Glib-1.102.tar.gz
+Glib-1.102/
+...
+
+root@marita:~/gtk2-perl# cd Glib-1.102
+
+root@marita:~/gtk2-perl/Glib-1.102# perl Makefile.PL
+Including ApiDoc pod...
+Deleting Glib from doc.pl's $data
+Writing build/IFiles.pm
+Checking if your kit is complete...
+Looks good
+Unrecognized argument in LIBS ignored: '-pthread'
+Writing Makefile for Glib
+</pre>
+Lo siguiente va a estar un rato largo creando los binarios y dem&aacute;s:
+<pre>
+root@marita:~/gtk2-perl/Glib-1.102# make
+cp build/IFiles.pm blib/arch/Glib/Install/Files.pm
+...
+
+root@marita:~/gtk2-perl/Glib-1.102# make test
+PERL_DL_NONLAZY=1 /usr/bin/perl5.8.6 "-MExtUtil ...
+
+root@marita:~/gtk2-perl/Glib-1.102# make install
+Files found in blib/arch: installing files in blib/lib into arch ...
+
+root@marita:~/gtk2-perl/Glib-1.102# make clean
+rm -rf GValue.c GIOChannel.c Glib.c GSign ...
+</pre>
+Listo! ahora con Gtk2-1.102.tar.gz.
+
+          </font>
+         </p>
+         <hr />
+         
+         
+         <p align=justify>
+          <b><font face=arial size=4>El juego</font></b>
+          <br><br>
+          <font face=arial>
+          El archivo que se llama "juego-damas-chinas.tar.gz" es el que hay que
+descomprimir, y dentro del directorio "juego-damas-chinas" teclear
+"./prueba-DC.pl" y deber&iacute;a aparecer la ventana del juego (nada de otro mundo
+repito  ;-)  ).
+
+          </font>
+         </p>
+         <hr />
+         
+         
+         <p align=justify>
+          <b><font face=arial size=4>El sitio gtk2-perl</font></b>
+          <br><br>
+          <font face=arial>
+          De mas esta decir que para &eacute;sto ya hay un
+<A href="http://gtk2-perl.sourceforge.net">sitio</A>, y ah&iacute; van a ver mas
+paquetes al final de la p&aacute;gina, pero en principio no se necesitan. Tambi&eacute;n hay
+algo de documentaci&oacute;n, como un
+<A href="http://gtk2-perl.sourceforge.net/doc/intro/">tutorial</A> 
+b&aacute;sico.
+
+          </font>
+         </p>
+         <hr />
+         
+         
+         <p align=justify>
+          <b><font face=arial size=4>Conclusi&oacute;n</font></b>
+          <br><br>
+          <font face=arial>
+          La instalaci&oacute;n de la GTK+-2.x no es complicada, pero hay que instalar muchas
+dependencias o al menos actualizarlas. Pero &aacute;nimo!!! pkg-config es tu amigo, y
+basicamente es hacer ./configure, make, make check, make install, make clean
+;-) Y repito, no desintalen la GTK+-1,x porque muchas aplicaciones usan solo
+esa, no la GTK+-2.x.
+
+<br /><br />
+Por &uacute;ltimo, si alguien llega hasta aqu&iacute;, y encuentra algunos errores o algo en
+lo que yo este equivocado, le agradecer&iacute;a me corrija.
+
+
+          </font>
+         </p>
+         <hr />
+         
+         <p align=justify>
+          <img src="gtk2-perl.snapshot1.png" width="800" height="600" />
+         </p>
+         <hr>
+
+         <br/>
+         <br><br>
+
+         </p>
+        </td>
+       </tr>
+      </table>
+
+    </td>
+   </tr>
+  </table>
+ </center>
+
+
+
+
+
+
+</body>
+
+</html>

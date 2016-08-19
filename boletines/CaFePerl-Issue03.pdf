@@ -1,0 +1,5258 @@
+%PDF-1.2
+%‚„œ”
+1 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.089]
+/Gamma [1.8 1.8 1.8]
+/Matrix [0.4497 0.2446 0.02518 0.3613 0.672 0.1412 0.1845 0.08334 0.9227]
+>>
+]
+endobj
+2 0 obj
+<<
+/CreationDate (D:20050704133104-0300)
+/Producer (pod2pdf)
+/Title (Issue03.pod)
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /emdash
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F00
+/Encoding 5 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F01
+/Encoding 5 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F02
+/Encoding 5 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F03
+/Encoding 5 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 5 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 5 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/Encoding 5 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F20
+/Encoding 5 0 R
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F21
+/Encoding 5 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F22
+/Encoding 5 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F23
+/Encoding 5 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+0 g
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F21 12 Tf
+1 0 0 1 72.0 752.0 Tm
+0.0000 Tw
+(CaFe Perl v0.3 - Peri\363dico de la Comunidad Perl de Capital Federal ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 730.4 Tm
+0.0000 Tw
+(Editorial ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 718.4 Tm
+1.9607 Tw
+(Este mes hay poca editorial y un poco m\341s de contenido. Simplemente quiero agradecer a Manuel) Tj
+1 0 0 1 102.0 706.4 Tm
+0.5994 Tw
+(Sanguino por la ayuda en la traducci\363n de la entrevista PERLitas de este mes, a Mat\355as Palomec por el) Tj
+1 0 0 1 102.0 694.4 Tm
+0.0000 Tw
+("cacho" de c\363digo para POC y a Leonardo Pig\361er por la revisi\363n de las "Mordiditas de aqu\355 y de all\341". ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 682.4 Tm
+0.2586 Tw
+(Hay una innovaci\363n, para el alivio de m\341s de uno, y es que la secci\363n dedicada a "CaFe Perl en Perl" ya) Tj
+1 0 0 1 102.0 670.4 Tm
+0.4710 Tw
+(no existe m\341s. En su lugar esa parte de la publicaci\363n va a estar dedicada a temitas sueltos, de esos que) Tj
+1 0 0 1 102.0 658.4 Tm
+0.0142 Tw
+(uno charla continuamente con los que comparte la vida, esos de las charlitas de caf\351 ... y gracias a Mat\355as) Tj
+1 0 0 1 102.0 646.4 Tm
+0.0000 Tw
+(que aport\363 un c\363digo propio para publicar ha sido bautizada como POC \(Peace of Code\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 634.4 Tm
+0.0000 Tw
+(Espero que lo disfruten. Hasta la pr\363xima taza de CaFe Perl !!! ... eso s\355, caf\351 del bueno ;-\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 610.4 Tm
+0.0000 Tw
+(V\355ctor A. Rodr\355guez \(Bit-Man\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 580.4 Tm
+0.0000 Tw
+(PERLitas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 568.4 Tm
+2.6393 Tw
+(OpenInteract es un servidor de aplicaciones web escrito en Perl. Este ofrece persistencia de data) Tj
+1 0 0 1 102.0 556.4 Tm
+1.6460 Tw
+(integrada, administraci\363n de usuarios y grupos de usuarios, mas una v\355a f\341cil para crear y distribuir) Tj
+1 0 0 1 102.0 544.4 Tm
+0.0000 Tw
+(completamente bases de datos de aplicaciones independientes. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 520.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Hola Cris, por favor una presentaci\363n para el grupo CaFe.pm) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 496.4 Tm
+1.0657 Tw
+(Mi nombre es Cris Winters y actualmente vivo en Pittsburg, Pennsylvania Estados Unidos. He estado) Tj
+1 0 0 1 102.0 484.4 Tm
+0.0000 Tw
+(casado por 5 a\361os con mi persona favorita en el mundo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 472.4 Tm
+0.7539 Tw
+(He estado usando Perl por aproximadamente 10 a\361os o mas, los primeros dos a\361os fue por encima y a) Tj
+1 0 0 1 102.0 460.4 Tm
+0.0000 Tw
+(tiempo completo desde 1997. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 448.4 Tm
+1.6944 Tw
+(Actualmente trabajo en Vocollect \(http://www.vocollect.com/\) haciendo aseguramiento de calidad de) Tj
+1 0 0 1 102.0 436.4 Tm
+0.7220 Tw
+(software \(software quality assurance\) sobre un producto Java basado en web; Pronto me mudar\351 a otra) Tj
+1 0 0 1 102.0 424.4 Tm
+2.3140 Tw
+(parte de la compa\361\355a para hacer m\341s desarrollo embebido junto con la confecci\363n de sistemas de) Tj
+1 0 0 1 102.0 412.4 Tm
+0.0000 Tw
+(workflow personalizados ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 388.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Cu\341les son tu \341reas de experiencia ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 364.4 Tm
+0.3424 Tw
+(Bueno yo no deber\355a de llamarme experto en nada :-\) Sin embargo estuve trabajando en el desarrollo de) Tj
+1 0 0 1 102.0 352.4 Tm
+1.8219 Tw
+(arquitectura y aplicaciones web por mas de ocho a\361os y en frameworks por seis a\361os. Tambi\351n he) Tj
+1 0 0 1 102.0 340.4 Tm
+3.2760 Tw
+(desarrollado sistemas de workflow bastante gen\351ricos y herramientas de mapeo objeto-relacional) Tj
+1 0 0 1 102.0 328.4 Tm
+0.0000 Tw
+(\(object-relational mapping\) todo este tiempo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 316.4 Tm
+1.0494 Tw
+(Uno de los aspectos interesantes de la arquitectura web es que si lo haces de forma correcta las ideas) Tj
+1 0 0 1 102.0 304.4 Tm
+1.1076 Tw
+(b\341sicas se transfieren muy bien a otros lenguajes. En los \372ltimos cuatro a\361os mi trabajo pago ha sido) Tj
+1 0 0 1 102.0 292.4 Tm
+1.8850 Tw
+(escribir c\363digo en Java tanto para aplicaciones web como como procesos side-server en general. Y) Tj
+1 0 0 1 102.0 280.4 Tm
+0.5019 Tw
+(mucha de las ideas que aprend\355 de Perl tambi\351n fueron implementadas en Java, aunque con mucho mas) Tj
+1 0 0 1 102.0 268.4 Tm
+0.0000 Tw
+(c\363digo !. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 244.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 lo impuls\363 a construir OpenInteract?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 220.4 Tm
+0.2220 Tw
+(OpenInteract vino casi de la misma manera como creo mucho de los otros frameworks aparecieron. Uno) Tj
+1 0 0 1 102.0 208.4 Tm
+0.3120 Tw
+(construye un sistema para un cliente, lo instala y funciona b\341rbaro. Entonces uno construye otro sistema) Tj
+1 0 0 1 102.0 196.4 Tm
+0.4163 Tw
+(para otro cliente, que no es exactamente el mismo, pero lo suficientemente como para copiar-y- pegar y) Tj
+1 0 0 1 102.0 184.4 Tm
+0.0000 Tw
+(los consegu\355s para la ajustada fecha l\355mite. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 172.4 Tm
+1.8600 Tw
+(Entonces uno construye otro sistema que difiere de los anteriores, y a la vez uno hace los mismos) Tj
+1 0 0 1 102.0 160.4 Tm
+1.1314 Tw
+(cambios que se necesitan aplicar a los dos anteriores. Entonces se empieza a encontrar concordancias) Tj
+1 0 0 1 102.0 148.4 Tm
+0.0000 Tw
+(entre ellas y construir un sistema que reuna estas necesidades. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 124.4 Tm
+0.0000 Tw
+(Hac\351 esto diez o mas veces y tendr\341s un Framework!!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 100.4 Tm
+0 Tw
+(Lo que tambi\351n puede ser interesante de observar es que el sistema detr\341s de Kuro5hin) Tj
+1 0 0 1 102.0 88.4 Tm
+0.3491 Tw
+(\(http://kuro5hin.org/\) tambi\351n liberado desde esta misma compa\361\355a cuando estos fueron desarrollados la) Tj
+1 0 0 1 102.0 76.4 Tm
+1.9638 Tw
+(primera vez ten\355an bastantes pocas cosas en com\372n, pero estos r\341pidamente divergieron debido sus) Tj
+1 0 0 1 102.0 64.4 Tm
+0.0000 Tw
+(diferentes especialidades. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 517.44 37 Tm
+(1) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+19 0 obj
+6254
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 20 0 R
+/Contents 18 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 23 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Que problemas resuelve OpenInteract ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.2141 Tw
+(OpenInteract toma a su cargo mucha del trabajo de plomer\355a \(infraestructura ??\) que hay que hacer en la) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(aplicaciones web : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 707.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 708.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 707.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Administraci\363n de usuarios y grupos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 693.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 694.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 693.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Seguridad de aplicaciones ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 678.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 679.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 678.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Acceso a bases de Datos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 664.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 665.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 664.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Uso de un sistema de plantillas \(template hooking\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 651 4 4 re
+f
+Q
+BT
+1 0 0 1 110 650 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Caching ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 635.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 636.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 635.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Construcci\363n de c\363digo independiente de la Base de datos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 621.2 Tm
+1.7342 Tw
+() Tj
+ET
+q
+102 622.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 621.2 Tm
+/F20 10 Tf
+1.7342 Tw
+(- Distribuci\363n de la aplicaci\363n \(incluyendo c\363digo, templates, estructura de base de datos,) Tj
+1 0 0 1 102.0 609.2 Tm
+0.0000 Tw
+(datos iniciales, documentaci\363n, etc.\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 594.8 Tm
+2.6518 Tw
+() Tj
+ET
+q
+102 595.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 594.8 Tm
+/F20 10 Tf
+2.6518 Tw
+(- ejecuci\363n bajo diferentes plataformas \(mod_perl 1.x, mod_perl 2.x, FastCGI, CGI, web) Tj
+1 0 0 1 102.0 582.8 Tm
+0.0000 Tw
+(server standalone\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 570.8 Tm
+3.1392 Tw
+(Como una servidor de aplicaciones \(application server\) no resuelve la problem\341tica para los no) Tj
+1 0 0 1 102.0 558.8 Tm
+0.4729 Tw
+(desarrolladores, o por lo menos no los interesantes. Hay aplicaciones simples de ejemplo instaladas con) Tj
+1 0 0 1 102.0 546.8 Tm
+2.6060 Tw
+(el server, pero nada como Slashdot, un sistema de webmail o un CMS m\341s sofisticado \(Content) Tj
+1 0 0 1 102.0 534.8 Tm
+0.0000 Tw
+(Management System\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 510.8 Tm
+0.0000 Tw
+(Lo que hace OpenInteract es facilitar a los desarrolladores el crear ese tipo de aplicaciones complejas. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 498.8 Tm
+0.5753 Tw
+(Probablemente vale la pena hacer notar la diferencia entre OpenInteract v1.x y 2.x. OpenInteract 2.x es) Tj
+1 0 0 1 102.0 486.8 Tm
+3.5015 Tw
+(casi una completa re-escritura y tiene un mejor dise\361o y documentaci\363n. Si est\341s comenzando) Tj
+1 0 0 1 102.0 474.8 Tm
+0.0000 Tw
+(recomiendo fuertemente que mires ah\355 primero, aunque a\372n est\341 en beta. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 450.8 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 consejo le dar\355a a los futuros dise\361adores ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 426.8 Tm
+0.5882 Tw
+(Cada uno aprende en forma diferente as\355 que es dif\355cil dar un consejo gen\351rico. Pero en mi experiencia) Tj
+1 0 0 1 102.0 414.8 Tm
+0.7119 Tw
+(muchos desarrolladores aprender mejor haciendo. Y el open source nos da mucho con que trabajar ! Y) Tj
+1 0 0 1 102.0 402.8 Tm
+0.1850 Tw
+(con algo como OpenInteract es a\372n m\341s f\341cil porque no hay que recompilar nada  se puede modificar un) Tj
+1 0 0 1 102.0 390.8 Tm
+0.1693 Tw
+(package, rearrancar el server y ver qu\351 pasa. Algo del mejor aprendizaje puede suceder rompiendo cosas) Tj
+1 0 0 1 102.0 378.8 Tm
+0.0000 Tw
+(a prop\363sito \(o a\372n accidentalmente\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 366.8 Tm
+0.2337 Tw
+(Otra parte importante es que es duro cuando no se tiene trabajo qu\351 hacer. Puedo decir que vayas por tal) Tj
+1 0 0 1 102.0 354.8 Tm
+0.0000 Tw
+(o cual c\363digo, pero no creo que realmente se te pegue a menos que tengas algo qu\351 hacer con \351l. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 330.8 Tm
+1.2247 Tw
+(As\355 que pens\341 que cosas te interesan y avanz\341 con una aplicaci\363n simple que puedas escribir que las) Tj
+1 0 0 1 102.0 318.8 Tm
+0.0318 Tw
+(incluya. Por ejemplo, te puede gustar el observar aves y quiera crear una bit\341cora de tus avistamientos. O) Tj
+1 0 0 1 102.0 306.8 Tm
+1.2040 Tw
+(tal vez coleccion\341s revistas c\363micas y quer\351s una base de datos mejor para almacenar la informaci\363n) Tj
+1 0 0 1 102.0 294.8 Tm
+2.7413 Tw
+(junto con im\341genes de las portadas. O guardar tus recetas favoritas. No tiene que ser algo muy) Tj
+1 0 0 1 102.0 282.8 Tm
+0.0000 Tw
+(complicado, s\363lo algo en lo que est\351s realmente interesado. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 258.8 Tm
+2.1300 Tw
+() Tj
+/F01 10 Tf
+2.1300 Tw
+(En qu\351 partes del c\363digo le aconsejar\355a mirar al novato en Perl , para tener un aprendizaje) Tj
+1 0 0 1 102.0 246.8 Tm
+0.0000 Tw
+(placentero ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 222.8 Tm
+0.1262 Tw
+(OpenInteract tiene mucho c\363digo e imagino que puede ser bastante intimidante, especialmente porque es) Tj
+1 0 0 1 102.0 210.8 Tm
+0.1986 Tw
+(un framework de aplicaciones que necesita tener hooks para muchas funcionalidades que la gente podr\355a) Tj
+1 0 0 1 102.0 198.8 Tm
+0.4150 Tw
+(no necesitar nunca. Sin embargo, lo que podr\355a ser interesantes es seguir el camino de un requerimiento) Tj
+1 0 0 1 102.0 186.8 Tm
+4.7007 Tw
+(seg\372n se mueve a trav\351s del server. Uno de los documentos que viene con OpenInteract2) Tj
+1 0 0 1 102.0 174.8 Tm
+1.4117 Tw
+(\(OpenInteract2::Manual::Architecture\) tiene una secci\363n Tracing a Request. Este te lleva a trav\351s del) Tj
+1 0 0 1 102.0 162.8 Tm
+2.1427 Tw
+(sistema en un alto nivel, y sigui\351ndolo como abre distintos m\363dulos puede ser muy educativo \(en) Tj
+1 0 0 1 102.0 150.8 Tm
+2.2573 Tw
+(verdad, mientras se lee esa secci\363n probablemente ser\341 muy \372til tener muestras del c\363digo de los) Tj
+1 0 0 1 102.0 138.8 Tm
+0.0000 Tw
+(diferentes m\363dulos que aparecen\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Cu\341les fueron las limitaciones impuestas por Perl al proyecto ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 90.8 Tm
+0.1506 Tw
+(Ninguna que pueda recordar, es decir no recuerdo haber pensado "Me gustar\355a que Perl tuviera X". Unas) Tj
+1 0 0 1 102.0 78.8 Tm
+0.0000 Tw
+(pocas posibilidades : ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(2) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+23 0 obj
+6772
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 24 0 R
+/Contents 22 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F20 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.8318 Tw
+() Tj
+ET
+q
+102 771 4 4 re
+f
+Q
+BT
+1 0 0 1 110 770 Tm
+/F20 10 Tf
+0.8318 Tw
+(- OI2 usa unas pocas clases y eso puede ser un problema para los no familiarizados con el) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(sistema Orientado a Objetos \(OO\) de Perl ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 743.6 Tm
+2.2038 Tw
+() Tj
+ET
+q
+102 744.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 743.6 Tm
+/F20 10 Tf
+2.2038 Tw
+(- El no tener un mod_perl pr\341ctico sobre win32 fue un problema para la serie 1.x. Pero) Tj
+1 0 0 1 102.0 731.6 Tm
+0.0000 Tw
+(Apache 2.x/mod_perl 2.x aparentemente es tan robusto en win32 como en unix ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Vi\363 las caracter\355sticas de Perl 6 ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 695.6 Tm
+0.0571 Tw
+(Muy poco. Se siente como Perl pero con mayor planificaci\363n, menos caracter\355sticas por deposici\363n. Pero) Tj
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+(s\363lo es una primer impresi\363n. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 659.6 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Tiene alguna opini\363n o consejo acerca de \351l ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 635.6 Tm
+0.5746 Tw
+(Soy ambivalente. Como cualquiera quisiera que estuviera ac\341 ahora mismo, particularmente por toda la) Tj
+1 0 0 1 102.0 623.6 Tm
+0.2611 Tw
+(atenci\363n hacia Ruby y, en menor cantidad, a Pyhton. Creo que el sistema OO de Perl 5 previno a mucha) Tj
+1 0 0 1 102.0 611.6 Tm
+0.8895 Tw
+(gente de bien usarlo o apegarse a \351l e introdujo la limpieza y su revisi\363n. Dicho esto, no tenemos una) Tj
+1 0 0 1 102.0 599.6 Tm
+0.8321 Tw
+(gran pila de dinero para darle a la gente inteligente que dise\361a e implementa Perl6 y se cu\341n dif\355cil es) Tj
+1 0 0 1 102.0 587.6 Tm
+1.2879 Tw
+(balancear la programaci\363n open source y un trabajo full-time \(sin mencionar una familia, hobbies no) Tj
+1 0 0 1 102.0 575.6 Tm
+0.8307 Tw
+(t\351cnicos, sue\361o ...\). Tambi\351n, estoy aterrorizado por el progreso que Autrijius hizo en tan poco tiempo) Tj
+1 0 0 1 102.0 563.6 Tm
+1.6093 Tw
+(con Pugs \(Perl 6 corriendo en Haskell\). Es realmente sorprendente. Ojal\351 tuviera algo de tiempo de) Tj
+1 0 0 1 102.0 551.6 Tm
+0.0000 Tw
+(sobra para aprender m\341s sobre \351l y ayudar. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 527.6 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Por qu\351 cree que Perl no es tan ampliamente usado para el desarrollo de aplicaciones ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 503.6 Tm
+0.0000 Tw
+(Hay algunas razones, pero las primeras que me vienen a la mente : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 477.2 Tm
+0.9612 Tw
+() Tj
+ET
+q
+102 478.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 477.2 Tm
+/F20 10 Tf
+0.9612 Tw
+(- Perl tiene una reputaci\363n de ser s\363lo de escritura, que nadie m\341s puede leer el c\363digo de) Tj
+1 0 0 1 102.0 465.2 Tm
+0.3450 Tw
+(otra persona. No crea que sea la culpa de Perl, cualquier lenguaje puede ser escrito en forma) Tj
+1 0 0 1 102.0 453.2 Tm
+2.1087 Tw
+(pobre. La flexibilidad de Perl trabaja en contra de esto, creo que muchas veces la gente) Tj
+1 0 0 1 102.0 441.2 Tm
+2.3594 Tw
+(escribe un script y no espera que dure mucho. Entonces se vuelve tan \372til que el autor) Tj
+1 0 0 1 102.0 429.2 Tm
+0.0471 Tw
+(simplemente agrega una funcionalidad m\341s aqu\355, otra m\341s all\341 y se convierte en un l\355o. Y se le) Tj
+1 0 0 1 102.0 417.2 Tm
+0.0000 Tw
+(hecha la culpa a Perl \(si se usara "use strict" como default habr\355a ayudado algo\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 402.8 Tm
+0.8131 Tw
+() Tj
+ET
+q
+102 403.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 402.8 Tm
+/F20 10 Tf
+0.8131 Tw
+(- Mucha gente no conoce de las caracter\355sticas avanzadas de Perl, o les teme. El hecho de) Tj
+1 0 0 1 102.0 390.8 Tm
+0.0000 Tw
+(que se pueda mezclar programaci\363n funcional, procedural y OO es una gran ventaja ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 376.4 Tm
+0.2393 Tw
+() Tj
+ET
+q
+102 377.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 376.4 Tm
+/F20 10 Tf
+0.2393 Tw
+(- Falta de herramientas inteligentes. Yo escribo Perl en Xemacs y por mucho tiempo tuve una) Tj
+1 0 0 1 102.0 364.4 Tm
+0.2016 Tw
+(idea de un IDE. Pero hay una serie de IDEs en el mundo Java que hacen m\341s que proveer un) Tj
+1 0 0 1 102.0 352.4 Tm
+0.3900 Tw
+(wrapper para la gente que le gusta usar el mouse. Cuando escribo algo no trivial en Java uso) Tj
+1 0 0 1 102.0 340.4 Tm
+0.9240 Tw
+(una herramienta llamada InteliJ IDEA. No es libre, no es open source, pero es tan poderosa) Tj
+1 0 0 1 102.0 328.4 Tm
+1.2200 Tw
+(que no puedo imaginar el no usarla \(hay una herramienta llamada Eclipse pero no est\341 tan) Tj
+1 0 0 1 102.0 316.4 Tm
+0.0000 Tw
+(pulida como IDEA, aunque Eclipse aparentemente tiene alg\372n soporte para Perl\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 304.4 Tm
+0.5089 Tw
+(Java tiene tipos de datos est\341ticos, y ya que IDEA conoce mucho sobre Java hace f\341cil el renombrar un) Tj
+1 0 0 1 102.0 292.4 Tm
+0.1147 Tw
+(m\351todo llamad execute\(\) en una clase Foo sea donde sea llamada, ignorando execute\(\) en la clase Bar. O) Tj
+1 0 0 1 102.0 280.4 Tm
+1.5153 Tw
+(reemplazar todos los constructores con dos argumentos con la llamada a un solo m\351todo est\341tico. O) Tj
+1 0 0 1 102.0 268.4 Tm
+0.2918 Tw
+(cambia el orden de los argumentos en un m\351todo. O muchas, muchas otras cosas. Es dif\355cil explicar qu\351) Tj
+1 0 0 1 102.0 256.4 Tm
+2.4812 Tw
+(\372til es esto, pero a un nivel profundo hace al c\363digo mucho m\341s maleable porque uno sabe que) Tj
+1 0 0 1 102.0 244.4 Tm
+1.2553 Tw
+(cambiarlo es tan simple, lo mismo que el crear buenos de test unitarios le dan a uno la confianza de) Tj
+1 0 0 1 102.0 232.4 Tm
+1.6671 Tw
+(hacer cambios funcionales en el c\363digo \(algunas de estas caracter\355sticas est\341n presentes en Emacs a) Tj
+1 0 0 1 102.0 220.4 Tm
+0.0000 Tw
+(trav\351s de J2EE, pero IMO no son tan usables ni potentes\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 196.4 Tm
+0.0976 Tw
+(Algunos aspectos de Perl hacen a esta clase de herramientas dif\355ciles, pero espero que Perl 6 habilitar\341 el) Tj
+1 0 0 1 102.0 184.4 Tm
+0.0000 Tw
+(uso de este tipo de herramientas. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 160.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(C\363mo se puede colaborar con OpenInteract ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 136.4 Tm
+0.0000 Tw
+(Depende de lo que quieras hacer ! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 112.4 Tm
+0.7600 Tw
+(Por ejemplo, si se es un buen dise\361ador gr\341fico hay algo de trabajo a hacer relacionado con la falta de) Tj
+1 0 0 1 102.0 100.4 Tm
+0.0586 Tw
+(stylesheets \(hojas de estilo\) y t\351cnicas de layout modernas en OpenInteract2. Tambi\351n queremos hacer el) Tj
+1 0 0 1 102.0 88.4 Tm
+3.4683 Tw
+(site de OpenInteract \(http://www.openinteract.org/\) un poco m\341s amigable y con una vista m\341s) Tj
+1 0 0 1 102.0 76.4 Tm
+0.0000 Tw
+(agradable. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 517.44 37 Tm
+(3) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+27 0 obj
+7010
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 28 0 R
+/Contents 26 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 31 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.2656 Tw
+(O si se es un desarrollador de aplicaciones se puede contribuir con ideas o implementaciones. O a\372n) Tj
+1 0 0 1 102.0 758.0 Tm
+2.1977 Tw
+(mejor, se puede desempe\361ar en una de las actividades m\341s subvaluados: como usuario inteligente.) Tj
+1 0 0 1 102.0 746.0 Tm
+1.8782 Tw
+(Muchas veces la gente usa un proyecto open source pero algo del c\363digo no funciona de la forma) Tj
+1 0 0 1 102.0 734.0 Tm
+1.7247 Tw
+(esperada, o una interfaz es un poco dura de usar, o la documentaci\363n es confusa. Y no lo dicen al) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(proyecto porque no quieren verse involucrados o no quieren ser un problema. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+1.6006 Tw
+(Pero esto es informaci\363n de mucho peso. Es f\341cil para la gente que trabaja en proyectos grandes el) Tj
+1 0 0 1 102.0 686.0 Tm
+0.3625 Tw
+(olvidarse como las personas lo usan, as\355 que sus palabra, a\372n para algo simple, probablemente sean m\341s) Tj
+1 0 0 1 102.0 674.0 Tm
+0.5267 Tw
+(\372tiles de lo que se piensa. Y a\372n si lo que dirigen el proyecto no est\341n de acuerdo a\372n sigue siendo \372til) Tj
+1 0 0 1 102.0 662.0 Tm
+0.7250 Tw
+(para ellos saber c\363mo se sienten para as\355 modificar la documentaci\363n y llegar a lo que la gente espera,) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(agregar puntos a la FAQ para enviar a la gente al lugar correcto, u otros cambios. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(Si est\341s usando OpenInteract2 y algo es confuso, entonces hac\351noslo saber ! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 614.0 Tm
+1.7480 Tw
+(Finalmente, ya que OpenInteract2 tiene soporte para internacionalizaci\363n tambi\351n necesitamos gente) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(para traducir nuestros mensajes en Ingl\351s a otros idiomas. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(... y las habilidades m\355nimas requeridas ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+1.0219 Tw
+(Creo que existe el trabajo suficiente para todo tipo de habilidades! Adem\341s, uno de los beneficios del) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(open source es que se puede aprender mientras se hace. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 caracter\355sticas cree que no est\341n presentes, y cu\341les agregar\341 en el corto plazo ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.5957 Tw
+(Cualquier idea que cualquier persona tenga sobre caracter\355sticas o fixes deber\341 estar en nuestro sistema) Tj
+1 0 0 1 102.0 482.0 Tm
+0.3743 Tw
+(de seguimiento de problemas JIRA \(http://jira.openinteract.org/\). De lo contrario se cae por el costado y) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(nunca se implementa. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Alg\372n m\363dulo favorito de CPAN ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 422.0 Tm
+0.0800 Tw
+(No hay forma de construir algo como OpenInteract sin CPAN y hay muchos m\363dulos que use para hacer) Tj
+1 0 0 1 102.0 410.0 Tm
+0.2480 Tw
+(cosas simples y las hizo tan bien que nunca tuve que volver a pensar sobre ella. Sin embargo, de los que) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0150 Tw
+(primero se me vienen a la mente, ac\341 hay una lista de m\363dulos que uso m\341s frecuentemente para resolver) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(los problemas m\341s comunes : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 359.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 360.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 359.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Template Toolkit ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 345.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 346.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 345.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- DBI ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 330.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 331.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 330.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- DBD::SQLite ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 316.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 317.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 316.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- DateTime ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 303 4 4 re
+f
+Q
+BT
+1 0 0 1 110 302 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Log::Log4perl ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 287.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 288.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 287.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- CGI::Wiki ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 273.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 274.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 273.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- WWW::Mechanize ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 261.2 Tm
+1.2785 Tw
+(Tambi\351n uso un par mios que uso frecuentemente \(Class::Factory and Class::Observable\), pero no es) Tj
+1 0 0 1 102.0 249.2 Tm
+0.0000 Tw
+(junto ponerlos en la lista de favoritos :-\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 225.2 Tm
+4.0192 Tw
+() Tj
+/F01 10 Tf
+4.0192 Tw
+(Tiene alguna experiencia \(divertida o no tanto\) que le ocurri\363 mientras estaba haciendo) Tj
+1 0 0 1 102.0 213.2 Tm
+0.0000 Tw
+(OpenInteract y que quiera compartir con nosotros ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 189.2 Tm
+0.0000 Tw
+(Unas pocas cosas vienen a mi mente. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 177.2 Tm
+0.0869 Tw
+(La compa\361\355a desde donde OpenInteract surgi\363 fue lo suficientemente generosa para hacerla open source.) Tj
+1 0 0 1 102.0 165.2 Tm
+1.5117 Tw
+(Creo que al final saldr\341n beneficiados de esto pero fue un gran honor \(No tengo que poner un gran) Tj
+1 0 0 1 102.0 153.2 Tm
+0.0000 Tw
+(esfuerzo para hacerlo, s\363lo un poco\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 141.2 Tm
+0.4826 Tw
+(Hace poco m\341s de un a\361o le pregunt\351 a la comunidad por fondos para poder comprar un server y poner) Tj
+1 0 0 1 102.0 129.2 Tm
+0.4565 Tw
+(el website de OpenInteract y el site de JIRA, junto con mi website :-\) No me llenaron de dinero pero lo) Tj
+1 0 0 1 102.0 117.2 Tm
+0.0000 Tw
+(que obtuve me sorprendi\363, y fue altamente apreciado. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 105.2 Tm
+2.2800 Tw
+(Finalmente, tuve una gran sorpresa cuando alguien me mand\363 un e-mail para decirme que usaron) Tj
+1 0 0 1 102.0 93.2 Tm
+0.6382 Tw
+(OpenInteract para un proyecto y que estaba funcionando bien. De hecho, hace cerca de a\361o y medio o\355) Tj
+1 0 0 1 102.0 81.2 Tm
+0.3259 Tw
+(de una compa\361\355a en Alemania que ten\355a algo de dinero extra en su presupuesto. Me hicieron volar hasta) Tj
+1 0 0 1 102.0 69.2 Tm
+0.0000 Tw
+(ah\355 e hice un entrenamiento con los desarrolladores y aprend\355 acerca de su sistema. Fue un gran placer. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(4) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+31 0 obj
+6617
+endobj
+32 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 32 0 R
+/Contents 30 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 35 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F21 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(SudorNews ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 755.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 756.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 755.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Administrador Linux/Unix Tiempo Completo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 743.6 Tm
+0.0000 Tw
+(Job Description : Ser\341n responsables de la instalaci\363n y soporte de centrales VOIP. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.5770 Tw
+(Job Requirements : Incorporaremos un administrador Unix/Linux. Con conocimientos de programaci\363n) Tj
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+(en shell script, Perl y MySQL. Preferible contar con nociones de Asterisk, VOIP y SIP. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 695.6 Tm
+0.0000 Tw
+(http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=74 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 669.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 670.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 669.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Sysadmin freelance ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 657.2 Tm
+2.6964 Tw
+(Job Description : Empresa de servicios profesionales con sede en EE.UU. que tambi\351n opera en) Tj
+1 0 0 1 102.0 645.2 Tm
+1.2808 Tw
+(Argentina busca administradores de sistema calificados con residencia en el cono sur de Sudam\351rica.) Tj
+1 0 0 1 102.0 633.2 Tm
+0.0000 Tw
+(Necesitamos incorporar de manera inmediata administradores de sistemas Unix. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 621.2 Tm
+4.3008 Tw
+(Job Requirements : Los candidatos deben tener un excelente conocimiento de sistemas Unix) Tj
+1 0 0 1 102.0 609.2 Tm
+1.7450 Tw
+(\(especialmente Linux\) y experiencia en el manejo de Apache Web server, Sendmail y otros MTAs,) Tj
+1 0 0 1 102.0 597.2 Tm
+0.4745 Tw
+(Administraci\363n de bases de datos \(especialmente MySQL, PostgreSQL\), Seguridad y administraci\363n de) Tj
+1 0 0 1 102.0 585.2 Tm
+0.0000 Tw
+(firewall. De preferencia, experiencia de trabajo con Zope. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 561.2 Tm
+0.0000 Tw
+(http://www.usla.org.ar/modules/jobs/index.php?pa=viewlistings&lid=73 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 534.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 535.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 534.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Technical manager ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 522.8 Tm
+1.4069 Tw
+(Para importante empresa de servicios y contenidos de telefon\355a celular, solicitamos la postulaci\363n de) Tj
+1 0 0 1 102.0 510.8 Tm
+0.4892 Tw
+(profesionales graduados de las carreras de Tecnolog\355a, preferentemente con experiencia en empresas de) Tj
+1 0 0 1 102.0 498.8 Tm
+1.7264 Tw
+(Telecomunicaciones o Internet, para incorporarse al \341rea de Desarrollo de Sistemas en el Centro de) Tj
+1 0 0 1 102.0 486.8 Tm
+0.5493 Tw
+(mensajer\355a de texto. Valoraremos los conocimientos de PHP, Mysql, Perl y Linux; los idiomas ingl\351s y) Tj
+1 0 0 1 102.0 474.8 Tm
+0.3823 Tw
+(portugu\351s son requeridos para esta posici\363n. Las principales responsabilidades ser\341n: la relaci\363n con los) Tj
+1 0 0 1 102.0 462.8 Tm
+0.6492 Tw
+(operadores celulares, desarrollo de proyectos y mantenimiento de plataformas, deber\341 coordinar el \341rea) Tj
+1 0 0 1 102.0 450.8 Tm
+0.0000 Tw
+(t\351cnica y monitorear las acciones operativas del d\355a a d\355a. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 438.8 Tm
+0.0000 Tw
+(Los interesados deber\341n aplicar su CV sin omitir remuneraci\363n pretendida ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 414.8 Tm
+0.0000 Tw
+(http://www.bumeran.com.ar/aplicantes/empleos/1075520.html ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 388.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 389.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 388.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Desarrollador Semi Senior PHP / SQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 376.4 Tm
+0.0208 Tw
+(Incorporaremos a nuestro equipo de tecnolog\355a un desarrollador semi-senior. Los requisitos para postular) Tj
+1 0 0 1 102.0 364.4 Tm
+1.4308 Tw
+(son Experiencia comprobable en programaci\363n PHP, SQL y HTML. Conocimientos de desarrollo en) Tj
+1 0 0 1 102.0 352.4 Tm
+0.0000 Tw
+(ambientes Linux, lenguajes PERL, Bash, etc. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 340.4 Tm
+0.0000 Tw
+(Se valorar\341 conocimientos en Oracle, XML. Disponibilidad full time or part- time. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 316.4 Tm
+0.0000 Tw
+(http://www.bumeran.com.ar/aplicantes/empleos/1074830.html ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 291 4 4 re
+f
+Q
+BT
+1 0 0 1 110 290 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Administrador Unix ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 278.0 Tm
+0.8308 Tw
+(Experiencia actualizada y comprobable en administraci\363n de sistemas Unix \( AIX, Solaris, Linux\) con) Tj
+1 0 0 1 102.0 266.0 Tm
+1.9415 Tw
+(continuidad m\355nima de tres a\361os. Conocimientos de bases de datos relacionales de envergadura, en) Tj
+1 0 0 1 102.0 254.0 Tm
+0.3883 Tw
+(particular Oracle e Informix. Conocimientos de programaci\363n en Shell Script, PERL. Conocimientos de) Tj
+1 0 0 1 102.0 242.0 Tm
+1.3271 Tw
+(herramientas de monitoreo y de herramientas de backup corporativo. No postularse si no se cumplen) Tj
+1 0 0 1 102.0 230.0 Tm
+0.0000 Tw
+(estrictamente los requerimientos establecidos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(http://www.bumeran.com.ar/aplicantes/empleos/1067720.html ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 179.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 180.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 179.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Database administrator ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 167.6 Tm
+0.0153 Tw
+(SMS - San Mart\355n, Suarez y Asociados - www.sms.com.ar Nuestro cliente una Compa\361\354a de servicios de) Tj
+1 0 0 1 102.0 155.6 Tm
+2.9410 Tw
+(Telecomunicaciones Busca: Data Base Administrator \(DBA\) Buscamos especialista en DBA para) Tj
+1 0 0 1 102.0 143.6 Tm
+0.5881 Tw
+(administrar las bases de datos de la compa\361\355a. La posici\363n requiere del dise\361o de nuevas soluciones, el) Tj
+1 0 0 1 102.0 131.6 Tm
+0 Tw
+(mantenimiento, monitoreo y dimensionamiento de las mismas. Se valoran conocimientos en) Tj
+1 0 0 1 102.0 119.6 Tm
+0.7185 Tw
+(Administraci\363n de MS SQL7/2000 - POSTGRESQL y MYSQL, en Scripting para web \(PERL/PHP\) y) Tj
+1 0 0 1 102.0 107.6 Tm
+1.1282 Tw
+(shell scripting \(BASH/CSH, Perl\), lenguajes ANSI SQL, Pg/SQL, T-SQUL, PI-SQL. Ser\341n altamente) Tj
+1 0 0 1 102.0 95.6 Tm
+0.9465 Tw
+(valorada experiencia en servicio de voz sobre IP. Apuntamos a un Lic o Ingeniero en Sistemas que le) Tj
+1 0 0 1 102.0 83.6 Tm
+0.1179 Tw
+(agrade experimentar con distintas tecnolog\355as, sea creativo, orientado a la resoluci\362n de problemas y con) Tj
+1 0 0 1 102.0 71.6 Tm
+1.6918 Tw
+(clara vocaci\363n de servicio hacia clientes internos/externos. Contrataci\363n en relaci\363n de dependencia.) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 517.44 37 Tm
+(5) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+35 0 obj
+6665
+endobj
+36 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 36 0 R
+/Contents 34 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 39 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(Entorno de trabajo din\341mico, flexible y orientado a objetivos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(http://www.computrabajo.com.ar/bt-ofrd-9727-57456.htm ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 732.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 731.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Analista programador ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 719.6 Tm
+1.5377 Tw
+(Para Importante Proyecto se requiere analistas programadores con experiencia en JAVA, J2EE, C, y) Tj
+1 0 0 1 102.0 707.6 Tm
+3.3775 Tw
+(PERL. Se ofrece muy buena contrataci\363n, viajes, posibilidad de desarrollo. Se ofrece excelente) Tj
+1 0 0 1 102.0 695.6 Tm
+0.0000 Tw
+(contrataci\363n, clima laboral y desarrollo profesional. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 671.6 Tm
+0.0000 Tw
+(http://www.computrabajo.com.ar/bt-ofrd-aclavel-77976.htm ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 645.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 646.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 645.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Experienced UNIX perl+mysql programmer for web applications ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 633.2 Tm
+0.0132 Tw
+(We are looking for a *NIX perl programmer in Argentina for an off-site position - full time and part time) Tj
+1 0 0 1 102.0 621.2 Tm
+0.2292 Tw
+(positions are available. Required skills: Perl, OOPerl, DBI, CGI, apache. Desired skills: mod_perl, PHP,) Tj
+1 0 0 1 102.0 609.2 Tm
+0.0000 Tw
+(C/C++, DHTML/JS/DOM, Tangram, Catalyst. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 585.2 Tm
+1.0480 Tw
+(Contact information: Send an email to busqueda@ank.com.ar - English or Spanish is OK. Need to be) Tj
+1 0 0 1 102.0 573.2 Tm
+0.0000 Tw
+(Argentine or hold a legal working visa for Argentina. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 549.2 Tm
+0.0000 Tw
+(http://jobs.perl.org/job/2284 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 522.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 523.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 522.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Programador en Perl y PostgreSQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 510.8 Tm
+4.0577 Tw
+(Se busca programador para importante proyecto a desarrollarse en Perl y PostgreSQL, no es) Tj
+1 0 0 1 102.0 498.8 Tm
+0.0887 Tw
+(indispensable saber los dos lenguajes pero si muy importante tener muy buen conocimiento de alguno de) Tj
+1 0 0 1 102.0 486.8 Tm
+0.0000 Tw
+(los dos debido a los tiempos de entrega de desarrollo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 462.8 Tm
+2.4600 Tw
+(El trabajo es para desarrollarse en nuestras oficinas y con alguna posibilidad de trabajo freelance) Tj
+1 0 0 1 102.0 450.8 Tm
+0.0000 Tw
+(dependiendo de conocimientos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 426.8 Tm
+0.0000 Tw
+(No omitir referencias y trabajos realizados a Martin Archanco \(martin@nulit.com.ar\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 400.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 401.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 400.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Ofertas varias ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 388.4 Tm
+0 Tw
+(http://www.computrabajo.com.ar/bt-) Tj
+1 0 0 1 102.0 376.4 Tm
+0.0000 Tw
+(ofrlistado.htm?Bqd=&Bqd=%2BTM031&Bqd=&Bqd=&BqdPalabras=perl ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 351 4 4 re
+f
+Q
+BT
+1 0 0 1 110 350 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Nueva lista del libro Higher Order Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 338.0 Tm
+0.4806 Tw
+(Mark Jason Dominus comenz\363 una lista para discutir su libro "High Order Perl". A\372n sin tener el libro,) Tj
+1 0 0 1 102.0 326.0 Tm
+0.8838 Tw
+(de pr\363xima publicaci\363n free, los comentarios que se hacen son muy agudos y siempre dejan algo para) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+(pensar y leer un poco m\341s. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+(http://hop.perl.plover.com/ ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 275.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 276.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 275.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perlcast ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 263.6 Tm
+0.0000 Tw
+(Perlcast es un podcast semanal que cubre varios temas relacionados con la programaci\363n Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 251.6 Tm
+0.0000 Tw
+(http://perlcast.com ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 225.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 226.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 225.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Versi\363n Cero, noticias sobre programaci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 213.2 Tm
+0.1447 Tw
+(Para todos los que por pasi\363n, trabajo o por curiosidad, est\341n en esta tarea de la programaci\363n, un site de) Tj
+1 0 0 1 102.0 201.2 Tm
+0.0000 Tw
+(noticias sobre el mundo del desarrollo del software ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 189.2 Tm
+0.0000 Tw
+(http://www.versioncero.com/ ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 162.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 163.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 162.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Gigantes del IT acusados de explotaci\363n al open source ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 150.8 Tm
+1.0068 Tw
+(En resumidas cuentas, se acusa a los grandes como IBM, Sun y HP de usar al open source como una) Tj
+1 0 0 1 102.0 138.8 Tm
+2.7437 Tw
+(f\341brica de software en lugar de empujarlos a seguir en la brecha de la generaci\363n de productos) Tj
+1 0 0 1 102.0 126.8 Tm
+0.0000 Tw
+(independientes de los comerciales. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(http://www.zdnet.com.au/news/software/0,2000061733,39194786,00.htm ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 88.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 89.4000000000001 4 4 re
+f
+Q
+BT
+1 0 0 1 110 88.4000000000001 Tm
+/F20 10 Tf
+0.0000 Tw
+(- La gran aventura de Rob Pike ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 76.4 Tm
+1.1080 Tw
+(Para los que no lo conocen, Rob Pike es uno de los integrantes del m\355tico equipo que creo a Unix, y) Tj
+1 0 0 1 102.0 64.4 Tm
+1.9773 Tw
+(autor de los libros The Unix Programming Environment y The Practice of Programming se fue de) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(6) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+39 0 obj
+5786
+endobj
+40 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 40 0 R
+/Contents 38 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 43 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(Lucent \(Bell Labs\) hacia Google. Una nota de color. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(http://www.nj.com/business/ledger/index.ssf?/base/business- 0/1117947410116141.xml&coll=1 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 732.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 731.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl Release 5.8.7 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+(B\341sicamente en ftp://ftp.cpan.org/pub/CPAN/src/ ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 693.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 694.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 693.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Fue lanzado ActivePerl para Mac OS X ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 681.2 Tm
+0.3493 Tw
+(La conocida distribuci\363n de Perl de la empresa ActiveState ahora tambi\351n est\341 disponible para la \372ltima) Tj
+1 0 0 1 102.0 669.2 Tm
+0.0000 Tw
+(versi\363n de Mac OS X \(10.4 - Tiger\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 657.2 Tm
+0.0000 Tw
+(http://www.activestate.com/Products/ActivePerl/OEM/ ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 630.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 631.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 630.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Nueva versi\363n de Pugs \(6.2.7\) generada por Autrijus Tang ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 618.8 Tm
+0.2238 Tw
+(Como es costumbre los releases de Pugs \(Perl 6 implementado en Haskell\) son cada vez m\341s frecuentes.) Tj
+1 0 0 1 102.0 606.8 Tm
+0.0000 Tw
+(Esta vez dos en un mes, siendo la versi\363n 6.2.7 la m\341s reciente. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 594.8 Tm
+0.0000 Tw
+(http://search.cpan.org/~autrijus/Perl6-Pugs-6.2.7/ ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 568.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 569.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 568.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- GuideXML, editor de XML en Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 556.4 Tm
+1.1276 Tw
+(Este editor de XML para la documentaci\363n de Gentoo generado en Perl parece ser un cl\341sico en esta) Tj
+1 0 0 1 102.0 544.4 Tm
+0.0000 Tw
+(distribuci\363n de Linux. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 532.4 Tm
+0.0000 Tw
+(http://download.iansview.com/gendocedit/releases/gendocedit-0.40.tar.gz ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 507 4 4 re
+f
+Q
+BT
+1 0 0 1 110 506 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Minimal perl install ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.4047 Tw
+(La gente de Gentoo est\341 trabajando en una distribuci\363n minimalista de Perl. A\372n experimental pero con) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+(un \351xito moderado, esta distribuci\363n ocupa 930KB frente a las 12.300 KB de la distribuci\363n completa. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 452.0 Tm
+0.0000 Tw
+(Manejo de Excepciones \(Mordiditas de aqu\355 y de all\341\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+(Por V\355ctor A. Rodr\355guez ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+(Introducci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 404.0 Tm
+0.2895 Tw
+(Otra entrega de Mordiditas de aqu\355 y de all\341, y esta vez el hincapi\351 es sobre un tema que si bien es poco) Tj
+1 0 0 1 102.0 392.0 Tm
+0.4094 Tw
+(com\372n y muchas veces no usado, nos va a hacer desaparecer una serie de problemas, mejorar la calidad) Tj
+1 0 0 1 102.0 380.0 Tm
+0.1087 Tw
+(del c\363digo, la estabilidad de nuestras aplicaciones y la posibilidad de poder ubicar r\341pidamente el c\363digo) Tj
+1 0 0 1 102.0 368.0 Tm
+0.7011 Tw
+(que est\341 causando el problema en una falla. Entonces qu\351 m\341s podemos pedir ?? ... ah si claro, en esta) Tj
+1 0 0 1 102.0 356.0 Tm
+0.0000 Tw
+(oportunidad vamos a tratar el manejo de excepciones. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 332.0 Tm
+0.8140 Tw
+(Como se est\341 haciendo costumbre, la forma de desarrollar el art\355culo es primero presentar el problema) Tj
+1 0 0 1 102.0 320.0 Tm
+0.5544 Tw
+(junto con la soluci\363n, cuesti\363n que puedas usarlo como si fuera una receta, despu\351s viene la parte de la) Tj
+1 0 0 1 102.0 308.0 Tm
+1.2770 Tw
+(explicaci\363n de c\363mo se llega a esta receta final, y es la parte m\341s jugosa de todo el asunto. Ahora a) Tj
+1 0 0 1 102.0 296.0 Tm
+0.0000 Tw
+(sumergirnos en el manejo de excepciones ... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+(El problema y la receta ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 260.0 Tm
+0.0846 Tw
+(B\341sicamente cuando ejecutamos cualquier funci\363n de Perl esta devuelve datos y/o ejecuta alguna acci\363n,) Tj
+1 0 0 1 102.0 248.0 Tm
+0.3228 Tw
+(y generalmente nos indica de alguna forma si la tarea fall\363 o no y debido a qu\351 problema. Normalmente) Tj
+1 0 0 1 102.0 236.0 Tm
+0.5425 Tw
+(esta forma es la devoluci\363n de un valor de error, el colocar el valor de error en un escalar \(por ejemplo) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+($Package::Error\) y/o en el escalar especial $! que corresponde a errores del sistema operativo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 200.0 Tm
+0.5400 Tw
+(Hasta ac\341 nada nuevo, pero veamos un pedazo de c\363digo que se usa para enviar un e-mail utilizando el) Tj
+1 0 0 1 102.0 188.0 Tm
+1.1833 Tw
+(m\363dulo Net::SMTP. Tenemos que ver en cada operaci\363n si esta fall\363 y tomar las acciones necesarias) Tj
+1 0 0 1 102.0 176.0 Tm
+0.1005 Tw
+(\(actualmente es parte del c\363digo es el que utilizo para enviar esta publicaci\363n a la lista todos los meses\) :) Tj
+/F10 10 Tf
+1 0 0 1 102.0 134.0 Tm
+0.0000 Tw
+( sub sendMail\($$$$$\) \{ ) Tj
+1 0 0 1 102.0 122.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 122.0 Tm
+0.0000 Tw
+(my $from = shift; ) Tj
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 110.0 Tm
+0.0000 Tw
+(my $to = shift; ) Tj
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 98.0 Tm
+0.0000 Tw
+(my $subject = shift; ) Tj
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 86.0 Tm
+0.0000 Tw
+(my $msg = shift; ) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 74.0 Tm
+0.0000 Tw
+(my $debug = shift; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 517.44 37 Tm
+(7) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+43 0 obj
+5942
+endobj
+44 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+45 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 44 0 R
+/Contents 42 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 47 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 758.0 Tm
+0.0000 Tw
+(my $smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 746.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 734.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 722.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 710.0 Tm
+0.0000 Tw
+(die "No puedo mandar e-mail" unless $smtp; ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 686.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \) || do \{ ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 674.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula MAIL\\n"; ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 662.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 650.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 638.0 Tm
+0.0000 Tw
+($smtp->to\( $to \) || do \{ ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 626.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula TO\\n"; ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 614.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 602.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 578.0 Tm
+0.0000 Tw
+($smtp->data\(\) || do \{ ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 566.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula DATA\\n"; ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 554.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 542.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 530.0 Tm
+0.0000 Tw
+($smtp->datasend\("From: $from\\n"\) || do \{ ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 518.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula FROM\\n"; ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 506.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 494.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 482.0 Tm
+0.0000 Tw
+($smtp->datasend\("To: $to\\n"\) || do \{ ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 470.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula TO\\n"; ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 458.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 446.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 434.0 Tm
+0.0000 Tw
+($smtp->datasend\("Subject: $subject\\n"\) || do \{ ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 422.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula DATASEND\\n"; ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 410.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 398.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 386.0 Tm
+0.0000 Tw
+($smtp->datasend\("Content-Type: text/plain\\n"\) || do \{ ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 374.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula CONTENT-TYPE\\n"; ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 362.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 350.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 338.0 Tm
+0.0000 Tw
+($smtp->datasend\("\\n"\) || do \{ ) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 326.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula HEADER-END\\n"; ) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 314.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 302.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 290.0 Tm
+0.0000 Tw
+(foreach\( @$msg \) \{ ) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 278.0 Tm
+0.0000 Tw
+($smtp->datasend\("$_"\) || do \{ ) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 266.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula MSG-BODY\\n"; ) Tj
+1 0 0 1 102.0 254.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 254.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 242.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 242.0 Tm
+0.0000 Tw
+(\};) Tj
+1 0 0 1 246.0 242.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 218.0 Tm
+0.0000 Tw
+($smtp->dataend\(\) || do \{ ) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 206.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula DATAEND\\n"; ) Tj
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 194.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 182.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 182.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 158.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 158.0 Tm
+0.0000 Tw
+($smtp->quit || do \{ ) Tj
+1 0 0 1 102.0 146.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 146.0 Tm
+0.0000 Tw
+(print "Error en cl\341sula QUIT\\n"; ) Tj
+1 0 0 1 102.0 134.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 134.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 122.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 122.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+0.3094 Tw
+(Ocurre que el c\363digo se empieza a hacer bastante confuso porque en cada llamada a una sub \(o m\351todo\)) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0312 Tw
+(tenemos que verificar la condici\363n de error. Si bien esto ayuda al fortalecimiento del c\363digo \(mas bien es) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(8) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+47 0 obj
+5710
+endobj
+48 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 48 0 R
+/Contents 46 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 51 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+2.4538 Tw
+(indispensable\) tambi\351n complica la comprensi\363n del mismo debido a que ataca directamente a su) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(linealidad. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+2.0806 Tw
+(Entonces si no hacemos un chequeo del c\363digo de error nuestro sistema se debilita y no funciona) Tj
+1 0 0 1 102.0 722.0 Tm
+0.2953 Tw
+(correctamente \(damos por sentado que todo funcion\363 cuando puede no haber ocurrido as\355\), en cambio si) Tj
+1 0 0 1 102.0 710.0 Tm
+2.2360 Tw
+(lo usamos tenemos problemas de legibilidad. Si nos ponemos a analizarlo, en realidad lo que nos) Tj
+1 0 0 1 102.0 698.0 Tm
+0.2606 Tw
+(molesta no es la detecci\363n misma de la condici\363n de error, sino todo el c\363digo necesario para procesarla) Tj
+1 0 0 1 102.0 686.0 Tm
+0.9788 Tw
+(\(en este caso no es abundante y ya resulta molesto\). Una posible soluci\363n ser\355a el poder discernir que) Tj
+1 0 0 1 102.0 674.0 Tm
+0.9031 Tw
+(parte es detecci\363n del error y cu\341l su tratamiento, pudiendo separar el c\363digo por tarea espec\355fica. Por) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(ejemplo : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 632.0 Tm
+0.0000 Tw
+( use Error qw\(:try\); ) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+( try \{ ) Tj
+1 0 0 1 102.0 596.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 596.0 Tm
+0.0000 Tw
+($smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 584.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 584.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+1 0 0 1 102.0 572.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 572.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 560.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 548.0 Tm
+0.0000 Tw
+(throw Error::Simple\( "No puedo mandar e-mail"\) unless $smtp; ) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 524.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \) ||  ) Tj
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 512.0 Tm
+0.0000 Tw
+(throw Error::Simple\("Error en cl\341sula MAIL"\); ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 500.0 Tm
+0.0000 Tw
+($smtp->to\( $to \) || ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 488.0 Tm
+0.0000 Tw
+(throw Error::Simple\("Error en cl\341sula TO"\); ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 464.0 Tm
+0.0000 Tw
+(## Mucho c\363digo innecesario para el ejemplo ) Tj
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 440.0 Tm
+0.0000 Tw
+($smtp->dataend\(\) ||  ) Tj
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 428.0 Tm
+0.0000 Tw
+(throw Error::Simple\("Error en cl\341sula DATAEND"\); ) Tj
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 416.0 Tm
+0.0000 Tw
+($smtp->quit || ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 404.0 Tm
+0.0000 Tw
+(throw Error::Simple\("Error en cl\341sula QUIT"\); ) Tj
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+( \} ) Tj
+1 0 0 1 102.0 380.0 Tm
+0.0000 Tw
+( catch Error::Simple with \{ ) Tj
+1 0 0 1 102.0 368.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 368.0 Tm
+0.0000 Tw
+(my $error = shift; ) Tj
+1 0 0 1 102.0 344.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 344.0 Tm
+0.0000 Tw
+(print "** $error->\{-text\}\\n"; ) Tj
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 332.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 320.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 308.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 284.0 Tm
+2.2650 Tw
+(Casualmente el m\363dulo Error.pm implementa esta funcionalidad, y permite usar excepciones de la) Tj
+1 0 0 1 102.0 272.0 Tm
+0.5763 Tw
+(siguiente forma : dentro del bloque try\{\} se coloca el c\363digo que devuelve errores, ya a sea a trav\351s de) Tj
+1 0 0 1 102.0 260.0 Tm
+0.4720 Tw
+(variables o usando un mecanismo para arrojar excepciones \(sentencia throw\{\}\), y en caso de suceder la) Tj
+1 0 0 1 102.0 248.0 Tm
+0.1175 Tw
+(ejecuci\363n del bloque try\{\} se detiene y comienza la ejecuci\363n del bloque catch\{\}. En nuestro ejemplo, si) Tj
+1 0 0 1 102.0 236.0 Tm
+0.0687 Tw
+(se produce un error al crear un nuevo objeto Net::SMTP se crear\341 una excepci\363n \(del tipo Error::Simple\)) Tj
+1 0 0 1 102.0 224.0 Tm
+0.7178 Tw
+(que har\341 que siga la ejecuci\363n a partir de la sentencia catch\{\}, pasando una referencia a un hash como) Tj
+1 0 0 1 102.0 212.0 Tm
+0.8824 Tw
+(primer par\341metro, y el texto del error \(indicado en cada sentencia throw\) como la clave -text de dicho) Tj
+1 0 0 1 102.0 200.0 Tm
+2.1421 Tw
+(hash \(para conocer otras claves del hash puede consultarse la documentaci\363n del m\363dulo Error en) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+(CPAN\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+2.9500 Tw
+(Imag\355nense que si Net::SMTP tambi\351n utilizara excepciones \372nicamente deber\355amos llamar a los) Tj
+1 0 0 1 102.0 152.0 Tm
+0.4231 Tw
+(m\351todos correspondientes y la prueba de si hubo error se har\355a dentro del bloque catch\{\}, sin necesidad) Tj
+1 0 0 1 102.0 140.0 Tm
+0.1081 Tw
+(de incluirlo en el bloque try\{\}, resultando en un c\363digo completamente lineal \(o al menos desprovisto de) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(distracciones sobre el manejo de errores\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+( try \{ ) Tj
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 86.0 Tm
+0.0000 Tw
+($smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 74.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 517.44 37 Tm
+(9) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+51 0 obj
+5694
+endobj
+52 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+53 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 52 0 R
+/Contents 50 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 55 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 758.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 746.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 722.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \); ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 710.0 Tm
+0.0000 Tw
+($smtp->to\( $to \); ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 686.0 Tm
+0.0000 Tw
+(## Mucho c\363digo innecesario para el ejemplo ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 662.0 Tm
+0.0000 Tw
+($smtp->dataend\(\); ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 650.0 Tm
+0.0000 Tw
+($smtp->quit; ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+( \} ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( catch Error::Net::SMTP with \{ ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 614.0 Tm
+0.0000 Tw
+(my $error = shift; ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 590.0 Tm
+0.0000 Tw
+(print "** $error->\{-text\}\\n"; ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 578.0 Tm
+0.0000 Tw
+($smtp = 0; ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(return; \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(Y color\355n colorado, este cuento se ha terminado. O ser\341 que reci\351n ha empezado ?? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(La explicaci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.8514 Tw
+(Vamos a empezar como siempre: por el principio. B\341sicamente podemos definir que una excepci\363n es) Tj
+1 0 0 1 102.0 482.0 Tm
+0.2112 Tw
+(una situaci\363n que no sucede sino en ciertas situaciones llamadas no comunes \( o sea, excepcionales :-\) \).) Tj
+1 0 0 1 102.0 470.0 Tm
+1.1256 Tw
+(Y este es exactamente el caso de los errores, entonces si volvemos al c\363digo para env\355o de e-mails y) Tj
+1 0 0 1 102.0 458.0 Tm
+1.2679 Tw
+(hacemos un peque\361o an\341lisis estad\355stico vamos a ver que aproximadamente por cada l\355nea de c\363digo) Tj
+1 0 0 1 102.0 446.0 Tm
+0.1280 Tw
+(destinada al env\355o de e-mails \(situaci\363n normal\) hay dos l\355neas dedicadas al manejo de errores \(situaci\363n) Tj
+1 0 0 1 102.0 434.0 Tm
+0.5382 Tw
+(de excepci\363n\), o sea la mayor parte de nuestro c\363digo \(un 66% aprox.\) lo estamos usando en ocasiones) Tj
+1 0 0 1 102.0 422.0 Tm
+0.8542 Tw
+(excepcionales, y adem\341s dificulta la lectura del c\363digo que implementa las funcionalidades principales) Tj
+1 0 0 1 102.0 410.0 Tm
+1.3694 Tw
+(de nuestro programa : desde todo punto de vista un verdadero desastre. S\363lo para agregar un insulto) Tj
+1 0 0 1 102.0 398.0 Tm
+1.6800 Tw
+(adicional, el c\363digo que maneja las excepciones es muy similar entre si, con lo que ni siquiera nos) Tj
+1 0 0 1 102.0 386.0 Tm
+0.1550 Tw
+(preocupamos por hacer reuso de c\363digo \(convengamos que aqu\355 s\363lo se trata s\363lo de una sentencia print,) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(por ser este es un caso muy simplificado\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+1.2960 Tw
+(Empecemos a trabajar entonces. Si atacamos el reuso de c\363digo bien podr\355a tratarse de encapsular el) Tj
+1 0 0 1 102.0 338.0 Tm
+0.3647 Tw
+(tratamiento de errores en una \372nica sub que se llame doError\(\) y que en nuestro caso s\363lo har\355a un print) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(del texto pasado como primer y \372nico par\341metro : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 296.0 Tm
+0.0000 Tw
+( sub doError\($\) \{ ) Tj
+1 0 0 1 102.0 284.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 284.0 Tm
+0.0000 Tw
+(my $msg = shift; ) Tj
+1 0 0 1 102.0 260.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 260.0 Tm
+0.0000 Tw
+(print "** Error fatal : $msg\\n"; ) Tj
+1 0 0 1 102.0 248.0 Tm
+0.0000 Tw
+( \} ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 224.0 Tm
+0.3631 Tw
+(Ahora bien, si empezamos a investigar en los mecanismos que tiene Perl para el manejo de excepciones) Tj
+1 0 0 1 102.0 212.0 Tm
+0.9531 Tw
+(caemos en nuestros viejos amigos die\(\) y eval\(\). En principio cuando se encuentra una situaci\363n en la) Tj
+1 0 0 1 102.0 200.0 Tm
+0.2789 Tw
+(que nuestro c\363digo encuentra un error este lo puede se\361alar a trav\351s de la ejecuci\363n de la sentencia die\(\)) Tj
+1 0 0 1 102.0 188.0 Tm
+2.1607 Tw
+(pasando, opcionalmente, un string con la descripci\363n del error. Por ejemplo cuando se genera una) Tj
+1 0 0 1 102.0 176.0 Tm
+0.9427 Tw
+(instancia de Net::SMTP \(en nuestra sub sendMail\) acto seguido se verifica que esta haya generado un) Tj
+1 0 0 1 102.0 164.0 Tm
+1.2316 Tw
+(valor en la variable $smtp y de no ser as\355 se genera una excepci\363n con la instrucci\363n die "No puedo) Tj
+1 0 0 1 102.0 152.0 Tm
+1.1481 Tw
+(mandar e-mail". Si ejecutamos el script desde un shell y no podemos conectarnos al server de SMTP) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(para enviar e-mails obtendremos el siguiente error : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+( No puedo mandar e-mail at ./send.pl line 47. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+1.2947 Tw
+(Para hacer esto Perl utiliza un mecanismo de se\361ales heredado de Unix. B\341sicamente las se\361ales son) Tj
+1 0 0 1 102.0 74.0 Tm
+1.2587 Tw
+(eventos as\355ncronos que, en Perl, est\341n accesibles a trav\351s del hash %SIG, y que pueden interceptarse) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(10) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+55 0 obj
+5501
+endobj
+56 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+57 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 56 0 R
+/Contents 54 0 R
+>>
+endobj
+58 0 obj
+<<
+/Length 59 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+2.5200 Tw
+(asignando una referencia a un c\363digo al handler correspondiente a la se\361al. El mensaje generado) Tj
+1 0 0 1 102.0 758.0 Tm
+0.7040 Tw
+(anteriormente ocurre porque die\(\) genera la se\361al __DIE__ que es interceptada por Perl mismo, y hace) Tj
+1 0 0 1 102.0 746.0 Tm
+1.2406 Tw
+(que se muestre el string pasado a la sentencia die\(\) y termine la ejecuci\363n del script. B\341sicamente es) Tj
+1 0 0 1 102.0 734.0 Tm
+2.1850 Tw
+(como si Perl colocara un sentencia similar a la siguiente al principio de nuestro script para poder) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(interceptar un die\(\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 692.0 Tm
+0.0000 Tw
+( $SIG\{__DIE__\} = sub \{ print STDERR $_[0]; exit $!; \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 668.0 Tm
+0.1893 Tw
+(Ajh\341 !! entonces hagamos nuestra propia intercepci\363n de la se\361al __DIE__ y tomemos el control \("dame) Tj
+1 0 0 1 102.0 656.0 Tm
+1.7676 Tw
+(dame dame todo el power..."\). No nos hagamos problemas, esto mas o menos ya lo hace el eval\(\).) Tj
+1 0 0 1 102.0 644.0 Tm
+0.6244 Tw
+(M\341gicamente si envolvemos una serie de sentencias de nuestro c\363digo con la sentencia eval\(\) esta va a) Tj
+1 0 0 1 102.0 632.0 Tm
+0.0000 Tw
+(realizar una tarea similar, colocando el error que ocurra en el escalar $@ : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( eval \{ ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 590.0 Tm
+0.0000 Tw
+($smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 578.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 566.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 554.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 542.0 Tm
+0.0000 Tw
+(die "No puedo mandar e-mail" unless $smtp; ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 530.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \) || die "Error en cl\341sula MAIL"; ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 518.0 Tm
+0.0000 Tw
+($smtp->to\( $to \) || die "Error en cl\341sula TO"; ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 494.0 Tm
+0.0000 Tw
+(## Muuuucho texto quitado por claridad .. ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 470.0 Tm
+0.0000 Tw
+($smtp->dataend\(\) || die "Error en cl\341sula DATAEND"; ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 458.0 Tm
+0.0000 Tw
+($smtp->quit || die "Error en cl\341sula QUIT"; ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+( if \($@\) \{ ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 422.0 Tm
+0.0000 Tw
+(doError\($@\); ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 410.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 398.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(Bueno bueno, sinceramente ahora si que est\341 todo mucho m\341s claro. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 338.0 Tm
+0.9612 Tw
+(Llegado a este punto vamos a analizar en d\363nde estamos ubicados, ver si logramos el objetivo, si hay) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(alg\372n efecto colateral y seg\372n estos resultados veremos de seguir avanzando o no. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 302.0 Tm
+3.9075 Tw
+(En principio logramos la reusabilidad de c\363digo con doError\(\), linealizamos nuestro c\363digo y) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(centralizamos el manejo de las excepciones a trav\351s de las funciones die\(\) y eval\(\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 266.0 Tm
+0.1273 Tw
+(Ahora compliquemos un poco las cosas, y supongamos que queremos manejar m\341s de una excepci\363n, ya) Tj
+1 0 0 1 102.0 254.0 Tm
+0.2569 Tw
+(que no todos los errores indican lo mismo. Digamos que en nuestro ejemplo de enviar e-mails queremos) Tj
+1 0 0 1 102.0 242.0 Tm
+2.4613 Tw
+(que se tomen distintas acciones si hay un error al conectarnos al server \(porque lo consideramos) Tj
+1 0 0 1 102.0 230.0 Tm
+0.4800 Tw
+(irrecuperable\) o si lo hay dentro del protocolo SMTP porque lo consideramos recuperable. En este caso) Tj
+1 0 0 1 102.0 218.0 Tm
+1.0788 Tw
+(la forma de recuperar ser\341 esperar 10 segundos e intentar, como m\341ximo 3 veces, el enviar el e-mail.) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(Bueno, ah\355 vamos ... ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+( sub sendMail\($$$$$\) \{ ) Tj
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 164.0 Tm
+0.0000 Tw
+(my $from = shift; ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 152.0 Tm
+0.0000 Tw
+(my $to = shift; ) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 140.0 Tm
+0.0000 Tw
+(my $subject = shift; ) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 128.0 Tm
+0.0000 Tw
+(my $msg = shift; ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 116.0 Tm
+0.0000 Tw
+(my $debug = shift; ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 104.0 Tm
+0.0000 Tw
+(my $smtp; ) Tj
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 80.0 Tm
+0.0000 Tw
+(for my $tries \(1..3\) \{ ) Tj
+1 0 0 1 102.0 68.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 68.0 Tm
+0.0000 Tw
+(## Try to execute ... ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 511.88 37 Tm
+(11) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+59 0 obj
+5543
+endobj
+60 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+61 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 60 0 R
+/Contents 58 0 R
+>>
+endobj
+62 0 obj
+<<
+/Length 63 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 758.0 Tm
+0.0000 Tw
+(eval \{ ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 746.0 Tm
+0.0000 Tw
+($smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 438.0 734.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 438.0 722.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 438.0 710.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 698.0 Tm
+0.0000 Tw
+(die "No puedo mandar e-mail" unless $smtp; ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 674.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \) || die "Error en cl\341sula MAIL"; ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 662.0 Tm
+0.0000 Tw
+($smtp->to\( $to \) || die "Error en cl\341sula TO"; ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 650.0 Tm
+0.0000 Tw
+($smtp->data\(\) || die "Error en cl\341sula DATA"; ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 626.0 Tm
+0.0000 Tw
+(## Muuuucho texto quitado por claridad .. ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 602.0 Tm
+0.0000 Tw
+($smtp->dataend\(\) || die "Error en cl\341sula DATAEND"; ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 590.0 Tm
+0.0000 Tw
+($smtp->quit || die "Error en cl\341sula QUIT"; ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 578.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 554.0 Tm
+0.0000 Tw
+(## Catch the error ... ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 542.0 Tm
+0.0000 Tw
+(if \($@\) \{ ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 530.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 518.0 Tm
+0.0000 Tw
+(if \( $@ =~ /Error/ \) \{ ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 506.0 Tm
+0.0000 Tw
+(doError \("Error recuperable \($tries\)..."\); ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 494.0 Tm
+0.0000 Tw
+(sleep\(10\); ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 482.0 Tm
+0.0000 Tw
+(next; ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 470.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 458.0 Tm
+0.0000 Tw
+(if \( $@ =~ /No puedo/ \) \{ ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 446.0 Tm
+0.0000 Tw
+(doError\("Error irrecuperable : $@"\); ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 434.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 422.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 398.0 Tm
+0.0000 Tw
+(## Otherwise return ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 386.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 374.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 362.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 326.0 Tm
+2.6423 Tw
+(Muy bien, no s\363lo hemos logrados nuestros objetivos sino que adem\341s podemos aplicar distintos) Tj
+1 0 0 1 102.0 314.0 Tm
+3.1921 Tw
+(tratamientos seg\372n los errores que se nos presenten. Pero \(porque en definitiva uno nunca est\341) Tj
+1 0 0 1 102.0 302.0 Tm
+1.9244 Tw
+(satisfecho\) nos queda algo pendiente, y es que si las subs/m\351todos no hacen uso de die\(\) entonces) Tj
+1 0 0 1 102.0 290.0 Tm
+0.3994 Tw
+(tenemos que agregar la detecci\363n del error y convertirla en una excepci\363n. En nuestro ejemplo de env\355o) Tj
+1 0 0 1 102.0 278.0 Tm
+3.3293 Tw
+(de e-mails pasa exactamente eso \(todos los m\351todos de Net::SMTP indican que hubo un error) Tj
+1 0 0 1 102.0 266.0 Tm
+0.1706 Tw
+(devolviendo undef \) , entonces debemos verificarlo y en tal caso generar la excepci\363n en cada una de las) Tj
+1 0 0 1 102.0 254.0 Tm
+0.0000 Tw
+(invocaciones. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 230.0 Tm
+0.5547 Tw
+(En nuestro caso es relativamente simple, pero en grandes cantidades de c\363digo puede convertirse en un) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+(problema, entonces ... por qu\351 no solucionarlo ?? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 206.0 Tm
+0.2900 Tw
+(Como siempre viene en nuestra ayuda el amigo CPAN, y por ah\355 descubrimos un modulito que se llama) Tj
+1 0 0 1 102.0 194.0 Tm
+1.6650 Tw
+(Fatal y que permite exactamente hacer lo que necesitamos : en caso que una serie de subs/m\351todos) Tj
+1 0 0 1 102.0 182.0 Tm
+0.8675 Tw
+(devuelvan un valor falso como indicador de error este m\363dulo los detecta y genera una excepci\363n que) Tj
+1 0 0 1 102.0 170.0 Tm
+0.1953 Tw
+(puede ser capturada con eval\(\). Basta con que al poner la sentencia use le indiquemos qu\351 m\363dulos debe) Tj
+1 0 0 1 102.0 158.0 Tm
+0.1782 Tw
+(monitorear y quitar las verificaciones y sentencias die\(\) luego de cada una de los llamadas a los m\351todos) Tj
+1 0 0 1 102.0 146.0 Tm
+0.0000 Tw
+(de Net::SMTP ... entonces manos a la obra : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+( use Fatal qw\(Net::SMTP::new Net::SMTP::mail Net::SMTP::to ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 104.0 Tm
+0.0000 Tw
+(## ... y el resto de los m\363dulos ... ) Tj
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 92.0 Tm
+0.0000 Tw
+(Net::SMTP::quit\); ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(12) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+63 0 obj
+5621
+endobj
+64 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+65 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 64 0 R
+/Contents 62 0 R
+>>
+endobj
+66 0 obj
+<<
+/Length 67 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.2044 Tw
+(Al ejecutar el c\363digo se genera la excepci\363n como esperamos pero ya no detecta si el error se puede) Tj
+1 0 0 1 102.0 758.0 Tm
+0.9971 Tw
+(recuperar o no, y actuar en consecuencia, sino que ante un error termina la ejecuci\363n de sendMail sin) Tj
+1 0 0 1 102.0 746.0 Tm
+2.7256 Tw
+(mas. De vuelta al tablero de debugging vemos que en realidad al detectar la secuencia de error) Tj
+1 0 0 1 102.0 734.0 Tm
+1.9135 Tw
+(\(comentario Catch the error ...\) no reconoce ninguno de los dos strings "Error" o "No puedo" y la) Tj
+1 0 0 1 102.0 722.0 Tm
+0.5700 Tw
+(pr\363xima sentencia que ejecuta es el return que sigue a los dos if. Esto ocurre b\341sicamente debido a que) Tj
+1 0 0 1 102.0 710.0 Tm
+0.8472 Tw
+(usamos el mensaje de la excepci\363n \(almacenado en $@\) para detectar que tipo de error se trataba y al) Tj
+1 0 0 1 102.0 698.0 Tm
+0.3619 Tw
+(delegarlo en el m\363dulo Fatal estos han cambiado. Como ejercicio vamos a cambiar el bloque de manejo) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(de errores por el siguiente : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 656.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 656.0 Tm
+0.0000 Tw
+(## Catch the error ... ) Tj
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 644.0 Tm
+0.0000 Tw
+(if \($@\) \{ ) Tj
+1 0 0 1 102.0 632.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 632.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 620.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 620.0 Tm
+0.0000 Tw
+(if \( $@ =~ /Error/ \) \{ ) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 608.0 Tm
+0.0000 Tw
+(doError \("Error recuperable \($tries\)..."\); ) Tj
+1 0 0 1 102.0 596.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 596.0 Tm
+0.0000 Tw
+(sleep\(10\); ) Tj
+1 0 0 1 102.0 584.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 584.0 Tm
+0.0000 Tw
+(next; ) Tj
+1 0 0 1 102.0 572.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 572.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 560.0 Tm
+0.0000 Tw
+(if \( $@ =~ /No puedo/ \) \{ ) Tj
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 548.0 Tm
+0.0000 Tw
+(doError\("Error irrecuperable : $@"\); ) Tj
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 536.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 524.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 500.0 Tm
+0.0000 Tw
+(## Otherwise return ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 488.0 Tm
+0.0000 Tw
+(doError\( "Error no reconocido : \\n $@"\); ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 476.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 464.0 Tm
+0.0000 Tw
+(\}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+(Si volvemos a ejecutar nos encontramos con la siguiente salida de la ejecuci\363n : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+( ** Error fatal: Error no reconocido : ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( Can't to\(Net::SMTP=GLOB\(0x80fb38\), victor@bit-manxxxxxxxxxxx.com.ar\), $! is "" at \(eval 5\) line 3 ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( main::__ANON__\('Net::SMTP=GLOB\(0x80fb38\)','victor@bit-manxxxxxxxxxxx.com.ar'\) called at send.pl line 68 ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( eval \{...\} called at send.pl line 60 ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+( main::sendMail\('"V\\x\{ed\}ctor A. Rodr\\x\{ed\}guez" <victor@bit-man.com.ar>','victor@bit-manxxxxxxxxxxx.com.ar','TEST !!!','ARRAY\(0x8741cc\)',1\) called at send.pl line 107 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 338.0 Tm
+1.4483 Tw
+(que no es sencillamente, nada mas ni nada menos, que el mensaje que coloca el m\363dulo Fatal en la) Tj
+1 0 0 1 102.0 326.0 Tm
+0.9611 Tw
+(variable $@. Si miramos un poco vamos a ver que este contiene la sub que provoc\363 el error, con qu\351) Tj
+1 0 0 1 102.0 314.0 Tm
+0.4882 Tw
+(argumentos fue llamada y la lista de sub que la llamaron \(algo as\355 como un stack trace\). Evidentemente) Tj
+1 0 0 1 102.0 302.0 Tm
+0.2063 Tw
+(tratar de sacar algo de informaci\363n este texto para ver si es un error recuperable, no recuperable o lo que) Tj
+1 0 0 1 102.0 290.0 Tm
+0.2271 Tw
+(sea se hace un tanto problem\341tico \(por no decir imposible, no recomendable ni apto para la salud mental) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+(propia o ajena\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 254.0 Tm
+1.2194 Tw
+(Oh, y ahora qui\351n podr\341 defenderme ... pero nadie viene al rescate, as\355 que no queda otra que seguir) Tj
+1 0 0 1 102.0 242.0 Tm
+2.9133 Tw
+(trabajando si queremos conseguir nuestro objetivo extra de linealizar completamente el c\363digo y) Tj
+1 0 0 1 102.0 230.0 Tm
+0.8880 Tw
+(mantener el manejo de excepciones en forma separada. Como de costumbre hay una serie de m\363dulos) Tj
+1 0 0 1 102.0 218.0 Tm
+0.3969 Tw
+(que nos permiten hacerlo, y podemos decir que son generalizaciones del m\363dulo Fatal que nos dejan no) Tj
+1 0 0 1 102.0 206.0 Tm
+0.4900 Tw
+(s\363lo actuar acorde al valor devuelto seg\372n sea verdadero o falso, sino algo m\341s gen\351rico : interceptar la) Tj
+1 0 0 1 102.0 194.0 Tm
+0.4088 Tw
+(llamada a una funci\363n y colocar un wrapper \(envoltorio\) alrededor de la misma de tal forma de ejecutar) Tj
+1 0 0 1 102.0 182.0 Tm
+1.6647 Tw
+(c\363digo antes y despu\351s de su ejecuci\363n. As\355 podemos validar el c\363digo de ejecuci\363n de cada sub o) Tj
+1 0 0 1 102.0 170.0 Tm
+0.9368 Tw
+(m\351todo, una vez ejecutado, y realizar la excepci\363n a trav\351s de un die\(\) en caso que sea necesario ... y) Tj
+1 0 0 1 102.0 158.0 Tm
+0.0000 Tw
+(todo fuera de nuestro flujo normal !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 134.0 Tm
+0.4313 Tw
+(Este tipo de m\363dulo se encuentran bajo el namespace Hook, y un muy buen ejemplo es Hook::Lexwrap) Tj
+1 0 0 1 102.0 122.0 Tm
+3.1736 Tw
+(\(otros m\363dulos que cumplen una funci\363n similar son Class::Hook , Hook::Scope, Hook::Heckle,) Tj
+1 0 0 1 102.0 110.0 Tm
+1.3035 Tw
+(Hook::WrapSub y Hook::PrePostCall \). Su uso b\341sico es decir a que sub o modos se desea hacer un) Tj
+1 0 0 1 102.0 98.0 Tm
+1.0256 Tw
+(wrapper , cu\341ndo \(antes o despu\351s de su ejecuci\363n\) y qu\351 c\363digo ejecutar pas\341ndole una referencia al) Tj
+1 0 0 1 102.0 86.0 Tm
+3.0531 Tw
+(mismo c\363digo. Por ejemplo, si queremos generar una excepci\363n cuando new\(\) no devuelve una) Tj
+1 0 0 1 102.0 74.0 Tm
+0.7136 Tw
+(referencia porque la creaci\363n del objeto fall\363 entonces lo especificamos como un wrapping del m\351todo) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 511.88 37 Tm
+(13) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+67 0 obj
+6627
+endobj
+68 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+69 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 68 0 R
+/Contents 66 0 R
+>>
+endobj
+70 0 obj
+<<
+/Length 71 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.5264 Tw
+(new\(\) correspondiente al m\363dulo Net::SMTP \(espec\355ficamente Net::SMTP::new\) pero s\363lo una vez que) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(esta ha sido ejecutada \(post\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 728.0 Tm
+0.0000 Tw
+( use Hook::LexWrap; ) Tj
+1 0 0 1 102.0 704.0 Tm
+0.0000 Tw
+( wrap Net::SMTP::new, ) Tj
+1 0 0 1 102.0 692.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 692.0 Tm
+0.0000 Tw
+(post => sub \{  ) Tj
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 680.0 Tm
+0.0000 Tw
+(die\("No puedo mandar e-mail"\) ) Tj
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 294.0 668.0 Tm
+0.0000 Tw
+(if ! defined $_[-1]; ) Tj
+1 0 0 1 102.0 656.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 656.0 Tm
+0.0000 Tw
+(\}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 632.0 Tm
+0.1924 Tw
+(Un breve detalle de implementaci\363n : a los argumentos recibidos \(array @_ \) se agrega un elemento uno) Tj
+1 0 0 1 102.0 620.0 Tm
+0.5815 Tw
+(adicional en el \372ltimo lugar, y es el valor de vuelto por el sub o m\351todo. Este puede accederse como el) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+(elemento -1 \(primer elemento desde el final\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 584.0 Tm
+0.4121 Tw
+(Hasta aqu\355 los objetivos propuestos fueron logrados y seguramente hay muchos otros m\351todos m\341s, con) Tj
+1 0 0 1 102.0 572.0 Tm
+0.1206 Tw
+(sus tantas y correspondientes ventajas y desventajas, que har\355a imposible la tarea de tratar de terminar de) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+(escribir este art\355culo alguna vez. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 536.0 Tm
+1.5907 Tw
+(Adicionalmente hay un peque\361o problema, y es con la implementaci\363n de la excepci\363n a trav\351s del) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(mecanismo de eval\(\)/die\(\). Esta tiene dos puntos d\351biles : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 497.6 Tm
+1.3513 Tw
+() Tj
+ET
+q
+102 498.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 497.6 Tm
+/F20 10 Tf
+1.3513 Tw
+(- eval\(\) atrapado errores de compilaci\363n, sintaxis o los generados por die\(\) con lo que nos) Tj
+1 0 0 1 102.0 485.6 Tm
+0.9400 Tw
+(encontramos limitados a la detecci\363n de errores fatales como la imposibilidad de conexi\363n a) Tj
+1 0 0 1 102.0 473.6 Tm
+2.7762 Tw
+(un dispositivo, a un socket, o la falta de implementaci\363n de funcionalidades en sistema) Tj
+1 0 0 1 102.0 461.6 Tm
+1.9917 Tw
+(operativos \(symlink, etc.\). Si bien puede utilizarse para otros prop\363sitos \(como en nuestro) Tj
+1 0 0 1 102.0 449.6 Tm
+3.3317 Tw
+(caso\), esta implementaci\363n no es la pensada originalmente y puede tener sus efectos) Tj
+1 0 0 1 102.0 437.6 Tm
+0.0000 Tw
+(colaterales y las l\363gicas desviaciones ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 423.2 Tm
+1.0231 Tw
+() Tj
+ET
+q
+102 424.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 423.2 Tm
+/F20 10 Tf
+1.0231 Tw
+(- la \372nica posibilidad de intercambio de informaci\363n entre el c\363digo que genera el error y el) Tj
+1 0 0 1 102.0 411.2 Tm
+0.7071 Tw
+(que debe manejar esta excepci\363n es el escalar $@, y este hace que la detecci\363n del tipo de) Tj
+1 0 0 1 102.0 399.2 Tm
+1.1954 Tw
+(error, para su tratamiento diferencial, dependa exclusivamente del texto del error. Esto es a) Tj
+1 0 0 1 102.0 387.2 Tm
+0.8085 Tw
+(todas luces err\363neo y, b\341sicamente, porque el texto es para comunicaci\363n humana, en tanto) Tj
+1 0 0 1 102.0 375.2 Tm
+4.7692 Tw
+(que los c\363digos \(num\351ricos, alfab\351ticos, binarios, etc.\) son m\341s aptos para su uso) Tj
+1 0 0 1 102.0 363.2 Tm
+0.0000 Tw
+(computacional. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 351.2 Tm
+1.6022 Tw
+(Estos dos efectos, m\341s el segundo que le primero, los pudimos sufrir y ver en el transcurso de este) Tj
+1 0 0 1 102.0 339.2 Tm
+0.0000 Tw
+(art\355culo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 315.2 Tm
+0.3983 Tw
+(Una vez m\341s si miramos en CPAN vamos a encontrar que alguien ya tuvo este problema y lo solucion\363) Tj
+1 0 0 1 102.0 303.2 Tm
+0.1833 Tw
+(de una forma muy gr\341cil y elegante. El m\363dulo en cuesti\363n se llama Error, y b\341sicamente hace el mismo) Tj
+1 0 0 1 102.0 291.2 Tm
+0.3462 Tw
+(trabajo que estuvimos viendo con eval\(\) y die\(\) pero encapsulado y con exposici\363n de las excepciones a) Tj
+1 0 0 1 102.0 279.2 Tm
+1.8307 Tw
+(trav\351s de un mecanismo Object Oriented \(OO - Orientado a Objetos\) ... sin miedos, que solamente) Tj
+1 0 0 1 102.0 267.2 Tm
+1.2022 Tw
+(vamos a usar algo simple sin necesidad de conocer qu\351 son y c\363mo se especifican o se codifican los) Tj
+1 0 0 1 102.0 255.2 Tm
+0.0606 Tw
+(objetos \( prometo que, si les interesa, en pr\363ximas ediciones de CaFe Perl va a aparecer un art\355culo sobre) Tj
+1 0 0 1 102.0 243.2 Tm
+0.0000 Tw
+(orientaci\363n a objetos y el uso espec\355fico con el manejo de excepciones \). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 219.2 Tm
+1.8629 Tw
+(Simplemente este m\363dulo nos permite ejecutar el c\363digo que puede devolver errores dentro de una) Tj
+1 0 0 1 102.0 207.2 Tm
+1.5450 Tw
+(sentencia try\(\), manejar las excepciones en uno o m\341s bloques catch\(\) y si ocurre una excepci\363n no) Tj
+1 0 0 1 102.0 195.2 Tm
+0.0000 Tw
+(especificada atraparla con otherwise\(\) ... casualmente como en nuestro c\363digo ;-\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 183.2 Tm
+1.5547 Tw
+(Asimismo cuando detectamos un error, para convertirlo en una excepci\363n lo hacemos a trav\351s de la) Tj
+1 0 0 1 102.0 171.2 Tm
+0.9600 Tw
+(funci\363n throw\(\) usando una excepci\363n del tipo Error::Simple \(objeto usado para arrojar excepciones y) Tj
+1 0 0 1 102.0 159.2 Tm
+0.0000 Tw
+(cuya clase est\341 definida en Error.pm \) aceptando el texto del error como \372nico argumento : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 129.2 Tm
+0.0000 Tw
+( use Error qw\(:try\); ) Tj
+1 0 0 1 102.0 105.2 Tm
+0.0000 Tw
+( sub sendMail\($$$$$\) \{ ) Tj
+1 0 0 1 102.0 93.2 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 93.2 Tm
+0.0000 Tw
+(my $from = shift; ) Tj
+1 0 0 1 102.0 81.2 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 81.2 Tm
+0.0000 Tw
+(my $to = shift; ) Tj
+1 0 0 1 102.0 69.2 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 69.2 Tm
+0.0000 Tw
+(my $subject = shift; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(14) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+71 0 obj
+6176
+endobj
+72 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+73 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 72 0 R
+/Contents 70 0 R
+>>
+endobj
+74 0 obj
+<<
+/Length 75 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 758.0 Tm
+0.0000 Tw
+(my $msg = shift; ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 746.0 Tm
+0.0000 Tw
+(my $debug = shift; ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 734.0 Tm
+0.0000 Tw
+(my $smtp; ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 710.0 Tm
+0.0000 Tw
+(## Try to execute ... ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 698.0 Tm
+0.0000 Tw
+(try \{ ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 686.0 Tm
+0.0000 Tw
+($smtp = Net::SMTP->new\( $SMTP_server,  ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 390.0 674.0 Tm
+0.0000 Tw
+(Port=>$SMTP_port, ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 390.0 662.0 Tm
+0.0000 Tw
+(Hello=>$thisMachine,  ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 390.0 650.0 Tm
+0.0000 Tw
+(Debug => $debug \); ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 626.0 Tm
+0.0000 Tw
+(throw Error::Simple\( "No puedo mandar e-mail" \) ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 614.0 Tm
+0.0000 Tw
+(unless $smtp; ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 590.0 Tm
+0.0000 Tw
+($smtp->mail\( $from \)  ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 578.0 Tm
+0.0000 Tw
+(|| throw Error::Simple\( "Error en cl\341sula MAIL" \); ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 566.0 Tm
+0.0000 Tw
+($smtp->to\( $to \)  ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 554.0 Tm
+0.0000 Tw
+(|| throw Error::Simple\("Error en cl\341sula TO"\); ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 530.0 Tm
+0.0000 Tw
+(## Muuuucho texto quitado por claridad .. ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 506.0 Tm
+0.0000 Tw
+($smtp->quit  ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 246.0 494.0 Tm
+0.0000 Tw
+(|| throw Error::Simple\( "Error en cl\341sula QUIT" \); ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 482.0 Tm
+0.0000 Tw
+(\} ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 458.0 Tm
+0.0000 Tw
+(## Catch the error ... ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 446.0 Tm
+0.0000 Tw
+(catch Error::Simple with \{ ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 434.0 Tm
+0.0000 Tw
+(my $error = shift; ## como primer argumento un hash con ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 342.0 422.0 Tm
+0.0000 Tw
+( ## data sobre el error. ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 398.0 Tm
+0.0000 Tw
+(doError\( $error->\{-text\} \); ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 386.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 374.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 362.0 Tm
+0.0000 Tw
+(\} ) Tj
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 338.0 Tm
+0.0000 Tw
+(otherwise \{ ) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 326.0 Tm
+0.0000 Tw
+(doError\("Untrapped error"\); ) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 314.0 Tm
+0.0000 Tw
+($smtp = 0; ## destroy the object ) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 302.0 Tm
+0.0000 Tw
+(\}; ) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 278.0 Tm
+0.0000 Tw
+(return; ) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 242.0 Tm
+0.0306 Tw
+(Como ven no hay nada nuevo, simplemente que la implementaci\363n es m\341s limpia ... aunque a\372n tenemos) Tj
+1 0 0 1 102.0 230.0 Tm
+0.4447 Tw
+(el problema de tener que verificar y arrojar la excepci\363n con throw\(\), tambi\351n podemos mezclarla junto) Tj
+1 0 0 1 102.0 218.0 Tm
+1.3667 Tw
+(con los m\363dulos Fatal o Hook::Lexwrap y obtener un manejo de las excepciones mejorado, como lo) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(hicimos antes usando eval\(\) y die\(\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 182.0 Tm
+0.0000 Tw
+(Una mirada m\341s all\341 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.9450 Tw
+(No cabe duda que ir del manejo de errores al de excepciones es un gran paso en la mejora de nuestra) Tj
+1 0 0 1 102.0 158.0 Tm
+0.0586 Tw
+(capacidad de resoluci\363n de problemas. Hay un paso adicional, aunque seguramente habr\341 muchos m\341s, y) Tj
+1 0 0 1 102.0 146.0 Tm
+2.6387 Tw
+(es el de exception-safety \(excepciones seguras\); este tiene que ver ya no con la linealidad de la) Tj
+1 0 0 1 102.0 134.0 Tm
+1.0707 Tw
+(codificaci\363n sino con la consistencia de los datos. Podr\355amos definir que un componente queda en un) Tj
+1 0 0 1 102.0 122.0 Tm
+0.9121 Tw
+(estado seguro, o consistente, cuando luego de producirse un error este no presenta efectos secundarios) Tj
+1 0 0 1 102.0 110.0 Tm
+0.2738 Tw
+(tales como cambio en sus especificaciones, comportamiento, o problemas como el consumo cont\355nuo de) Tj
+1 0 0 1 102.0 98.0 Tm
+0.9200 Tw
+(memoria \(memory leaks\) y el no cerrado de file handlers. Para el caso de exception-safety tambi\351n se) Tj
+1 0 0 1 102.0 86.0 Tm
+0.7669 Tw
+(especifica qu\351 nivel de seguridad est\341 soportado en el m\363dulo o componente, pudiendo ir desde el "no) Tj
+1 0 0 1 102.0 74.0 Tm
+0.4369 Tw
+(compromiso" \(no hay seguridad de que el comportamiento siga siendo el mismo en caso de error\) hasta) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 511.88 37 Tm
+(15) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+75 0 obj
+5511
+endobj
+76 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+77 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 76 0 R
+/Contents 74 0 R
+>>
+endobj
+78 0 obj
+<<
+/Length 79 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.2584 Tw
+(el de "transparencia a las fallas" donde se asegura que no importa lo que ocurra la operaci\363n se llevar\341 a) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(cabo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.7024 Tw
+(Otro punto importante a destacar, de cara al futuro, es que el mecanismo de manejo de excepciones en) Tj
+1 0 0 1 102.0 722.0 Tm
+0.4275 Tw
+(Perl 6 est\341 modelado seg\372n el m\363dulo Error que se ve al final de este art\355culo, y en las siguientes RFCs) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(de Perl 6 pueden ver m\341s informaci\363n sobre este t\363pico : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 684.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 683.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 63: Exception handling syntax ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 669.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 670.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 669.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 70: Allow exception-based error-reporting. ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 654.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 655.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 654.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 80: Exception objects and classes for builtins ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 640.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 641.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 640.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 88: Omnibus Structured Exception/Error Handling Mechanism ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 627 4 4 re
+f
+Q
+BT
+1 0 0 1 110 626 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 96: A Base Class for Exception Objects ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 611.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 612.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 611.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 119: Object neutral error handling via exceptions ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 597.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 598.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 597.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 140: One Should Not Get Away With Ignoring System Call Errors ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 582.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 583.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 582.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- RFC 151: Merge $!, $^E, $@ and $? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 570.8 Tm
+0.0000 Tw
+(Que tenga una programaci\363n excepcional. Nos vemos la pr\363xima !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 546.8 Tm
+0.0000 Tw
+(Infograf\355a ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 520.4 Tm
+0 Tw
+() Tj
+ET
+q
+102 521.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 520.4 Tm
+/F20 10 Tf
+0 Tw
+(- Exception-Safety in Generic Components) Tj
+1 0 0 1 102.0 508.4 Tm
+0.0000 Tw
+(\(http://www.boost.org/more/generic_exception_safety.html\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 495 4 4 re
+f
+Q
+BT
+1 0 0 1 110 494 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Exception handling \(http://en.wikipedia.org/wiki/Exception_handling\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 479.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 480.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 479.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl builtin functions \(http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 465.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 466.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 465.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl CookBook \(http://www.unix.org.ua/orelly/perl/cookbook/\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 450.8 Tm
+0 Tw
+() Tj
+ET
+q
+102 451.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 450.8 Tm
+/F20 10 Tf
+0 Tw
+(- Net::SMTP - Simple Mail Transfer Protocol Client) Tj
+1 0 0 1 102.0 438.8 Tm
+0.0000 Tw
+(\(http://search.cpan.org/~gbarr/libnet-1.19/Net/SMTP.pm\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 424.4 Tm
+0 Tw
+() Tj
+ET
+q
+102 425.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 424.4 Tm
+/F20 10 Tf
+0 Tw
+(- Fatal - replace functions with equivalents which succeed or die) Tj
+1 0 0 1 102.0 412.4 Tm
+0.0000 Tw
+(\(http://search.cpan.org/~nwclark/perl-5.8.7/lib/Fatal.pm\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0 Tw
+() Tj
+ET
+q
+102 399 4 4 re
+f
+Q
+BT
+1 0 0 1 110 398 Tm
+/F20 10 Tf
+0 Tw
+(- Error - Error/exception handling in an OO-ish way) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(\(http://search.cpan.org/~uarun/Error-0.15/Error.pm\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 371.6 Tm
+0 Tw
+() Tj
+ET
+q
+102 372.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 371.6 Tm
+/F20 10 Tf
+0 Tw
+(- Project Object Oriented Exception Handling in Perl) Tj
+1 0 0 1 102.0 359.6 Tm
+0.0000 Tw
+(\(http://www.perl.com/pub/a/2002/11/14/exception.html\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 345.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 346.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 345.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl6 RFC Index \(http://dev.perl.org/perl6/rfc/\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 327.2 Tm
+0.0000 Tw
+(POC \(peace of code\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 315.2 Tm
+0.0000 Tw
+(por Mat\355as Palomec \(matias@cafelug.org.ar\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 291.2 Tm
+0.8333 Tw
+(La idea de este script es poder mostrar cu\341l debe ser el contenido de la variable DISPLAY para poder) Tj
+1 0 0 1 102.0 279.2 Tm
+0.0000 Tw
+(usar X-Window en forma remota. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 255.2 Tm
+1.4427 Tw
+(Originalmente este script eran dos o tres l\355neas, parseaba el lastlog buscando la primer aparici\363n del) Tj
+1 0 0 1 102.0 243.2 Tm
+1.3417 Tw
+(usuario UNIX. Luego se lo d\355 a una persona que tambi\351n tiene problemas para encontrar la IP de la) Tj
+1 0 0 1 102.0 231.2 Tm
+0.8760 Tw
+(m\341quina que est\341 utilizando, y tuve que ir modificando algunas cosas \(usar el $ENV\{`USER`\} en vez) Tj
+1 0 0 1 102.0 219.2 Tm
+0.0000 Tw
+(del usuario a secas\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 195.2 Tm
+0.3989 Tw
+(La utilidad que tiene es bastante simple, comienza a leer el lastlog, buscando el TTY del shell en donde) Tj
+1 0 0 1 102.0 183.2 Tm
+0.5927 Tw
+(se ejecuta el script, y tambi\351n el usuario. Cuando lo encuentra, saca la IP \(ya sea que de la IP de una o) Tj
+1 0 0 1 102.0 171.2 Tm
+0.0000 Tw
+(que tenga que resolverla con el dig\). Y al final muestra por pantalla la IP en la forma: ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 141.2 Tm
+0.0000 Tw
+( export DISPLAY=10.10.10.10 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 117.2 Tm
+0.7230 Tw
+(Esto es m\341s que nada para que ya me quede la l\355nea armada para ponerla en alg\372n server y levantar el) Tj
+1 0 0 1 102.0 105.2 Tm
+0.6025 Tw
+(display remoto sin problemas. Al no usar m\363dulos, y los programas externos que uso son muy usuales,) Tj
+1 0 0 1 102.0 93.2 Tm
+0.0000 Tw
+(es bastante portable \(salvo por el dig, pero es posible el reemplazarlo por el nslookup\). ) Tj
+/F10 10 Tf
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+79 0 obj
+6412
+endobj
+80 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+81 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 80 0 R
+/Contents 78 0 R
+>>
+endobj
+82 0 obj
+<<
+/Length 83 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue03.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+( #!/usr/bin/perl -w ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( my $flag=0; ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( my $tty=`/usr/bin/tty`;my $dig="/usr/bin/dig"; ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+( my $domain="dominio"; ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( $tty=~s/\(\\n|\\r|\\r\\n\)$//; ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+( $tty=~s|/dev/||; ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+( my $ip = ""; ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( chop\($tty\); ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+( my $tflag = 1; ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( open\("TMP","last|"\) || die "No pude ejecutar last: $!"; ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+( while \(\($tflag\) && \($line = <TMP>\)\)\{ ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 626.0 Tm
+0.0000 Tw
+(if \(\($line =~ m/$ENV\{'LOGNAME'\}/\) && \($line =~ m/$tty/\) ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 614.0 Tm
+0.0000 Tw
+(&& \($line =~ m/still/i\)\)\{ ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 602.0 Tm
+0.0000 Tw
+(my @li = split\(" ",$line\); ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 590.0 Tm
+0.0000 Tw
+($ip = $li[2]; ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 578.0 Tm
+0.0000 Tw
+(close\(TMP\); ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 198.0 566.0 Tm
+0.0000 Tw
+($tflag = 0; ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 554.0 Tm
+0.0000 Tw
+(\} ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+( \} ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+( if\(\($ip=~ m/\(\\d\{1,3\}\)?\\.\(\\d\{1,3\}\)?\\.\(\\d\{1,3\}\)?\\.\(\\d\{1,3\}\)?/\) ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 518.0 Tm
+0.0000 Tw
+(&&\($1<255\)&&\($2<255\)&&\($3< 255\)&&\($4<255\)\)\{ ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 506.0 Tm
+0.0000 Tw
+($ip="$1.$2.$3.$4"; ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 494.0 Tm
+0.0000 Tw
+($flag=1; ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( \}else\{ ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 470.0 Tm
+0.0000 Tw
+(@b=split\(" ",$ip\); ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 458.0 Tm
+0.0000 Tw
+($b[2]=~ s/\([a-b]*\)\\..*/$1/; ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 446.0 Tm
+0.0000 Tw
+($b[2]=`$dig $b[2].dominio|grep $b[2]|grep -v "^;"|awk '\{print \\$5\}'`; ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 434.0 Tm
+0.0000 Tw
+($ip=$b[2]; ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 422.0 Tm
+0.0000 Tw
+($ip=~s/\(\\n|\\r|\\r|n\)$//; ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 150.0 410.0 Tm
+0.0000 Tw
+($flag=1; ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( \} ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( print"export DISPLAY=$ip:0\\n" if\($flag\); __END__ ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(04 July 2005) Tj
+1 0 0 1 511.88 37 Tm
+(17) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+83 0 obj
+3027
+endobj
+84 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+85 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 84 0 R
+/Contents 82 0 R
+>>
+endobj
+86 0 obj
+<<
+/Length 87 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue03.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(18) Tj
+1 0 0 1 464.07 37 Tm
+(04 July 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+87 0 obj
+235
+endobj
+88 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+89 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 88 0 R
+/Contents 86 0 R
+>>
+endobj
+90 0 obj
+<<
+/Length 91 0 R
+>>
+stream
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+/F20 24 Tf
+1 0 0 1 202.784 770 Tm
+(Table of Contents) Tj
+1 0 0 1 232.124 741.2 Tm
+(Issue03.pod) Tj
+/F20 10 Tf
+ET
+q
+0.95 g
+72 680.6 451 12 re
+f
+Q
+BT
+1 0 0 1 102 683.6 Tm
+(CaFe Perl v0.3 - Peri\363dico de la Comunidad Perl de Capital Federal) Tj
+1 0 0 1 487.44 683.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 668.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 671.6 Tm
+(Editorial) Tj
+1 0 0 1 487.44 671.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 656.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 659.6 Tm
+(PERLitas) Tj
+1 0 0 1 487.44 659.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 644.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 647.6 Tm
+(- Administraci\363n de usuarios y grupos) Tj
+1 0 0 1 487.44 647.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 632.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 635.6 Tm
+(- Seguridad de aplicaciones) Tj
+1 0 0 1 487.44 635.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 620.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 623.6 Tm
+(- Acceso a bases de Datos) Tj
+1 0 0 1 487.44 623.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 608.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 611.6 Tm
+(- Uso de un sistema de plantillas \(template hooking\)) Tj
+1 0 0 1 487.44 611.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 596.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 599.6 Tm
+(- Caching) Tj
+1 0 0 1 487.44 599.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 584.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 587.6 Tm
+(- Construcci\363n de c\363digo independiente de la Base de...) Tj
+1 0 0 1 487.44 587.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 572.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 575.6 Tm
+(- Distribuci\363n de la aplicaci\363n \(incluyendo c\363digo,...) Tj
+1 0 0 1 487.44 575.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 560.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 563.6 Tm
+(- ejecuci\363n bajo diferentes plataformas \(mod_perl 1.x,...) Tj
+1 0 0 1 487.44 563.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 548.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 551.6 Tm
+(- OI2 usa unas pocas clases y eso puede ser un problema para...) Tj
+1 0 0 1 487 e f g h i j k l m n o p q r s t u v w x y zz9Br  Î   	 K J›$ F∞T KÙ JŸ  F∞@ K‡ J…ÿ FØ .¯ J…ÿ FØ‰ K¥ J›$ FÆ‡êà/º JŸ  F≠¸ K JŸ  F≠†êá4 J…ÿ F¨êÉÌî JŸ  F¨4          †£w     fû‡ fû fû∞†¢ô‹            AøMä   AøMâ«               pÀ f€– iû`  †Ù å™v=1&c=6MaOzXefjWIrmCGlrmddoviAZ24tA.IlsuXqemm_qpHwMDZl3l_gQz9Br1ox8gqPpOepF9BjMOypuUYAfwebLRIZ5XmUITKrwaLFMEw04DLV0huUx1b6z3lr323t6_9Noag9pxAD6vuwP6.Szse2h65lCrBogARFXW_M               Î   ê∑]0ê¥Êtê≥z êÑ≥Lêµ0,ê©êÑﬂ êµê®A|êáµXê¥ÊÄê≥y∞êáQê¥Êtê≥ydêÜ·êµÑê≥xÑêÉÌåê¥Áê≥w¯êÉÌÄê¥Á8êßy¿êá8ê¥Á0ê≥v<êÖ–êµê®A$êÖê¥Á0ê¶≥hêÑT¥êµÑê¶ÎpêÑk(ê¥Á0êßîÙêà≈ê¥ÊÄê≥túêàáê¥Á0ê≥têêÜ‡Ñê¥Á0ê≥tÑêÜ‡pê¥Á0ê≥txêà	0êµê©±hêàwÏê¥Á0êßêá4‡ê¥Á0ê§Uêà	îêµê©«¨êáXxê¥Á0ê≥tDêâ‹Ãê¥Á0ê©±xêÉÍêê¥Á0êßy¥êÉÍòê¥Áê≥t8êàìÙê¥Á0ê©–êá4ê¥Êúêß‡êÉÌîê¥Á0ê≥t êá’tê¥ÊÄê•~º             - 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z  †£w     fùÄ fùê fü∞†¢ô‹            A—lﬂ¿  A—lﬂ¿             †£w     fœÄ fœ– fû†¢ô‹            A—T0   A®˜K‡Ñ`           †£w     f–@ f† f†¿†¢ô‹            A¨«ÿ(   A©Œ)›t           †Ù åAIAppearancePreferencesPlugin         †£w     f€‡ f≥` f¢0†¢ô‹            A—kÆ    A®˜*œ—ë           †£w     fû‡ fµ  f¥–†¢ô‹            AøNÑ¢   AøNÑü              †£w     fµ f∂ fµ¿†¢ô‹            A≤(í„   A≤(í’              Auto Status (idle) h   i   r     dk°qê† Ä         °±¡”°±¡’     gù∞rd-temp' iêª     i•¿  ¡”°±¡”            h´     h3–   _ABGroupContents bz0           
+°c{    °V  	 e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t     	ABPerson hê B †ÇK†∑0             ÃÑ   gI     ˇˇˇˇ                gû¿    gwK     gB0   †É, gü           5{          4 g3¿†¢ô‹         i8À     i∞          u_    gI     ˇˇˇˇ                g†Ä  ü‡ hd     hQ`     gë{     g§    †Ù  güp    bz0            gïK     g†0          uj    gI     ˇˇˇˇ                       g∫;     gè@    bz0           	†É,                         5Í+    5ﬂP  ~ûØ¡‘Ë˝*B[uê¨…Á& gI{     g|                     lƒÀ     lÒ∞                    †˚    † Ä  Cruz Basso (QA)   |À¢‡ hBP    bz0   xion ap †Ù åBEA r Xek7[` op   †Ù åzzzplayuniq            †Ù å172.16.2.16.285421188033279956         †t, $Ä†Y¿ g^† g^–           `  Ü        †Ù å*/*/com.apple.AddressBook   a r y / P †Ù åcom.apple.AddressBook.plist     g≤    †Ù å)/Users/bitman/Library/Preferences/ByHost/ Ù å1379524ì-T¯êÉÈêÉg`         `lT `Á8  0 aJ`         L            †Ù åF       
+| dö¿     gˇ                                                                        †Ù å.hsbc.com.ar           †Ù åAIAutoIdlePlugin ˙‹‡ †Ù åQa=QTXKdjwMvTnEHS0dc_sUjMk60Jt.617S6F1v1xRHWqpc4x8UqnYa0fW.DwCRnhfqY1qbnxY-&b=D6tH        Î    ∫p πú Ï ÿh ’ ∞ Ÿ ’4 º ÿX ö( X ‘x ö( ‰ t s / M a c                   aY∏                                 aY–                    †t, +Ä n´†   #l    i∑  †Ù å
+SITESERVER             †Ù å#ID=9809b9b6285c17bf34da84bdb5fd8469    †£v‹ gú‡        †Ù åABPhonesVisible d i u †Ù åABTextSizeIncrement                  cõê cõ® cõú cõ¥             †Ù åNSWindow Frame ABWindow ±¡”°±¡”°±¡” g÷†Ù å146 80 691 625 0 0 1024 746             ` Ö          °±¡”         hWÄ hW¨ f¥¿   †Ù å.eternautas.com         ƒk gn¿ fü–  †Ù åi110544849.1187829614.1.1.utmccn=(referral)|utmcsr=bue.gov.ar|utmcct=/recorridos/index.php|utmcmd=referral              ¢Íœ‡ k`¢ÁTP                             j”Ä j—`ˇˇˇˇ     eQ` eY–íò§D eR ±¡”    °±¡”/Adi   gÜê       gÜ`"$     ëPÀ; ht¿8äÄ                  »+ i¡°¸@    Õ\    iˆ–   ` ï   
+      °±¡”         g‰0 g‰å i0 g  i¢0 iüP iü– iõ–ˇˇˇˇ     gKp     ‘Î g`¿ hÅP  †Ù åwww.perl.com           ¢Í¶– lD‡¢Ë/x¢Ë/x   ˇˇˇ         d(†     d0              mÛ ¿    ` 
+Ñ            i=‡           Ä  Ä          gı∞                                                             aK– g˘P eáÄ†Ù å#com.whizzoconsulting.DownloadWizard t /†Ù åDownload Wizard Help  †Ù åTopAccountID ›† mÎ∞     ` 
+Ñ       †Ù åj227042332.1187742481.1.1.utmccn=(referral)|utmcsr=2xdtech.com.ar:81|utmcct=/roundcubemail/|utmcmd=referral               Î   êá4ê¥ÊúêÆ∫‡êÉÌîê¥Á0êß_∏êáœ4ê∂(ê£l|êáé`ê¥Êtê§∏êÜ{@êµêê•XLêà≥Hê¥Êdê¶Ä¯êà„ê¥Êdê•˙|êà˜,ê∂4Hê§—úêà˜ ê∂4`êÆ∫lêà˜|ê∂4tê•eËêáTê¥Á0êÆπ‹êâ Äê¥Êtê•uÙêà'ËêµÉàê£ˇ∏êáı(ê¥Êúêßπtêà¯êµêÆπhêà»êµú¯êÆ∏»êà‹êµú¯ê™kêà—$ê¥ÁêÆ∏Têà™ê¥Êúê£têà—ê¥Á0ê£^ êÉÌåê¥ÁêÆ∑‘êÉÌÄê¥Á8ê¶ï¸êÑ>®ê¥ÈòêÆ∑–   †Ù åwww.macosxhints.com     ` Ö   ?   L   q°±¡”        ¿ ¡ƒ°±¡”°±¡”                                              GMT   °±¡”     `P Ä   8   8† ‡ gäê      X–                    fg gå@ geP f≥–     aY∏ aY–†Ù å117  †Ù å\a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D            J; j›  n¢` atiasdu@hotmail.com ` må                  aYp                  Î   êá4ì/Hìß0êàGì/Gí˛}ÑêáÆ<ì/Hhí˛}    `p Ä g›p gä– gŸ    gÖp   †Ù å1 (###) ###-#### fo/GMT†Ù åNO   †Ù å7110544849.1341853635.1187829614.1187829614.1187829614.1                 ák f‡` gRp   gå¿    817             gVI  gå‡ ï                gòS  gç                     f€–I¡” gç °±¡”°±¡”°±          fû–S  gç@    °±¡”°± 
+         f»`I	¡” gç`°±¡”°±¡”            gç†V  gçÄ     gç‡ gå‡ hK     h>0  ents ‡     f€∞     hF     hs`    gç¿            f˝     f»`   †Ù åi91905736.1188113348.1.1.utmccn=(referral)|utmcsr=2xdtech.com.ar:81|utmcct=/roundcubemail/|utmcmd=referral                  jı¿ k&∞ e¿` e¿– e¡Ä e¡ nU0 nV0 nV ne– f∑@ iπP m` e¬† e√@ e√– i o n   S u¢Í¶– i– hÅ ∆ú   ˇˇˇ        d(†     d0  iπ ≤¥    h{`      iA®ﬁ≠p   A®ﬁ≠p       07/08/0462843517-4041714315.cache 5 GMT-…¶K ho@°¸p ¡”°±¡”   i   r    Q˚ ho`¢‡    bz09Ü` g|ê   †Ù åVISITOR_INFO1_LIVE     †Ù åtavzNnD-ZWo            †£v‹ f»           Î   êâ@\ê¥ÊtêØ¨¿êâòêµ/òêØ¨pêâÏê¥ÊtêØ¨ êà‚p            	<iÄ  Ä gp–                 >
+< 81L              ﬂ€     efÄ                             à                               h Ä      gp†       ghê            gp¿       ghê         †t, +Ä g3‡     hÒ–      /Users/bitman/Library/Application Support/AddressBook/.database.lock     fû     ` ï         °±¡”         hH0 hH\:    †Ù åB      †Ù åESGeneralPreferencesPlugin  
+ÜA®˜D—&ˇí K gG h9ê  †Ù å1rs4srh3cmrfo&b=3&s=4s       E|    E†Eî aY∏ aZÑ aOò        E¨D»F0 aY– fP∏D            †Ù åABAddressesVisible                                                   aY– fRx                                †£v‹ gõ         `0 Ä   h                   e s / N e t *€ gM  fR†  e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t / A c c o u n t s / 4 ú,[<µ@†¨`                  †Ù å.pownce.com              ã gR ge‡  †Ù å6227042332.585640194.1187742481.1187742481.1187742481.1 typedstreamÅËÑ@ÑÑÑNSStringÑÑNSObject ÖÑ+
+$Property$Üame†Ù å134  †Ù å+http://www.adiumx.com/changelogs/1.1.2.html s t r e a m†Ù å+NSTableView Columns ABDirectoryResultsTable ±¡”         `  Ü    fÃ† `0 Ä @  ff@                   gt  gs–   †Ù åDM55041270ZFV6         †Ù åûV1rrrrr"rz%%iirXXB^Qirr^%@z%zrzii"%%iirXXB^Qz%%iirXXB^Q"%%iirXXXiX"%%iirXXB^Qirr^%@"iiz(xB$2T_aKxB(Ofm~z7}z)O:ma6r"OuKr6XzA62T_aK|Ofm~A6Ihf2c~aF|Ofm~zu::dmIhd           Î   êáH\ J  FÕ K!Ñ J› F l K!l J  F≈¨ ‘à J  F≈@ K!D J›$ F¬( ÿh K† F¿  K! J›$ FºÙ K ¸ J  Fº K J›$ FªD KÙ JŸ  F∑ K ‰ J  F∂î .¯ J…ÿ F∂êáT JŸ  F∂êâ Ä J  F¥Ã K – J›$ F¥¿êá4 J…ÿ F≥Ï K † K∞ F≤‘            †Ù åRegular gòÄ            \´ eÇ– hÎ   †Ù åDM550408CNMDV6         †Ù åÀV1rrrrr"rz%%iirXXB^Qirr^%@z%zrzii"%%iirXXB^Qz%%iirXXB^Q"%%iirXXXiX"%%iirXXB^Qirr^%@"iiz(xB$=}xBr7haaxBrF2faxB$2T_aKxB(Ofm~z7}z)O:ma6r"OuKr6XzA6=}H7haaHF2fa62T_aK|Ofm~A6=}H7haaHF2fa6Ihf2c~aF|Ofm~zu::dmIhd            YjÚÃ/Ö)=I∂‰}π`ß#eAVMµgö%h÷`=ö∑3v4!€EÌZ˝#CPü©⁄9çInÙ1◊?›±˙o>sÁRÆñË3Ÿ{&fÆ
+bä“øôìWÚÎxπ@)Ä-'≤.+paêÂawÌŒUwqDÏ∏Ë|âAJMrÎÓ≤¬¯îgõ{âkºæŒ Á¡4 úäπMÓ/E˘¢1˚™§ˇ∞z’Y˙(≤◊≈GºY∆æ4ÁîKç8ˇÛ¥LæSŒKπﬁ*ÈÎõû≤?o¶kúÅ™àæRıπ99ÌåT·MÁJ–ıÍÿ‰¢Q¿qU∂ õìk¡DOà        gy I     ^N>,   °±¡”°±¡”†∆¿:®P†¿ YahooInstant †Ù åÅ99513866.1187852984.1.1.utmccn=(referral)|utmcsr=universetoday.com|utmcct=/2007/08/22/google-earth-for-astronomy/|utmcmd=referral       !ª gñ@ kÇÄ  e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t / B y O b j e c t    <JK<0      Hhyãû≤«›Ù%?Zvì± _qÑò≠√⁄Ú%@\yó∂÷Á˘ 5Kbzì≠»‰>^oÅî®Ω”Í5Plâß∆Ê˜	0E[rä£ΩÿÙ/Nnë§∏Õ„˙+E`|ô∑÷ˆ,@UkÇö≥ÕË!?^~è°¥»PersonFlag †Ù å[149299247.1187732874.1.1.utmccn=(referral)|utmcsr=pimpmysafari.com|utmcct=/|utmcmd=referral            •ÛQÿ            Ó≥§^A§eëYÍæ≠·Ïò–LKÃ©ÖòJò4                                                 gx                                           Y#5Î  l˝P 
+ e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t / B y O b j e c t   
+†Ù å
+siteVisits             †Ù å2        ‹ã g∞ gñ@  e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t / B y O b j e c t / G r o u p . B E A†é˚†ªÄ      ˜(:Mavå£ª‘Ó	%B`ü∞¬’È˛+C\vë≠ Ë'8J]qÜú≥À‰˛5RpèØ¿“Â˘$;SlÜ°Ω⁄¯7HZmÅñ¨√€Ù)EbÄüø–‚ı	           <µk    <Ä   †Ù åF173272373.1187734973.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)  Wõ kÇÄ f‡` ËÑ@ÑÑÑNSStringÑÑNSObject ÖÑ+NSNavDisplayNameFilePropertyÜ  g~ê             g	´     g<–            g~‡I¡” g~¿     gb    g	´     g<–   
+         gB	¡” g~°±¡”°±¡”     g	´     g<–            g@I~p g      ga∞     g	´     g<–    `P Ä   N   N† ‡ g~P        g	´     g<–   †Ù åRMID   †Ù åc87ed33446cff300        E{ h– g|– >‡:ñê°ö‡¢°É–°‡°Õ ° °=p°T–°l°…ê°¯ <P <f‡uè™∆„ 408.1188140408.1                     iY¿           Ä  Ä          L i        /   shor    d                                       m   2 . 0 /†Ù åTab Switching Keys     ÁÏ    i∞`    ˙k gH  gá0  7U‡  ¿áíÈn †Ù å-9D2E8918-B959-11D7-A520-003065B71AFC:ABPerson         †Ù å
+.dc.uba.ar               ;k ge‡ gk  †Ù å6234338187.101929267.1187736296.1187736296.1187743724.2  `` Ä        bz0    749    †Ù åABRelatedRecordsVisible gQ´     gd–    `  Ñ       `` Ä       °±¡”    °±¡”°±¡” `Ä Ö               °±¡”°±¡’        °±¡”°±¡” `Ä Ö               °±¡”°±¡’        †$‹ b† `Ä Ö               °±¡”°±¡’                †t, $Ä†Y¿ gW† gﬁê   x       †Ù å
+rememberme             †Ù åfalse                              ¢Ë/x                        ` 
+Ü?      -               ` ï         °±¡”         hP– hP¸    êfE ùÎ eu` f›         g∆X g∆d     gêt g∆@ g∆(             g∆ gêD gêh     g≈¯ g∆p                 gê§ aZÑ                         g∆L aY– aYà g∆| g∆à        †Ù åPREF   †Ù åXID=09c26f1fb4fde494:LD=en:NR=10:NW=1:TM=1187732798:LM=1187735045:GM=1:S=frVGRrJOA0XRTkK5                `0 Ä    geÄ g]                
+ÜA©ûâ   `P Ä   <   <† ‡ gt  n / L  `` ±    ú        f¥p†ê  2ã `T0 `S¿   †Ù åbitman/*/com.apple.AddressBook °±¡”°±¡”†Ù å(###) ###-####          ` 
+É      †Ù åcom.apple.AddressBook.plist     gf     `  Ü        †Ù å.playboy.com             'Î gs– ga@  †Ù åWSS_MIGRATION          †Ù åDM55041270ZF:DM550408CNMD                          mous   Ä  A@£±<K+w}                   p   D  Cú  Câ  C    J‡Ü∏Ë      R  í      ˇ                                              R   R       
+    g4¿            hz0   menu  Ï gp∞   menu   j hÔ¿   menu   i hÔ†   menu   h hÔÄ   menu   g hÔ`   menu   f hÔ@   menu   e hÔ    menu   d hÔ    menu   	 hÌ‡   menu    hÛP   hiob    c†p   hiob    c†P   hiob    hÄ†   hiob    hP   etrg    gpê   acce   , i€    acce   * i⁄‡   acce   ) i⁄¿   acce    i◊†   acce    i◊Ä   acce    h    acce    i°0   acce    i°   acce    hz0    h0         s hx– h0íâ go–t a           †Ù å.earth.google.com      purple3e553e45 †Ù å699513866.1784484492.1187852984.1187852984.1187852984.1 NSAttributedString            °6¿ò hÎ gﬁP gb gb@ gbp gq@ gcP     hÒÄ iö‡                      Î    ©ÿŒ| °±¡”°±¡”°±¡”  Î   êà(PëBn‹ë>ôtêà(0ëBn‹ë6‘0  Î   êà&‡ëBn¿ë>ò¯°±¡”°±¡”        ¢Ë/x     i–                    ge∞A© *˙õ˙Œ       x gj@   †Ù åABPeoplePaneFrame     †Ù åoreo-speaks.com        purple3e553e43 †Ù åvsid   †Ù å2X02X125743752           Î   êá°<ëBn»ë>\\êâ6∏ëBåºë>\Ùêâ‡§ëBn–ë>^òêÜ‘8ëBqë>\Dêâu∏ëBŸ»ë>]îêâTÏëBåºë>]DêàíLëBn»ë>\∞      Î   êàËºëCÿ¯ë6¶ƒêàÄDëBn‹ë>X`êÖTëBÆë>VúêàU‘ëBn¿ë6™HêàSëBqë>Wòêà{(ëBn‹ë>W‡êâ«ÿëBß‰ë7√»êàìÙëBn¿ë>ZàêàπƒëBß‰ë>[êÜÑ(ëBß‰ë>WêàWËëBqë8m<êÜ∑ÿëBn¿ë8cà gk¿    †Ù åLong Display Format   †Ù åwww.space-multimedia.nl.eu.org           k ga@ gFP  †Ù åFWresizeFont           †Ù å0      typedstreamÅËÑ@ÑÑÑNSStringÑÑNSObject ÖÑ+NSNavDisplayNameFilePropertyÜd0fa25a5a9b ¡”°±¡” fB{     fw   //adiumx.cachefly.net/Adium_1.0.6.dmg °±¡”°±¡”   †Ù åapplication/octet-stream                gÙ+ g¡P                gm@     fÜ´     f≥–  X  g›Î     gËê  †Ù å2184632636.16807.1188347724.1188347724.1188359682.2       Î   êÜTxëBn»ë>_êàSëBqë>_ÑêàWËëBqë>_êêÜ∑ÿëBn¿ë>_êÜËëBn‹ë7#Ñ°±¡”         `c‡ gm gj† gk ˇˇˇˇ     f†   ¡”  Î   êÜ¡XëB⁄Dë>[¯ëC⁄ºëBn¿ë8FTêÖSëBn‹ë6…\°±¡”†£]å    ga      Î   êÉÎºëBqë8|¥I,_R:I]    Z¨;=s  gÍ` Order IndexZIsExpanded"@‡  	$)                             †Ù å.youtube.com           «H˚†¯ gÖê  †Ù åLOCALE_PREFERENCE      †Ù å086d1d09eefe6b79b4068000ce05518a4dAUAAABlbl9VUw==       †£e¸     d:0 j8∞                         ` ï         °±¡”         i≥  i≥r//DTD P  Î   êâ€\ ôú ê ¨ ö Têá4 ö( ¸ ‘x ö(        ¢â‡¿     hx– h0     h} ep<kˇˇˇˇˇˇˇˇ    ¢âﬂ      e s /     †Ù å*Monday, September 3rd, 2007 02:14:45 GMT-7  gO@ gKP   †Ù åi184632636.1188347724.1.1.utmccn=(referral)|utmcsr=google.com|utmcct=/accounts/CheckCookie|utmcmd=referral               ` ï   .   /   C°±¡”        ¢ £°±¡” a r  Î   êà«8ì/ä ìlêáØ»ì/Óì8 Gk jö∞ lË†  ¢Í¶– dxP i#Ä ∆ú   ˇˇˇ         d(†     d0     ì-~(     gi‡ ˇ¿ †[    †    3 h¢0             	˝A©	™   A©	™       Default/DirtyLogs.plist   A®N0¯   A®N0¯       Default/Logs.index     †Ù å.caminobrowser.org      À `R` gs–  †Ù å7223569417.1536830211.1188359802.1188359802.1188359802.1                  ‚; gå¿ g[Ä   gRp     gè–    gRp gR–       `            h5˚     h Ä    gR–            °E{    °p     gR–    °±¡”°±          gSV   gR    °±¡”°±¡”:#´    :–  nts ¡”    °±¡”    °E{    °p     gS0     gSê g  gS0 gå¿ gå‡ gç  gç  gç@ gç`     guK     g@0                   h[ gV d–   †Ù åZ223569417.1188359802.1.1.utmccn=(referral)|utmcsr=docs.google.com|utmcct=/|utmcmd=referral              ¶˚ h¢0 k1∞ ¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”°±¡”†ò g¥`0#` g	´     g<–    m.P0#Ä†c†ò l„0 ga‡ fw  n †ê    †c  es†ê i©¿0#††ê0#∞†ò†êIê gU fM fn0†ê gyÎ    †c  mes X`†ê dP g  AB0#¿rtment †Ù åABSeparateWindowsHiddenUIDs ¢uh        †Ù åABSeparateWindowsUIDs            aYp                       byh     h                                 by§             byº        †Ù åcontent.png ¨ ¨     †Ù åenteredtext    V@ gVl†Ù åenteredtext.png  ¯   †Ù å
+typing.png F÷h         ` ï   
+      °±¡”         i˘– i˙,       gƒ gWp°6∏  †Ù åPH     purple3e553e42 †£v‹ gú0          &[ g[  gH   †Ù å.ohbuenosaires.com    †Ù åfn=qq799sVIqnMg2ooejPax&l=en-US         ` ï   f   «  =°±¡”        ≤ ∂Ù b20 b5  `0 Ä    gX  gOÄ              ssBook tp: †Ù å$*/003065b71afc/com.apple.AddressBook  †Ù å(com.apple.AddressBook.003065b71afc.plist     x1afc/                           ` 
+É      †Ù å6227868355.616783871.1187829202.1187829202.1187829202.1  ` ï           °±¡”                A¨√vr   ` ï           °±¡”                 gE@ g †Ù å.forums.gentoo.org  gT@extended_away  †Ù åphpbb2mysql_data fp gg¿prior         bz02175521  g †Ù ≠ gY†                  next           gã† gã¸       †Ù ≠ gY‡                  week          ` ï       †Ù ≠ gZ                    month       ¡”°±¡”°±¡”°±¡”°±¡”†Ù ≠ gZ`           °±¡”°±¡”year        ¡”°±¡”°±¡”°±¡”    †Ù ≠ gZ†            g[  gY‡december       g[     gZ‡    †Ù ≠ gCê                  †Ù å.google.com              Æõ gÃ gW  †Ù å
+/accounts/             †Ù å7173272373.1115438165.1187734973.1188033557.1188147324.7                  gRp fe   g[Ä    329             f∂0S  g[†                    g;0Iz g[¿ g|ê g} g          g9PS]‡ g[‡ `T0 f›P g          fµ‡I¡” g\  gb g?`   
+         f¢PB	¡” g\      gO@            g\`I   g\@     g±†    fP     fep  es gÙ+     g¡P            g\†V   g\Ä     g@0    f´     f&–   †Ù å6169788605.101027544.1187733179.1187733179.1187733179.1 †£v‹ gù          `0 Ä   g]                   a r y / P r  Î   êÜÂlñ„S8ñ‚∑4êàø,ñ„Såñ‚∂ºêÜ’Ïñ„Såñ‚∂\êàdpñ„Y(ñ‚≥Ùêàe(ñ„Såñ‚≥\ˇˇˇˇˇˇ 	 
+       å         ãÙ aY∏ aZÑã‹     iú¯ iõ¸    ã† aY–    ãpã¨         %B{           `  Ü        †Ù å"/Users/bitman/Library/Preferences/    †Ù ån227868355.1187829202.1.1.utmccn=(organic)|utmcsr=google|utmctr=%2B%22buenos+aires%22+%2Bturismo|utmcmd=organic          `0 Ä    gÅê g_                    gHÄ        g^A© *˚hã∂    r e f e r e `  Ü         `0 Ä   g?‡                             †t, $Ä†Y¿ gO‡ h@   x g[Ä   †Ù åcom.apple.AddressBook.plist hP gÇ           f0 eË»     `Ùx         f<            †Ù å{{125, 0}, {153, 363}} †Ù å7104155027.1687111581.1188140408.1188140       aJ»                 aJò L aK        †Ù åABPhoneFormat-Edited                                                         aY– f$                †Ù åj234663130.1187852904.1.1.utmccn=(referral)|utmcsr=2xdtech.com.ar:81|utmcct=/roundcubemail/|utmcmd=referral               Î   êá4 1Ä 0ÿL 13 1 0◊Ï 1∏ 1	ú 0◊¨ 13 1 0◊Lêâ·p 1	ú 0◊ 12¯ 1 0÷¨ 1Ë 1	ú 0÷l 12Ï 1 0÷ 1  1	ú 0’Ã 12‡ 1 0’l 1 1	ú 0’, 12Ã 1 0‘Ã 1‹ 1	ú 0‘å 12∏ 1 0‘, 13H 1	ú 0”Ï 12® 1 0”åêá8 1	ú 0”L 12ú 1 0“Ïêá‘ 1	ú 0“¨êâm‹ 1 0“LêâΩî 1	ú 0“êáø 18 0Õ‡†∆k    †Û Saved Status ArrayOÏbplist00‘
+Y$archiverX$versionT$topX$objects_NSKeyedArchiver Ü†—	TrootÄ£U$null“ZNS.objectsV$class†Ä“X$classesZ$classname£^NSMutableArrayWNSArrayXNSObject$)2DILQSW]bmtuw|Öêî£´                            ¥                               lı† f›@   †Ù å.docs.google.com       november     †Ù å__utmb †Ù ≠ gC–                  october       ` ï       †Ù ≠ gD   	                	september   ¡”°±¡”°±¡”°±¡”°±¡”†Ù ≠ gDP           °±¡”°±¡”august      ¡”°±¡”°±¡”°±¡”    †Ù ≠ gDê            gD– gC–july        	   f«‡     g3     †Ù ≠ gD–                   june           gvÎ     gCê   †Ù ≠ g¥¿                   purple3e553e44 †£v‹ gò∞        typedstreamÅËÑ@ÑÑÑNSStringÑÑNSObject ÖÑ+NSNavDisplayNameFilePropertyÜ  bz0 ±¡”°±¡”°± †Ù å14541445 ¡”°±¡”°±¡”°± †Ù åsparkle:version ±¡”     gx     gM`    bz0fly.net/Ad †Ù  fü–    bz0 gF        0ÈK     f‹0  †Ù åi ¿  †Ù å.macinstruct.com        Îk gk fµ‡  †Ù åo169788605.1187733179.1.1.utmccn=(organic)|utmcsr=google|utmctr=%2Bsafari+%2Bextensions+%2Bgspace|utmcmd=organic        RùÎ h?P:ó¿ idle) urple3e553e4<ÜÎ    <≥ê          °±¡”°±¡’     gG0      r:°E[    °p   ¡”°±¡”     f›PI¯ YÀ:@;v  ¡”^N>,^N>, L.h L-H°±¡”°±¡”^N>,53e48' t°9`ocin hÄ †ê†ê¯˘®    ≈põ h@P gn¿     ≤A©å   A© +*8"    04/00/2632029002-3437554440.cache d–     '{ hc∞ gq∞  †Ù åwww.2xdtech.com.ar       ´ gW g`¿  †Ù ålanguage               †Ù å/roundcubemail         †Ù åen      ‹º ‹Ã ‹å°±¡” ‹l ‹\ ‹ú°±¡” ‹| ‹¨°±¡” d& d& d& C o d& d& d& / M d& d&             A®®n   A®®n       15/02/0464830708-3006296616.cache       ;◊À     g‚∞  id='purple3e553e37' to='patricio@gwaihir'><vCard xmlns='vcard-temp'/></iq> q>     h0P gnP                       †Ù ådownload.mozilla.org     d€ fü– fŒp  †Ù ådmo    †Ù å10.2.81.4.1188359829284893                  i#Ä           Ä  Ä          L i        46  shor     mdat    go–                         e s s B o o ` î         °±¡”         gJ® gJº°±¡”°±¡”°±¡”°±¡” †å n t e n t s     †|    ¢Ë/x                                  f≠$         fÆ f≠ÿ f≠ f≠¸        3  {     gw   †Ù åwww.playboy.com         rK d– gL‡  †Ù åCP     †Ù ånull*    S°oÄ°	   <C{    <v     ;s;    ;F@   purple3e553e50 Ã ≠´ k5†°≠p   bz0     d„     `` ®     gL         e3e553e5°1;    °@  gwaihir/Adium'><query xmlns='jabber:iq:version'/></iq> —Ë 3Njá•ƒ‰ı.     h5    f¢         gLê     gKÄ        °<ã    °	   Away         query         †Ù åWSS_GW †Ù åV1z%%iirXXB^Q           •˚ gKP f€–  †£v‹ gõ∞         aÎ h&` gr  e r s / b i t m a n / L i b r a r y / A p p l i c a t i o n   S u p p o r t / A d i u m   2 . 0 / U s e r s / D e f a u l t / A c c o u n t s      6´ hg∞ hd`   1 gM† g≤  f›   †Ù åTextProfile            fÜ f‹‡ g•    ¸@             ` 
+Ñ       †Ù åglugcen-eventos_data   †Ù åÿYTo1OntzOjI6IklEIjtzOjMyOiIwZTAzZjY3ZDRlMTg3YjY5ZTQwNzY4YzVjNzU1YjBhMyI7czoyOiJhbSI7aToxO3M6NDoibGFuZyI7czo3OiJlbmdsaXNoIjtzOjU6InRoZW1lIjtzOjY6ImlnYW1lcyI7czozOiJsaXYiO2E6Mjp7aTowO3M6MzoiMTY4IjtpOjE7czozOiIxNjkiO319                `` ®     gõ0   ?    765    †Ù å)bitman/003065b71afc/com.apple.AddressBook ã fm         `0 Ä   gÅ¿                   a r y / P r    gb† `Rp aË a˚¿ gÅ0 g_0 b20 b5 ation Libr  `0 Ä    g_P gr¿          7103 00000 n 
+0000117186 00000 n 
+0000119251 00000 n 
+0000119272 00000 n 
+0000119386 00000 n 
+0000119469 00000 n 
+0000119553 00000 n 
+0000119902 00000 n 
+0000119923 00000 n 
+0000120049 00000 n 
+0000120348 00000 n 
+0000120369 00000 n 
+0000120472 00000 n 
+0000130393 00000 n 
+0000120558 00000 n 
+0000120684 00000 n 
+0000120869 00000 n 
+0000120968 00000 n 
+0000121124 00000 n 
+0000121254 00000 n 
+0000121389 00000 n 
+0000121522 00000 n 
+0000121684 00000 n 
+0000121799 00000 n 
+0000121971 00000 n 
+0000122165 00000 n 
+0000122345 00000 n 
+0000122518 00000 n 
+0000122705 00000 n 
+0000122895 00000 n 
+0000123077 00000 n 
+0000123260 00000 n 
+0000123386 00000 n 
+0000123499 00000 n 
+0000123620 00000 n 
+0000123738 00000 n 
+0000123859 00000 n 
+0000123978 00000 n 
+0000124088 00000 n 
+0000124243 00000 n 
+0000124375 00000 n 
+0000124503 00000 n 
+0000124630 00000 n 
+0000124775 00000 n 
+0000124901 00000 n 
+0000125033 00000 n 
+0000125163 00000 n 
+0000125332 00000 n 
+0000125474 00000 n 
+0000125598 00000 n 
+0000125745 00000 n 
+0000125863 00000 n 
+0000126020 00000 n 
+0000126187 00000 n 
+0000126325 00000 n 
+0000126453 00000 n 
+0000126599 00000 n 
+0000126770 00000 n 
+0000126911 00000 n 
+0000127025 00000 n 
+0000127231 00000 n 
+0000127404 00000 n 
+0000127593 00000 n 
+0000127736 00000 n 
+0000127892 00000 n 
+0000128052 00000 n 
+0000128223 00000 n 
+0000128373 00000 n 
+0000128536 00000 n 
+0000128711 00000 n 
+0000128854 00000 n 
+0000129002 00000 n 
+0000129180 00000 n 
+0000129312 00000 n 
+0000129484 00000 n 
+0000129642 00000 n 
+0000129815 00000 n 
+0000129972 00000 n 
+0000130132 00000 n 
+0000130278 00000 n 
+trailer
+<<
+/Size 173
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+130794
+%%EOF

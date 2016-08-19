@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>XML::SAX (6)</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text35.html">Back</a> <a href="text37.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img36.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>XML::SAX (Filtering)</b></i></font></h1><p>
+<ul><li><h2>package <b><font color=#FF0000>UpperCase</b></font>;</h2>
+<li><h2>use strict;</h2>
+<li><h2>use base qw(<b><font color=#0000FF>XML::SAX::Base</b></font>);</h2>
+<li><h2>sub <b>new</b> {</h2>
+<li><h2>  my $class = shift;</h2>
+<li><h2>  my %options = @_;</h2>
+<li><h2>  return bless \%options, $class;</h2>
+<li><h2>}</h2>
+<li><h2>sub <b>characters</b> {</h2>
+<li><h2>  my ($self, $chars) = @_;</h2>
+<li><h2>  <b><font color=#FF0000>my $out = uc($chars-&gt;{Data});</b></font></h2>
+<li><h2>  <b><font color=#198A8A>$self-&gt;SUPER::characters({Data =&gt; $out});</b></font></h2>
+<li><h2>}</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

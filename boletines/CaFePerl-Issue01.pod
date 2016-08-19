@@ -1,0 +1,390 @@
+=pod
+
+=head1 CaFe Perl v0.1 -
+Periódico de la Comunidad Perl de Capital Federal
+
+=head2 Editorial
+
+Un nuevo número, nuevo formato y nuevo contenido. Un nuevo número gracias a los
+comentarios que me hicieron llegar, un nuevo formato gracias a Pablo Daniel Cano
+que fue el primero en percibir la nueva publicación y sugerir que POD sea "EL"
+formato, y nuevo contenido gracias a Guillaume Cottenceau mayormente.
+
+Hablando de nuevo contenido hay algo que no estoy teniendo mucho y es feedback
+de la publicación. Si bien hubo comentarios, en realidad no estoy teniendo una
+sensación de la aceptación (positiva o negativa) de CaFe Perl. Para esto
+seguramente voy a lanzar un pequeño cuestionario durante este mes donde van a
+poder enviar en forma anónima o personal sus pareceres, sugerencias o lo que se
+les ocurra que pueda contribuir a que todos esperemos levantarnos el primer día
+de cada mes para abrir el correo electrónico y ver, en nuestro Inbox, que llegó
+el nuevo número de CaFe Perl.
+
+Y hablando de contribuir, hay algo que se ve por la lista, y es que hay
+preguntas sobre temas que están muy relacionados con resolver problemas
+puntuales de una implementación, y son esas cosas que no siempre se encuentran
+en los libro y los tutoriales. A ver si aclaro un poco. Si alguien quiere saber
+como abrir un archivo en general preguntar a la lista como hacerlo (para tener
+un primer pantallazo y un pedazo de código para empezar a probar) y cuando son
+necesarios más detalles hay un montón de documentación en la distribución de
+Perl y en tutoriales sobre cómo hacerlo ... el problema es I<esa vuelta de
+rosca> adicional que hay que darle para hacer lo que uno quiere. Y es así donde
+estamos solos frente al editor de textos. Bueno esto es donde me parece que,
+como comunidad, podemos sacarle jugo ya que nuestras experiencias sobre las
+dificultades que tuvimos que enfrentar y cómo las solucionamos son únicas. Creo
+una buena demostración son las preguntas sobre I<cómo hacer en Perl para verificar
+si un archivo se encuentra en uso> o I<cómo darle solamente permiso de lectura a
+una planilla de cálculo> !!!
+
+Bueno gente, ya ven que la cosa está en marcha, va tomando envión ... ahora sólo
+falta que la dirijamos hacia donde nos gustaría que esté.
+
+Hasta la próxima taza de CaFe Perl !!!!
+
+=head2 Actividad de la lista
+
+Bueno bueno, este mes la cosa estuvo bastante movida en la lista. Hubo mejores
+ánimos de preguntar, de responder y participar.
+
+=over 1
+
+=item * Primer meeting
+
+A juzgar por los comentarios de la lista y las fotos, parece ser que hubo mucha
+alegría, diversión y cerveza.
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000090.html> |
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000103.html> |
+Fotos : L<http://cafe.pm.org/reuniones/archivo/2005/04/07/>
+
+=item * Mirá que loop ?
+
+Y si, un loop, un par de cambios y unas comillas pueden hacer maravillas en una
+sola línea.
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000076.html>
+
+=item * Primera lección
+
+Hay gente que hace preguntas raras ... y recibe respuestas !!!
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000091.html>
+
+=item * Performance
+
+Dudas sobre qué es más rápido ?? No sabés que estilo de un pedazo de código
+puede enfrentar mejor las exigencias ?? Simple, decile a Perl que te diga !!
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000129.html>
+
+=item * El rinconcito de la caridad
+
+Hay quienes tenemos que trabajar con esto, y nos la rebuscamos. Si tenés una duda
+con ActivePerl, ya sabés donde buscar.
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000130.html>
+
+=item * Planillas y algo más
+
+Todos los días se aprende algo nuevo, y si es de cross-platform mucho mejor.
+
+L<http://mail.pm.org/mailman/private/cafe-pm/2005-April/000144.html>
+
+=back
+
+=head2 PERLitas
+
+B<Frozen Bubble> (L<http://www.frozen-bubble.org/>) es la recreación de un antiguo
+juego de DOS, jugado innumerables veces por B<Guillaume Cottenceau>,
+(L<http://zarb.org/~gc/>) pero no lo podía usar en su máquina Linux favorita ...
+así que inspirado tomo el reto y las herramientas que tenía a mano. Y adivinen
+qué : una de esas herramientas es Perl !!!
+
+Antes de comenzar, quiero dar un enorme agradecimiento a Guillaume por el tiempo
+dedicado a responder las preguntas de esta entrevista.
+
+B<Por favor, haga una descripción de Ud. mismo en unas pocas líneas>
+
+Tengo 27 años, Francés, y vivo en Suiza porque me uní a una chica Suiza. Soy
+Ingeniero en Ciencias de la Computación trabajando en desarrollos con Java para
+vivir. Trabajé en Mandrakesoft (eeeeh, Mandriva ;p) durante 4 años, y ahí es donde
+aprendí Perl. Amo Linux y la programación.
+
+B<Cuál fue la motivación para hacer B<Frozen Bubble>, y por qué Perl fue elegido
+como el lenguaje de programación principal ??>
+
+Mi interés por el tiempo-real y los gráficos (yo era parte de un
+L<demogroup|/item_demogroup>
+cuando era joven) y Perl me hizo descubrir Perl-SDL. Estaba deslumbrado que
+alguien considerara escribir un juego de tiempo real en Perl, y traté de
+experimentar con esta mezcla. Entonces intenté duplicar un juego que jugué en
+DOS, que no estaba en Linux. Por suerte, yo conocía un artista gráfico y un
+músico, ambos muy capaces ... el resto es historia :)
+
+B<Qué puntos fuertes encontró en Perl que lo ayudaron a desarrollar este juego
+?? Y las debilidades ??>
+
+Perl es :
+
+=over 1
+
+=item * muy expresivo (se puede hacer en una línea lo que se hace en 10 líneas de C(
+
+=item * estilo funcional amigable (se puede hacer fácilmente ``map {} grep {} @a'')
+
+=item * tiene conversión de tipos implícita y una vivacidad que reduce el código
+
+=back
+
+Pero todo esto llevan a un programa muy denso que puede ser duro de leer unos
+meses después.
+
+B<Si eligiera hacer B<Frozen Bubble> desde el principio, que cosas no repetiría ??
+Alguna sugerencia para los futuros diseñadores !! :)>
+
+Realmente, en un principio no pensé que iba a soportar el juego en red, y ahora
+que estoy tratando de agregarlo estoy sufriendo por esto, porque el código
+actual no es lo suficientemente modular.
+
+B<Cada lenguaje, tecnología o lo que sea tiene un lugar donde se desempeña mejor
+: las Macs entre la gente de arte y hackers, Linux para los más técnicos, etc.
+Cuál cree que es el mejor lugar para Perl. Se que es un buen lenguaje para unir
+diferentes piezas de código, y por eso es llamado el L<Internet Duct Tape|/item_duct_tape> >
+
+Básicamente, creo que la reputación de Perl es errónea. Se ve como una
+herramienta, algo para hacer "scripts", y no "programas". Así se usa comúnmente
+para procesamiento de strings basados en expresiones regulares (regexp), o CGI.
+Es una lástima ya que tiene características muy avanzadas que muchos lenguajes
+"serios" carecen : objetos con herencia múltiple y destructores, funciones como
+valores de primera clase, closures verdaderos (ni Python tiene esto), sólo para
+nombrar algunos. Así que, en mi opinión encaja para la mayoría de los programas.
+El problema principal que veo con grandes programas es la falta de pruebas en
+tiempo de compilación, pero esto también vale para todos sus competidores.
+
+B<En qué partes del código de B<Frozen Bubble> le diría al programador novato de
+Perl que mire, para tener una experiencia de aprendizaje placentera ??>
+
+Debo decir que no es una buena idea para un programador novato de Perl tratar de
+aprender del código. Lo escribí cuando tenía un buen conocimiento del lenguaje, y
+el hábito de hacer un código denso y funcional. Es muy  eficiente (tiene sólo
+2000 líneas) pero el inconveniente de que no es fácil de leer para los que
+recién comienzan.
+
+B<Que le agregaría a B<Frozen Bubble> ??>
+
+La gente me ha estado preguntando por el soporte en red durante mucho tiempo, y
+lo codifiqué en el 2004. Desgraciadamente aún hay pequeños errores de sincro que
+san difíciles de encontrar y corregir. Comúnmente cuando no disfruto de
+programar en casa, temporalmente lo dejo, porque creo que la diversión es una
+fase crucial. Actualmente trabajo en otros proyectos, y espero que la motivación
+regrese y eventualmente termine de hacerlo. También tengo el problema de forzar
+al artista gráfico a hacer cosas nuevas, y él también tiene problemas de
+motivación.
+
+B<Planea agregar compatibilidad con Perl-SDL 2.x ?>
+
+Sí, el próximo release (pero no puedo decir cuando será lanzado) usará la última
+versión "estable" de perl-sdl. Podría ser incompatible con perl-sdl 1.x.
+
+B<Cuáles son su módulos favoritos de CPAN ?>
+
+No uso CPAN demasiado. Uso Mandrake y usualmente están todo los módulos que
+necesito. Y si no están, hago el paquete..
+
+B<Planea hacer otra "next big thing"en Perl ??>
+
+Hum, no en el futuro cercano. Soy una persona de programación y me gusta
+explorar distintas cosas. Ahora estoy trabajando en una L<"cosa mediana"|/item_chiste> en
+Ruby, y estuve trabajando en otra "cosa mediana"en Java el año pasado.
+Idealmente, me gustaría trabajar en otra "cosa mediana" en OCaml.
+
+Y tal ves un día intente trabajar en mi proyecto secreto L<ser el rey del mundo|/item_rule>.
+Básicamente es una mezcla de Starcraft, Civilization y SimCity. Tuve
+algunas ideas pero paré bastante temprano. Tal vez, algún día ...
+
+B<Alguna experiencia (graciosa o no tanto) que tuvo mientras hacía B<Frozen Bubble> ??>
+
+Ya hice "debugging" del modo en dos jugadores con un colega, y después de un
+tiempo cuando le ganaba una y otra vez el pensó que el jugador "de la
+izquierda" resultaba favorecido. El verdadero problema es que el tiene muchos
+más músculos que yo, y no le gusta mucho perder ...
+
+=over 1
+
+=item demogroup
+
+grupo de personas que se dedican a hacer prototipos (en particular
+Guillaume se refiere a grupos de programación) donde se incluyen programadores,
+músicos, artistas de arte gráfica, etc.
+
+=item duct tape
+
+la "Duct Tape"es esa cinta resistente de color aluminio. Si quieren ver
+una página graciosa sobre esto, vayan a http://www.octanecreative.com/ducttape/
+
+=item chiste
+
+chiste a propósito de "next big thing"
+
+=item rule
+
+"rule de world", algo así como regir o regular el mundo, que es (en
+cierta forma) ser el rey del mundo
+
+=back
+
+=head2 Sudor News
+
+=over 1
+
+=item * Operador/a Técnico/a Linux (4-Abr)
+
+Se busca integrar nuevas personas al equipo técnico de ELSERVER.COM.
+Requisitos: edad entre 18 y 30 años, conocimientos sobre Linux, idea sobre
+administración de servidores, idea sobre hardware, idea sobre programación
+(preferentemente C, Perl, PHP, ASP, Shell, awk, sed, etc).
+
+L<http://www.computrabajo.com.ar/bt-ofrd-elserver-0.htm?BqdPalabras=perl>
+
+=item * DBA Oracle Ssr (22-Abr)
+
+Requisitos: Experiencia mínima de 1 año en DBA. Sólidos conocimientos de DBA Oracle.
+Administración Unix/Linux. Tuning de aplicaciones. Conocimientos de Shell script,
+Perl, Awk. Requisitos deseables: Programación JAVA. Entornos J2EE/Oracle 10g.
+Funciones del puesto: Administrar infraestructura de Base de datos y Unix. Dar
+el soporte de base de datos y Unix a los nuevos desarrollos y proyectos existentes,
+colaborando con las áreas de Sistemas Aplicativos.
+
+L<http://www.computrabajo.com.ar/bt-ofrd-solcito-221616.htm?BqdPalabras=perl>
+
+=item * Administrador UNIX/WIN y Soporte en inglés (22-Abr)
+
+Requisitos excluyentes: Conocimiento y experiencia en sistemas Unix (LINUX, BSD,
+SOLARIS), Sistemas Windows (NT, 2000, 2003), Servidores de Internet (HTTP, IMAP,
+POP3), programación en algún lenguaje de scripting (Shell Script, perl o PHP).
+Experiencia no menor a dos años con UNIX. Disponibilidad para viajar. Nivel de
+inglés avanzado para soporte telefónico y vía e-mail.
+
+L<http://www.computrabajo.com.ar/bt-ofrd-solcito-92340.htm?BqdPalabras=perl>
+
+=item * Búsqueda de Programadores (22-Abr)
+
+Se buscan Programadores en cualquiera de todos los lenguajes (.NET -VISUAL,ASP,
+HTML,SQL-Perl,Visual 6,C+,Delphi,ABAP,etc)
+
+L<http://www.computrabajo.com.ar/bt-ofrd-cosmantenimiento-4104.htm?BqdPalabras=perl>
+
+=item * Sysop Linux (11-Abr)
+
+Operating System: Unix/Linux, Windows ;Database: MySQL/PostgreSQL; Firewall:
+iptable; Programming: Perl, PHP, shell scripting ; Language: English ;
+Knowledge of Tomcat and AFS appreciated.
+
+L<http://www.computrabajo.com.ar/bt-ofrd-guidoten-18468.htm?BqdPalabras=perl>
+
+=item * Analista Programador Perl (8-Abr)
+
+Orientamos nuestra búsqueda a un Analista Programador Perl, para realizar tareas
+de resolución y seguimiento de incidentes y programación. Deberá poseer
+conocimientos básicos de Unix/Linux y Windows. Se valorarán conocimientos de
+Java y C. Excelente nivel de expresión y muy buena presencia.
+
+L<http://www.computrabajo.com.ar/bt-ofrd-kfeldmann-145692.htm?BqdPalabras=perl>
+
+=item * Perl / DBI programmer (12-Abr)
+
+Estamos buscando urgentemente dos programadores Perl con experiencia. Si
+usted ama Perl, y tiene una larga trayectoria de experiencia en la misma nos
+gustaría contactar con uds.
+
+L<http://jobs.perl.org/job/2474>
+
+=item * Programador HTML (6-Abr)
+
+Se buscan programadores con sólida experiencia comprobable en HTML y conocimientos
+de Perl.
+
+L<ofertaactiva@yahoo.com.ar>
+
+=item * Perl 5.9.2 is out
+
+El B<Rey Calabaza> de Perl 5.10, Rafael Garcia-Suarez liberó a Perl 5.9.2, el
+relese para desarrolladores de la familia 5.10 de Perl
+
+L<http://www.nntp.perl.org/group/perl.perl5.porters/99421>
+
+=item * Haceme hacking que después te cuento
+
+Hay un nuevo libro llamado "Sockets, Shellcode, Porting, and Coding" del autor
+James C. Foster, donde se revelan ciertos métodos usados para atacar sistemas
+operativos y aplicaciones. Lo raro de esto, bueno no tanto, es que tiene código
+escrito (entre otros) en Perl !!!
+
+L<http://www.oreilly.com/catalog/1597490059/> o en L<orders@oreilly.com>
+
+=item * Perl de alto nivel
+
+El famoso y bien conocido B<Mark Jason Dominus> lanzó un nuevo libro, llamado
+"A Perl of a Higher Order". Mis queridos chichipios déjenme decirles que usa a
+Perl para realizar Functional Programming, pero el sólo subtítulo (para los que
+no tenemos mucha idea de que se trata esto) promete diversión a raudales :
+I<Transforming Programs with Programs>. Y lo que es mejor es free !!!
+
+L<http://perl.plover.com/hop/>
+
+=item * CJAN ??
+
+Parece ser que el ejemplo de CPAN cunde en el mundo Java (por lo menos en principio)
+O'Reilly y SpikeSource lanzaron I<CodeZOO> para alegría de todos los que adoran
+usar módulos (y quien no, eh ?).
+
+L<http://www.codezoo.net/>
+
+=item * El poder del Open Source
+
+Otro conocido del barrio, David Wheeler, hace tiempo creó Bricolage trabajando
+para la revista Salon, que más tarde About.com convirtió en open source. Este
+CMS (content management system) sobrevivió al olvido y el mismo David Wheeler
+siguió trabajando sobre este aún sin soporte por parte de About.com, algo que
+no hubiera sido posible de no haber sido open source.
+
+L<http://madpenguin.org/cms/html/62/3926.html>
+
+=item * Perl Podcast
+
+Y si, es mucho más fácil hablar que escribir, entonces por qué no hacer Blogs
+hablados, eh ?? Y mucho mejor si es sobre Perl !!!
+
+L<http://www.joshmcadams.com/perlcast/>
+
+=item * Programación de Bluetooth en Linux
+
+Que Perl da para todo, de eso no me cabe ninguna duda, y verlo andando en un
+celular debe ser I<la portabilidad llevada al paroxismo>. Ja !, si hasta se puede
+manejar Bluetooth. No les gustaría probarlo en su celular Nokia y hacer una nota
+para CaFe Perl ??
+
+L<http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/2005-04/msg00439.html>
+
+=back
+
+=head2 CaFe Perl en Perl
+
+Sobre este tema en particular hubo algunos avances, mayormente las herramientas
+que hay disponibles hasta ahora son dos scripts : uno para enviar CaFe Perl a la
+lista, y el otro para generar a partir del POD los distintos formatos y probar
+cuestiones de estilo. Por ahora, los pueden bajar desde
+L<http://www.bit-man.com.ar/es/CaFePMenPerl>
+
+En este momento, y por el nuevo formato, realmente todos sabemos que escribir un
+documento no es gran cosa (los editores de texto son cosa común hoy en día), hacer
+uno de 4 a 6 páginas no es un gran desafío, pero hacer un contenido, editarlo,
+reformularlo y que todo se ajuste automáticamente a los designios de quien escribe
+... bueno, tampoco. El desafío es el formato POD, porque no encontré hasta ahora
+un editor que pueda exportar un documento hecho a este formato, así que de momento
+estoy usando un editor de texto.
+
+Para el próximo CaFe Perl estaría muy bueno poder a trabajar, aunque sea en una
+forma muy limitada, con un editor de textos común y poder luego llevarlo a un
+formato POD.
+
+=cut

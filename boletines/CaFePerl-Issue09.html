@@ -1,0 +1,721 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="NeoOffice 1.2  (Unix)">
+	<META NAME="CREATED" CONTENT="20050601;171000">
+	<META NAME="CHANGED" CONTENT="20060312;23471300">
+	<META NAME="SDFOOTNOTE" CONTENT=";;;;P">
+	<META NAME="SDENDNOTE" CONTENT="ARABIC">
+	<STYLE>
+	<!--
+		@page { size: 8.27in 11.69in; margin-left: 1.25in; margin-right: 1.25in; margin-top: 1in; margin-bottom: 1in }
+		P { margin-bottom: 0.08in; text-align: justify }
+		P.western { font-family: "Futura"; font-size: 10pt; font-weight: medium }
+		H1 { margin-bottom: 0.08in; text-align: justify }
+		H1.western { font-family: "Bitstream Vera Sans", sans-serif; font-size: 16pt }
+		H1.cjk { font-family: "HG Mincho Light J", "MS Mincho", "HG Mincho J", "HG Mincho L", "HG Mincho", "Mincho", "MS PMincho", "HG Mincho Light J", "MS Gothic", "HG Gothic J", "HG Gothic B", "HG Gothic", "Gothic", "MS PGothic", "Andale Sans UI", "Arial Unicode MS", "Lucida Sans Unicode", "Tahoma"; font-size: 16pt }
+		H1.ctl { font-family: "Lucidasans"; font-size: 16pt }
+		H2 { margin-bottom: 0.08in; text-align: justify }
+		H2.western { font-family: "Bitstream Vera Sans", sans-serif; font-size: 14pt; font-style: italic }
+		H2.cjk { font-family: "HG Mincho Light J", "MS Mincho", "HG Mincho J", "HG Mincho L", "HG Mincho", "Mincho", "MS PMincho", "HG Mincho Light J", "MS Gothic", "HG Gothic J", "HG Gothic B", "HG Gothic", "Gothic", "MS PGothic", "Andale Sans UI", "Arial Unicode MS", "Lucida Sans Unicode", "Tahoma"; font-size: 14pt; font-style: italic }
+		H2.ctl { font-family: "Lucidasans"; font-size: 14pt; font-style: italic }
+		H3 { margin-bottom: 0.08in; text-align: justify }
+		H3.western { font-family: "Bitstream Vera Sans", sans-serif; font-size: 12pt }
+		H3.cjk { font-family: "HG Mincho Light J", "MS Mincho", "HG Mincho J", "HG Mincho L", "HG Mincho", "Mincho", "MS PMincho", "HG Mincho Light J", "MS Gothic", "HG Gothic J", "HG Gothic B", "HG Gothic", "Gothic", "MS PGothic", "Andale Sans UI", "Arial Unicode MS", "Lucida Sans Unicode", "Tahoma" }
+		H3.ctl { font-family: "Lucidasans" }
+		P.sdfootnote-western { margin-left: 0.2in; text-indent: -0.2in; margin-bottom: 0in; font-family: "Futura"; font-size: 10pt; font-weight: medium }
+		P.sdfootnote-cjk { margin-left: 0.2in; text-indent: -0.2in; margin-bottom: 0in; font-size: 10pt }
+		P.sdfootnote-ctl { margin-left: 0.2in; text-indent: -0.2in; margin-bottom: 0in; font-size: 10pt }
+		PRE { text-align: justify }
+		PRE.western { font-weight: medium }
+		A.sdfootnoteanc { font-size: 57% }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-AR" DIR="LTR">
+<H1 CLASS="western">CaFe Perl v0.9 - Peri&oacute;dico de la Comunidad
+Perl de Capital Federal</H1>
+<P CLASS="western"><BR><BR>
+</P>
+<A NAME="editorial" />
+<H2 CLASS="western">Editorial</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Hola Perl Mongers,
+bienvenidos a un nuevo n&uacute;mero de CaFe Perl !!</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">En este &uacute;ltimo
+n&uacute;mero del a&ntilde;o quiero darles a todos un gran saludo,
+mis felicitaciones y deseos de lo mejor para cada uno de ustedes.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Simplemente comentarles
+que en este n&uacute;mero no va a estar la secci&oacute;n Mordiditas
+de aqu&iacute; y de all&aacute;, ni tampoco va a salir a mitad de mes
+como estuvo sucediendo &uacute;ltimamente. No se asusten, s&oacute;lo
+es un peque&ntilde;o receso.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Por otro lado tenemos
+una jugosa entrevista a Sebastian Riedel, principal arquitecto
+perteneciente al Core Developer Team de Catalyst</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Espero que lo
+disfruten. 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Hasta la pr&oacute;xima
+taza de CaFe Perl !!! ... eso s&iacute;, caf&eacute; del bueno ;-).</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">V&iacute;ctor A.
+Rodr&iacute;guez (Bit-Man)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<H2 CLASS="western"><BR><BR>
+</H2>
+<A NAME="perlitas" />
+<H2 CLASS="western" STYLE="page-break-before: always">PERlitas</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Catalyst (<A HREF="http://catalyst.perl.org/">http://catalyst.perl.org/</A>)
+es un Framework para Web elegante, que soporta el patr&oacute;n MVC
+as&iacute; como un n&uacute;mero de patrones web experimentales. Est&aacute;
+altamente inspirado por frameworks como Ruby On Rails, Maypole, y
+Spring. Sebastian Riedel, miembro del Core Developer Team, es nuestro
+invitado en este n&uacute;mero.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Por favor Sebastian, una introducci&oacute;n
+para el grupo CaFe.pm</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Mi nombre es Sebastian Riedel y soy un joven
+hacker de Perl5/Parrot/Perl6 de 24 a&ntilde;os que vive en el Norte
+de Alemania. Aprend&iacute; Perl hace 5 a&ntilde;os, y trabajo como
+desarrollador Perl para T- Systems International.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Cu&aacute;l fue su motivaci&oacute;n para
+construir Catalyst ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Comenc&eacute; luego de mantener Maypole por
+algunos meses, y r&aacute;pidamente llegu&eacute; a la conclusi&oacute;n
+que hab&iacute;a demasiados defectos, como el build en acciones crud,
+integraci&oacute;n TT/CDBI demasiado estrecha, objeto request pero no
+response, mapping uri/acci&oacute;n demasiado est&aacute;tico ... la
+gente usaba varios trucos bastante feos para poner sus aplicaciones
+alrededor de Maypole y crud, lo que resultaba en m&aacute;s trabajo y
+c&oacute;digo casi inmantenible.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">As&iacute; que decid&iacute; escribirlo desde
+cero. Todo pas&oacute; demasiado r&aacute;pido para la mayor&iacute;a
+de los usuarios de Maypole, as&iacute; que tuve que pasar el
+mantenimiento (a otra persona), y hacer un fork que nombramos
+Catalyst<A CLASS="sdfootnoteanc" NAME="sdfootnote1anc" HREF="#sdfootnote1sym"><SUP>1</SUP></A></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Muchos de los desarrolladores de Maypole me
+siguieron pronto, y el nuevo c&oacute;digo atrajo  nuevos
+desarrolladores. Hoy estoy muy contento que Catalyst es m&aacute;s
+popular que su predecesor.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Que habilidades ( relacionadas a Perl o
+no) obtuvo mientras constru&iacute;a Catalyst ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Aprend&iacute; mucho sobre los bus pre 5.8.x :)
+Catalyst es inteligente en cuanto a los features de Perl, casi al
+l&iacute;mite, usando atributos, herencia m&uacute;ltiple y cosas por
+el estilo.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Tambi&eacute;n estudi&eacute; los dem&aacute;s
+frameworks del mercado como Ruby-on- Rails, OI2, CGI::App, Struts,
+SpringMVC, Seaside... para robarles todos los buenas funcionalidades.
+:)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Qu&eacute; fortalezas encuentra en 
+Catalyst que no est&aacute;n en otros proyectos similares ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">De la que estoy m&aacute;s orgulloso es del
+mapping uri -&gt; m&eacute;todo, en mi modesta opini&oacute;n no hay
+framework en el mercado que lo haga de una forma tan elegante. La
+mayor&iacute;a de los frameworks usan un esquema fijo como el de
+/clase/m&eacute;todo/argumento y re-escriben las uris entrantes con
+algo como mod_rewrite de Apache, en Ruby-on-Rails it's se llama
+Routes.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Algunos ejemplos de Catalyst vs. Ruby-on-Rails. :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Mapping simple /controller/method/attr</P>
+<UL>
+	<PRE CLASS="western">     package MyApp::C::Foo;
+     sub bar : Local {
+         my ( $self, $c, @attrs ) = @_;
+     }
+     1;
+     vs.
+     class FooController &lt; ApplicationController
+         def bar
+         end
+
+     end</PRE>
+</UL>
+<PRE CLASS="western" STYLE="margin-bottom: 0.2in"></PRE><P CLASS="western">
+El mapping de m&aacute;s alto nivel (toplevel mapping), coincide con
+/bar 
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<UL>
+	<PRE CLASS="western">     package MyApp::C::Foo;
+     sub bar : Global {
+         my ( $self, $c, @attrs ) = @_;
+     }
+     1;
+     vs.
+     class FooController &lt; ApplicationController
+         def bar
+         end
+
+     end
+     ActionController::Routing::Routes.draw do |map|
+         map.connect &quot;bar&quot;, :controller =&gt; &quot;foo&quot;, :action =&gt; &quot;bar&quot;</PRE>
+</UL>
+<P CLASS="western">Mapping del mundo real, coincide con /index.html</P>
+<P CLASS="western"><BR><BR>
+</P>
+<UL>
+	<PRE CLASS="western">package MyApp::C::Foo;
+sub bar : Path(<CODE>/index.html</CODE>) { my ( $self, $c, @attrs ) = @_; }
+1;
+vs. 
+     class FooController &lt; ApplicationController
+         def bar
+         end
+
+     end
+     ActionController::Routing::Routes.draw do |map|
+         map.connect &quot;index.html&quot;, :controller =&gt; &quot;foo&quot;, :action =&gt;  &quot;bar&quot;</PRE>
+</UL>
+<PRE CLASS="western"></PRE><P CLASS="western">
+Mapping de expresi&oacute;n regular, coincide con todo lo que termina
+con .html (y captura el snippet coincidente)</P>
+<P CLASS="western"> 
+</P>
+<PRE CLASS="western">     package MyApp::C::Foo;
+     sub bar : Regex(^(*.\.html)$) {
+         my ( $self, $c, @attrs ) = @_;
+     }
+     1;
+     vs.
+     No estoy seguro que sea posible hacerlo en Routes</PRE><P CLASS="western">
+<BR><BR>
+</P>
+<P CLASS="western"><STRONG>Detect&oacute; que alg&uacute;n m&oacute;dulo
+generado por el proyecto haya sido usado fuera de este ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG><SPAN STYLE="font-weight: medium">Si,
+especialmente</SPAN></STRONG><SPAN STYLE="font-weight: medium">
+HTML::Prototype es bastante popular.</SPAN></P>
+<P CLASS="western" STYLE="font-weight: medium"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Planea liberar algunos m&oacute;dulos como
+una ramificaci&oacute;n de Catalyst ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Lo hicimos con Module::Pluggable::Fast,
+HTML::Prototype... y se est&aacute; trabajando en nuevo m&oacute;dulos
+como HTTP::Body y DBIx::Class (no es realmente una ramificaci&oacute;n
+de Catalyst sino parte de la familia).</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Qu&eacute; limitaciones impuso Perl al
+proyecto ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Recientemente estuvimos estuvimos experimentando
+con procesamiento asincr&oacute;nico (piensa en POE) y Seaside
+(Smalltalk MVC) como continuaci&oacute;n y reemplazo de las viejas
+sesiones, pero llegamos a la conclusi&oacute;n de que es muy dif&iacute;cil
+implementarlo en Perl 5.</P>
+<P CLASS="western">Estoy esperando Perl 6, que har&aacute; todo esto
+terriblemente simple :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Tiene alguna opini&oacute;n o consejo
+sobre Perl 6 ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">&Uacute;selo ! (<A HREF="http://pugscode.org/">http://pugscode.org</A>)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Paa alguien que reci&eacute;n comienza, le
+recomendar&iacute;a olvidarse de Perl 5 y comenzar con Perl 6 ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Todav&iacute;a no, la implementaci&oacute;n actual
+(Pugs) tiene un alto nivel de calidad, pero todav&iacute;a hay bugs y
+funcionalidades pendientes. Sin contar con la falta de treeware<A CLASS="sdfootnoteanc" NAME="sdfootnote2anc" HREF="#sdfootnote2sym"><SUP>1</SUP></A>.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Qu&eacute; consejo le dar&iacute;a a los
+futuros dise&ntilde;adores y hobistas que se enfrentan a un nuevo
+proyecto ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">No perderse en los detalles, trat&aacute; de darle
+un api bien dise&ntilde;ada y hacerla funcionar, as&iacute; se puede
+hacer un &quot;release early, release often&quot;. Si es lo
+suficientemente buena, m&aacute;s gente se unir&aacute; a tu proyecto
+y lo limpiar&aacute; por vos :) 
+</P>
+<P CLASS="western">Esto no significa “escribir c&oacute;digo
+horrible” :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>En qu&eacute; partes del c&oacute;digo le
+aconsejar&iacute;a a un novato en Perl que mire, para tener un
+aprendizaje placentero ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Bueno, hace poco tuvimos una discusi&oacute;n con
+perin en perlmonks sobre eso, hay demasiadas t&eacute;cnicas
+avanzadas en el c&oacute;digo de Catalyst, as&iacute; que no le
+aconsejar&iacute;a a los codificadores “novatos” mirar en el. Es
+f&aacute;cil usarlo para una codificador “novato”, pero no
+entenderlo internamente.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>C&oacute;mo se puede colaborar con
+Catalyst ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Simplemente unirse a #catalyst en irc.perl.org y/o
+a la lista de e-mail,
+<A HREF="http://lists.rawmode.org/mailman/listinfo/catalyst">http://lists.rawmode.org/mailman/listinfo/catalyst</A></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Hay alguna habilidad preferida para
+colaborar en Catalyst ?</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Si, IRC es una habilidad que hay que tener, ya que
+discutimos casi todo en nuestro muy cativo canal #catalyst
+(irc.perl.org)... :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Qu&eacute; funcionalidades cree que no
+est&aacute;n presentes, y cu&aacute;les agregar&aacute; pronto ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Estoy portando Catalyst a Perl6.</P>
+<P CLASS="western">Por lejos no soy el &uacute;nico trabajando sobre
+Catalyst, de hecho la mayor&iacute;a de los commit son hechos por
+otros miembros del equipo. Nuevos plugins surgen cada d&iacute;a :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Alg&uacute;n m&oacute;dulo favorito de
+CPAN ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Muchos! :)</P>
+<P CLASS="western">Devel::ebug</P>
+<P CLASS="western">SVK</P>
+<P CLASS="western">LWP</P>
+<P CLASS="western">Test::Pod</P>
+<P CLASS="western">Test::Pod::Coverage</P>
+<P CLASS="western">Template::Toolkit</P>
+<P CLASS="western">HTML::Mason</P>
+<P CLASS="western">Class::DBI</P>
+<P CLASS="western">DBD::SQLite<A HREF="http://www.bit-man.com.ar/en/CaFePMCatalyst/createform?page=SQLite">?</A></P>
+<P CLASS="western">Inline</P>
+<P CLASS="western">YAML</P>
+<P CLASS="western">Locale::Maketext::Simple</P>
+<P CLASS="western">Class::Accessor::Fast</P>
+<P CLASS="western">Class::Data::Inheritable</P>
+<P CLASS="western">POE</P>
+<P CLASS="western">DateTime</P>
+<P CLASS="western">RPC::XML</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><STRONG>Alguna experiencia (graciosa o no) que
+tuvo mientras constru&iacute;a Catalyst y que quiera compartir con
+nosotros ??</STRONG></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Hay algunos puntos que vienen a mi cabeza.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Ya que los desarrollos actuales sobre web
+frameworks est&aacute;n mayormente dominados por la gente de Ruby
+tuve que lidiar con ellos un tanto, y encuentro un tanto divertido
+c&oacute;mo tratan de publicitar la falta de alternativas como una
+funcionalidad, en contraste con nuestro TIMTOWTDI. M&aacute;s
+divertido es que otro frameworks prefieren imitar a Catalyst en lugar
+de unir fuerzas y producir uno superior. No es que no me guste la
+competencia, pero preferir&iacute;a que desarrollen nuevas
+funcionalidades para robarlas nosotros :)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<A NAME="sudornews" />
+<H2 CLASS="western" STYLE="page-break-before: always">SudorNews</H2>
+<P CLASS="western"><BR><BR>
+</P>
+<H3 CLASS="western">Perl Program Repair Shop and Red Flags</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Mark Jason Dominus est&aacute; haciendo otra de
+las suyas. B&aacute;sicamente se trata de un libro en el cual se va a
+abordar el tema de c&oacute;mo reducir ese c&oacute;digo a la mitad
+de tama&ntilde;o y con la misma funcionalidad (o sea el doble de
+valor pro l&iacute;nea !!) M&aacute;s info en <A HREF="http://perl.plover.com/">http://perl.plover.com/</A>
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Parrot 0.4.0</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Parrot, la m&aacute;quina virtual sobre la que
+correr&aacute; Perl 6 y otros lenguajes, ya cuenta con la versi&oacute;n
+0.4.0. si quieren saber lo que se viene, entonces apunten sus
+browsers a <A HREF="http://www.parrotcode.org/">http://www.parrotcode.org</A></P>
+<P CLASS="western"><BR><BR>
+</P>
+<H3 CLASS="western">Mini-intro-Tutorial de Catalyst</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">En este n&uacute;mero hay una entrevista a
+Sebastian Riedel, creador y arquitecto principal de Catalyst. Si
+quieren interesarse, una forma es mirando un tutorial para aprender
+de que se trata. Aqu&iacute; van m&aacute;s de uno :
+<A HREF="http://libertonia.escomposlinux.org/story/2005/8/18/194122/414">http://libertonia.escomposlinux.org/story/2005/8/18/194122/414</A>
+y <A HREF="http://libertonia.escomposlinux.org/story/2005/12/1/22557/4136">http://libertonia.escomposlinux.org/story/2005/12/1/22557/4136</A>
+. Tambi&eacute;n hay un muy divertido calendario en
+<A HREF="http://catalyst.perl.org/calendar/2005/">http://catalyst.perl.org/calendar/2005/</A></P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Etapas de un programador Perl</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">As&iacute; como hace tiempo circulaba, y a&uacute;n
+circula, un texto sobre c&oacute;mo programan distintas jerarqu&iacute;as
+dentro de una empresa, tambi&eacute;n en Perl tenemos lo nuestro.
+Entr&aacute; en <A HREF="http://prometheus.frii.com/~gnat/yapc/2000-stages/">http://prometheus.frii.com/~gnat/yapc/2000-stages/</A>
+y divertite.</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Entrevista a Richard Foley</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Si est&aacute;s mas o menos entrenado en Ingl&eacute;s
+no pod&eacute;s perderte este Perlcast a Richard Foley :
+<A HREF="http://www.perlcast.com/audio/Perlcast_Interview_014_Foley.mp3">http://www.perlcast.com/audio/Perlcast_Interview_014_Foley.mp3</A><A HREF="http://gplv3.fsf.org/">
+</A>
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Perl del lado del cliente</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Si te sent&iacute;s raro cuando te hablan de
+programaci&oacute;n del lado del cliente, y cuando explic&aacute;s
+que us&aacute;s Perl, entonces este art&iacute;culo es para vos :
+<A HREF="http://www.perl.com/pub/a/2005/12/01/client_side_success.html">http://www.perl.com/pub/a/2005/12/01/client_side_success.html</A><A HREF="http://gplv3.fsf.org/">
+</A>
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Traducci&oacute;n de &quot;How to be a
+Programmer&quot;</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">En
+<A HREF="http://ieschandomonte.edu.es/~ohermlope/mediawiki/index.php/Traduccion_de:_How_to_be_a_Programmer">http://ieschandomonte.edu.es/~ohermlope/mediawiki/index.php/Traduccion_de:_How_to_be_a_Programmer</A>
+van a poder encontrar un trabajo en proceso del que, incluso, van a
+poder participar.</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Calendario Perl 2005</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">La versi&oacute;n no oficial del Calendario Perl
+2005 la pueden encontrar en <A HREF="http://web.mit.edu/belg4mit/www/">http://web.mit.edu/belg4mit/www/</A>
+y seguramente van a encontrar cada una de las entradas mas que &uacute;til
+e interesante.</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Coca-Cola Blak</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">De acuerdo a un release de prensa
+(<A HREF="http://www2.coca-cola.com/presscenter/nr_20051207_corporate_blak.html">http://www2.coca-cola.com/presscenter/nr_20051207_corporate_blak.html</A>)
+la empresa Coca-Cola estar&iacute;a lanzando una bebida con caf&eacute;
+agregado a la ya tradicional Coca-Cola ... ideal para cualquier
+programador !!!</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">El futuro de Emacs</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Emacs 22 se viene con todo : soporte para Mac OS X
+y Cygwin, rueda del mouse y muchos otros (
+<A HREF="http://cvs.savannah.gnu.org/viewcvs/emacs/emacs/etc/NEWS?rev=1.1295&amp;view=auto">http://cvs.savannah.gnu.org/viewcvs/emacs/emacs/etc/NEWS?rev=1.1295&amp;view=auto</A>
+). La versi&oacute;n final no estar&aacute; pronto, pero si ser&aacute;
+de lo mejor.</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">C&oacute;mo probar archivos y m&oacute;dulos</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Si gener&aacute;s c&oacute;digo seguramente lo
+prob&aacute;s, y lo m&aacute;s probable es que uses alguno de los
+m&oacute;dulos del namespace Test:: ... si te est&aacute;s dando de
+cabeza en como probar archivos y m&oacute;dulos entonces lo tuyo est&aacute;
+en <A HREF="http://www.perl.com/pub/a/2005/12/08/test_files.html">http://www.perl.com/pub/a/2005/12/08/test_files.html</A><A HREF="http://gplv3.fsf.org/">
+</A>
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">ActiveState discontin&uacute;a VisualPerl</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">ActiveState, reconocida por su port de Perl hacia
+Windows, estaba desarrollando un plugin para utilizar Perl dentro de
+Visual Studio (IDE de Microsoft). Debido a problemas de
+licenciamiento (de continuar este plugin y otros relacionados con
+Python y XSLT no podr&iacute;an ser licenciados como open source). La
+escueta historia en
+<A HREF="http://www.activeperl.com/Products/Visual_Perl/?mp=1">http://www.activeperl.com/Products/Visual_Perl/?mp=1</A>
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Programaci&oacute;n l&oacute;gica con Perl y
+Prolog</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Sabemos que de los paradigmas de programaci&oacute;n
+imperativo, funcional, orientado a objetos y l&oacute;gico, Perl es
+bueno en todos salvo el &uacute;ltimo. Si juntamos Prolog y Perl se
+cierra el c&iacute;rculo :
+<A HREF="http://gplv3.fsf.org/">http://www.perl.com/pub/a/2005/12/15/perl_prolog.html</A></P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Larry Wall habla sobre Perl 6</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">En una entrevista de la revista Linux Format,
+Larry Wall habl&oacute; sobre Perl 6 : de que otra cosa sse puede
+hablar en este momento, eh ??? (
+<A HREF="http://www.linuxformat.co.uk/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189">http://www.linuxformat.co.uk/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189</A>
+)</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Lineamientos del proceso de discusi&oacute;n de
+GPL 3.0 ...</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Comenz&oacute; a rodar, y ya se anunciaron los
+lineamientos para el proceso de discusi&oacute;n de GPLv3
+(<A HREF="http://gplv3.fsf.org/gpl3-process.pdf">http://gplv3.fsf.org/gpl3-process.pdf</A>),
+cuyo primer borrador ser&aacute; lanzado en la conferencia ad-doc a
+realizarse en el MIT el 16 y 17 de Enero del 2006</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">C&oacute;mo escribir comentarios</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Una entrada de blog
+(<A HREF="http://dkrukovsky.blogspot.com/2005/07/how-to-write-comments.html">http://dkrukovsky.blogspot.com/2005/07/how-to-write-comments.html</A>)
+que habla sobre si deben escribirse comentarios, si lo puedo hacer en
+5 minutos y c&oacute;mo comentar una clase. Tal vez lo m&aacute;s
+interesante no est&eacute; en la entrada del blog sino en los
+comentarios ...</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Vinos, quesos, cultura y open source</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">En Francia, la tierra gourmet por excelencia,
+parece ser que el open source tiene sus m&aacute;s fuertes
+detractores en el departamento de cultura
+(<A HREF="http://www.fsffrance.org/news/article2005-11-25.en.html">http://www.fsffrance.org/news/article2005-11-25.en.html</A>)
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Las Olimpiadas, tambi&eacute;n Open Source</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">El Comit&eacute; Ol&iacute;mpico Internacional
+(<A HREF="http://software.silicon.com/os/0,39024651,39154775,00.htm">http://software.silicon.com/os/0,39024651,39154775,00.htm</A>)
+est&aacute; bregando por cambiar su infraestructura a una basada en
+open source para las Olimpiadas de Beijing del a&ntilde;o 2008. 
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<H3 CLASS="western">Pel&iacute;cula que documenta la creaci&oacute;n
+de software</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Hay gente que se preocupa por hacer software, y
+otra por filmar como lo hacen. Eso fue lo que hicieron en Fog Creek
+durante 12 semanas, filmando desde la concepci&oacute;n hasta la
+finalizaci&oacute;n (<A HREF="http://www.projectaardvark.com/movie/">http://www.projectaardvark.com/movie/</A>)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<H3 CLASS="western">Java es tan de los '90</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Parece ser que este lenguaje est&aacute; perdiendo
+terreno en lo que es aplicaciones web no-empresarial frente a LAMP
+(Linux-Apache-MySQL-Perl/Python/PHP) y .NET
+(<A HREF="http://www.businessweek.com/technology/content/dec2005/tc20051213_042973.htm">http://www.businessweek.com/technology/content/dec2005/tc20051213_042973.htm</A>)
+</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Generosidad open source</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Es bueno divertirse. Es bueno ganar plata. Es muy
+bueno divertirse y ganar plata !!! El site Bounty County
+(<A HREF="http://www.bountycounty.org/">http://www.bountycounty.org/</A>)
+tiene esto en mente y muestra sites donde puede ganarse dinero
+haciendo open source, del una forma ingeniosa.</P>
+<H3 CLASS="western"><BR><BR>
+</H3>
+<H3 CLASS="western">Por qu&eacute; usar Gtk+</H3>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Siguiendo con la onda Gtk+ la gente de IBM
+DeveloperWorks tiene un interesant&iacute;simo art&iacute;culo sobre
+c&oacute;mo usar Gtk+, consideraciones para usarlo y los beneficios
+que provee
+(<A HREF="http://www-128.ibm.com/developerworks/linux/library/l-playscreen/">http://www.ibm.com/developerworks/opensource/library/os-gtk1/?ca=dgr-lnxw01WhyGTK</A>)</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<A NAME="POC" />
+<H2 CLASS="western" STYLE="page-break-before: always">POC (peace of
+code)</H2>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; text-decoration: none"><FONT COLOR="#000000">Antes
+que nada las respuestas a las preguntas del n&uacute;mero anterior :</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; text-decoration: none"><BR>
+</P>
+<PRE CLASS="western">perl -e '@n=qw(bytes K M G T); $i=int(log($ARGV[0])/log(1024)); print $ARGV[0]/1024**$i.$n[$i]' 3456</PRE><P CLASS="western" STYLE="margin-bottom: 0in">
+<BR>
+</P>
+<UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><B>qu&eacute; es
+	una l&iacute;nea de comandos Perl ? :</B> b&aacute;sicamente es usar
+	el switch -e de perl indic&aacute;ndole que a continuaci&oacute;n no
+	viene el nombre del archivo que contiene el programa perl sino el
+	programa en si 
+	</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><B>qu&eacute;
+	operaci&oacute;n realiza este programa Perl ? : </B><SPAN STYLE="font-weight: medium">convierte</SPAN>
+	el n&uacute;mero pasado como par&aacute;metro a notaci&oacute;n
+	cient&iacute;fica utilizando los sufijos Kilo, Mega, Giga y Tera
+	pero teniendo en cuenta que estamos en un contexto binario donde el
+	sufijo kilo es 2**10 (en un contexto decimal este representa el
+	equivalente a 10**3)</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><B>Para qu&eacute;
+	se usa la relaci&oacute;n de logaritmos log() ? : </B>porque la
+	relaci&oacute;n entre el sufijo K y el n&uacute;mero a convertir es
+	de este tipo</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><B><SPAN STYLE="text-decoration: none"><FONT COLOR="#000000">Alguna
+	forma distinta de hacerlo ? (recuerden que TMTOWTDI) : </FONT></SPAN></B><SPAN STYLE="font-weight: medium"><SPAN STYLE="text-decoration: none"><FONT COLOR="#000000">la
+	forma m&aacute;s directa es reemplazar las divisiones por loops con
+	restas, pero en general todas las formas que pude ejercitar fueron
+	mucho m&aacute;s largas y pr&aacute;cticamente incomprensibles</FONT></SPAN></SPAN></P>
+</UL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<PRE CLASS="western"></PRE><P CLASS="western" STYLE="margin-bottom: 0in">
+Ahora el peace of code de esta semana !!!!!</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<PRE CLASS="western">my $home = $ENV{HOME}
+		|| $ENV{LOGDIR}
+		|| (getpwuid($&lt;))[7]
+		|| die “Homeless boy\n”</PRE><P CLASS="western" STYLE="margin-bottom: 0in">
+ 
+</P>
+<UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">qu&eacute;
+	significado tiene el hash %ENV ??</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">qu&eacute; son
+	$ENV{HOME} y $ENV{LOGDIR} ??</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">que devuelve la
+	funci&oacute;n getpwuid() ??</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">qu&eacute;
+	contiene la variable $&lt; ??</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">qu&eacute;
+	significado tiene el valor alhojado en $home ??</P>
+</UL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<DIV ID="sdfootnote1">
+	<P CLASS="western"><A CLASS="sdfootnotesym" NAME="sdfootnote1sym" HREF="#sdfootnote1anc">1</A>
+	N. del T. Catalyst : catalizador, elemento que acelera la reacci&oacute;n
+	que se produce entre otros dos 
+	</P>
+</DIV>
+<DIV ID="sdfootnote2">
+	<P CLASS="sdfootnote-western"><A CLASS="sdfootnotesym" NAME="sdfootnote2sym" HREF="#sdfootnote2anc">1</A>Software
+	dentro del arbol perteneciente al desarrollo de Pugs</P>
+</DIV>
+</BODY>
+</HTML>

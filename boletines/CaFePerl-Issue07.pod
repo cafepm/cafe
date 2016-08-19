@@ -1,0 +1,403 @@
+=pod
+
+=head1 CaFe Perl v0.7 - Periódico de la Comunidad Perl de Capital Federal
+
+=head2 Editorial
+
+Hola Perl Mongers, bienvenidos a un nuevo número de CaFe Perl !!
+
+Este mes el número trae novedades varias ... una de cal y una de arena
+
+
+=over 2
+
+=item * - esta vez la sección Mordiditas... sufrió un retraso, así que a mediados de
+este mes de Noviembre va a publicarse esta sección por separado
+
+=item * - En PERLitas tenemos una entrevista a Don Mahurin, creador de la
+distribución Perl/Linux (y un especial agradecimiento a N3krodamus por
+hacerme notar de esta perlita)
+
+=item * - En el PoC de este mes estrenamos nuevo problema y respuestas del problema
+del mes anterior
+
+=back
+
+
+Espero que lo disfruten.
+
+Hasta la próxima taza de CaFe Perl !!! ... eso sí, café del bueno ;-).
+
+
+Víctor A. Rodríguez (Bit-Man)
+
+
+
+=head2 
+PERlitas
+
+
+Entrevista realizada y traducida al español por Víctor A. Rodríguez
+
+
+Perl es un mundo en si mismo, que encaja perfectamente en el mundo del Open
+Source y Linux, y tan bien lo hace que está en marcha una distribución
+completa de Linux hecha en Perl : Perl/Linux (
+http://perllinux.sourceforge.net/ ).
+
+
+B<Por favor Don, una introducción para el grupo CaFe.pm>
+
+
+Mi nombre es Don Mahurin. He sido un Ingeniero de Software por algo así como
+10 años, y he usado Linux y Perl aproximadamente la misma cantidad de
+tiempo.
+
+
+Actualmente vivo en California en USA, donde trabajo para una compañía de
+VOIP (voz sobre IP) aquí en San José
+
+
+B<Cuál fue su motivación para construir Perl/Linux ??>
+
+
+La primer razón obvia es que sabía que podía hacerse, y que yo podría
+hacerlo. También estaba un tanto anonadado por las proclamas de que "Linux
+es realmente GNU/Linux" y quería que la gente se diera cuenta que el kernel
+ES el Sistema Operativo (manejo del filesystem, memoria y disco), y el resto
+son sólo programas que corren sobre el sistema operativo. Esto es lo que
+Perl/Linux quiso demostrar de alguna forma.
+
+
+También pensé que podría ser un buen ?disco de rescate? pequeño, aunque
+nunca lo usé de esa forma.
+
+
+B<Obtuvo alguna ayuda de parte de otros proyectos Open Source ?? (código,
+horas de programación, etc.)>
+
+
+Mucho del código de la aplicación vino de PPT (Perl Power Tools). Mount,
+edit, vi vinieron de "unSlider". Yo mejoré algunas características para
+Perl/Linux. Más información vino desde la página de Jay Komineks page quién
+tuvo la misma idea. Yo escribí otras aplicaciones, incluyendo un web server
+en Perl y el proceso de arranque (init, getty, login).
+
+
+B<Que habilidades (relacionadas a Perl o no tanto) obtuvo mientras construía
+Perl/Linux ??>
+
+
+Obtuve cierto conocimiento de cómo generar mejor un sistema Linux desde
+cero. Aprendí que las syscalls de bajo nivel en Perl pueden ser a veces un
+dolor, así como algunos de los headers del sistema no están y necesitan ser
+generados.
+
+
+B<Podría darnos un ejemplo, y cómo generarlos ??>
+
+
+Algunos headers parecen estar perdidos. Se generan con un comando como ?h2ph
+bits/syscall.h features.h". Ver lib/perl-sys-headers.
+
+
+B<Qué consejo le daría a los futuros diseñadores y hobbistas que enfrentan un
+nuevo proyecto ??>
+
+
+Liberá código tan pronto como sea posible. Obtené personas para unirse al
+proyecto (todavía estoy tratando de hacerlo)
+
+
+B<En qué partes del código aconsejarías mirar a quién se inicia en Perl, para
+que tenga una experiencia de aprendizaje muy placentera ??>
+
+
+Creo que la mayoría del código de la aplicación es legible. Parte del código
+de arranque contiene magia que probablemente necesite cierto trabajo.
+
+
+B<Cómo se puede colaborar con Perl/Linux ??>
+
+
+Hacé un build. Probalo. Agregá algo que falte y avisame. Estaría contento de
+agregar desarrolladores que tengan ideas específicas de lo que debería ser
+Perl/Linux
+
+
+B<Que funcionalidades cree que no están, y cuáles agregará pronto ??>
+
+
+Se necesitan escribir módulos nativos en Perl para SSL. Alguna clase de
+server de shell remoto (sshd, algún shell remoto basado en SSL, o quizás aún
+un simple server de HTTP basado en un shell no seguro).
+
+Existe un módulo de rsync nativo, así que un cliente rsync puede ser
+fácilmente agregado. No he mirado al proyecto en una cantidad de meses.
+
+
+B<Cuál cree que debería ser el siguiente gran paso en Perl/Linux ?>
+
+
+El siguiente paso para Perl/Linux es adaptarlo para usos del mundo real,
+posiblemente incluyendo discos de rescate o para dispositivos de pocos
+recursos. Algunas características posibles que podría ser bueno agregar son
+acceso remoto seguro (ssh u otro), y cualquier otra utilidad esencial.
+
+
+Por supuesto que más feedback y parche provenientes de los usuarios y
+desarrolladores son los que más ayudan a cualquier proyecto.
+
+
+B<Algún módulo de CPAN favorito ??>
+
+
+No tengo favoritos.
+
+
+B<Un programador favorito, o cualquier persona abocada a Perl ??>
+
+
+Larry Wall...
+
+
+B<Hay algún grupo de Perl cerca de su localidad ?? Participa en él ??>
+
+
+Probablemente hay tales grupos en mi área, pero no he participado en
+ninguno.
+
+
+B<Alguna experiencia (divertida o no) que tuvo mientras construía Perl/Linux y
+que quiera compartir con nosotros ??>
+
+
+Algunas cosas que la gente escribió en e-mails o online sobre Perl/Linux
+fueron divertidas. Algunos dijeron que era cool. Otros dijeron que estaban
+pensando en hacer lo mismo. Y hubo una persona que era nueva en Linux que
+estaba tratando de instalar "perllinux" porque creía que era requerida por
+PHP.
+
+
+
+
+=head2 
+SudorNews
+
+
+=head3 SnortALog 2.4.0 RC2 (Linux)
+
+Esta es la más reciente versión ( http://jeremy.chartier.free.fr/snortalog/
+)de una herramienta que sumariza los logs de Snort, permitiendo visualizar
+los ataques que se llevan a cabo, y aún puede generar reportes HTML con
+gráficos.
+
+
+=head3 Annotating CPAN
+
+Ya conocés a CPAN ( http://www.cpan.org ), bueno ahora tenés que conocer a
+su complemento ideal : Annotated CPAN ( http://annocpan.org/ ). Se trata de
+una herramienta donde está la documentación de CPAN pero que además pueden
+hacerse anotaciones al margen (algo así como un WikiWiki de CPAN). Un
+interesante artículo sobre este tema puede verlo en
+http://www.perl.com/pub/a/2005/06/30/annocpan.html
+
+=head3 Pugs 6.2.10 released
+
+Con ya dos meses de desarrollo este release posee mayor integración de los
+backends de Perl5 y JavaScript para generar código. A partir de este punto
+el trabajo sobre objetos va a ser mucho más importante. Ah si ... pueden
+bajarlo desde http://pugscode.org/dist/Perl6-Pugs-6.2.10.tar.gz
+
+
+También en esta línea Geoff Broadwell escribió un análisis de optimización
+de un proyecto open source sólo por diversión (
+http://www.oreillynet.com/pub/wlg/7996 ). Este argumenta que haciendo el
+desarrollo fácil y divertido lleva a tener un código de mayor calidad y
+performance.
+
+
+=head3 10 velitas para CPAN
+
+El 25 de Octubre fue el cumpleaños de CPAN : si 20 años no es nada, entonces
+10 es la mitad de nada !!! Y como en todo cumpleaños nada mejor que recordar
+otros momentos, como el nacimiento (
+http://www.funet.fi/pub/languages/perl/CPAN/misc/CPAN.ANNOUNCE ). Que los
+cumplas feliz, que los cumplas feliz ...
+
+
+=head3 Haciendo menús con wxPerl
+
+Cuántas veces no pudimos hacer que alguien use ese programa tan bueno que
+hicimos porque no se entienden todas esas opciones que hay que pasar en la
+línea de comandos ?? Cómo es que puedo ponerle una interfaz gráfica. Bueno,
+formas hay muchas y una de esas es usando wxPerl
+(http://www.perl.com/pub/a/2005/10/06/wxperl_menus.html ).
+
+
+=head3 La importancia del Software Testing
+
+Una buena explicación nunca está de más, y menos si viene en un Podcast :
+http://www.oreillynet.com/pub/a/network/2005/10/05/distributing-the-
+future.htm
+
+
+=head3 Nuevas autoridades en The Perl Foundation
+
+Nuevo presidente y nuevo comité. Allison Randal, presidente desde el año
+2002, dio un paso al costado para tomar un rol más activo en el desarrollo
+de Perl 6 y Parrot. Pueden ver los anuncios en
+http://www.perlfoundation.org/news/2005/steering_committee_elections.html y
+http://www.perlfoundation.org/pr/release/2005_10_17-president-steering.html
+
+
+=head3 Resultados del Censo ?Perl Mongers 2005?
+
+Dave Cross, encargado de coordinar todos los grupos de Perl Mongers, realizó
+un censo. Pueden ver los muy interesantes resultados en
+http://pm.org/census.pdf , y no se vana sorprender de ver a Brasil como uno
+de los países más activos.
+
+
+=head3 Novedades en Perl-Meme !!
+
+Recordarán que en el número anterior comentamos sobre este site para
+comenzar a aprender Perl. Bueno, en este mes han detectado que se buscaba en
+su site información sobre arrays en forma repetida, así que un how-to y un
+tutorial prometedor fueron agregados :
+http://www.perlmeme.org/howtos/data_structures/arrays.html y
+http://www.perlmeme.org/tutorials/arrays.html
+
+
+=head3 Nuevo Wiki para CGI::Application
+
+Este conocido MVC application framework posee un wiki en http://www.cgi-
+app.org/ , donde pueden encontrarse modos de uso, plugins y todo lo que se
+necesite para ver, analizar y usar este MVC
+
+
+=head3 Rumiando datos en el área de Biología
+
+Comúnmente quienes se dedican a la Biología no son programadores y tienen
+que tomar datos de diversas fuentes, combinarlos, y demás tareas para las
+que Perl es más que el compañero ideal. Para solucionar este problema un
+grupo de la Universidad de Harvard, liderado por Amir Karger crearon a
+Scriptome ( http://cgr.harvard.edu/cbg/scriptome/ ). Por supuesto, también
+hay un artículo sobre este nuevo trabajo (
+http://www.perl.com/pub/a/2005/10/20/scriptome.html )
+
+
+=head3 Antigua computadora Griega recontruida
+
+Contrariamente a lo que se creía las computadoras no son un invento moderno.
+Digámoslo de otra forma : existen computadoras desde hace mucho, pero no de
+propósito general sino para tareas específicas (
+http://en.wikipedia.org/wiki/Antikythera_mechanism ). Según se cree esta
+computadora servía para calcular la posición de los planetas, y fue
+encontrada allá por el año 1900 en el fondo del mar (
+http://www.economist.com/displaystory.cfm?story_id=1337165 ). Lo que los
+expertos no entienden todavía es como esta podía funcionar sin una línea de
+código Perl !!! ;-)
+
+
+=head3 Resultados del ?Google Summer fo Code?
+
+Parece ser que después de 2 meses todo marcha muy bien. Si nos guiamos por
+los resultados ( http://code.google.com/soc-results.html ) el 90% de los
+proyectos fueron finalizados y pagados, y entre ellos se encuentran varios
+relacionados con Perl y The Perl Foundation.
+
+
+=head3 5ª Jornadas Regionales de Software Libre en Argentina
+
+En el mes de Noviembre, en Rosario, argentina se desarrollaran las 5ª
+Jornadas Regionales de Software Libre ( http://www.jornadas.ant.org.ar/ ).
+La misma contará con la participación de Richard Stallman fundador del
+proyecto GNU y George Greve de FSF Europe
+
+
+=head2 
+POC (peace of code)
+
+
+Antes que nada y para que no haya reclamos, muy justificados por cierto, las
+respuestas a las preguntas del número anterior :
+
+
+=over 2
+
+=item * - viola alguna regla de perl5 ?? : no, nada indica que un scalar no puede
+poseer una referencia a si mismo
+
+=back
+
+=over 2
+
+=item * - qué utilidad tiene ?? : en si mismo no parece muy lógico ni muy útil, pero
+si tomamos la implementación de una cola circular esto comienza a tomar
+sentido. Tomemos que necesitamos implementar un buffer circular del tipo
+extensible, y para ello lo implementamos como una serie de buffers simples
+encadenados. Básicamente si tomamos una array como una colección de
+referencias a hashes que contienen dos elementos (el buffer y un puntero al
+próximo buffer), tendríamos que al agregar el primer buffer haríamos mas o
+menos lo siguiente, apuntando la referencia al siguiente elemento a si mismo
+(ya que es el primero y último buffer de la lista :
+
+=back
+
+
+ sub addFirstBuffer($) {
+ my $data = shift;
+ 
+ my %element;
+     $element{buffer} = $data;     ## contenido del buffer
+     $element{next} = \%element;    ## apunta al primer elemento
+ 
+ return \%element;
+ };
+
+
+=over 2
+
+=item * - qué ocurre con el garbage collector ?? : este se encarga de liberar las
+porciones de memoria que no son utilizadas, y básicamente porque no hay
+ninguna referencia hacia ellas. En este caso como una estructura apunta a si
+misma nunca será liberada, aunque sea dejada de usar.
+
+=back
+
+
+
+Ahora el peace of code de esta semana !!!!!
+
+
+Dada la siguiente sub :
+
+
+ sub lee($) {
+ shift;
+ return split " " if /\d/;
+ }
+
+
+Determinar :
+
+
+=over 2
+
+=item * - que trabajo realiza la función shift y en qué variable se almacena el
+resultado ?
+
+=item * - que trabajo realiza la función split , y sobre qué variable trabaja ?
+
+=item * - a qué variable se aplica la comparación hecha dentro del if ?
+
+=item * - reescribir la sub utilizando variables explícitas
+
+=back
+
+
+
+
+=cut
+

@@ -1,0 +1,171 @@
+<html>
+
+ <head>
+  <title>Review de "** Perl for System Administration **"</title>
+ <head>
+
+ <body>
+
+  <center>
+   <table cellpadding=0 cellspacing=0 width=90% border=0>
+
+    <tr>
+     <td>
+      <center>
+       <font face=arial size=6 color=blue><b>CaFe.pm - Perl Mongers de Capital Federal</b></font><br>
+       <font face=arial size=4 color=blue><b>http://cafe.pm.org/</b></font><br>
+      </center>
+      <hr>
+
+      <br>     
+
+      <table cellpadding=0 cellspacing=0 width=100% border=0>
+       <tr>
+        <td align="center" valign="top" width="30%">
+         <!-- ** Buscar la imagen correspondiente al libro en www.oreilly.com -->
+         <img src="perlsysadm.s.gif" width="145" height="190" border="0"> 
+        </td>
+        <td>
+         <font face=arial>
+         <font size=4><b>Review de "** Perl for System Administration **"</b></font>
+
+         <br><br>
+         <font>por ** Marcelo A. Liberatto A.K.A. N3krodamus ** (** marceloliberatto@gmail.com **)</font>
+         <br><br><br>
+         Autor: ** David N. Blank-Edelman **<br>
+         Editorial: ** Oreilly **<br>
+         ISBN: ** 1-56592-609-9 **
+         </font>
+
+        </td>
+       </tr>
+      </table>
+
+      <br>
+
+      <hr>
+
+      <br>
+
+      <font face=arial size=4><b>Introducci&oacute;n</b></font>
+
+      <font face="arial">
+      <p align=justify>
+      Siendo administrador de servidores Linux desde hace algun tiempo y programador en perl desde hace mas tiempo debo decir que el t&iacute;tulo de este libro me sedujo desde el principio. Perl es un excelente lenguaje para procesamiento de textos y como a muchos administradores les gusta decir 
+      "En Unix todo es un archivo" entonces podriamos decir que tenemos un lenguaje de programaci&oacute;n ideal para administrar Unix y/o Linux. Sin embargo este libro no solamente habla de los sistemas operativos de la familia nix sino que tambien nos ense&ntilde;a como desarrollar herramientas y 
+      soluciones para otras 3 plataformas muy difundidas en estos tiempos como ser Windows 2000, NT  y MacOS.
+      <br><br>
+      Luego de esta breve rese&ntilde;a pasar&eacute; a comentar cada cap&iacute;tulo del libro.	
+      </p>
+
+      <!-- ** INICIO Bloque de cap&iacute;tulo ** -->
+      <font size=4><b>Cap&iacute;tulo 1 - Introduction</b></font>
+
+      <p align=justify>
+	Este es un cap&iacute;tulo introductorio en donde el autor explica en cuales de nuestras tareas diarias como administrador PERL nos puede ayudar. 
+	Veremos una breve introducci&oacute;n a los diferentes metodos de instalci&oacute;n de modulos de PERL 
+	y, en un interesante apartado final titulado "Its not easy been omnipotent" "No es facil ser omnipotente" se enumeran los puntos a tener en cuenta cuando se desarrollan aplicaciones administrativas que requieren de permisos altos dentro del sistema operativo.
+      </p>
+
+
+      <font size=4><b>Cap&iacute;tulo 2 - Filesystems</b></font>
+      
+      <p align=justify>
+      Aqui empezamos de lleno a trabajar con el sistema y a interactuar con perl, el cap&iacute;tulo comienza con una anecdota que le sucedi&oacute; al autor cuando se encontraba escribiendo este mismo libro en su laptop y sufri&oacute; un accidente que da&ntilde;o el sistema de archivos del equipo, aprovechando esto nos introduce de lleno en el cap&iacute;tulo. Se hace una breve rese&ntilde;a de las diferencias entre los distintos sistemas de archivos para luego empezar a "caminar" por el mismo utilizando m&oacute;dulos como Find::File. 
+      La seguna secci&oacute;n del cap&iacute;tulo muestra como manejar quotas de disco desde perl, sea accediendo a las herramientas del sistema y procesando sus resultados como utilizando m&oacute;dulos existentes en CPAN para poder manipular directamente los archivos de configuraci&oacute;n. En este mismo apartado y como cierre final vemos como obtener informaci&oacute;n acerca de los vol&uacute;menes de disco para poder administrar sus recursos.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 3 - User Accounts</b></font>
+      
+      <p align=justify>
+	Este cap&iacute;tulo demuestra como manejar cuentas de usuarios en las distintas plataformas, resulta ser bastante extenso ya que explica detalladamente
+	el funcionamiento de las cuentas de usuario en cada sistema operativo; adem&aacute;s de las distintas formas de almacenar las claves y sus caracter&iacute;sticas. 
+	Aqu&iacute; mismo se encara el desarrollo de un sistema de creaci&oacute;n de cuentas de usuario haciendo una breve menci&oacute;n a otras formas de almacenar la informaci&oacute;n como ser SQL y XML que se ver&aacute;n en cap&iacute;tulos mas avanzados.(Ver apendices XML y SQL)
+      </p>
+
+
+
+      <font size=4><b>Cap&iacute;tulo 4 - User Activities</b></font>
+      
+      <p align=justify>
+	Sin duda alguna como administradores una de las tareas mas importantes es la de el monitoreo de los usuarios dentro del sistema, aqu&iacute; se dividen las distintas actividades de los usuarios en cuatro categorias a saber: Procesos, Operaciones sobre archivos, Acceso a la red y Actividades especificas de la plataforma.
+	Este cap&iacute;tulo tambien cuenta con un extenso apartado que explica como maneja los procesos cada sistema operativo y cuales son los medios que proveen para acceder a su monitoreo. En todos los casos disponemos de m&oacute;dulos ya desarrollados para la plataforma que elijamos administrar y tambien se muestra como desarrollar herramientas propias que interactuen con el sistema operativo.
+      </p>
+
+
+
+      <font size=4><b>Cap&iacute;tulo 5 - TCP/IP Name Services</b></font>
+      
+      <p align=justify>
+      Quienes hayan trabajado en el area de administraci&oacute;n de redes sabe lo importante que es el sistema de resoluci&oacute;n de nombres de internet, DNS por sus siglas en ingles, y saben lo engorroso que resulta a veces el mantenimiento de los archivos de zona del mismo. Pues bien aqui se presentan algunas soluciones para poder amenizar y facilitar el trabajo con estos archivos y la comprobaci&oacute;n de errores. Primeramente se ven los archivos hosts locales de cada equipo, su mantenimiento y actualizaci&oacute;n; mas adelante se ven los protocolos NIS NIS+ y WINS para mas tarde profundizar en el manejo de los archivos de DNS.
+      </p>
+
+      <font size=4><b>Cap&iacute;tulo 6 - Directory Services</b></font>
+      
+      <p align=justify>
+      Servicios de directorios, en este cap&iacute;tulo me result&oacute; particularmente interesante la secci&oacute;n dedicada a LDAP; seguramente quienes tengan experiencia en el uso de este sistema encontrar&aacute;n una serie de herramientas bien explicadas y muy &uacute;tiles en este apartado. Debo decir ademas que me resulto muy &uacute;til el ap&eacute;ndice "The ten minute LDAP tutorial" (El tutorial de 10 minutos sobre LDAP). Por supuesto tambien se ven otros servidores de directorios como ser Finger, ADSI y WHOIS.
+      </p>
+
+
+      <font size=4><b>Cap&iacute;tulo 7 - SQL Databases Administration</b></font>
+      
+      <p align=justify>
+	Hoy en dia se ha vuelto muy popular el uso de bases de datos, sobre todo en servidores que proveen hosting, y por supuesto en este apartado la estrella de PERL es sin dudas el ya conocido y ampliamente desarrollado modulo DBI. Este cap&iacute;tulo tambien viene acompa&ntilde;ado, y recomiendo su lectura para quienes no tengan experiencia con el lenguaje SQL, del apartado "The fifteen minutes SQL tutorial" (El tutorial de 15 minutos sobre SQL). Se ven tareas de monitoreo del servidor de bases de datos, monitoreo de espacio en disco, manejo de cuentas de usuario etc.. 
+	El cap&iacute;tulo se desarrolla sobre las bases de datos mas populares de hoy en dia; Sybase, MySQL y MS-SQL a traves de ODBC.(a mi entender el ausente aqui es Postgres)	
+      </p>
+
+
+
+      <font size=4><b>Cap&iacute;tulo 8 - Electronic Mail</b></font>
+      
+      <p align=justify>
+	Hay que prestar particular atenci&oacute;n a este cap&iacute;tulo, a mi parecer uno de los mas interesantes y &uacute;tiles de todo el libro. 
+	Aqui se ve el envio y recepci&oacute;n de correos desde perl. Como adicional el autor nos explica los errores mas comunes al desarrollar una aplicaci&oacute;n que envia reportes via mail, no es un t&oacute;pico exclusivamante de programaci&oacute;n sino mas bien una cuesti&oacute;n de dise&ntilde;o pero que no deja de ser muy &uacute;til.
+	Anteriormente habia mencionado que perl es un lenguaje ideal para procesamiento de textos, en el apartado  final del cap&iacute;tulo queda demostrado al ver paso a paso el desarrollo de una aplicaci&oacute;n que procesa un mensaje de correo cuando se recibe desde la cola del MTA directamente; diseccionandolo, rastreando su origen a traves de las cabeceras del mismo, y finalmente realizando un chequeo contra los servidores de listas negras para decidir si el mail es o no spam.	
+      </p>
+
+
+      <font size=4><b>Cap&iacute;tulo 9 - Log Files</b></font>
+      
+      <p align=justify>
+	Todo administrador de servidores conoce los logs de su sistema, y sabe que en los mismos se encuentran las respuestas a la mayoria de los interrogantes como "¿Qui&eacute;n estaba conectado a las 03:00Hs en la consola ttyS2?" o "¿Porqu&eacute; el demonio httpd muri&oacute; a las 00:10Hs.?", sin duda alguna nos encontraremos muchas veces buceando entre estos mares de informaci&oacute;n buscando la respuesta a nuestras preguntas. Pues bien aqui vemos como manejarnos con varios aspectos de los logs del sistema, sus formatos, administraci&oacute;n y rotaci&oacute;n y finalmente el an&aacute;lisis de los mismos. Una vez procesados los logs el autor nos muestra como utilizar bases de datos SQL para almacenar la informaci&oacute;n recolectada y realizar un posterior an&aacute;lisis de la misma.	
+      </p>
+
+
+      <font size=4><b>Cap&iacute;tulo 10 - Security and Network Monitoring</b></font>
+      
+      <p align=justify>
+	Como administradores una de las tareas mas concienzudas es la auditor&iacute;a de la seguridad del server y de las redes en las cuales trabajamos. Vemos como interactuar con el sistema de archivos para detectar cambios no autorizados en el mismo, se muestra el desarrollo de un simple pero efectivo sistema de revisi&oacute;n de archivos basados en firmas MD5 para detectar cambios. Vemos tambien, utilizando conocimientos adquiridos en el capitulo 5 (TCP/IP Name Services) como monitorear nuestros servidores DNS para detectar posibles anomal&iacute;as en su funcionamiento. En este apartado tambien se ve el manejo del protocolo SNMP desde perl; se hace imprescindible el ap&eacute;ndice "The twenty minute SNMP tutorial" (El tutorial de 20 minutos sobre SNMP) para quienes no conozcan este protocolo que de simple tiene solo el nombre.
+	Por &uacute;ltimo el autor nos muestra con un ejemplo real el desarrollo de una aplicaci&oacute;n en PERL que le salv&oacute; el dia cuando encontr&oacute; un ataque D.O.S. (Denial Of Service) realizadose contra uno de sus servidores quedando de manifiesto la facilidad con la que perl nos permite realizar un trabajo semejante.
+      </p>
+
+      <font size=4><b>Ap&eacute;ndices</b></font>
+      
+      <p align=justify>
+	The five minutes RCS tutorial<br>
+	The ten minutes  LDAP tutorial<br>
+	The Eight minute XML tutorial<br>
+	The Ffiteen minute SQL tutorial<br>
+	The twenty minute SNMP tutorial<br>
+	<br>
+	Los apendices en este libro resultan imprescindibles para quienes no tengan conocimiento alguno acerca de los temas tratados, son un punto de partida para entender un protocolo o un lenguaje pero de ninguna manera son una gu&iacute;a completa acerca del mismo. Es interesante su lectura y los conocimientos vertidos son suficientes como para empezar a utilizarlos e implementarlos y sin duda alguna nos dan el empuj&oacute;n inicial para empezar a investigar y aprender mas acerca de los temas tratados.
+      </p>
+
+
+
+
+
+
+
+      <!-- ** FINI Bloque de cap&iacute;tulo ** -->
+
+     </font>
+
+     </td>
+    </tr>
+   </table>
+  </center>
+
+ </body>
+
+<html>

@@ -1,0 +1,3957 @@
+%PDF-1.2
+%‚„œ”
+1 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.089]
+/Gamma [1.8 1.8 1.8]
+/Matrix [0.4497 0.2446 0.02518 0.3613 0.672 0.1412 0.1845 0.08334 0.9227]
+>>
+]
+endobj
+2 0 obj
+<<
+/CreationDate (D:20050801122733-0300)
+/Producer (pod2pdf)
+/Title (Cafe Perl v0.4)
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /emdash
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F00
+/Encoding 5 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F01
+/Encoding 5 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F02
+/Encoding 5 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F03
+/Encoding 5 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 5 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 5 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/Encoding 5 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F20
+/Encoding 5 0 R
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F21
+/Encoding 5 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F22
+/Encoding 5 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F23
+/Encoding 5 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+0 g
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F21 12 Tf
+1 0 0 1 72.0 752.0 Tm
+0.0000 Tw
+(CaFe Perl v0.4 - Peri\363dico de la Comunidad Perl de Capital Federal ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 730.4 Tm
+0.0000 Tw
+(Editorial ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 718.4 Tm
+0.0000 Tw
+(Hola colisteros. Lleg\363 un nuevo mes, y con este el nuevo n\372mero de CaFe Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 694.4 Tm
+0.6917 Tw
+(Antes que nada quiero enviar un saludo especial a todos los sysadmins, ya que este pasado 29 de Julio) Tj
+1 0 0 1 102.0 682.4 Tm
+4.9609 Tw
+(fue el "System Administrator Appreciation Day" \(hagan ustedes su propia traducci\363n\). Esta) Tj
+1 0 0 1 102.0 670.4 Tm
+0.0000 Tw
+(conmemoraci\363n se lleva a cabo el \372ltimo d\355a Viernes de Julio de cada a\361o. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 646.4 Tm
+1.9588 Tw
+(En otro orden este mes la novedad es que se agrand\363 el staff, porque tenemos un nuevo miembro) Tj
+1 0 0 1 102.0 634.4 Tm
+0.0000 Tw
+(\(Andr\351s Kievsky\) que se empieza a hacer cargo de la secci\363n POC \(Peace of Code\) !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 622.4 Tm
+1.7181 Tw
+(S\363lo para fijar expectativas esta secci\363n va a traer mensualmente un acertijo Perl para que, los que) Tj
+1 0 0 1 102.0 610.4 Tm
+0.0000 Tw
+(quieran resolverlo y mostrar sus habilidades, le env\355en un e-mail a Andr\351s. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 598.4 Tm
+0.1525 Tw
+(La m\341s c\341lida de las bienvenidas para \351l, y estoy seguro que esta secci\363n se va a convertir en un favorito) Tj
+1 0 0 1 102.0 586.4 Tm
+0.0000 Tw
+(de la publicaci\363n. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 562.4 Tm
+1.7580 Tw
+(En el resto tenemos una entrevista al creador de un programa de automatizaci\363n del hogar llamado) Tj
+1 0 0 1 102.0 550.4 Tm
+0.0000 Tw
+(MisterHouse y una serie de trucos con las referencias. Algo delicioso !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 526.4 Tm
+0.0000 Tw
+(Espero que lo disfruten. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 514.4 Tm
+0.0000 Tw
+(Hasta la pr\363xima taza de CaFe Perl !!! ... eso s\355, caf\351 del bueno ;-\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 490.4 Tm
+0.0000 Tw
+(V\355ctor A. Rodr\355guez \(Bit-Man\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 460.4 Tm
+0.0000 Tw
+(PERlitas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 448.4 Tm
+0.0000 Tw
+(Entrevista realizada y traducida al espa\361ol por V\355ctor A. Rodr\355guez ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 424.4 Tm
+0.3356 Tw
+(MisterHouse \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.3356 Tw
+(http://misterhouse.sourceforge.net/) Tj
+/F00 10 Tf
+0 g
+0.3356 Tw
+(\) es un programa para automatizaci\363n del hogar escrito) Tj
+1 0 0 1 102.0 412.4 Tm
+0.8320 Tw
+(en Perl. Es divertido, free y completamente orientado a geeks. Escrito en Perl, genera eventos basados) Tj
+1 0 0 1 102.0 400.4 Tm
+3.1608 Tw
+(datos relacionados temporalmente, con web, provenientes de un socket o de una interfaz serial.) Tj
+1 0 0 1 102.0 388.4 Tm
+0.0392 Tw
+(Actualmente corre sobre Windows 95/98/NT/2k/XP y en la mayor\355a de las plataformas Unix, incluyendo) Tj
+1 0 0 1 102.0 376.4 Tm
+0.0000 Tw
+(Linux y Mac OS X. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 352.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Por favor Bruce, una introducci\363n al grupo CaFe.pm) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 328.4 Tm
+2.2194 Tw
+(Soy un Ingeniero Electr\363nico de 46 a\361os que vive en Rochester, Minnesota, USA y trabajo en la) Tj
+1 0 0 1 102.0 316.4 Tm
+0.6121 Tw
+(Divisi\363n de Servicios de Ingenier\355a de IBM. Nuestro grupo dise\361a circuitos integrados para una amplia) Tj
+1 0 0 1 102.0 304.4 Tm
+0.2947 Tw
+(variedad de empresas, como las CPUs para la supercomputadora BlueGene y las tres consolas de juegos) Tj
+1 0 0 1 102.0 292.4 Tm
+0.0000 Tw
+(de pr\363xima generaci\363n. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 268.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Cu\341l fue su motivaci\363n para construir MisterHouse ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 244.4 Tm
+1.1300 Tw
+(Mi casa es de esas dise\361adas para hacer uso eficiente de la energ\355a y ser calefaccionadas con energ\355a) Tj
+1 0 0 1 102.0 232.4 Tm
+1.2571 Tw
+(solar pasiva proveniente de las ventanas orientadas hacia el Sur [N. del T.: en el hemisferio Norte el) Tj
+1 0 0 1 102.0 220.4 Tm
+1.5606 Tw
+(Ecuador est\341 hacia el Sur, de donde provienen los vientos c\341lidos, al contrario que en el hemisferio) Tj
+1 0 0 1 102.0 208.4 Tm
+1.6457 Tw
+(Norte]. Para administrar ese calor, instal\351 un sistema casero de cortinas controladas por motor, para) Tj
+1 0 0 1 102.0 196.4 Tm
+0.1306 Tw
+(poder abrirlas en esos d\355as frescos pero soleados de invierno y cerrarlos de noche o cuando est\341 nublado.) Tj
+/F00 10 Tf
+1 0 0 1 102.0 160.4 Tm
+1.5740 Tw
+(Necesitaba un software para hacer un monitoreo de la temperatura interior/exterior y el nivel de luz) Tj
+1 0 0 1 102.0 148.4 Tm
+1.4062 Tw
+(solar, y controlar las cortinas, la calefacci\363n y los ventiladores en consecuencia. Una vez que tuve a) Tj
+1 0 0 1 102.0 136.4 Tm
+1.0900 Tw
+(MisterHouse haciendo estas tareas, lo extend\355 a otras tareas, menos pr\341cticas pero divertidas, como el) Tj
+1 0 0 1 102.0 124.4 Tm
+0.0000 Tw
+(controlar o hablar a trav\351s de un par de robots. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 100.4 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Por qu\351 se dice que est\341 "completamente orientado a geeks" ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 76.4 Tm
+0.1132 Tw
+(Que tu casa te recuerde que ten\351s que regar las plantas o d\363nde est\341 tu auto no es para todo el mundo. Se) Tj
+1 0 0 1 102.0 64.4 Tm
+1.8695 Tw
+(da mejor con los geeks. No es s\363lo que son el tipo de personas que podr\355an disfrutar esa clase de) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 517.44 37 Tm
+(1) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+19 0 obj
+5754
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F02 8 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [155.5 421.4 301.4 432.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 22 0 R
+/H /I
+>>
+endobj
+22 0 obj
+<<
+/S /URI
+/URI (http://misterhouse.sourceforge.net/)
+>>
+endobj
+23 0 obj
+[ 21 0 R  ]
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 20 0 R
+/Contents 18 0 R
+/Annots 23 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 26 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.6238 Tw
+(interacci\363n, es que tambi\351n es necesario tener ciertas habilidades en computaci\363n para que funcione) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(bien. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.6019 Tw
+() Tj
+/F01 10 Tf
+0.6019 Tw
+(Y su familia, acept\363 la idea f\341cilmente de lidiar con un sistema automatizado ?? C\363mo lo manej\363) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.3460 Tw
+(Les gusta la mayormente. El bug ocasional que causa que suene Mozart a las 2 de la ma\361ana no es muy) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(popular, pero cosas como que se anuncie quien llama cuando el tel\351fono suena ayudan. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 habilidades \(relacionadas con Perl o no\) obtuvo mientras construy\363 MisterHouse ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+0.4420 Tw
+(Uso algo de Perl en mi trabajo de dise\361o de chips en IBM. No uso nada de eso c\363digo en MisterHouse,) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(pero uso en el trabajo muchos trucos de Perl que aprend\355 mientras escrib\355a MisterHouse y viceversa. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 dispositivos agreg\363 primero y por qu\351 ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+3.6767 Tw
+(Como con la mayor\355a de los programas de automatizaci\363n del hogar, comenzamos soportando) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0693 Tw
+(dispositivos X10, ya que son los m\341s comunes, simple y econ\363micos. Despu\351s de eso agregamos soporte) Tj
+1 0 0 1 102.0 554.0 Tm
+2.1777 Tw
+(para entradas y saludas digitales y entradas anal\363gicas para elementos como monitores de puertas,) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(control de hornos y monitoreo de temperatura. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Que le sugerir\355a a los futuros dise\361adores y hobistas que se enfrentan a un nuevo proyecto ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.2000 Tw
+(H\341ganlo open source. En el caso de automatizaci\363n del hogar, no hay forma que una sola persona, o a\372n) Tj
+1 0 0 1 102.0 482.0 Tm
+0.3153 Tw
+(una peque\361a compa\361\355a, puedan abarcar todas las posibles aplicaciones, as\355 que es un lugar perfecto para) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0786 Tw
+(el open source. Otros contribuyen escribiendo c\363digo para cubrir sus necesidades, que es compartida con) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(otros. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 434.0 Tm
+0.1850 Tw
+() Tj
+/F01 10 Tf
+0.1850 Tw
+(En qu\351 partes del c\363digo sugerir\355a a los codificadores novatos de Perl que miren, para poder tener) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+(una experiencia educativa placentera ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0.2138 Tw
+(Mucha gente aprende Perl para poder ejecutar MisterHouse. Hay algunos pocos que corren MisterHouse) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(como una forma divertida de aprender Perl para otros usos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(Tenemos una variedad de c\363digo aqu\355 : ) Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://misterhouse.net/examples.html) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(C\363mo se puede colaborar con MisterHouse ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 314.0 Tm
+2.0876 Tw
+(Tenemos m\341s de 600 miembros en la lista de e-mail, con casi 300 de ellos listados como autores) Tj
+1 0 0 1 102.0 302.0 Tm
+1.7891 Tw
+(habiendo contribuido en alguna forma. Algunos simplemente env\355an sugerencias o encuentran bugs,) Tj
+1 0 0 1 102.0 290.0 Tm
+3.3323 Tw
+(otros env\355an patches para arreglar bugs o extender la funcionalidad, y algunos escriben nuevas) Tj
+1 0 0 1 102.0 278.0 Tm
+0.4005 Tw
+(aplicaciones. Yo tomo los cambios a trav\351s de la lista de e-mail, o me los env\355an directamente a mi, o a) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(trav\351s del CVS de SourceForge. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 242.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 funcionalidades cree que faltan, y cu\341les agregar\341 pronto ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 218.0 Tm
+1.3229 Tw
+(El c\341liz sagrado de la automatizaci\363n del hogar es el reconocimiento de la voz en forma confiable y) Tj
+1 0 0 1 102.0 206.0 Tm
+0.2425 Tw
+(conveniente. Este con un buen micr\363fono de cabeza y en un cuarto silencioso trabaja bastante bien, pero) Tj
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+(no muchos de nosotros les gustar\355a andar con ellos por la casa. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Siendo un Ingeniero Electr\363nico, c\363mo cree que Perl entra en este campo. Y el open source ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 146.0 Tm
+2.4312 Tw
+(Muchos de los problemas que enfrentamos en el dise\361o de chips son nuevos o \372nicos a un chip) Tj
+1 0 0 1 102.0 134.0 Tm
+3.2367 Tw
+(espec\355fico, as\355 que no siempre tenemos una soluci\363n existente que podamos usar. Normalmente) Tj
+1 0 0 1 102.0 122.0 Tm
+0.6692 Tw
+(codificamos scripts Perl para descartar soluciones r\341pidamente. Estos programas son muy espec\355ficos a) Tj
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+(nuestro proceso de dise\361o o chip, as\355 que no son buenos candidatos para compartir como open source. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Alg\372n m\363dulo de CPAN favorito ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(2) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+26 0 obj
+5884
+endobj
+27 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F02 8 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+28 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [260.7 359.0 410.5 369.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 29 0 R
+/H /I
+>>
+endobj
+29 0 obj
+<<
+/S /URI
+/URI (http://misterhouse.net/examples.html)
+>>
+endobj
+30 0 obj
+[ 28 0 R  ]
+endobj
+31 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 27 0 R
+/Contents 25 0 R
+/Annots 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 33 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.6431 Tw
+(Ese ser\355a el m\363dulo SerialPort de Bill Birthisel`s. Es el que nos permite hablar con los dispositivos) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(seriales, en Unix y Windows. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qu\351 usos de MisterHouse le sorprendieron ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+1.3809 Tw
+(Algunos ejemplos de uso: MisterCar, MisterBus, MisterAquarium, MisterDoorRoom. Un grupo en el) Tj
+1 0 0 1 102.0 698.0 Tm
+0.9587 Tw
+(laboratorio Fermi lo usa como MisterLab, controlando algunos de sus displays del cuarto de control y) Tj
+1 0 0 1 102.0 686.0 Tm
+2.2177 Tw
+(dando alertas cuando sus monitores de anti-materia muestran problemas. Algo as\355 como un Scotty) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(computarizado de Star Trek ! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Recibi\363 alg\372n feedback de la industria \(comentarios, propuestas de negocio, etc.\) ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(No demasiado. Lo disfruto como un hobby, as\355 que no tengo un inter\351s en esto c\363mo un negocio. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.9100 Tw
+() Tj
+/F01 10 Tf
+0.9100 Tw
+(Tiene alguna experiencia, divertida o no, que tuvo mientras constru\355a MisterHouse y que quiera) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(compartir ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 566.0 Tm
+2.2753 Tw
+(Un momento de orgullo para los autores open source es cuando hacen su primer anuncio p\372blico) Tj
+1 0 0 1 102.0 554.0 Tm
+2.4738 Tw
+(anunciando que su software est\341 disponible. Cuando lo envi\351 a la lista comp.home.automation de) Tj
+1 0 0 1 102.0 542.0 Tm
+0.2750 Tw
+(UseNet, no revis\351 muy cuidadosamente los resultados de mi chequeador de sintaxis, as\355 que no not\351 que) Tj
+1 0 0 1 102.0 530.0 Tm
+1.1927 Tw
+(cambi\363 MisterHouse por mysterious. Mysterious House [N. del T.: "la casa misteriosa"] no es lo que) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(ten\355a en mente ! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Algo m\341s que quiera decirnos y no le preguntamos ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 470.0 Tm
+3.3783 Tw
+(No se necesita una casa para usar MisterHouse. Tenemos personas us\341ndolo en departamentos,) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(dormitorios, peceras, autos, y en laboratorios nacionales de ciencia ! ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 428.0 Tm
+0.0000 Tw
+(SudorNews ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 413.6 Tm
+0.0000 Tw
+(System Administrator Appreciation Day ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 401.6 Tm
+0 Tw
+(Esta conmemoraci\363n se lleva a cabo el \372ltimo d\355a Viernes de Julio de cada a\361o) Tj
+1 0 0 1 102.0 389.6 Tm
+2.6340 Tw
+(\() Tj
+/F02 10 Tf
+0 0 0.8 rg
+2.6340 Tw
+(http://www.sysadminday.com/) Tj
+/F00 10 Tf
+0 g
+2.6340 Tw
+(\), y tiene por objeto el recordar que quienes mantienen funcionando) Tj
+1 0 0 1 102.0 377.6 Tm
+0.0000 Tw
+(nuestros sistemas al m\341s m\355nimo detalle. A todos gracias !!! ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 351.2 Tm
+0.0000 Tw
+(B\372squeda de DBA para PostgreSQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 339.2 Tm
+0.5350 Tw
+(Trabajo part time para una empresa reconocida de inform\341tica se necesita un DBA PostgreSQL. Enviar) Tj
+1 0 0 1 102.0 327.2 Tm
+0.0000 Tw
+(curr\355culum a Jos\351 Dragone \(josedragone@hotmail.com\) ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 300.8 Tm
+0.0000 Tw
+(Editor de gr\341ficos vectoriales con interfaz Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 288.8 Tm
+1.5036 Tw
+(Inkscape \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+1.5036 Tw
+(http://www.inkscape.org/) Tj
+/F00 10 Tf
+0 g
+1.5036 Tw
+(\) es un editor que como novedad, y al estilo de The Gimp, posee) Tj
+1 0 0 1 102.0 276.8 Tm
+0.0000 Tw
+(interfaz para ser accedido desde Perl, Ruby y Python. Todo un ejemplo. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 250.4 Tm
+0.0000 Tw
+(Mejores pr\341cticas en Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 238.4 Tm
+2.9370 Tw
+(Un libro que promete \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+2.9370 Tw
+(http://www.oreilly.com/catalog/perlbp/) Tj
+/F00 10 Tf
+0 g
+2.9370 Tw
+(\) escrito por el ya conocido Damian) Tj
+1 0 0 1 102.0 226.4 Tm
+0.8021 Tw
+(Conway \(oooh, un libro de Perl editado por O`Reilly que no tiene un camello en la tapa !!!\). A juzgar) Tj
+1 0 0 1 102.0 214.4 Tm
+0 Tw
+(por el art\355culo "Ten Essential Development Practices") Tj
+1 0 0 1 102.0 202.4 Tm
+1.8943 Tw
+(\() Tj
+/F02 10 Tf
+0 0 0.8 rg
+1.8943 Tw
+(http://www.perl.com/pub/a/2005/07/14/bestpractices.html/) Tj
+/F00 10 Tf
+0 g
+1.8943 Tw
+(\)  pretende disponer una gu\355a para mejorar) Tj
+1 0 0 1 102.0 190.4 Tm
+0.0000 Tw
+(nuestra codificaci\363n. Apto y aplicable no s\363lo para Perl. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+(Learning Perl \(4ta. Edici\363n\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 152.0 Tm
+1.6745 Tw
+(Sali\363 la nueva edici\363n del ya conocido "Llama book" \( ) Tj
+/F02 10 Tf
+0 0 0.8 rg
+1.6745 Tw
+(http://www.oreilly.com/catalog/learnperl4/) Tj
+/F00 10 Tf
+0 g
+1.6745 Tw
+( \).) Tj
+1 0 0 1 102.0 140.0 Tm
+1.9935 Tw
+(Una joya renovada para reflejar las versiones 5.8 de Perl. Para los que no pueden esperar, hay un) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(cap\355tulo de ejemplo \( ) Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.oreilly.com/catalog/learnperl4/chapter/ch11.pdf) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( \) ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 101.6 Tm
+0.0000 Tw
+(Proyecto opensource de BBC  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 89.6 Tm
+0.6146 Tw
+(La BBC \(British Bradcasting Corporation\) est\341 haciendo disponible una cantidad de c\363digo como open) Tj
+1 0 0 1 102.0 77.6 Tm
+1.7170 Tw
+(source \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+1.7170 Tw
+(http://www.bbc.co.uk/opensource/) Tj
+/F00 10 Tf
+0 g
+1.7170 Tw
+(\) bajo una serie de conocidas licencias \(GPL, LGPL, BSD,) Tj
+1 0 0 1 102.0 65.6 Tm
+1.9386 Tw
+(etc.\). Como no pod\355a estar ausente nuestro amigo CPAN tambi\351n hay disponibles m\363dulos de Perl) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 517.44 37 Tm
+(3) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+33 0 obj
+6169
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F02 8 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+35 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 386.6 226.9 397.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 36 0 R
+/H /I
+>>
+endobj
+36 0 obj
+<<
+/S /URI
+/URI (http://www.sysadminday.com/)
+>>
+endobj
+37 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [140.5 285.8 246.9 296.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 38 0 R
+/H /I
+>>
+endobj
+38 0 obj
+<<
+/S /URI
+/URI (http://www.inkscape.org/)
+>>
+endobj
+39 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [201.1 235.4 363.1 246.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 40 0 R
+/H /I
+>>
+endobj
+40 0 obj
+<<
+/S /URI
+/URI (http://www.oreilly.com/catalog/perlbp/)
+>>
+endobj
+41 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 199.4 341.1 210.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 42 0 R
+/H /I
+>>
+endobj
+42 0 obj
+<<
+/S /URI
+/URI (http://www.perl.com/pub/a/2005/07/14/bestpractices.html/)
+>>
+endobj
+43 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [339.2 149.0 514.0 159.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 44 0 R
+/H /I
+>>
+endobj
+44 0 obj
+<<
+/S /URI
+/URI (http://www.oreilly.com/catalog/learnperl4/)
+>>
+endobj
+45 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [188.2 125.0 431.0 135.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 46 0 R
+/H /I
+>>
+endobj
+46 0 obj
+<<
+/S /URI
+/URI (http://www.oreilly.com/catalog/learnperl4/chapter/ch11.pdf)
+>>
+endobj
+47 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [131.3 74.6 273.6 85.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 48 0 R
+/H /I
+>>
+endobj
+48 0 obj
+<<
+/S /URI
+/URI (http://www.bbc.co.uk/opensource/)
+>>
+endobj
+49 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 50.6 300.5 61.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 50 0 R
+/H /I
+>>
+endobj
+50 0 obj
+<<
+/S /URI
+/URI (http://www.bbc.co.uk/opensource/projects/cpan/)
+>>
+endobj
+51 0 obj
+[ 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R  ]
+endobj
+52 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 34 0 R
+/Contents 32 0 R
+/Annots 51 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 54 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(\() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.bbc.co.uk/opensource/projects/cpan/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+(\). ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 743.6 Tm
+0.0000 Tw
+(Trabajador de Perl en juicio ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.2938 Tw
+(Chip Salzenberg, pumpking para perl 5.004, tuvo problemas con su ex- empleador y su casa fue cateada) Tj
+1 0 0 1 102.0 719.6 Tm
+1.3307 Tw
+(y todo su equipo inform\341tico incautado en Abril. Para que puedan seguir toda esta problem\341tica esta) Tj
+1 0 0 1 102.0 707.6 Tm
+0.0000 Tw
+(persona creo un site, y de paso aprender los qu\351 hacer y que no \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://geeksunite.net/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+(\). ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 681.2 Tm
+0.0000 Tw
+(Parrot 0.2.2 "Geeksunite" Released ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 669.2 Tm
+0.6114 Tw
+(Parrot es la m\341quina virtual sobre la que correr\341 Perl 6 \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.6114 Tw
+(http://www.parrotcode.org/) Tj
+/F00 10 Tf
+0 g
+0.6114 Tw
+(\), y tambi\351n servir\341) Tj
+1 0 0 1 102.0 657.2 Tm
+1.0067 Tw
+(de host a otros lenguajes como Ruby y Python. Se encuentra disponible la versi\363n 0.2.2 "Geeksunite") Tj
+1 0 0 1 102.0 645.2 Tm
+0.0000 Tw
+(\(ftp://ftp.cpan.org/pub/CPAN/authors/id/L/LT/LTOETSCH/parrot-0.2.2.tar.gz\). ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 618.8 Tm
+0.0000 Tw
+(Ponie Snapshot 4 Released  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 606.8 Tm
+0 Tw
+(Ponie, destinado a ejecutar Perl 5 sobre Parrot, posee ya su cuarto snapshot disponible) Tj
+1 0 0 1 102.0 594.8 Tm
+0 Tw
+(\() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0 Tw
+(http://opensource.fotango.com/~nclark/ponie-4.tar.bz2) Tj
+/F00 10 Tf
+0 g
+0 Tw
+( /) Tj
+1 0 0 1 102.0 582.8 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://opensource.fotango.com/~nclark/ponie-4.tar.gz) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( \). ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 556.4 Tm
+0.0000 Tw
+(Pugs 6.2.8 y m\341s ... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 544.4 Tm
+0.7389 Tw
+(Para los que quieren experimentar con Perl 6 ya sali\363 la nueva versi\363n de la implementaci\363n de Perl 6) Tj
+1 0 0 1 102.0 532.4 Tm
+0.2700 Tw
+(sobre Haskell \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.2700 Tw
+(http://pugscode.org/dist/Perl6-Pugs-6.2.8.tar.gz) Tj
+/F00 10 Tf
+0 g
+0.2700 Tw
+(\). Tambi\351n puede encontrarse un live CD) Tj
+1 0 0 1 102.0 520.4 Tm
+0.0000 Tw
+(para los que no quieren instalarlo y s\363lo ver de qu\351 se trata \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://linide.sf.net/pugs-livecd-6.2.8.iso) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+(\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 508.4 Tm
+0.8318 Tw
+(Principalmente esta versi\363n es un punto de inflexi\363n ya que en lugar de ser una prueba conceptual del) Tj
+1 0 0 1 102.0 496.4 Tm
+0.0000 Tw
+(mismo est\341 mudando su foco, tendiendo a ser una suite de compilaci\363n para Perl 6. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(Es Perl a\372n relevante ?? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 458.0 Tm
+0 Tw
+(Esta vez es Tim O`Reilly quien toma la posta) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0225 Tw
+(\() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0225 Tw
+(http://www.oreillynet.com/pub/a/oreilly/ask_tim/2004/perl_0707.html) Tj
+/F00 10 Tf
+0 g
+0.0225 Tw
+(\) y si bien Perl ha perdido parte de) Tj
+1 0 0 1 102.0 434.0 Tm
+0.3465 Tw
+(su popularidad hay dudas sobre si Perl 6 traer\341 nueva vida o no. Lo cierto es que nunca puede darse por) Tj
+1 0 0 1 102.0 422.0 Tm
+1.2600 Tw
+(descontado, b\341sicamente por el apoyo de la comunidad y que siempre Perl se caracteriz\363 por acercar) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(ciertas implementaciones que en otros lenguajes parec\355an lejanas o casi imposibles. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 383.6 Tm
+0.0000 Tw
+(III Barcelona Perl Festival  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 371.6 Tm
+0.1610 Tw
+(El 14 de Julio se realiz\363 este festival \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.1610 Tw
+(http://barcelona.pm.org/events/festival3/index.html) Tj
+/F00 10 Tf
+0 g
+0.1610 Tw
+(\) dedicado, esta) Tj
+1 0 0 1 102.0 359.6 Tm
+0.0000 Tw
+(vez, a mod_perl 2.0. Stas Bekman fue el invitado de lujo. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 333.2 Tm
+0.0000 Tw
+(5ta. Jornada Regionales de Soft Libre ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 321.2 Tm
+0.6138 Tw
+(A realizarse en Rosario entre los d\355as 20 y 23 de Noviembre \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.6138 Tw
+(http://www.ant.org.ar/jornadas/html) Tj
+/F00 10 Tf
+0 g
+0.6138 Tw
+(\). De) Tj
+1 0 0 1 102.0 309.2 Tm
+0.8633 Tw
+(entrada libre y gratuita, se har\341 en las instalaciones del centro ferial m\341s importante de la ciudad, y se) Tj
+1 0 0 1 102.0 297.2 Tm
+0.0000 Tw
+(espera una gran afluencia de p\372blico. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 270.8 Tm
+0.0000 Tw
+(Maypole gana el premio Linux Journal Editor`s Choice Award ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 258.8 Tm
+0.7858 Tw
+(Maypole \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.7858 Tw
+(http://maypole.perl.org/) Tj
+/F00 10 Tf
+0 g
+0.7858 Tw
+(\) es un framework hecho en Perl para aplicaciones web orientadas al) Tj
+1 0 0 1 102.0 246.8 Tm
+1.3222 Tw
+(modelo MVC \(Model-View-Controller\). Dise\361ado para minimizar los requerimientos de codificaci\363n,) Tj
+1 0 0 1 102.0 234.8 Tm
+0.0000 Tw
+(ha ganado este premio de la conocida Linux Journal \() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.linuxjournal.com/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+(\). ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 208.4 Tm
+0.0000 Tw
+(Ten Roses busca cubrir posiciones ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 196.4 Tm
+0.0000 Tw
+(Estudiantes o graduados recientemente de las siguientes carreras: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 171 4 4 re
+f
+Q
+BT
+1 0 0 1 110 170 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Ingenier\355a de Sistemas ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 155.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 156.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 155.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Licenciatura en Sistemas ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 141.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 142.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 141.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Ciencias de la Computaci\363n. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 129.2 Tm
+0.0000 Tw
+(Lugar de trabajo : zona de Tribunales, Capital Federal. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 117.2 Tm
+0.0000 Tw
+(Se ofrece trabajo con continuidad y posibilidades ciertas de crecimiento. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 105.2 Tm
+0.0000 Tw
+(Se valora la capacidad de investigar e incorporar nuevas tecnolog\355as. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 93.2 Tm
+1.3438 Tw
+(Interesados enviar curr\355culum vitae a la brevedad a hr@tenroses.com.ar , indicando como referente a) Tj
+1 0 0 1 102.0 81.2 Tm
+0.0000 Tw
+(Walter Lamagna y la referencia del puesto a cubrir : ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(4) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+54 0 obj
+6719
+endobj
+55 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+56 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [355.6 704.6 445.1 715.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 57 0 R
+/H /I
+>>
+endobj
+57 0 obj
+<<
+/S /URI
+/URI (http://geeksunite.net/)
+>>
+endobj
+58 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [328.5 666.2 444.4 676.8]
+/Border [0 0 1]
+/C [1 1 0]
+/A 59 0 R
+/H /I
+>>
+endobj
+59 0 obj
+<<
+/S /URI
+/URI (http://www.parrotcode.org/)
+>>
+endobj
+60 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 591.8 326.7 602.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 61 0 R
+/H /I
+>>
+endobj
+61 0 obj
+<<
+/S /URI
+/URI (http://opensource.fotango.com/~nclark/ponie-4.tar.bz2)
+>>
+endobj
+62 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 579.8 318.4 590.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 63 0 R
+/H /I
+>>
+endobj
+63 0 obj
+<<
+/S /URI
+/URI (http://opensource.fotango.com/~nclark/ponie-4.tar.gz)
+>>
+endobj
+64 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [158.8 529.4 357.2 540.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 65 0 R
+/H /I
+>>
+endobj
+65 0 obj
+<<
+/S /URI
+/URI (http://pugscode.org/dist/Perl6-Pugs-6.2.8.tar.gz)
+>>
+endobj
+66 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [338.5 517.4 501.3 528.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 67 0 R
+/H /I
+>>
+endobj
+67 0 obj
+<<
+/S /URI
+/URI (http://linide.sf.net/pugs-livecd-6.2.8.iso)
+>>
+endobj
+68 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 443.0 386.1 453.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 69 0 R
+/H /I
+>>
+endobj
+69 0 obj
+<<
+/S /URI
+/URI (http://www.oreillynet.com/pub/a/oreilly/ask_tim/2004/perl_0707.html)
+>>
+endobj
+70 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [250.6 368.6 461.2 379.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 71 0 R
+/H /I
+>>
+endobj
+71 0 obj
+<<
+/S /URI
+/URI (http://barcelona.pm.org/events/festival3/index.html)
+>>
+endobj
+72 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [351.6 318.2 503.4 328.8]
+/Border [0 0 1]
+/C [1 1 0]
+/A 73 0 R
+/H /I
+>>
+endobj
+73 0 obj
+<<
+/S /URI
+/URI (http://www.ant.org.ar/jornadas/html)
+>>
+endobj
+74 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [139.8 255.8 241.2 266.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 75 0 R
+/H /I
+>>
+endobj
+75 0 obj
+<<
+/S /URI
+/URI (http://maypole.perl.org/)
+>>
+endobj
+76 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [311.8 231.8 435.5 242.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 77 0 R
+/H /I
+>>
+endobj
+77 0 obj
+<<
+/S /URI
+/URI (http://www.linuxjournal.com/)
+>>
+endobj
+78 0 obj
+[ 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R  ]
+endobj
+79 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 55 0 R
+/Contents 53 0 R
+/Annots 78 0 R
+>>
+endobj
+80 0 obj
+<<
+/Length 81 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(Ref: Java Developer Junior ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(Excluyente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(Conocimientos de Java u otro lenguaje orientado a objetos ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(Conocimientos b\341sicos en SQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(Preferente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(Conocimientos de idioma ingl\351s t\351cnico ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(Conocimientos de HTML ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(Ref: Java Developer ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(Excluyente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(Experiencia de 2 a\361os al menos en desarrollo de aplicaciones Web, en ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(lenguaje Java o C++. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(Conocimientos de SQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(Preferente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(Conocimientos de XML/XSL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(Conocimientos de idioma ingl\351s t\351cnico ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(Conocimientos de GUI en Java \(AWT/SWING/Applets \) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(Ref: Web Developer ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(Excluyente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(Experiencia en HTML, CSS, Javascript. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(Conocimientos de lenguajes de HTML embebido: JSP, PHP, ASP ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(Preferente: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(Conocimientos de XML/XSL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(Conocimientos de GUI en Java \(AWT/SWING/Applets \) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(Conocimientos de idioma ingles t\351cnico \(lecto escritura\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 404.0 Tm
+0.0000 Tw
+(Referencias \(Mordiditas de aqu\355 y de all\341\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+(realizado por V\355ctor A. Rodr\355guez ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 365.6 Tm
+0.0000 Tw
+(Introducci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 353.6 Tm
+0.0980 Tw
+(Una vez m\341s frente a la hoja en blanco me invade esa rara sensaci\363n, ese miedo de no saber d\363nde poner) Tj
+1 0 0 1 102.0 341.6 Tm
+0.6153 Tw
+(el pie para dar el pr\363ximo paso y eso me recuerda a cuando descubr\355 las referencias, y por primera vez) Tj
+1 0 0 1 102.0 329.6 Tm
+0.3063 Tw
+(sent\355 esa sensaci\363n de no saber que hab\355a detr\341s de todo ese manejo que, en cierta forma, simulaba a los) Tj
+1 0 0 1 102.0 317.6 Tm
+0.0825 Tw
+(punteros. La verdad es que no la sent\355 cuando vi y us\351 punteros en C por primera vez, porque en realidad) Tj
+1 0 0 1 102.0 305.6 Tm
+0.3460 Tw
+(est\341 m\341s ligado al hecho f\355sico de la ubicaci\363n de una variable en una porci\363n de memoria, y en Perl no) Tj
+1 0 0 1 102.0 293.6 Tm
+0.0000 Tw
+(es s\363lo eso \(vamos a verlo en la medida que avancemos e investiguemos a las referencias\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 269.6 Tm
+1.0641 Tw
+(Para este art\355culo es necesario conocer qu\351 son las referencias y leer los p\341rrafos de perldoc perlref y) Tj
+1 0 0 1 102.0 257.6 Tm
+0.0000 Tw
+(perldoc perlreftut citados en cada una de las partes de esta secci\363n. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 231.2 Tm
+0.0000 Tw
+(El problema y la receta ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 219.2 Tm
+1.5347 Tw
+(Esta vez no hay problema y receta, simplemente curiosidad. O mejor dig\341moslo as\355 el problema era) Tj
+1 0 0 1 102.0 207.2 Tm
+0.1919 Tw
+(tratar de descubrir aspectos distintos de las referencias, y la receta era leer documentaci\363n pertinente :\) y) Tj
+1 0 0 1 102.0 195.2 Tm
+1.3888 Tw
+(dejarse llevar por la imaginaci\363n. Lo que van a leer es el resultado de esta experiencia. Juzguen por) Tj
+1 0 0 1 102.0 183.2 Tm
+0.0000 Tw
+(ustedes mismos. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 168.8 Tm
+0.0000 Tw
+(La explicaci\363n ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 156.8 Tm
+0.6919 Tw
+(Que explicaci\363n dar a la vida o al arte, simplemente son manifestaciones y las disfrutamos como tales.) Tj
+1 0 0 1 102.0 144.8 Tm
+0.4400 Tw
+(Se pueden llegar a comprender, pero lo importante es poder disfrutarlas. Lo mismo va con esta parte de) Tj
+1 0 0 1 102.0 132.8 Tm
+0.1556 Tw
+(la secci\363n, porque algunas de las cosas simplemente se me ocurrieron y, en general, no funcionaron pero) Tj
+1 0 0 1 102.0 120.8 Tm
+0.0000 Tw
+(lo bueno es que sirvieron para conocer un poco m\341s y perderle un poco de miedo a las referencias. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 94.4 Tm
+0.0000 Tw
+(Una referencia es un escalar, pero un escalar no es una referencia ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 82.4 Tm
+0.0000 Tw
+(Seg\372n reza la biblia de todas nuestras desdichas \("El nuevo testamento" a.k.a. perldoc perlreftut\) : ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 517.44 37 Tm
+(5) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+81 0 obj
+5136
+endobj
+82 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+83 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 82 0 R
+/Contents 80 0 R
+>>
+endobj
+84 0 obj
+<<
+/Length 85 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.9075 Tw
+("A reference is a scalar value that refers to an entire array or an entire hash \(or to just about anything) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(else\)". ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.4531 Tw
+(Bravo !! entonces podemos manejar una referencia como un escalar y convertirlo en una referencia a lo) Tj
+1 0 0 1 102.0 722.0 Tm
+1.9906 Tw
+(que se nos de la gana. Puntualizando vamos a tratar de convertir una referencia a un hash en una) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(referencia a un array \(o al rev\351s\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 686.0 Tm
+3.6331 Tw
+(Si generamos una referencia, entonces en realidad estamos generando un escalar \(de hecho lo) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(almacenamos en uno\) entonces podemos manipularlo como tal. Veamos el siguiente c\363digo : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 632.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+( my @data = qw/Nombre Victor Edad 39/; ) Tj
+1 0 0 1 102.0 596.0 Tm
+0.0000 Tw
+( my $refArray = \\@data; ) Tj
+1 0 0 1 102.0 572.0 Tm
+0.0000 Tw
+( print "Segundo elemento : " . $refArray->[1] . "\\n"; ) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+( print $refArray . "\\n";]' ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+(Esto nos da la siguiente salida : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+( Segundo elemento : Victor ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ARRAY\(0x809f18\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 470.0 Tm
+0.1453 Tw
+(Lo que nos muestra lo que ya sab\355amos, pero que adem\341s \(esto est\341 hecho a prop\363sito\) el array tiene una) Tj
+1 0 0 1 102.0 458.0 Tm
+0.1163 Tw
+(cierta forma de hash \(las claves podr\355an ser `Nombre' y `Edad' y sus contenidos Victor y 39\), con lo que) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(podemos copiar el array sobre un hash y usarlo como tal agregando el siguiente c\363digo al anterior : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+( my %hash = @data; ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+( my $refHash = \\%hash; ) Tj
+1 0 0 1 102.0 380.0 Tm
+0.0000 Tw
+( print "Nombre : " . $refHash->\{'Nombre'\} . "\\n"; ) Tj
+1 0 0 1 102.0 368.0 Tm
+0.0000 Tw
+( print $refHash . "\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 344.0 Tm
+0.0000 Tw
+(nos da a la salida : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+( Segundo elemento : Victor ) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+( ARRAY\(0x809f18\) ) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+( Nombre : Victor ) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+( HASH\(0x80f3d4\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 254.0 Tm
+0.6274 Tw
+(El problema con este m\351todo de convertir un array en un hash es que hay que copiar todo el contenido) Tj
+1 0 0 1 102.0 242.0 Tm
+0.3658 Tw
+(de uno en el otro, y en caso de estructuras grandes esto se convierte en un problema de performance, ya) Tj
+1 0 0 1 102.0 230.0 Tm
+0.6390 Tw
+(sea por la memoria duplicada o por el tiempo necesario para hacer la copia \(o por ambos en el peor de) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+(los casos\), as\355 que trataremos de acceder el array directamente como si fuera un hash : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+( my @data = qw/Nombre Victor Edad 39/; ) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+( my $refArray = \\@data; ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+( print "Nombre \(como array\): " . $refArray->\{'Nombre'\} . "\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+(lo que nos da como salida : ) Tj
+/F10 10 Tf
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(6) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+85 0 obj
+3807
+endobj
+86 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+87 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 86 0 R
+/Contents 84 0 R
+>>
+endobj
+88 0 obj
+<<
+/Length 89 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+( Can't coerce array into hash at test01.pl line 7. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.5690 Tw
+(Lo cual suena l\363gico, ya que si el tipo de referencia es a un array y lo queremos acceder como hash, el) Tj
+1 0 0 1 102.0 734.0 Tm
+0.2037 Tw
+(mecanismo de acceso nos lo hace notar. Y ahora el cuarto paso \(y definitivo\) es que si miramos a ambas) Tj
+1 0 0 1 102.0 722.0 Tm
+2.1014 Tw
+(referencias vemos que est\341n compuestas por un indicativo del tipo de referencia destino \(HASH o) Tj
+1 0 0 1 102.0 710.0 Tm
+1.5556 Tw
+(ARRAY\) seguido de un n\372mero que es la direcci\363n en memoria que tiene el mismo, con lo cual si) Tj
+1 0 0 1 102.0 698.0 Tm
+2.7773 Tw
+(hacemos caso que una referencia en realidad es un escalar y lo manejamos como tal, podremos) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(manipular esa referencia \(como un escalar\) para convertirlo de ARRAY a HASH : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 656.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 620.0 Tm
+0.0000 Tw
+( my @data = qw/Nombre Victor Edad 39/; ) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+( my $refArray = \\@data; ) Tj
+1 0 0 1 102.0 584.0 Tm
+0.0000 Tw
+( print $refArray . "\\n"; ) Tj
+1 0 0 1 102.0 572.0 Tm
+0.0000 Tw
+( $refArray =~ s/ARRAY/HASH/; ) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+( print $refArray . "\\n" ) Tj
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+( print "Nombre \(como array\): " . $refArray->\{'Nombre'\} . "\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(lo que nos da como salida : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+( ARRAY\(0x809f18\) ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( HASH\(0x809f18\) ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+( Can't use string \("HASH\(0x809f18\)"\) as a HASH ref while "strict refs" in use at test01.pl line 10. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+1.0947 Tw
+(C\363mo ?? qu\351 es esta rebeli\363n ?? Acaso las referencias no son un escalar que podemos manejar como) Tj
+1 0 0 1 102.0 434.0 Tm
+1.0033 Tw
+(escalares ?? Bueno, parece que no es as\355 porque luego de manejarla como un string y querer volver a) Tj
+1 0 0 1 102.0 422.0 Tm
+0.5071 Tw
+(usarla como una referencia, entonces nos dice que no puede usar un string como referencia, con lo cual) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(parece haber una cierta conversi\363n impl\355cita y no especificada. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 386.0 Tm
+1.2783 Tw
+(Para ayudarnos a ver un poco dentro de los distintos tipos de datos, vamos a recurrir a nuestro viejo) Tj
+1 0 0 1 102.0 374.0 Tm
+0.4600 Tw
+(amigo CPAN. Hay un m\363dulo en particular que nos puede ayudar y se llama Devel::Peek. B\341sicamente) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(lo que vamos a hacer es mirar dentro de $refArray antes y despu\351s de la transformaci\363n : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 308.0 Tm
+0.0000 Tw
+( use Devel::Peek 'Dump'; ) Tj
+1 0 0 1 102.0 284.0 Tm
+0.0000 Tw
+( my @data = qw/Nombre Victor Edad 39/; ) Tj
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+( my $refArray = \\@data; ) Tj
+1 0 0 1 102.0 248.0 Tm
+0.0000 Tw
+( Dump $refArray; ) Tj
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+( $refArray =~ s/ARRAY/HASH/; ) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+( print "-" x 20 ) Tj
+1 0 0 1 102.0 212.0 Tm
+0.0000 Tw
+( Dump $refArray; ) Tj
+1 0 0 1 102.0 200.0 Tm
+0.0000 Tw
+( print "-" x 20 ) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+( print $refArray; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+(que nos da como salida : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 134.0 Tm
+0.0000 Tw
+( SV = RV\(0x80e240\) at 0x809f90 ) Tj
+1 0 0 1 102.0 122.0 Tm
+0.0000 Tw
+(   REFCNT = 1 ) Tj
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+(   FLAGS = \(PADBUSY,PADMY,ROK\) ) Tj
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+(   RV = 0x809f18 ) Tj
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+(   SV = PVAV\(0x80263c\) at 0x809f18 ) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+(     REFCNT = 2 ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 517.44 37 Tm
+(7) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+89 0 obj
+4184
+endobj
+90 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+91 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 90 0 R
+/Contents 88 0 R
+>>
+endobj
+92 0 obj
+<<
+/Length 93 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(     FLAGS = \(PADBUSY,PADMY\) ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(     IV = 0 ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(     NV = 0 ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(     ARRAY = 0x1019a0 ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(     FILL = 3 ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(     MAX = 3 ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(     ARYLEN = 0x0 ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(     FLAGS = \(REAL\) ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(     Elt No. 0 ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(     SV = PV\(0x801460\) at 0x801180 ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(        REFCNT = 1 ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(        FLAGS = \(POK,pPOK\) ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(        PV = 0x100ca0 "Nombre"\\0 ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(        CUR = 6 ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(        LEN = 7 ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(     Elt No. 1 ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(     SV = PV\(0x801484\) at 0x801234 ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(        REFCNT = 1 ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(        FLAGS = \(POK,pPOK\) ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(        PV = 0x101bc0 "Victor"\\0 ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(        CUR = 6 ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(        LEN = 7 ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(     Elt No. 2 ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+(     SV = PV\(0x801508\) at 0x801288 ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(        REFCNT = 1 ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(        FLAGS = \(POK,pPOK\) ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(        PV = 0x105160 "Edad"\\0 ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(        CUR = 4 ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+(        LEN = 5 ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(     Elt No. 3 ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(     SV = PV\(0x801448\) at 0x8012b8 ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(        REFCNT = 1 ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(        FLAGS = \(POK,pPOK\) ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(        PV = 0x105170 "39"\\0 ) Tj
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+(        CUR = 2 ) Tj
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+(        LEN = 3 ) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+( -------------------- ) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+( SV = PVIV\(0x801820\) at 0x809f90 ) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+(    REFCNT = 1 ) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(    FLAGS = \(PADBUSY,PADMY,POK,OOK,pPOK\) ) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+(    IV = 1 \(OFFSET\) ) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(    PV = 0x1050f1 \( "A" . \) "HASH\(0x809f18\)"\\0 ) Tj
+1 0 0 1 102.0 254.0 Tm
+0.0000 Tw
+(    CUR = 14 ) Tj
+1 0 0 1 102.0 242.0 Tm
+0.0000 Tw
+(    LEN = 15 ) Tj
+1 0 0 1 102.0 230.0 Tm
+0.0000 Tw
+( -------------------- ) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+( HASH\(0x809f18\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 194.0 Tm
+2.3069 Tw
+(Pero si est\341 clar\355simo , no ?? Bueno, para mi tampoco as\355 que empecemos a desenmara\361arlo. En) Tj
+1 0 0 1 102.0 182.0 Tm
+0.5078 Tw
+(principio las dos son SV \(primera l\355nea de ambas\) lo que nos indica que son escalares \(nada nuevo\), en) Tj
+1 0 0 1 102.0 170.0 Tm
+0.2382 Tw
+(tanto que antes del cambio se trata de un array \(ARRAY = 0x1019a0\) compuesto de 4 elementos \(MAX) Tj
+1 0 0 1 102.0 158.0 Tm
+0.4859 Tw
+(= 3\) y que nos son mostrados como Elt. No. del 0 al 3, y despu\351s del cambio se convirti\363 en un escalar) Tj
+1 0 0 1 102.0 146.0 Tm
+0.4389 Tw
+(hecho y derecho sin nada de referencias \(el flag POK nos indica que es un string\), adem\341s de poder ver) Tj
+1 0 0 1 102.0 134.0 Tm
+0.4168 Tw
+(el contenido en PV. Curiosamente van a ver que hay una "A" delante del HASH \(que no es mostrada al) Tj
+1 0 0 1 102.0 122.0 Tm
+1.8065 Tw
+(hacer el print\) y que es la que corresponde al texto "ARRAY" que exist\355a antes del reemplazo. La) Tj
+1 0 0 1 102.0 110.0 Tm
+0.4011 Tw
+(leyenda OFFSET en IV nos indica que en realidad hay que leer el contenido a partir del primer caracter) Tj
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+(\(o byte ??\). ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(8) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+93 0 obj
+4306
+endobj
+94 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+95 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 94 0 R
+/Contents 92 0 R
+>>
+endobj
+96 0 obj
+<<
+/Length 97 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.8729 Tw
+(Resultado, si bien las referencias se comportan como escalares cuando las accedemos en ese contexto,) Tj
+1 0 0 1 102.0 758.0 Tm
+0.6107 Tw
+(pierden su propiedad de referencias y se transforman en un simple escalar cuando las modificamos con) Tj
+1 0 0 1 102.0 746.0 Tm
+0.8754 Tw
+(herramientas para este tipo de datos. Cuando las escribimos con herramientas que denotan referencias,) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(entonces mantienen su esencia. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+0.1750 Tw
+(Un buen ejemplo de este comportamiento un tanto esquizoide se puede ver en Object::MultiType, donde) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0600 Tw
+(seg\372n el contexto algo puede ser visto como un array, hash, escalar, c\363digo o un glob, pero lo interesante) Tj
+1 0 0 1 102.0 686.0 Tm
+1.2968 Tw
+(es que no son todas distintas vistas de un \372nico elemento \(u objeto\) sino que seg\372n se lo invoque el) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(mismo es equivalente a distintos tipos de variables. ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 647.6 Tm
+0.0000 Tw
+(La caja que todo lo esconde ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 635.6 Tm
+2.8233 Tw
+(Muchas veces estamos acostumbrados a que cuando necesitamos usar cierto paquete de software) Tj
+1 0 0 1 102.0 623.6 Tm
+0.1372 Tw
+(\(library, server, etc.\), y a trav\351s de la disponibilidad del c\363digo, nos es posible descubrir el uso de ciertas) Tj
+1 0 0 1 102.0 611.6 Tm
+1.1424 Tw
+(variables o de ciertas rutinas del c\363digo de una forma no descripta por la documentaci\363n, e incluso a) Tj
+1 0 0 1 102.0 599.6 Tm
+0.5558 Tw
+(veces no pensada. En particular uno de los puntos fuertes del open source puede hacer que a la hora de) Tj
+1 0 0 1 102.0 587.6 Tm
+0.5547 Tw
+(ser elegido, y manejado de esta forma, se convierta en una debilidad. Por qu\351 ?? b\341sicamente porque si) Tj
+1 0 0 1 102.0 575.6 Tm
+0.7506 Tw
+(bien esta forma de trabajo nos deja sacar una ventaja, tambi\351n nos genera un problema al momento de) Tj
+1 0 0 1 102.0 563.6 Tm
+4.3843 Tw
+(hacer un cambio de versi\363n \(upgrade\) del paquete de software, porque es posible que esas) Tj
+1 0 0 1 102.0 551.6 Tm
+0.3838 Tw
+(funcionalidades ocultas \(que no son otra cosa que nuestros amados hacks\) hayan desaparecido. Despu\351s) Tj
+1 0 0 1 102.0 539.6 Tm
+1.0112 Tw
+(de todo no hay nada dicho en la documentaci\363n sobre su existencia, y por lo tanto no necesariamente) Tj
+1 0 0 1 102.0 527.6 Tm
+2.0394 Tw
+(uno puede pensar en que van a seguir siendo mantenidas ad infinitum \(si no est\341 estipulado en el) Tj
+1 0 0 1 102.0 515.6 Tm
+0.0000 Tw
+(contrato, entonces no se puede reclamar\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 491.6 Tm
+2.1971 Tw
+(Tomemos un ejemplo simple para ilustrar este problema. Supongamos que hay un m\363dulo el cual) Tj
+1 0 0 1 102.0 479.6 Tm
+0.6530 Tw
+(deseamos sea usada a trav\351s de un API \(una serie de reglas\), en el que se generan ciertos datos y estos) Tj
+1 0 0 1 102.0 467.6 Tm
+0.0000 Tw
+(son accesibles a trav\351s de ciertas subs o funciones. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 443.6 Tm
+0.2207 Tw
+(Supongamos que realizamos un software para su uso en seguridad, donde se almacenan datos de usuario) Tj
+1 0 0 1 102.0 431.6 Tm
+0.3647 Tw
+(\(en particular user y password\) de tal forma que s\363lo se pueda obtener el nombre del usuario pero no su) Tj
+1 0 0 1 102.0 419.6 Tm
+1.9980 Tw
+(password. Una forma de implementaci\363n ser\355a a trav\351s de un package con los datos puestos como) Tj
+1 0 0 1 102.0 407.6 Tm
+0.0000 Tw
+(privados del mismo package : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 377.6 Tm
+0.0000 Tw
+( package myData_0; ) Tj
+1 0 0 1 102.0 353.6 Tm
+0.0000 Tw
+( use Exporter; ) Tj
+1 0 0 1 102.0 341.6 Tm
+0.0000 Tw
+( @EXPORT = qw\(getUser\); ) Tj
+1 0 0 1 102.0 329.6 Tm
+0.0000 Tw
+( @ISA = qw\(Exporter\); ) Tj
+1 0 0 1 102.0 305.6 Tm
+0.0000 Tw
+( my $data = \{ 'user' => 'bit-man', ) Tj
+1 0 0 1 102.0 293.6 Tm
+0.0000 Tw
+(              'password' => 'chupitanga2005' \};  ) Tj
+1 0 0 1 102.0 269.6 Tm
+0.0000 Tw
+( sub getUser\(\) \{ ) Tj
+1 0 0 1 102.0 257.6 Tm
+0.0000 Tw
+(     return $data->\{'user'\}; ) Tj
+1 0 0 1 102.0 245.6 Tm
+0.0000 Tw
+( \} ) Tj
+1 0 0 1 102.0 221.6 Tm
+0.0000 Tw
+( 1; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 197.6 Tm
+0.3929 Tw
+(se generan una sub llamadas y getUser\(\) para que esta pueda acceder al nombre de usuario. Un ejemplo) Tj
+1 0 0 1 102.0 185.6 Tm
+0.0000 Tw
+(de uso ser\355a : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 155.6 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 143.6 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 119.6 Tm
+0.0000 Tw
+( use myData_0; ) Tj
+1 0 0 1 102.0 95.6 Tm
+0.0000 Tw
+( print "El usuario es : " . getUser\(\) . "\\n"; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 517.44 37 Tm
+(9) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+97 0 obj
+4855
+endobj
+98 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+99 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 98 0 R
+/Contents 96 0 R
+>>
+endobj
+100 0 obj
+<<
+/Length 101 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+2.0821 Tw
+(Ahora, sabiendo que los datos se almacenan en un hash referenciado por $data podr\355amos intentar) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(acceder al dato `password' para poder, al menos, leerlo : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 728.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 716.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 692.0 Tm
+0.0000 Tw
+( use myData_0; ) Tj
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+( print "La password es : " . $myData_0::data->\{'password'\} . "\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+(con lo que obtenemos : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( Name "myData_0::data" used only once: possible typo at test.Data_0.pl line 6. ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( Use of uninitialized value in concatenation \(.\) or string at test.Data_0.pl line 6. ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( La password es :  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.1725 Tw
+(Como era previsible, al ser $data un escalar v\341lido dentro del scope del package myData_0, entonces los) Tj
+1 0 0 1 102.0 554.0 Tm
+0.4306 Tw
+(datos no est\341n disponibles. El problema que tiene esta implementaci\363n es que si queremos tener m\341s de) Tj
+1 0 0 1 102.0 542.0 Tm
+1.3100 Tw
+(un juego de datos, por ejemplo porque se trata de parte del c\363digo de un daemon que atiende varios) Tj
+1 0 0 1 102.0 530.0 Tm
+1.4508 Tw
+(requerimientos simult\341neos, entonces necesitamos poder hacer que cada uno tenga su juego de datos) Tj
+1 0 0 1 102.0 518.0 Tm
+0.9206 Tw
+(para, por ejemplo, cambiar la password. En este caso deber\355amos generar un juego de datos para cada) Tj
+1 0 0 1 102.0 506.0 Tm
+0.5717 Tw
+(nueva invocaci\363n que se haga, pero para evitar un acceso directo a los datos \(como en el caso anterior\)) Tj
+1 0 0 1 102.0 494.0 Tm
+2.4793 Tw
+(mantendremos el mismo hash dentro del scope del package, pero por cada nuevo juego de datos) Tj
+1 0 0 1 102.0 482.0 Tm
+3.7146 Tw
+(entregaremos un nuevo identificador \(o index\) para ubicar los mismos. Un c\363digo que podr\355a) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(implementar ser\355a : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+( package myData_2; ) Tj
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+( use Exporter; ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+( @EXPORT = qw\(new getUser setPasswd\); ) Tj
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+( @ISA = qw\(Exporter\); ) Tj
+1 0 0 1 102.0 368.0 Tm
+0.0000 Tw
+( my $data; ) Tj
+1 0 0 1 102.0 344.0 Tm
+0.0000 Tw
+( my $nextInstance = 1; ) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+( sub new \{ ) Tj
+1 0 0 1 102.0 308.0 Tm
+0.0000 Tw
+(     my $index = $nextInstance++; ) Tj
+1 0 0 1 102.0 284.0 Tm
+0.0000 Tw
+(     my $access = \{ 'index' => $index \}; ) Tj
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+(     ## No se entrega una referencia a los datos sino un identificador ) Tj
+1 0 0 1 102.0 248.0 Tm
+0.0000 Tw
+(     ## ... y un nuevo juego de datos por cada invocaci\363n de new\(\) ) Tj
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+(     $data->\{ $index \} = \{ 'user' => 'bit-man' . $index, ) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+(                           'password' => 'chupitanga2005' \}; ) Tj
+1 0 0 1 102.0 200.0 Tm
+0.0000 Tw
+(     return $access; ) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+( sub getUser\($\) \{ ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+(     my $access = shift; ) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(     my $index = $access->\{'index'\}; ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(     return $data->\{ $index \}->\{'user'\}; ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+( sub setPasswd\($$$\) \{ ) Tj
+1 0 0 1 102.0 68.0 Tm
+0.0000 Tw
+(     my $access = shift; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(10) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+101 0 obj
+3916
+endobj
+102 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+103 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 102 0 R
+/Contents 100 0 R
+>>
+endobj
+104 0 obj
+<<
+/Length 105 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(     my $oldPasswd = shift; ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(     my $newPasswd = shift; ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(     my $index = $access->\{'index'\}; ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(     return 1 ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(        if \( $data->\{ $index \}->\{'password'\} ne $oldPasswd \); ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(        $data->\{ $index \}->\{'password'\} = $newPasswd; ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(        return 0; ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( \} ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( 1; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 602.0 Tm
+1.6131 Tw
+(Como vemos, este package me permite ver el usuario \(ahora se genera uno distinto por cada nuevo) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(paquete de datos\) y cambiar la password siempre y cuando conozca la password anterior : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+( use myData_2; ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+( print "------ Generaci\363n de datos -----\\n"; ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+( my $data = new\(\); ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+( print "Primer user : " . getUser\($data\) . "\\n"; ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+( my $data2 = new\(\); ) Tj
+1 0 0 1 102.0 452.0 Tm
+0.0000 Tw
+( print "Segundo user : " . getUser\($data2\) . "\\n"; ) Tj
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+( print "------ Cambio de password -----\\n"; ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+( my $error = setPasswd\( $data, ) Tj
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+(                        'chupitanga2005', ## password vieja ) Tj
+1 0 0 1 102.0 380.0 Tm
+0.0000 Tw
+(                        'mypasswordeslargaperomala'\); ) Tj
+1 0 0 1 102.0 368.0 Tm
+0.0000 Tw
+( die \("No puedo cambiar la password"\) ) Tj
+1 0 0 1 102.0 356.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+( $error = setPasswd\( $data2, ) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+(                    'chupitanga2005', ## password vieja ) Tj
+1 0 0 1 102.0 308.0 Tm
+0.0000 Tw
+(                    'mypasswordeslargaperomala'\); ) Tj
+1 0 0 1 102.0 296.0 Tm
+0.0000 Tw
+( die \("ERROR : No puedo cambiar la password \(1\) !!!!!!"\) ) Tj
+1 0 0 1 102.0 284.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 260.0 Tm
+0.0000 Tw
+( $error = setPasswd\( $data2, ) Tj
+1 0 0 1 102.0 248.0 Tm
+0.0000 Tw
+(                    'mypasswordeslargaperomala', ## password vieja ) Tj
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+(                    'nuevapasswordJA'\); ) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+( die \("ERROR : No puedo cambiar la password \(2\) !!!!!!"\) ) Tj
+1 0 0 1 102.0 212.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+( print "OK !!!\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+2.9936 Tw
+(Simplemente crea dos juegos de datos, muestra los nombres de usuarios generados \(para ver la) Tj
+1 0 0 1 102.0 152.0 Tm
+0.8806 Tw
+(independencia de los datos\) y luego cambio la password de ambos juegos. Si se genera alg\372n error en) Tj
+1 0 0 1 102.0 140.0 Tm
+0.6167 Tw
+(esta segunda fase mostrar\355a que hay algo que no funciona en la independencia de datos, pero no es as\355.) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(La ejecuci\363n arroja el siguiente resultado : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+( ------ Generaci\363n de datos ----- ) Tj
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+( Primer user : bit-man1 ) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+( Segundo user : bit-man2 ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 511.88 37 Tm
+(11) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+105 0 obj
+3788
+endobj
+106 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+107 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 106 0 R
+/Contents 104 0 R
+>>
+endobj
+108 0 obj
+<<
+/Length 109 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( ------ Cambio de password ----- ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( OK !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+1.3873 Tw
+(El inconveniente que tiene este sistema es que para acceder al juego de datos solicitado necesitamos) Tj
+1 0 0 1 102.0 710.0 Tm
+0.2042 Tw
+(decirle a cada una de las subs el indicador \(index\) propio del juego de datos, que se encuentra dentro del) Tj
+1 0 0 1 102.0 698.0 Tm
+2.7793 Tw
+(hash reference devuelto por new\(\), pasando esta referencia a cada una de las subs como primer) Tj
+1 0 0 1 102.0 686.0 Tm
+0.9300 Tw
+(par\341metro. Esto nos genera un problema, y es que sabemos que el index es un n\372mero secuencial que) Tj
+1 0 0 1 102.0 674.0 Tm
+1.9265 Tw
+(debemos pas\341rselo a cada sub para que esta opere sobre el mismo, con lo cual en alg\372n momento) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(tenemos el control del mismo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+1.3057 Tw
+(Supongamos que administramos un equipo con un sistema de usuarios generados con este package y) Tj
+1 0 0 1 102.0 626.0 Tm
+0.4808 Tw
+(necesitamos ver qu\351 usuarios poseen logon en determinado momento. Consultamos la documentaci\363n y) Tj
+1 0 0 1 102.0 614.0 Tm
+0.5713 Tw
+(vemos que no est\341 establecida, as\355 que hacemos lo siguiente : analizamos el c\363digo, generamos nuestro) Tj
+1 0 0 1 102.0 602.0 Tm
+0.2100 Tw
+(propio usuario \(digamos que nos genera un index = 100\) y a partir de aqu\355 comenzamos a variarlo desde) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(1 hasta 100 invocando la sub getUser\(\). Manos a la obra con nuestro hack !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(Simplemente agreguemos estas l\355neas a nuestro c\363digo anterior : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+( my $data3 = new\(\); ) Tj
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+( for my $index \( 1 .. $data3->\{'index'\} \) \{ ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+(     my $testData; ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+(     $testData->\{'index'\} = $index; ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+(     print "Juego de datos '$index', usuario " ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+(         . getUser\( $testData \) . "\\n" ) Tj
+1 0 0 1 102.0 452.0 Tm
+0.0000 Tw
+( \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+(obteniendo esta salida adicional : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+( Juego de datos '1', usuario bit-man1 ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+( Juego de datos '2', usuario bit-man2 ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+( Juego de datos '3', usuario bit-man3 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+0.7512 Tw
+(En este caso s\363lo podemos obtener el usuario, pero cualquier datos que pueda ser accedido a trav\351s de) Tj
+1 0 0 1 102.0 338.0 Tm
+1.0294 Tw
+(las subs est\341 accesible para el resto de los usuarios. Entonces, c\363mo evitar este uso ?? Una referencia) Tj
+1 0 0 1 102.0 326.0 Tm
+0.3244 Tw
+(cuasi infranqueable es la que se hace a trav\351s del c\363digo. En estas simplemente se nos da una referencia) Tj
+1 0 0 1 102.0 314.0 Tm
+0.1287 Tw
+(a la que podemos pasarle par\341metros y ejecutar\341 el c\363digo pre-establecido sin que podamos cambiarlo ni) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+(acceder a sus detalles m\341s \355ntimos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 278.0 Tm
+0.2606 Tw
+(B\341sicamente cuando usamos una sub \(ya sea de un package o dentro del programa principal, como en el) Tj
+1 0 0 1 102.0 266.0 Tm
+0.2294 Tw
+(caso anterior\) estamos usando una especie de referencia a un c\363digo, tanto que getUser\(\) y new\(\) son un) Tj
+1 0 0 1 102.0 254.0 Tm
+0.4150 Tw
+(excelente ejemplo de esto, con lo que en principio no se ve que la soluci\363n pase por este lado. Pero que) Tj
+1 0 0 1 102.0 242.0 Tm
+0.9484 Tw
+(tal si, en lugar de generar una sub con c\363digo fijo, hacemos una sub con un c\363digo distinto para cada) Tj
+1 0 0 1 102.0 230.0 Tm
+0.0000 Tw
+(invocaci\363n y que adem\341s tuviera embebido el index de tal forma que no pudiera cambiarse. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(Presten atenci\363n a los siguientes puntos por dem\341s interesantes : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 179.6 Tm
+0.5688 Tw
+() Tj
+ET
+q
+102 180.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 179.6 Tm
+/F20 10 Tf
+0.5688 Tw
+(- vamos a hacer que las subs generadas sean an\363nimas, a trav\351s de sub \{\}, y no accesibles) Tj
+1 0 0 1 102.0 167.6 Tm
+0.0000 Tw
+(directamente sino a trav\351s del mecanismo de hash que se us\363 para index ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 153.2 Tm
+1.7482 Tw
+() Tj
+ET
+q
+102 154.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 153.2 Tm
+/F20 10 Tf
+1.7482 Tw
+(- s\363lo vamos a exportar new, ya que el resto de las subs ser\341n an\363nimas y visibles s\363lo) Tj
+1 0 0 1 102.0 141.2 Tm
+0.0000 Tw
+(desde el package ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 126.8 Tm
+1.0100 Tw
+() Tj
+ET
+q
+102 127.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 126.8 Tm
+/F20 10 Tf
+1.0100 Tw
+(- las subs que implementan el c\363digo quedan sin modificaci\363n, y las subs an\363nimas act\372an) Tj
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(como wrappers de estas ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 96.8 Tm
+0.0000 Tw
+( package myData_3; ) Tj
+1 0 0 1 102.0 72.8 Tm
+0.0000 Tw
+( use Exporter; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(12) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+109 0 obj
+5368
+endobj
+110 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+111 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 110 0 R
+/Contents 108 0 R
+>>
+endobj
+112 0 obj
+<<
+/Length 113 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( @EXPORT = qw\(new\); ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( @ISA = qw\(Exporter\); ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+( my $data; ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+( my $nextInstance = 1; ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( my $getUser = sub \{ ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(     my $index = shift; ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(     return $data->\{ $index \}->\{'user'\}; ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+( my $setPasswd = sub \{ ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(     my $index = shift; ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(     my $oldPasswd = shift; ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(     my $newPasswd = shift; ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(     return 1 ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(        if \( $data->\{ $index \}->\{'password'\} ne $oldPasswd \); ) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(        $data->\{ $index \}->\{'password'\} = $newPasswd; ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(        return 0; ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+( sub new \{ ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(     my $index = $nextInstance++; ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+(     my $access = \{ 'getUser' => sub \{ $getUser->\( $index \) \}, ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(                    'setPasswd' => sub \{ $setPasswd->\($index, $_[0], $_[1]\) \} ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(                  \}; ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(                  ## Ya no se entrega una referencia a los datos ) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(                  ## sino un identificador embebido en el c\363digo ) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(                  ## y no modificable \(bueno.. es una forma de decir\) ) Tj
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+(     ## un nuevo juego de datos por cada invocaci\363n de new\(\) ) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(     $data->\{ $index \} = \{ 'user' => 'bit-man' . $index, ) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+(                           'password' => 'chupitanga2005' \}; ) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(     return $access; ) Tj
+1 0 0 1 102.0 278.0 Tm
+0.0000 Tw
+( \}; ) Tj
+1 0 0 1 102.0 254.0 Tm
+0.0000 Tw
+( 1; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 230.0 Tm
+1.7111 Tw
+(La forma de uso de este package es similar al anterior, cambiando los nombres de las subs por las) Tj
+1 0 0 1 102.0 218.0 Tm
+0.0000 Tw
+(correspondientes claves de los hashes : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+( use warnings; ) Tj
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+( use strict; ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+( use myData_3; ) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+( print "------ Generaci\363n de datos -----\\n"; ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+( my $data = new\(\); ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+( print "Primer user : " . $data->\{'getUser'\}\(\) . "\\n"; ) Tj
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+( my $data2 = new\(\); ) Tj
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+( print "Segundo user : " . $data2->\{'getUser'\}\(\) . "\\n"; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 511.88 37 Tm
+(13) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+113 0 obj
+3348
+endobj
+114 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+115 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 114 0 R
+/Contents 112 0 R
+>>
+endobj
+116 0 obj
+<<
+/Length 117 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Cafe Perl v0.4) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( print "------ Cambio de password -----\\n"; ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( my $error = $data->\{'setPasswd'\}->\( 'chupitanga2005', ## password vieja ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(                                     'mypasswordeslargaperomala'\); ) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+( die \("No puedo cambiar la password"\) ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+( $error = $data2->\{'setPasswd'\}\( 'chupitanga2005', ## password vieja ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(                                 'mypasswordeslargaperomala'\); ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+( die \("ERROR : No puedo cambiar la password \(1\) !!!!!!"\) ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+( $error = $data2->\{'setPasswd'\}\( 'mypasswordeslargaperomala', ## password vieja ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(                                 'nuevapasswordJA'\); ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+( die \("ERROR : No puedo cambiar la password \(2\) !!!!!!"\) ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(    if $error; ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+( print "OK !!!\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(d\341ndonos su ejecuci\363n la siguiente salida : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+( ------ Generaci\363n de datos ----- ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+( Primer user : bit-man1 ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+( Segundo user : bit-man2 ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+( ------ Cambio de password ----- ) Tj
+1 0 0 1 102.0 452.0 Tm
+0.0000 Tw
+( OK !!! ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 431.6 Tm
+0.0000 Tw
+(Una mirada m\341s all\341 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 419.6 Tm
+0.9706 Tw
+(Como ven el uso de referencias deja lugar a muchas implementaciones, y una de las posibles es la de) Tj
+1 0 0 1 102.0 407.6 Tm
+1.9572 Tw
+(objetos. Sin entrar en detalles uno de los temas que se persiguen con esta tecnolog\355a es el que un) Tj
+1 0 0 1 102.0 395.6 Tm
+0.6564 Tw
+(API/paquete/library/o- como-se-llame sea usada s\363lo de la forma especificada, exponiendo una interfaz) Tj
+1 0 0 1 102.0 383.6 Tm
+0.4020 Tw
+(y sin posibilidad de abuso de los elementos internos. Por ejemplo en nuestro caso debimos implementar) Tj
+1 0 0 1 102.0 371.6 Tm
+0.5400 Tw
+(las subs internas como una referencia de acceso interno s\363lo al package para evitar este tipo de accesos) Tj
+1 0 0 1 102.0 359.6 Tm
+0.0000 Tw
+(laterales "non sanctos" ) Tj
+/F23 10 Tf
+1 0 0 1 102.0 333.2 Tm
+0.0000 Tw
+(Infograf\355a ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 318.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 319.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 318.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- Perl builtin functions \() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+(\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 304.4 Tm
+0 Tw
+() Tj
+ET
+q
+102 305.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 304.4 Tm
+/F20 10 Tf
+0 Tw
+(- Perl references and nested data structures) Tj
+1 0 0 1 102.0 292.4 Tm
+0.0000 Tw
+(\() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl/pod/perlref.pod) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+(\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 278.0 Tm
+0 Tw
+() Tj
+ET
+q
+102 279 4 4 re
+f
+Q
+BT
+1 0 0 1 110 278 Tm
+/F20 10 Tf
+0 Tw
+(- Mark`s very short tutorial about references) Tj
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(\() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl/pod/perlreftut.pod) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+(\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 251.6 Tm
+1.0740 Tw
+() Tj
+ET
+q
+102 252.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 251.6 Tm
+/F20 10 Tf
+1.0740 Tw
+(- Object::MultiType - Perl Objects as Hash, Array, Scalar, Code and Glob at the same time) Tj
+1 0 0 1 102.0 239.6 Tm
+0.0000 Tw
+(\() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~gmpassos/Object-MultiType-0.05/MultiType.pm) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+(\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 221.6 Tm
+0.0000 Tw
+(POC \(peace of code\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 209.6 Tm
+0.0000 Tw
+(por Andr\351s Kievsky \(andres.kievsky@disenoporteno.com\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 185.6 Tm
+0.0000 Tw
+(El desaf\355o Perl del mes! ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 155.6 Tm
+0.0000 Tw
+( #!/usr/bin/perl  ) Tj
+1 0 0 1 102.0 131.6 Tm
+0.0000 Tw
+( use strict;  ) Tj
+1 0 0 1 102.0 119.6 Tm
+0.0000 Tw
+( use warnings;  ) Tj
+1 0 0 1 102.0 95.6 Tm
+0.0000 Tw
+( my $suma; ) Tj
+1 0 0 1 102.0 83.6 Tm
+0.0000 Tw
+( <soluci\363n> ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(14) Tj
+1 0 0 1 449.64 37 Tm
+(01 August 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+117 0 obj
+4703
+endobj
+118 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F22 16 0 R
+/F23 17 0 R
+>>
+>>
+endobj
+119 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [201.9 315.8 443.2 326.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 120 0 R
+/H /I
+>>
+endobj
+120 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod)
+>>
+endobj
+121 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [113.0 289.4 347.1 300.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 122 0 R
+/H /I
+>>
+endobj
+122 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl/pod/perlref.pod)
+>>
+endobj
+123 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [113.0 263.0 358.2 273.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 124 0 R
+/H /I
+>>
+endobj
+124 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl/pod/perlreftut.pod)
+>>
+endobj
+125 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [113.0 236.6 438.2 247.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 126 0 R
+/H /I
+>>
+endobj
+126 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~gmpassos/Object-MultiType-0.05/MultiType.pm)
+>>
+endobj
+127 0 obj
+[ 119 0 R 121 0 R 123 0 R 125 0 R  ]
+endobj
+128 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 118 0 R
+/Contents 116 0 R
+/Annots 127 0 R
+>>
+endobj
+129 0 obj
+<<
+/Length 130 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 457.41 797 Tm
+(Cafe Perl v0.4) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+( $suma->\{1\} = 31;  ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+( $suma->[3] = 11; ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+( print $suma->\(\)."\\n"; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+0.5247 Tw
+(Agregar una l\355nea de c\363digo al programa anterior, de forma tal que el print imprima la suma de los dos) Tj
+1 0 0 1 102.0 698.0 Tm
+1.8869 Tw
+(n\372meros. En este caso, la salida ser\355a 42 \(es decir, 31+11\) pero tiene que funcionar para cualquier) Tj
+1 0 0 1 102.0 686.0 Tm
+1.7225 Tw
+(n\372mero que uno ponga en $suma-) Tj
+/F00 10 Tf
+1.7225 Tw
+(\{1\} y $suma-) Tj
+/F00 10 Tf
+1.7225 Tw
+([3] \(incluso si uno repite las \372ltimas 3 l\355neas varias) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(veces\) . ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(La l\355nea tiene las siguientes restricciones: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 623.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 624.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 623.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no se puede utilizar bless ni tie ni puede ser un objeto ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 609.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 610.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 609.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no se pueden usar pseudohashes ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 594.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 595.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 594.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no puede haber m\341s de un ; en la l\355nea ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 580.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 581.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 580.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(- la soluci\363n debe tener 35 caracteres o menos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 567 4 4 re
+f
+Q
+BT
+1 0 0 1 110 566 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no debe generar warnings ni errores, usando siempre "use warnings" y "use strict" ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 551.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 552.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 551.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no se puede agregar m\341s c\363digo que el de esa l\355nea. ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 537.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 538.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 537.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(- no se pueden usar m\363dulos de ning\372n tipo ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 525.2 Tm
+0.0000 Tw
+(Est\341 probado en Perl 5.8.0 y 5.8.5. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 501.2 Tm
+0.0000 Tw
+(La soluci\363n? En el pr\363ximo n\372mero :\) ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(01 August 2005) Tj
+1 0 0 1 511.88 37 Tm
+(15) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+130 0 obj
+2541
+endobj
+131 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+132 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 131 0 R
+/Contents 129 0 R
+>>
+endobj
+133 0 obj
+<<
+/Length 134 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @     Z    Ä    ¯acmp       Z                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Zfsrfˇú¿  Õ‰ Õ„                                                                    /                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

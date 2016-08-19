@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>XML::SAX (5)</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text34.html">Back</a> <a href="text36.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img35.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>XML::SAX (Filtering)</b></i></font></h1><p>
+<ul><li><h2>use <b><font color=#0000FF>XML::SAX</b></font>;</h2>
+<li><h2>use <b><font color=#0000FF>XML::SAX::Writer</b></font>;</h2>
+<li><h2>my <b><font color=#33A3A3>$writer</b></font> = <b><font color=#0000FF>XML::SAX::Writer</b></font>-&gt;new();  <b><font color=#B84700>## Writes to STDOUT</b></font></h2>
+<li><h2>my <b><font color=#198A8A>$filter</b></font> = <b><font color=#FF0000>UpperCase</b></font>-&gt;new(Handler =&gt; <b><font color=#198A8A>$writer</b></font>);</h2>
+<li><h2>my <b><font color=#33A3A3>$parser</b></font> = <b><font color=#0000FF>XML::SAX::ParserFactory</b></font>-&gt;parser(  </h2>
+<ul><li>Handler =&gt; <b><font color=#198A8A>$filter</b></font> );
+</ul></ul></ul></ul></ul></ul></ul></ul><li><h2>my $file = $ARGV[0] || &quot;input.xml&quot;;</h2>
+<li><h2><b>open</b>( my <b>$fh</b>, &quot;&lt; $file&quot; )</h2>
+<ul><li>|| die <b><font color=#FF00FF>&quot;No puedo abrir $file\n&quot;</b></font>;
+</ul></ul><li><h2><b><font color=#198A8A>$parser</b></font>-&gt;parse_file( <b>$fh</b> );</h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

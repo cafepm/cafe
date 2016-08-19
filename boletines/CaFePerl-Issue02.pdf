@@ -1,0 +1,4868 @@
+%PDF-1.2
+%âãÏÓ
+1 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.089]
+/Gamma [1.8 1.8 1.8]
+/Matrix [0.4497 0.2446 0.02518 0.3613 0.672 0.1412 0.1845 0.08334 0.9227]
+>>
+]
+endobj
+2 0 obj
+<<
+/CreationDate (D:20050602000307-0300)
+/Producer (pod2pdf)
+/Title (Issue02.pod)
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /emdash
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F00
+/Encoding 5 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F01
+/Encoding 5 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F02
+/Encoding 5 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F03
+/Encoding 5 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 5 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 5 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/Encoding 5 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F20
+/Encoding 5 0 R
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F21
+/Encoding 5 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F22
+/Encoding 5 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F23
+/Encoding 5 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+0 g
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F21 12 Tf
+1 0 0 1 72.0 752.0 Tm
+0.0000 Tw
+(CaFe Perl v0.2 - Periódico de la Comunidad Perl de Capital Federal ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 730.4 Tm
+0.0000 Tw
+(Editorial ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 718.4 Tm
+0.9632 Tw
+(Hola gente del mundo Perl. Obligados, por gusto, por amor al arte o por el arte del amor estás acá) Tj
+1 0 0 1 102.0 706.4 Tm
+0.0053 Tw
+(frente a esta nueva publicación de CaFe Perl. \303\201menlo o ódienlo, pero tomen una postura, hagan de esa) Tj
+1 0 0 1 102.0 694.4 Tm
+0.7894 Tw
+(su bandera y pónganla a blandir. Eso es el movimiento Open Source : corazón, tripa y convicción;) Tj
+1 0 0 1 102.0 682.4 Tm
+1.4686 Tw
+(eso y todo lo que hace a la libertad. Libertad de elegir hacer o no hacer, criticar o no, avanzar ... o) Tj
+1 0 0 1 102.0 670.4 Tm
+0.0000 Tw
+(avanzar. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 646.4 Tm
+0.0000 Tw
+(Este número se viene un tanto renovado : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 620.0 Tm
+0.2047 Tw
+() Tj
+ET
+q
+102 621 4 4 re
+f
+Q
+BT
+1 0 0 1 110 620 Tm
+/F20 10 Tf
+0.2047 Tw
+(con el agregado de algún que otro punto que fue sugerido en la encuesta del pasado mes de) Tj
+1 0 0 1 102.0 608.0 Tm
+0.8108 Tw
+(Mayo, más el poder llegar a quienes tienen conocimiento más avanzados. Resultado : una) Tj
+1 0 0 1 102.0 596.0 Tm
+0.0000 Tw
+(nueva sección llamada Mordiditas de aquí y de allá. ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 581.6 Tm
+1.4793 Tw
+() Tj
+ET
+q
+102 582.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 581.6 Tm
+/F20 10 Tf
+1.4793 Tw
+(el resumen de la lista sinceramente no tiene sentido, sobre todo porque no hay un tráfico) Tj
+1 0 0 1 102.0 569.6 Tm
+0.0000 Tw
+(como para perderse en la nebulosa de los mensajes y necesitar un mapa ... o un resumen ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 555.2 Tm
+1.1020 Tw
+() Tj
+ET
+q
+102 556.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 555.2 Tm
+/F20 10 Tf
+1.1020 Tw
+(Si bien CaFe Perl va a seguir existiendo primariamente en su formato POD, también va a) Tj
+1 0 0 1 102.0 543.2 Tm
+0.0000 Tw
+(estar disponible en HTML y PDF \(por supuesto, generados a partir desde POD\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 531.2 Tm
+0.0000 Tw
+(Espero que lo disfruten. Hasta la próxima taza de CaFe Perl !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 507.2 Tm
+0.0000 Tw
+(Víctor A. Rodríguez \(Bit-Man\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 477.2 Tm
+0.0000 Tw
+(PERlitas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 465.2 Tm
+0.3847 Tw
+(MKDoc es un manejador de contenidos \(Content Managent System, o CMS\) que, por supuesto es Open) Tj
+1 0 0 1 102.0 453.2 Tm
+0.0000 Tw
+(Source, y que nos permite : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 426.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 427.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 426.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Gestionar y distribuir fácilmente contenidos en Internet ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 412.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 413.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 412.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Crear y gestionar comunidades online en su web site ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 399 4 4 re
+f
+Q
+BT
+1 0 0 1 110 398 Tm
+/F20 10 Tf
+0.0000 Tw
+(Publicar materiales en varios idiomas ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 383.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 384.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 383.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Cumplir con la sección 508 \() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.section508.gov/) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+(\) de standards  de accesibilidad ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 371.6 Tm
+2.7557 Tw
+(Esta entrevista no explora como Perl está involucrado en MKDoc, como suele ocurrir en estas) Tj
+1 0 0 1 102.0 359.6 Tm
+1.0912 Tw
+(entrevistas, sino que aporta un nuevo ángulo desde el cual la problemática es la continuidad de un) Tj
+1 0 0 1 102.0 347.6 Tm
+1.7765 Tw
+(proyecto y cómo la comunidad Open Source, y Perl como parte de él, nos ayudan a no quedar) Tj
+1 0 0 1 102.0 335.6 Tm
+0.0000 Tw
+(atrapadas en las arena. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 311.6 Tm
+0.2343 Tw
+(Pero basta de charla, disfrutemos los jugosos comentarios de Chris Croome, nuestro entrevistado de este) Tj
+1 0 0 1 102.0 299.6 Tm
+0.0000 Tw
+(número de CaFe Perl. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 275.6 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Chris, por favor una pequeña introducción para la gente de CaFe.pm) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 251.6 Tm
+1.4381 Tw
+(No soy un programador, me dedico a arquitectura de la información, diseño de interfaces y a los) Tj
+1 0 0 1 102.0 239.6 Tm
+0.0000 Tw
+(templates de XML para MKDoc, y estuve involucrado con MKDoc desde su concepción. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 215.6 Tm
+2.1214 Tw
+() Tj
+/F01 10 Tf
+2.1214 Tw
+(A veces el proyecto se queda sin combustible, pero "el show debe continuar". Cómo estaba) Tj
+1 0 0 1 102.0 203.6 Tm
+0.0000 Tw
+(compuesto MKDoc y que circunstancias llevaron a un paro total al proyecto) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 179.6 Tm
+0.6850 Tw
+(No se paró exactamente, pero si se desaceleró bastante desde que el desarrollador principal se fue el) Tj
+1 0 0 1 102.0 167.6 Tm
+0.0121 Tw
+(año pasado. MKDoc fue desarrollado cuando había muy pocos sistemas de manejo de contenidos por) Tj
+1 0 0 1 102.0 155.6 Tm
+1.3673 Tw
+(ahí, y fue muy innovador en su momento \(pocos CMS por entonces estaban compenetrados con la) Tj
+1 0 0 1 102.0 143.6 Tm
+0.9200 Tw
+(accesibilidad y la adhesión a standards\). Fue desarrollado principalmente porque nosotros \(yo y unos) Tj
+1 0 0 1 102.0 131.6 Tm
+0.1715 Tw
+(amigos establecimos una pequeña compañía de diseño web en 1996\) nos aburrimos de actualizar) Tj
+1 0 0 1 102.0 119.6 Tm
+0.0000 Tw
+(sites web para los clientes y buscamos que ellos mismos pudieran actualizarlos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 95.6 Tm
+1.6813 Tw
+(Nos juntamos con un joven y talentoso programador Perl y comenzamos a desarrollar un CMS que) Tj
+1 0 0 1 102.0 83.6 Tm
+1.0573 Tw
+(evolucionó en MKDoc. Siempre quise que MKDoc fuera con licencia GPL y aunque muchas de sus) Tj
+1 0 0 1 102.0 71.6 Tm
+0.0043 Tw
+(partes \(como el sistema de plantillas Petal\) eventualmente terminaron en CPAN este comenzó y siguió) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 517.44 37 Tm
+(1) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+19 0 obj
+6460
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [228.3 380.6 353.1 391.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 22 0 R
+/H /I
+>>
+endobj
+22 0 obj
+<<
+/S /URI
+/URI (http://www.section508.gov/)
+>>
+endobj
+23 0 obj
+[ 21 0 R  ]
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 20 0 R
+/Contents 18 0 R
+/Annots 23 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 26 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.4294 Tw
+(siendo non-free hasta el año pasado. Esto resultó en que nunca tuvo una gran base de usuarios o una) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(comunidad de usuarios y desarrolladores alrededor. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0722 Tw
+(El desarrollador principal de MKDoc se fue el año pasado, y no quiero entrar en detalles pero las cosas) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(fueron bastante poco placenteras en el suceso de los acontecimientos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.3264 Tw
+() Tj
+/F01 10 Tf
+0.3264 Tw
+(Así que inicialmente comenzaron el proyecto para "evitar el aburrimiento". Qué experiencias) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(\(positivas o no tanto\) les dejó el proyecto ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 662.0 Tm
+2.3547 Tw
+(Bueno, no estaba hablando 100% en serio cuando dije que la motivación era evitar hacer tareas) Tj
+1 0 0 1 102.0 650.0 Tm
+0.3594 Tw
+(aburridas, pero hay algo de verdad \217 MKDoc fue diseñado para que la gente que produce contenidos) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(para sites web pueda agregarlos directamente, y no dependa de terceros. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 614.0 Tm
+0.0071 Tw
+(No tengo una buena respuesta acerca de qué experiencias gané de trabajar con MKDoc, preguntame) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(en algunos años ! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Y cuál fue el ambiente después del alto y cuál la reacción inmediata ?) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.2606 Tw
+(El ambiente fue de liberación, lo primero que hice fue poner el código como GPL, el día después) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(que se fue. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+2.4413 Tw
+() Tj
+/F01 10 Tf
+2.4413 Tw
+(Qué le advertiría a los que están interesados en comenzar un nuevo proyecto ?? Y en) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(convertir uno a Open Source ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 482.0 Tm
+1.4993 Tw
+(Ponerse de acuerdo en la licencia desde el principio porque esto puede ahorrar muchos problemas y) Tj
+1 0 0 1 102.0 470.0 Tm
+0.8664 Tw
+(también hacer mucha investigación sobre lo que está disponible \217 no tiene sentido comenzar un) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(proyecto de CMS hora ya que hay muchos ahí fuera... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Ayudó el poner algunos módulos disponibles en CPAN ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 410.0 Tm
+1.3080 Tw
+(El módulo de plantillas \(Petal, the Perl Template Attribute Language\) fue un gran éxito, hay una) Tj
+1 0 0 1 102.0 398.0 Tm
+1.6594 Tw
+(comunidad en torno a él y se usa para muchas cosas más que MKDoc. Los fixes y reportes de) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0165 Tw
+(errores de la comunidad para este código han sido muy útiles. Los otro módulos no han sido tomados) Tj
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(de la misma forma, pero es entendible ya que no son tan claramente aplicables a otros programas. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qué otras herramientas les dio la conversión de MKDoc al Open Source ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 326.0 Tm
+0.9560 Tw
+(Bueno sin GNU/Linux, Perl y Apache y todo el código de CPAN nunca hubiéramos podido hacer) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+(MKDoc con los recursos que tenemos, así que fue totalmente indispensable. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Y que ocurrió finalmente, y cuál es el estado actual del proyecto ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 266.0 Tm
+0.8800 Tw
+(Desde que el desarrollo decreció no hubo mucho interés en el código \217 los CMS hecho en PHP) Tj
+1 0 0 1 102.0 254.0 Tm
+1.2888 Tw
+(son más fáciles de instalar y ahora hay también existe Plone. El desarrollo en los últimos seis) Tj
+1 0 0 1 102.0 242.0 Tm
+1.7043 Tw
+(meses fue hecho exclusivamente para los clientes \217 cuando tuvimos los fondos como para agregar) Tj
+1 0 0 1 102.0 230.0 Tm
+0.0000 Tw
+(funcionalidad entonces contratamos el trabajo para hacerlo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 206.0 Tm
+2.4700 Tw
+(Todo el trabajo fue hecho sobre la versión estable \(1.6\) y la versión siguiente \(1.8\) no estuvo) Tj
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+(progresando muy rápido. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 170.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Qué será agregado a Perl/MKDoc para ser instalado tan fácil como los CMSs en PHP ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 146.0 Tm
+1.1280 Tw
+(mod_perl 2 está casi saliendo y me gustaría tener MKDoc trabajando con Apache 2/mod_perl 2 y) Tj
+1 0 0 1 102.0 134.0 Tm
+0.8131 Tw
+(disponible en paquetes nativos para las distros, rpm para Fedora, SuSE y Mandriva, deb para debian y) Tj
+1 0 0 1 102.0 122.0 Tm
+1.4500 Tw
+(Ubuntu para que la gente simplemente agregue un `repo' a su `config' de `apt' o `yum' y hagan un) Tj
+1 0 0 1 102.0 110.0 Tm
+0.0000 Tw
+(`apt-get install mkdoc' ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+0.5684 Tw
+(Así y todo no sería tan fácil como en los CMSs PHP ya que sería necesario el usuario root pero) Tj
+1 0 0 1 102.0 74.0 Tm
+1.0600 Tw
+(no creo que haya una forma de no hacerlo así y es común para aplicaciones basadas en mod_perl,) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(2) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+26 0 obj
+6027
+endobj
+27 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+28 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 27 0 R
+/Contents 25 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 30 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.1856 Tw
+(Java y Zope, en contraste muchas aplicaciones PHP son diseñadas para ser usadas en server sin acceso) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(a root. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+1.2527 Tw
+() Tj
+/F01 10 Tf
+1.2527 Tw
+(Alguna experiencia, divertida o no, que tuvieron mientras este proceso se llevaba a cabo, y que) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(quiera compartir ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.4787 Tw
+(No recuerdo ninguna anécdota divertida, de lo que tengo más memoria es de cambiar la licencia \217) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(liberar el código da una gran sensación :-\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+() Tj
+/F01 10 Tf
+0.0000 Tw
+(Algo más que nos quiera decir y que no le preguntamos ??) Tj
+/F00 10 Tf
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 638.0 Tm
+1.0153 Tw
+(Bueno lo que es más interesante sobre la forma de producción del software libre es el potencial de) Tj
+1 0 0 1 102.0 626.0 Tm
+0.8494 Tw
+(aplicar este método de producción a la producción de otras cosas \217 creo que el mundo será un) Tj
+1 0 0 1 102.0 614.0 Tm
+1.3394 Tw
+(lugar mucho mejor si el modo de producción del Software Libre fuera generalizado y aplicado a la) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(producción de todo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(Conclusiones \(por Víctor A. Rodríguez\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.0325 Tw
+(Simplemente tengo que decir que sin el movimiento Open Source el proyecto no podría llevarse a cabo) Tj
+1 0 0 1 102.0 542.0 Tm
+2.0686 Tw
+(para una compañía del tamaño de MKDoc Ltd. donde los recursos disponibles son la primer) Tj
+1 0 0 1 102.0 530.0 Tm
+1.2128 Tw
+(señal de stop y el pensamiento creativo es la herramienta de cambio a mano para uso diario. Y sin) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(liberar el código, la adopción y contribución se hubiera detenido. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(El infierno no está en llamas, simplemente no es Open Source. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(Infografía ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 443.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 444.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 443.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(MKDoc : ) Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.mkdoc.org/) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 429.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 430.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 429.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(MKDoc Ltd. : ) Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://mkdoc.com) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 411.2 Tm
+0.0000 Tw
+(SudorNews ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 396.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 397.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 396.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Perl Medic ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 384.8 Tm
+1.5125 Tw
+(Un nuevo libro de Addison Wesley dedicado a las mejores prácticas en Perl para que la próxima) Tj
+1 0 0 1 102.0 372.8 Tm
+0.4333 Tw
+(persona que tenga que acceder al código que estamos escribiendo, y mantener la aplicación, no tenga) Tj
+1 0 0 1 102.0 360.8 Tm
+0.0000 Tw
+(que ir al médico por perderse entre las líneas de código y no poder volver a la realidad. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 336.8 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://books.slashdot.org/article.pl?sid=05/05/02/214235) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 310.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 311.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 310.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(MySQL in a Nutshell ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 298.4 Tm
+1.3006 Tw
+(Esta vez es Russell Dyer, de la mano de O`Reilly, el que viene a rescatarnos, principalmente porque) Tj
+1 0 0 1 102.0 286.4 Tm
+0.7183 Tw
+(parte del libro cubre las API de MySQL para ser accedidas desde Perl. Ah, si también trata de otros) Tj
+1 0 0 1 102.0 274.4 Tm
+0.0000 Tw
+(lenguajes y otras tópicos de MySQL, pero no creo que eso sea importante ;-\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 262.4 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.oreilly.com/catalog/mysqlian/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 237 4 4 re
+f
+Q
+BT
+1 0 0 1 110 236 Tm
+/F20 10 Tf
+0.0000 Tw
+(5.8.7 RC1 está disponible ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 224.0 Tm
+0.2412 Tw
+(Adivinaste, se trata del último release de Perl, un Release Candidate en este caso, que provee bug fixes) Tj
+1 0 0 1 102.0 212.0 Tm
+1.7108 Tw
+(y actualizacion de módulos ya integrados anteriormente pero actualizados a sus últimas versiones) Tj
+1 0 0 1 102.0 200.0 Tm
+0.0000 Tw
+(disponibles desde CPAN. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(ftp://ftp.cpan.org/pub/CPAN/authors/id/N/NW/NWCLARK/perl-5.8.7-RC1.tar.bz2) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl-5.8.7-RC1/pod/perl587delta.pod) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 149.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 150.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 149.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(mod_perl 2.0.0 disponible !!! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 137.6 Tm
+0.6167 Tw
+(Otro gran avance de la ciencia que ha quedado eclipsado. Ya está disponible en CPAN, y para que lo) Tj
+1 0 0 1 102.0 125.6 Tm
+3.3500 Tw
+(tengan en cuenta, sin dudarlo. Los nuevos aportes de mod_perl son soporte de threads, mayor) Tj
+1 0 0 1 102.0 113.6 Tm
+1.1479 Tw
+(independencia de los cambios producidos en Apache y, por supuesto, una mayor estabilidad debido a) Tj
+1 0 0 1 102.0 101.6 Tm
+0.0000 Tw
+(este último punto. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 89.6 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~gozer/mod_perl-2.0.0/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 77.6 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~gozer/mod_perl-2.0.0/docs/user/intro/overview.pod) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 517.44 37 Tm
+(3) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+30 0 obj
+6451
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F01 7 0 R
+/F02 8 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+32 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [142.1 440.6 243.0 451.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 33 0 R
+/H /I
+>>
+endobj
+33 0 obj
+<<
+/S /URI
+/URI (http://www.mkdoc.org/)
+>>
+endobj
+34 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [161.6 426.2 239.7 436.8]
+/Border [0 0 1]
+/C [1 1 0]
+/A 35 0 R
+/H /I
+>>
+endobj
+35 0 obj
+<<
+/S /URI
+/URI (http://mkdoc.com)
+>>
+endobj
+36 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 333.8 333.9 344.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 37 0 R
+/H /I
+>>
+endobj
+37 0 obj
+<<
+/S /URI
+/URI (http://books.slashdot.org/article.pl?sid=05/05/02/214235)
+>>
+endobj
+38 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 259.4 269.7 270.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 39 0 R
+/H /I
+>>
+endobj
+39 0 obj
+<<
+/S /URI
+/URI (http://www.oreilly.com/catalog/mysqlian/)
+>>
+endobj
+40 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 185.0 431.4 195.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 41 0 R
+/H /I
+>>
+endobj
+41 0 obj
+<<
+/S /URI
+/URI (ftp://ftp.cpan.org/pub/CPAN/authors/id/N/NW/NWCLARK/perl-5.8.7-RC1.tar.bz2)
+>>
+endobj
+42 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 173.0 385.3 183.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 43 0 R
+/H /I
+>>
+endobj
+43 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl-5.8.7-RC1/pod/perl587delta.pod)
+>>
+endobj
+44 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 86.6 290.1 97.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 45 0 R
+/H /I
+>>
+endobj
+45 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~gozer/mod_perl-2.0.0/)
+>>
+endobj
+46 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 74.6 407.0 85.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 47 0 R
+/H /I
+>>
+endobj
+47 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~gozer/mod_perl-2.0.0/docs/user/intro/overview.pod)
+>>
+endobj
+48 0 obj
+[ 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R  ]
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 31 0 R
+/Contents 29 0 R
+/Annots 48 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 51 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F20 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 771 4 4 re
+f
+Q
+BT
+1 0 0 1 110 770 Tm
+/F20 10 Tf
+0.0000 Tw
+(Nueva lista relacionada con Perl : gentoo-perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.2579 Tw
+(Dedicada a la implementación de Perl en la distribución Linux Gentoo. Aún sin mucho movimiento,) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(pero bastante prometedora. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.gentoo.org/main/en/lists.xml) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 707.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 708.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 707.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Gateway wireless hecho con Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 695.6 Tm
+0.9273 Tw
+(Un proyecto casero sobre cómo administrar un gateway wireless desde una vieja PC usando Linux y) Tj
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+(Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 671.6 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.perl.com/pub/a/2005/05/19/wireless_gw.html) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 645.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 646.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 645.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Parrot 0.2.0 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 633.2 Tm
+0.3329 Tw
+(Nueva versión de la máquina virtual que soportará a Perl 6 \(entre otros\). En esta versión se agrega) Tj
+1 0 0 1 102.0 621.2 Tm
+0.5764 Tw
+(soporte para el dispatch multimethod \(declaración de la misma subrutina con varios puntos de entrada) Tj
+1 0 0 1 102.0 609.2 Tm
+0.0000 Tw
+(según los parámetros con los que se llama\). Algo divertido de ver. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 585.2 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.parrotcode.org) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 558.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 559.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 558.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Pugs 6.2.5 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 546.8 Tm
+0.5807 Tw
+(Una implementación de Perl 6 antes que la implementación sobre Parrot, como para ir comprobando) Tj
+1 0 0 1 102.0 534.8 Tm
+1.6664 Tw
+(ciertas funcionalidades. Un soporte mejorado de objetos y la posibilidad de usar módulos de Perl5) Tj
+1 0 0 1 102.0 522.8 Tm
+0.0000 Tw
+(desde Perl 6. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 510.8 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/dist/Perl6-Pugs/) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 484.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 485.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 484.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Manipular documentos Word con Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 472.4 Tm
+0.0000 Tw
+(Ni una palabra que agregar, sólo satisfacción. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 460.4 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.perl.com/pub/a/2005/05/26/word_control.html) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 435 4 4 re
+f
+Q
+BT
+1 0 0 1 110 434 Tm
+/F20 10 Tf
+0.0000 Tw
+(Ofertas laborales varias de Ten Roses ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+(Unas observaciones importantes para estas ofertas : ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(Nombrar como referente a Walter Lamagna. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(En todos los casos, el lugar de trabajo es en la zona de Tribunales, Capital Federal. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(Se ofrece trabajo con continuidad y posibilidades ciertas de crecimiento. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(Se valora la capacidad de investigar e incorporar nuevas tecnologías. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(Enviar currículum vitae a hr@tenroses.com.ar ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 335.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 336.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 335.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Analista Funcional Senior \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 323.6 Tm
+2.1533 Tw
+(Estudiantes o graduados recientemente de las carreras de Ingeniería de Sistemas, Licenciatura en) Tj
+1 0 0 1 102.0 311.6 Tm
+0.0000 Tw
+(Sistemas o Ciencias de la Computación. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 299.6 Tm
+1.2731 Tw
+(Excluyente : Experiencia mínima 3 años como analista funcional de aplicaciones web. Muy buen) Tj
+1 0 0 1 102.0 287.6 Tm
+0.0000 Tw
+(manejo de Inglés Técnico e interacción con clientes del exterior. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 275.6 Tm
+1.1077 Tw
+(Preferente : Conocimientos de tecnologías web: Java, HTML, XML, etc., Conocimiento de Base de) Tj
+1 0 0 1 102.0 263.6 Tm
+1.7092 Tw
+(Datos, Experiencia en metodologías de desarrollo RUP y Agile, Conocimiento de herramientas de) Tj
+1 0 0 1 102.0 251.6 Tm
+0.0000 Tw
+(seguimiento de proyectos ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 225.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 226.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 225.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Java Developer Junior \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 213.2 Tm
+1.4477 Tw
+(Excluyente : Conocimientos de Java u otro lenguaje orientado a objetos, Conocimientos básicos en) Tj
+1 0 0 1 102.0 201.2 Tm
+0.0000 Tw
+(SQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 189.2 Tm
+0.0000 Tw
+(Preferente : Conocimientos de idioma inglés técnico, Conocimientos de HTML ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 162.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 163.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 162.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Java Developer \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 150.8 Tm
+1.3827 Tw
+(Excluyente : Experiencia de 2 años al menos en desarrollo de aplicaciones Web, en lenguaje Java,) Tj
+1 0 0 1 102.0 138.8 Tm
+0.0000 Tw
+(Conocimientos de SQL ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 126.8 Tm
+0.1370 Tw
+(Preferente : Conocimientos de XML/XSL, Conocimientos de idioma inglés técnico, Conocimientos) Tj
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(de GUI en Java \(AWT/SWING/Applets \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 88.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 89.4000000000001 4 4 re
+f
+Q
+BT
+1 0 0 1 110 88.4000000000001 Tm
+/F20 10 Tf
+0.0000 Tw
+(Front End Developer \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 76.4 Tm
+0.0000 Tw
+(Excluyente : Experiencia en HTML, CSS, Javascript. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(4) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+51 0 obj
+6419
+endobj
+52 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+53 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 731.0 264.4 741.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 54 0 R
+/H /I
+>>
+endobj
+54 0 obj
+<<
+/S /URI
+/URI (http://www.gentoo.org/main/en/lists.xml)
+>>
+endobj
+55 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 668.6 331.6 679.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 56 0 R
+/H /I
+>>
+endobj
+56 0 obj
+<<
+/S /URI
+/URI (http://www.perl.com/pub/a/2005/05/19/wireless_gw.html)
+>>
+endobj
+57 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 582.2 210.8 592.8]
+/Border [0 0 1]
+/C [1 1 0]
+/A 58 0 R
+/H /I
+>>
+endobj
+58 0 obj
+<<
+/S /URI
+/URI (http://www.parrotcode.org)
+>>
+endobj
+59 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 507.8 260.8 518.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 60 0 R
+/H /I
+>>
+endobj
+60 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/dist/Perl6-Pugs/)
+>>
+endobj
+61 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 457.4 336.6 468.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 62 0 R
+/H /I
+>>
+endobj
+62 0 obj
+<<
+/S /URI
+/URI (http://www.perl.com/pub/a/2005/05/26/word_control.html)
+>>
+endobj
+63 0 obj
+[ 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R  ]
+endobj
+64 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 52 0 R
+/Contents 50 0 R
+/Annots 63 0 R
+>>
+endobj
+65 0 obj
+<<
+/Length 66 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.7627 Tw
+(Preferente : Conocimientos de XML/XSL, Conocimientos de GUI en Java \(AWT/SWING/Applets \)) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(\(preferente, no excluyente\), Conocimientos de idioma ingles técnico \(lecto escritura\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 731.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 732.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 731.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Analista de QA \(Sr./Ssr.\) \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 719.6 Tm
+0.0000 Tw
+(Profesional o estudiante avanzado de Sistemas ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 707.6 Tm
+0.0000 Tw
+(Experiencia en posición similar. Armado de casos de prueba, validación y ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 695.6 Tm
+0.0000 Tw
+(verificación de requerimientos. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+(Conocimientos de SQL y bases de datos relacionales. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 671.6 Tm
+3.2760 Tw
+(Preferentemente con experiencia en desarrollo de aplicaciones web \(Java,JSP, JavaScript, JDBC,) Tj
+1 0 0 1 102.0 659.6 Tm
+0.0000 Tw
+(HTML, XML/XSL\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 647.6 Tm
+0.0000 Tw
+(Nivel intermedio o superior de inglés \(oral y escrito\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 621.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 622.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 621.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Business Systems Developer \(Ten Roses\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 609.2 Tm
+1.8554 Tw
+(We`re looking for a motivated self-starter to manage the design, administration, and deployment of) Tj
+1 0 0 1 102.0 597.2 Tm
+1.9150 Tw
+(accounting and business systems. This position will be responsible for day-to-day development and) Tj
+1 0 0 1 102.0 585.2 Tm
+0.7167 Tw
+(management of existing systems and for assisting in coming up with solutions that enhance the overall) Tj
+1 0 0 1 102.0 573.2 Tm
+0.9073 Tw
+(effectiveness of the internal processes using internally developed solutions and best-of-breed software.) Tj
+1 0 0 1 102.0 561.2 Tm
+0.1567 Tw
+(Areas of opportunity include systems that manage accounting, reporting, shipping, order tracking, CRM,) Tj
+1 0 0 1 102.0 549.2 Tm
+0.0000 Tw
+(SFA, and BPM. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 537.2 Tm
+2.7560 Tw
+(An ideal candidate will have at least 5 years experience in systems integration and will possess) Tj
+1 0 0 1 102.0 525.2 Tm
+0.0743 Tw
+(exceptional problem solving skills. More specifically, the applicant must be familiar with Great Plains or) Tj
+1 0 0 1 102.0 513.2 Tm
+1.6623 Tw
+(equivalent accounting software, be fluent in programming and managing MS Access, MS SQL, and) Tj
+1 0 0 1 102.0 501.2 Tm
+1.0286 Tw
+(PostgreSQL databases and be able to combine the information from disparate databases into a unified) Tj
+1 0 0 1 102.0 489.2 Tm
+0.0000 Tw
+(reporting methodology. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 477.2 Tm
+0.0000 Tw
+(Experience in the following areas would also be beneficial: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 465.2 Tm
+0.0000 Tw
+(Implementation of SFA and CRM solutions ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 453.2 Tm
+0.0000 Tw
+(Implementing BPM solutions ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 441.2 Tm
+0.0000 Tw
+(Great Plains integration manager ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 429.2 Tm
+0.0000 Tw
+(XML development ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 417.2 Tm
+0.0000 Tw
+(Writing functional requirements documentation. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 387.2 Tm
+0.0000 Tw
+(Mordiditas de aquí y de allá ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 375.2 Tm
+0.0000 Tw
+(Introducción ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 363.2 Tm
+0.2922 Tw
+(En esta primera entrega de Mordiditas de aquí y de allá vamos a empezar por algo simple, básico y) Tj
+1 0 0 1 102.0 351.2 Tm
+1.0776 Tw
+(más de una vez encarado : cómo ordenar un array. No te dejes engañar puede ser trillado, puede) Tj
+1 0 0 1 102.0 339.2 Tm
+0.1041 Tw
+(implementarse con una llamada a una función, pero vas a ver cómo las cosas pueden complicarse a tal) Tj
+1 0 0 1 102.0 327.2 Tm
+0.0000 Tw
+(punto que vas a cambiar tu opinión, y en el camino vas a aprender un par de cosas interesantes. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 303.2 Tm
+2.4420 Tw
+(La metodología de este artículo es la siguiente. Primero se presenta el problema junto con la) Tj
+1 0 0 1 102.0 291.2 Tm
+2.7587 Tw
+(solución cuestión que puedas usarlo como si fuera una receta, después viene la parte de la) Tj
+1 0 0 1 102.0 279.2 Tm
+0.0180 Tw
+(explicación de cómo se llega a esta receta final, y es la parte más jugosa de todo el asunto. Sin más,) Tj
+1 0 0 1 102.0 267.2 Tm
+0.0000 Tw
+(ahí vamos ... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 243.2 Tm
+0.0000 Tw
+(El problema y la receta ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 231.2 Tm
+2.5657 Tw
+(Cómo ordenar un array : simplemente usando la función sort\(\). Por default esta compara cada) Tj
+1 0 0 1 102.0 219.2 Tm
+1.4086 Tw
+(elemento del array como strings, entonces para hacerla un poco más flexible se permite especificar) Tj
+1 0 0 1 102.0 207.2 Tm
+0.5706 Tw
+(qué comparación usar , a través de una referencia a una sub anónima que tenga el código para) Tj
+1 0 0 1 102.0 195.2 Tm
+0.0000 Tw
+(poder comparar los mismos : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 165.2 Tm
+0.0000 Tw
+(    @ordered = sort \{ $a <=> $b \} @unordered; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 141.2 Tm
+0.1736 Tw
+(En este caso estamos suponiendo que el array tiene elementos numéricos, y hacemos la comparación) Tj
+1 0 0 1 102.0 129.2 Tm
+0.7871 Tw
+(basados en este aspecto \(tener en cuenta que los elementos a comparar son pasados a la sub anónima) Tj
+1 0 0 1 102.0 117.2 Tm
+0.0000 Tw
+(como $a y $b\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 93.2 Tm
+0.3008 Tw
+(Ahora bien, si el array tiene muuuuuuuuchos elementos y la comparación compleja, entonces podemos) Tj
+1 0 0 1 102.0 81.2 Tm
+0.0000 Tw
+(hacer que todo vaya un poco más rápido de la siguiente forma : ) Tj
+/F10 10 Tf
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 517.44 37 Tm
+(5) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+66 0 obj
+6163
+endobj
+67 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+68 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 67 0 R
+/Contents 65 0 R
+>>
+endobj
+69 0 obj
+<<
+/Length 70 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(    @ordered =  map \{ $_->[1] \} ) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(                sort \{ $a->[0] <=> $b->[0] \} ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(                map \{ [compute\(\), $_] \} @unordered; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+1.9294 Tw
+(Donde se hace una división de tareas : compute\(\) hace el cálculo de los valores complejos \(por) Tj
+1 0 0 1 102.0 710.0 Tm
+1.3550 Tw
+(ejemplo, substrings, longitudes, etc\) para ser calculados sólo una vez \(y que en definitiva es lo que) Tj
+1 0 0 1 102.0 698.0 Tm
+1.8129 Tw
+(enlentece el proceso\) y en la comparación sólo se compara usando los valores pre-calculados. Si) Tj
+1 0 0 1 102.0 686.0 Tm
+0.1750 Tw
+(tomamos como ejemplo que necesitamos ordenar un array basándonos en la longitud de sus elementos,) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(que son strings, entonces la ordenación sin optimizar sería : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+(    @ordered = sort \{ length $a <=> length $b \} @unordered; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 620.0 Tm
+2.0738 Tw
+(Si queremos hacer una optimización, entonces usamos la segunda forma pero usando la siguiente) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+(función compute\(\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(    @ordered =  map \{ $_->[1] \} ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(                sort \{ $a->[0] <=> $b->[0] \} ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(                map \{ [length $_, $_] \} @unordered; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 530.0 Tm
+0.1163 Tw
+(Si usás esta receta, entonces todo va a funcionar, vos vas a estar contento, te van a felicitar porque todo) Tj
+1 0 0 1 102.0 518.0 Tm
+0.8360 Tw
+(anda rápido, todos te van a querer tener de amigo ... pero vos no vas a saber por qué. Si querés) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(enterarte seguí leyendo, que no te vas a arrepentir. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(La explicación ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 482.0 Tm
+3.8669 Tw
+(Como suele ser costumbre en cada programa que encaramos generalmente se nos presenta la) Tj
+1 0 0 1 102.0 470.0 Tm
+0.2650 Tw
+(oportunidad de reusar algún algoritmo, método o cosa que se le parezca. Básicamente como somos) Tj
+1 0 0 1 102.0 458.0 Tm
+0.8125 Tw
+(muuuuuuy vagos no vamos a ponernos a pensar de nuevo el mismo problema que ya resolvimos, pero) Tj
+1 0 0 1 102.0 446.0 Tm
+1.6580 Tw
+(como nos gustan los desafíos también tenemos la oportunidad de hacer que cada vez sea más) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(fácil poder usar nuestros trabajos anteriores. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 410.0 Tm
+3.1721 Tw
+(Una de esas oportunidades es, sin duda, el ordenamiento de datos y particularmente cuando se) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(encuentran en un array \(sí, acertaste, nuestros queridos @array\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(Primero repasemos algunas características de los arrays : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 347.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 348.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 347.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(son una estructura de datos que, en otras palabras, es una forma de organizar la información ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 333.2 Tm
+0.9694 Tw
+() Tj
+ET
+q
+102 334.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 333.2 Tm
+/F20 10 Tf
+0.9694 Tw
+(constan de una cantidad de elementos que 1\) son todos del mismo tipo y 2\) están puestos) Tj
+1 0 0 1 102.0 321.2 Tm
+0.0000 Tw
+(bajo un mismo contenedor \(el array en si\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 306.8 Tm
+0.9400 Tw
+() Tj
+ET
+q
+102 307.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 306.8 Tm
+/F20 10 Tf
+0.9400 Tw
+(cada elemento se accede a través de un índice, que es un número entero que va entre) Tj
+1 0 0 1 102.0 294.8 Tm
+0.0000 Tw
+(dos valores máximo y mínimo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 282.8 Tm
+0.0000 Tw
+(Pero en Perl tienen ciertas características que los hacen versátiles : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 256.4 Tm
+0.3831 Tw
+() Tj
+ET
+q
+102 257.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 256.4 Tm
+/F20 10 Tf
+0.3831 Tw
+(En Perl los arrays comienzan con el elemento cero \( $array[0] es el primer elemento del array) Tj
+1 0 0 1 102.0 244.4 Tm
+0.0000 Tw
+(@array \) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 230.0 Tm
+1.0493 Tw
+() Tj
+ET
+q
+102 231 4 4 re
+f
+Q
+BT
+1 0 0 1 110 230 Tm
+/F20 10 Tf
+1.0493 Tw
+(Cuando se los define no se especifica el tamaño de la dimensión \(cantidad de elementos) Tj
+1 0 0 1 102.0 218.0 Tm
+0.1112 Tw
+(que va a contener\) sino que a medida que se van agregando o quitando elementos al mismo y) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(este automágicamente va ajustando su tamaño \(arrays dinámicos\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 194.0 Tm
+0.6765 Tw
+(Ahora bien toda magia necesita tener un mago para lucirse \(o era al revés ?\) y en este caso un array) Tj
+1 0 0 1 102.0 182.0 Tm
+1.2976 Tw
+(por si mismo puede quedar muy bonito pero si no podemos operar con él entonces estamos en un) Tj
+1 0 0 1 102.0 170.0 Tm
+0.7857 Tw
+(problema \(usamos memoria para almacenar algo que después no sabemos usar\). Una de las bellezas) Tj
+1 0 0 1 102.0 158.0 Tm
+0.4771 Tw
+(de los arrays es que una vez que sabemos realizar una operación sobre uno de los elementos, entonces) Tj
+1 0 0 1 102.0 146.0 Tm
+0.0000 Tw
+(podemos actuar sobre cualquiera de los elementos en de la misma forma. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 122.0 Tm
+0.6744 Tw
+(Por ejemplo, supongamos tenemos un array con 12 elementos y que cada elemento es nuestro gasto en) Tj
+1 0 0 1 102.0 110.0 Tm
+0.6807 Tw
+(cursos de Perl de los últimos doce meses. De repente recordamos que estos valores que almacenamos) Tj
+1 0 0 1 102.0 98.0 Tm
+1.0713 Tw
+(son sin impuestos, y para que no tengamos problemas de contabilidad es que necesitamos agregarle a) Tj
+1 0 0 1 102.0 86.0 Tm
+0.4967 Tw
+(cada mes un 21% de impuestos. Básicamente lo que hacemos es, al primer elemento multiplicarlo por) Tj
+1 0 0 1 102.0 74.0 Tm
+0.0000 Tw
+(1.21, al segundo por 1.21 ... y así hasta el último : ) Tj
+/F10 10 Tf
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(6) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+70 0 obj
+6453
+endobj
+71 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+72 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 71 0 R
+/Contents 69 0 R
+>>
+endobj
+73 0 obj
+<<
+/Length 74 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(    $array[0] .= 1.21; ) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(    $array[1] .= 1.21; ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(    ... ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(    $array[10] .= 1.21; ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(    $array[11] .= 1.21; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.5105 Tw
+(Esto es fácil, gracias al copy & paste, si sabemos que la cantidad de elementos del array es definida y) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(conocida de antemano. Pero también observando y generalizando podemos decir que : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 656.0 Tm
+0.0000 Tw
+(    # Para todo elemento $i del array : ) Tj
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+(    $array[$i] .= 1.21; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 620.0 Tm
+0.0000 Tw
+(Ajhá, entonces ... por qué no usar un loop \(for, while o algo por el estilo\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(    for $i \( 0 .. 11 \) \{ ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(        $array[$i] .= 1.21; ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(    \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 542.0 Tm
+0.5038 Tw
+(Supongamos que ahora queremos ordenar nuestro array de mayor a menor, y así saber que valores de) Tj
+1 0 0 1 102.0 530.0 Tm
+0.2807 Tw
+(dinero \(máximo y mínimo\) hemos gastado en nuestra educación en Perl. Una vez ordenado el array) Tj
+1 0 0 1 102.0 518.0 Tm
+0.2950 Tw
+(de mayor a menor, $array[0] contendrá el mayor gasto y $array[11] el menor \(ahora con los impuestos) Tj
+1 0 0 1 102.0 506.0 Tm
+0.2929 Tw
+(incluidos ;-\) \). Para hacerlo, no hay más que llamar a nuestra querida sort\(\), indicándole que vamos a) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(comparar números, y todo está listo !!! ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+(    @array2 = sort \{ $a <=> $b \} @array; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.3127 Tw
+(Hasta acá todo muy bonito, porque cuando tenemos unos pocos elementos se usa poca memoria, hacer) Tj
+1 0 0 1 102.0 428.0 Tm
+1.1747 Tw
+(operaciones no se tarda mucho y ya. Pero si tenemos un array que tiene muchos elementos y nuestra) Tj
+1 0 0 1 102.0 416.0 Tm
+2.6785 Tw
+(función de comparación es un poco complicada \(más tarde vamos a cuantificar que significa) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+(?muchos elementos? y ?un poco complicada?, entonces todo se aclara un poco\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 380.0 Tm
+1.0588 Tw
+(Básicamente cada vez que sort\(\) tiene que comparar dos elementos llama a nuestra sub, lo que hace) Tj
+1 0 0 1 102.0 368.0 Tm
+0.7378 Tw
+(unas 46 veces para ordenar un array de 10 elementos. El número se eleva a 14.000 cuando son 1.000) Tj
+1 0 0 1 102.0 356.0 Tm
+0.4907 Tw
+(elementos, así que imagínense como sigue creciendo esto para números más altos. Entonces si la) Tj
+1 0 0 1 102.0 344.0 Tm
+0.0514 Tw
+(sub de comparación comienza a complicarse más allá de una comparación, tenemos que ver cómo) Tj
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+(hacer para que este impacto sea lo menos posible. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 308.0 Tm
+0.1005 Tw
+(El por qué de esto parece un poco en el aire, como traído de los pelos. Para esto vamos a analizar un) Tj
+1 0 0 1 102.0 296.0 Tm
+1.3600 Tw
+(algoritmo de ordenación. Uno de los más simples es el de selección, el que consiste en tomar el) Tj
+1 0 0 1 102.0 284.0 Tm
+1.0360 Tw
+(primer elemento de un array, compararlo con todos los demás elementos hasta que se encuentre con) Tj
+1 0 0 1 102.0 272.0 Tm
+0.4637 Tw
+(uno menor, entonces se intercambian ambos de lugar \(swap\) y se sigue así hasta el último elemento.) Tj
+1 0 0 1 102.0 260.0 Tm
+0.1758 Tw
+(De esta forma, luego de esta primera pasada, el primer elemento será el menor de todo el array. En una) Tj
+1 0 0 1 102.0 248.0 Tm
+1.7069 Tw
+(segunda pasada empezaríamos con el segundo elemento y lo comparamos con todos los restantes,) Tj
+1 0 0 1 102.0 236.0 Tm
+0.6611 Tw
+(quedando el primer elemento como el menor de todo el array y el segundo como el segundo menor. Si) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0461 Tw
+(seguimos así, al hacer la pasada N-1 \(donde N es la cantidad de elementos del array\) tendremos todo el) Tj
+1 0 0 1 102.0 212.0 Tm
+0.0000 Tw
+(array ordenado de menor a mayor. Un ejemplo : ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+(Array desordenado : ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+([40,21,4,9,10,35] ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+(Primera pasada: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+([21,40,4,9,10,35] <\217 se comparan el 40 y el 21 \(se intercambian por ser 21 el menor\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+([4,40,21,9,10,35] <\217 se comparan el 21 y el 4 \(se intercambian por ser 4 el menor\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+([4,40,21,9,10,35] <\217 se comparan el 4 y el 9 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+([4,40,21,9,10,35] <\217 se comparan el 4 y el 10 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+([4,40,21,9,10,35] <\217 se comparan el 4 y el 35 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+(Segunda pasada: ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 517.44 37 Tm
+(7) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+74 0 obj
+5504
+endobj
+75 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+76 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 75 0 R
+/Contents 73 0 R
+>>
+endobj
+77 0 obj
+<<
+/Length 78 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+([4,21,40,9,10,35] <\217 se comparan el 40 y el 21 \(se intercambian por ser 21 el menor\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+([4,9,40,21,10,35] <\217 se comparan el 21 y el 9 \(se intercambian por ser 9 el menor\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+([4,9,40,21,10,35] <\217 se comparan el 9 y el 10 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+([4,9,40,21,10,35] <\217 se comparan el 9 y el 35 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+1.7606 Tw
+(Como vemos, luego de la segunda pasada tenemos que los dos primeros elementos \(4 y 9\) son los) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(menores del array. Al finalizar la quinta pasada, el array quedará ordenado : [4,9,10,21,35,40]. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 674.0 Tm
+0.5871 Tw
+(En este punto ya podemos mostrar que en la primer pasada se hicieron 5 comparaciones, en la segunda) Tj
+1 0 0 1 102.0 662.0 Tm
+0.4126 Tw
+(4, en la tercera 3, en la cuarta 2 y en la quinta 1 \(quedan sólo dos elementos\) con lo cual se han hecho) Tj
+1 0 0 1 102.0 650.0 Tm
+1.1050 Tw
+(15 comparaciones en un array de 6 elementos. Ahora que queda un poco más claro el por qué se) Tj
+1 0 0 1 102.0 638.0 Tm
+0.1514 Tw
+(necesitan muchas más comparaciones que elementos tiene el array, también hay que aclarar que esto) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(depende del método de ordenación que se utilice. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.2793 Tw
+(Volviendo a nuestro análisis del uso de sort\(\) optimizado para velocidad, nuestra sub de comparación) Tj
+1 0 0 1 102.0 590.0 Tm
+0.3788 Tw
+(consta del cómputo de los distintos valores \(para $a y $b y su comparación\). Por ejemplo, si tenemos) Tj
+1 0 0 1 102.0 578.0 Tm
+0.5882 Tw
+(que comparar un array que tiene referencias a un hash y queremos ordenar por la longitud del apellido,) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(entonces esto se convierte en : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+(    sort \{ length \($a->\{apellido\}\) <=> length \($b->\{apellido\}\) \) \} @data ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+(y si además queremos agregar que si tienen igual longitud ordenar por el nro. de documento : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+(    sort \{ \(length \($a->\{apellido\}\) <=> length \($b->\{apellido\}\) \) ) Tj
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(            || \($a->\{documento\} <=> $b->\{documento\}\) \) \) \} @data ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+1.3229 Tw
+(vemos que siempre se presenta una parte da calculo que puede ser tan simple como extraer un valor) Tj
+1 0 0 1 102.0 434.0 Tm
+0.6989 Tw
+(\($a-) Tj
+/F00 10 Tf
+0.6989 Tw
+(\{documento\}, $b-) Tj
+/F00 10 Tf
+0.6989 Tw
+(\{documento\}\) o realizar un cálculo \(length $a-) Tj
+/F00 10 Tf
+0.6989 Tw
+(\{apellido\}, length $b-) Tj
+/F00 10 Tf
+0.6989 Tw
+(\{apellido\}\)) Tj
+1 0 0 1 102.0 422.0 Tm
+0.4419 Tw
+(y posteriormente se hace la comparación de estos valores. Lo cierto es que para cada comparación se) Tj
+1 0 0 1 102.0 410.0 Tm
+0.6416 Tw
+(hacen los cálculos cada vez que se necesitan, y este es uno de los puntos que nos consume tiempo en) Tj
+1 0 0 1 102.0 398.0 Tm
+0.2154 Tw
+(forma innecesaria, ya que una vez calculados estos valores podrían almacenarse y reutilizarse \(veamos) Tj
+1 0 0 1 102.0 386.0 Tm
+1.2893 Tw
+(que si para ordenar 1.000 elementos se hacen 14.000 comparaciones, entonces eso significa que para) Tj
+1 0 0 1 102.0 374.0 Tm
+1.3425 Tw
+(todos lo elementos la porción del cálculo se hace al menos una vez durante la comparación\). En) Tj
+1 0 0 1 102.0 362.0 Tm
+0.1361 Tw
+(nuestro caso lo que causa estos problemas es el cálculo de la longitud del apellido, con lo que podemos) Tj
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+(hacer un pre-cálculo y almacenarlo en un array para su posterior uso. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 326.0 Tm
+0.6847 Tw
+(Para esta tarea nos valemos de una pequeña ayuda, que es la función map\(\). Esta nos permite hacer) Tj
+1 0 0 1 102.0 314.0 Tm
+2.3580 Tw
+(una iteración de todos los elementos de una lista, accediéndolos a través de la variable $_,) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0581 Tw
+(operando sobre los mismos y devolviéndolos en un contexto de lista. Para obtener la longitud de todos) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(los elementos de un array, y almacenarlos en otro array, tenemos : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 260.0 Tm
+0.0000 Tw
+(    @longitud = map \{ length $_ \} @strings; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+(Ahora bien, volviendo a la etapa del pre-cálculo usando map\(\), esta nos queda : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(    @temp = map \{ [ length $_->\{apellido\}, $_] \} @data; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 182.0 Tm
+1.8727 Tw
+(Listo, ya tenemos en @temp no solo los elementos sino también los cálculos de las longitudes) Tj
+1 0 0 1 102.0 170.0 Tm
+0.0000 Tw
+(correspondientes, almacenados como una referencia a un array de dos elementos, de la siguiente forma : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(    ... ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(    $temp[$i]->[0] = length $array[$i]->\{apellido\};) Tj
+1 0 0 1 438.0 116.0 Tm
+0.0000 Tw
+( ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+(                    ## valor pre-calculado en base al elemento $i ) Tj
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+(    $temp[$i]->[1] = $array[$i]; ) Tj
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+(                    ## valor del elemento $i ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(8) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+78 0 obj
+5827
+endobj
+79 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+80 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 79 0 R
+/Contents 77 0 R
+>>
+endobj
+81 0 obj
+<<
+/Length 82 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(    ... ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+1.6093 Tw
+(Ahora que llegamos a este punto simplemente nos queda hacer el sort\(\) pero solamente haciendo la) Tj
+1 0 0 1 102.0 722.0 Tm
+1.2129 Tw
+(comparación de los valores pre-calculados \(si calculamos de nuevo perdemos la ventaja y el tiempo) Tj
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(usado en generar @temp\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+(    @temp2 = sort \{ \($a->[0] <=> $b->[0] \) ) Tj
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+(                    || \($a->[1]->\{documento\} <=> $b->[1]->\{documento\}\) \} @temp; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 644.0 Tm
+1.0747 Tw
+(A no desesperar, falta un último paso, y es que ahora tenemos el array ordenado pero los elementos) Tj
+1 0 0 1 102.0 632.0 Tm
+0.0000 Tw
+(originales están en $temp[$i]-) Tj
+/F00 10 Tf
+0.0000 Tw
+([1], con lo cual debemos desreferenciarlos : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(    @ordenados = map \{ $_->[1] \} @temp2; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 578.0 Tm
+0.1722 Tw
+(Pero bien, en vez de usar esta sucesión de arrays podemos utilizarlos en cascada \(o pipe, como más te) Tj
+1 0 0 1 102.0 566.0 Tm
+0.5633 Tw
+(guste ;-\) \), aprovechando directamente la operación de una parte de la optimización como entrada de) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(la otra : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(    @ordenados = map \{ $_->[1] \} ) Tj
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+(                 sort \{ \($a->[0] <=> $b->[0] \) ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+(                        || \($a->[1]->\{documento\} <=> $b->[1]->\{documento\}\) \} ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+(                 map \{ [ length $_->\{apellido\}, $_] \} @data; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 464.0 Tm
+1.4567 Tw
+(Ahora si, ya sabemos cómo deslumbrar y por qué lo hicimos pero ... todavía no cuantificamos) Tj
+1 0 0 1 102.0 452.0 Tm
+0.1244 Tw
+(cuándo es muchos elementos en un array y cuándo una evaluación es muy pesada como para utilizar) Tj
+1 0 0 1 102.0 440.0 Tm
+0.2694 Tw
+(este método en lugar del sort simple \(vamos, que tenemos que justificar que todo este esfuerzo no fue) Tj
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+(en vano\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 404.0 Tm
+0.0037 Tw
+(Antes que nada una aclaración para poner en contextos las pruebas de performance. Todos los scripts se) Tj
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+(ejecutaron en el siguiente equipo : ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 365.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 366.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 365.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Apple PowerBook con procesador PowerPC G3 de 400 MHz, 768 MB de RAM ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 351.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 352.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 351.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Sistema operativo Mac OS X 10.3.9 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 336.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 337.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 336.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Perl v5.8.1-RC3 built for darwin-thread-multi-2level ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 322.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 323.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 322.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(módulo Benchmark v1.0501 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 310.4 Tm
+2.8771 Tw
+(Como siempre, y para estos menesteres, viene en nuestra ayuda un módulo de CPAN llamado) Tj
+1 0 0 1 102.0 298.4 Tm
+2.9985 Tw
+(Benchmark \(\). En principio nos permite ejecutar trozos de código en forma repetida \(función) Tj
+1 0 0 1 102.0 286.4 Tm
+0.7508 Tw
+(timethese\(\)\) y su posterior análisis \(función cmpthese\(\)\). Veamos el script básico usado para tratar) Tj
+1 0 0 1 102.0 274.4 Tm
+0.0000 Tw
+(de cuantificar este punto : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 244.4 Tm
+0.0000 Tw
+(    #!/usr/bin/perl ) Tj
+1 0 0 1 102.0 220.4 Tm
+0.0000 Tw
+(    use strict; ) Tj
+1 0 0 1 102.0 208.4 Tm
+0.0000 Tw
+(    use warnings; ) Tj
+1 0 0 1 102.0 196.4 Tm
+0.0000 Tw
+(    use Benchmark qw\(:all\) ; ) Tj
+1 0 0 1 102.0 172.4 Tm
+0.0000 Tw
+(    sub getArrayRandom\($\); ) Tj
+1 0 0 1 102.0 148.4 Tm
+0.0000 Tw
+(    my $count = -4;) Tj
+1 0 0 1 246.0 148.4 Tm
+0.0000 Tw
+(## ejecuta el test durante 4 segundos para cada sub\(\) ) Tj
+1 0 0 1 102.0 136.4 Tm
+0.0000 Tw
+(    my $items = 10000;) Tj
+1 0 0 1 246.0 136.4 Tm
+0.0000 Tw
+(## No. of array elements ) Tj
+1 0 0 1 102.0 112.4 Tm
+0.0000 Tw
+(    my \(@strings, @sorted\); ) Tj
+1 0 0 1 102.0 88.4 Tm
+0.0000 Tw
+(    getArrayRandom\( \\@strings \); ) Tj
+1 0 0 1 102.0 64.4 Tm
+0.0000 Tw
+(    print "Ejecutando para '$items' items y durante '". \(-$count\)."'segundos\\n\\n\\n"; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 517.44 37 Tm
+(9) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+82 0 obj
+4875
+endobj
+83 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+84 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 83 0 R
+/Contents 81 0 R
+>>
+endobj
+85 0 obj
+<<
+/Length 86 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(    my $results = timethese\($count, \{ ) Tj
+1 0 0 1 150.0 746.0 Tm
+0.0000 Tw
+(            'zeroOrder' => sub \{ ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(                        @sorted = sort computeAndCompareStrSimple @strings; ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(                        \}, ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(                'optimal' => sub \{ ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(                        @sorted = ) Tj
+1 0 0 1 342.0 686.0 Tm
+0.0000 Tw
+(map \{ $_->[1] \} ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(                                    sort \{ $a->[0] <=> $b->[0] \} ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(                                    map \{ [ computeOptSimple\($_\) , $_ ] \} @strings; ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(                                 \}, ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(                             \}\); ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(    cmpthese\( $results \) ; ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(    sub computeOptSimple\($\) \{ ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(        return length $_[0]; ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(    \}; ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(    sub computeAndCompareStrSimple\($$\) \{ ) Tj
+1 0 0 1 102.0 530.0 Tm
+0.0000 Tw
+(        return \( \(length $_[0]\) <=> \(length $_[1]\)\); ) Tj
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(    \}; ) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(    sub getArrayRandom\($\) \{ ) Tj
+1 0 0 1 102.0 482.0 Tm
+0.0000 Tw
+(        my $ref = shift; ) Tj
+1 0 0 1 102.0 458.0 Tm
+0.0000 Tw
+(        for\( my $i=0; $i < $items; $i++ \) \{ ) Tj
+1 0 0 1 102.0 446.0 Tm
+0.0000 Tw
+(            my \($string, $len\) = \( "", int\( rand\(100\) \) \); ) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(            $string .= chr\( int\( rand\(254\) \) \) ) Tj
+1 0 0 1 102.0 422.0 Tm
+0.0000 Tw
+(            while \( \(length $string\) < $len \); ) Tj
+1 0 0 1 102.0 410.0 Tm
+0.0000 Tw
+(                push @$ref, $string; ) Tj
+1 0 0 1 102.0 398.0 Tm
+0.0000 Tw
+(        \}; ) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(     \}; ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0400 Tw
+(En este caso vamos a comparar dos códigos llamados `zeroOrder' y `optimal' correspondientes a el sort) Tj
+1 0 0 1 102.0 350.0 Tm
+0.3527 Tw
+(simple/tradicional y la optimizada \(descripta en este artículo\) respectivamente. Al ejecutarlo \(observar) Tj
+1 0 0 1 102.0 338.0 Tm
+0.4984 Tw
+(que se hace una comparación simple de con 4 segundos de CPU cada uno y un array de 10.000 items,) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(obtenemos los siguientes números : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 296.0 Tm
+0.0000 Tw
+(    Ejecutando para '10000' items y durante '4' segundos ) Tj
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+(    Benchmark: running optimal, zeroOrder for at least 4 CPU seconds... ) Tj
+1 0 0 1 150.0 248.0 Tm
+0.0000 Tw
+(optimal: 13 wallclock secs \( 4.23 usr + 0.07 sys = 4.30 CPU\) @ 1.16/s \(n=5\) ) Tj
+1 0 0 1 150.0 236.0 Tm
+0.0000 Tw
+(zeroOrder : 12 wallclock secs \( 4.17 usr + 0.04 sys = 4.21 CPU\) @ 2.38/s \(n=10\) ) Tj
+1 0 0 1 198.0 212.0 Tm
+0.0000 Tw
+(            Rate    optimal zeroOrder ) Tj
+1 0 0 1 102.0 200.0 Tm
+0.0000 Tw
+(        optimal ) Tj
+1 0 0 1 246.0 200.0 Tm
+0.0000 Tw
+(1.16/s    --      -51% ) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+(        zeroOrder ) Tj
+1 0 0 1 246.0 188.0 Tm
+0.0000 Tw
+(2.38/s   104%      -- ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+0.0641 Tw
+(Mmmmmm ... malo, malo ... el código sin optimizar corre más rápido que el optimizado, con lo cual) Tj
+1 0 0 1 102.0 152.0 Tm
+0.9019 Tw
+(seguramente una de las cosas que puede estar pasando es que estamos gastando demasiado en usar un) Tj
+1 0 0 1 102.0 140.0 Tm
+0.9012 Tw
+(sistema más indirecto y que consume más recursos en generar un ahorro que el ahorro mismo \(hay) Tj
+1 0 0 1 102.0 128.0 Tm
+0.3620 Tw
+(que notar que si bien ahorro tiempo pre-calculando también se consume tiempo en realizar dos map\(\)) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(extras, y estos últimos podrían llegar a consumir demasiado\) . ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 92.0 Tm
+2.5593 Tw
+(Bueno, vayamos un poco más lejos y subamos la complejidad de la comparación, usando una) Tj
+1 0 0 1 102.0 80.0 Tm
+0.4194 Tw
+(función que consuma un poco más de recursos, extrayendo una cifra del elemento del string \(ver que) Tj
+1 0 0 1 102.0 68.0 Tm
+2.5017 Tw
+(los elementos están generados al azar\) y comparándolos. Si analizamos la implementación de) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(10) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+86 0 obj
+4806
+endobj
+87 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+88 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 87 0 R
+/Contents 85 0 R
+>>
+endobj
+89 0 obj
+<<
+/Length 90 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.6475 Tw
+(computeAndCompareStr\(\) y computeOpt\(\) vamos a ver que está hecha con expresiones regulares que) Tj
+1 0 0 1 102.0 758.0 Tm
+2.2029 Tw
+(en principio aceptemos son un punto importante de discusión al momento de la performance \(en) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(general consumidoras de CPU\) : ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 716.0 Tm
+0.0000 Tw
+(    #!/usr/bin/perl ) Tj
+1 0 0 1 102.0 692.0 Tm
+0.0000 Tw
+(    use strict; ) Tj
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+(    use warnings; ) Tj
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+(    use Benchmark qw\(:all\) ; ) Tj
+1 0 0 1 102.0 644.0 Tm
+0.0000 Tw
+(    sub getArrayRandom\($\); ) Tj
+1 0 0 1 102.0 620.0 Tm
+0.0000 Tw
+(    my $count = -8; ) Tj
+1 0 0 1 246.0 620.0 Tm
+0.0000 Tw
+(## ejecuta el test durante 8 segundos para cada sub\(\) ) Tj
+1 0 0 1 102.0 608.0 Tm
+0.0000 Tw
+(    my $items = 10000; ) Tj
+1 0 0 1 246.0 608.0 Tm
+0.0000 Tw
+(## No. of array elements ) Tj
+1 0 0 1 102.0 584.0 Tm
+0.0000 Tw
+(    my \(@strings, @sorted\); ) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+(    getArrayRandom\( \\@strings \); ) Tj
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+(    print "Ejecutando para '$items' items y durante '". \(-$count\)."' segundos\\n\\n\\n"; ) Tj
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+(    my $results = timethese\($count, \{ ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+(        ) Tj
+1 0 0 1 198.0 500.0 Tm
+0.0000 Tw
+('zeroOrder' => sub \{ ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+(                @sorted = sort computeAndCompareStr @strings; ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+(            \}, ) Tj
+1 0 0 1 102.0 452.0 Tm
+0.0000 Tw
+(            'optimal' => sub \{ ) Tj
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+(                @sorted = map \{ $_->[1] \} ) Tj
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+(                          sort \{ $a->[0] <=> $b->[0] \} ) Tj
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+(                          map \{ [ computeOpt\($_\) , $_ ] \} @strings; ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+(            \}, ) Tj
+1 0 0 1 102.0 392.0 Tm
+0.0000 Tw
+(            \}\); ) Tj
+1 0 0 1 102.0 368.0 Tm
+0.0000 Tw
+(            cmpthese\( $results \) ; ) Tj
+1 0 0 1 102.0 344.0 Tm
+0.0000 Tw
+(    sub computeOpt\($\) \{ ) Tj
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+(        $_[0] =~ /\(\\d+\)/; ) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+(        return $1 || 0; ) Tj
+1 0 0 1 102.0 308.0 Tm
+0.0000 Tw
+(    \}; ) Tj
+1 0 0 1 102.0 284.0 Tm
+0.0000 Tw
+(    sub computeAndCompareStr\($$\) \{ ) Tj
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+(        $_[0] =~ /\(\\d+\)/; ) Tj
+1 0 0 1 102.0 260.0 Tm
+0.0000 Tw
+(        my $x = $1 || 0; ) Tj
+1 0 0 1 102.0 248.0 Tm
+0.0000 Tw
+(        $_[1] =~ /\(\\d+\)/; ) Tj
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+(        return \($x <=> \($1 || 0\)\); ) Tj
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+(        \}; ) Tj
+1 0 0 1 102.0 200.0 Tm
+0.0000 Tw
+(    sub getArrayRandom\($\) \{ ) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+(        my $ref = shift; ) Tj
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+(        for\( my $i=0; $i < $items; $i++ \) \{ ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+(            my \($string, $len\) = \( "", int\( rand\(100\) \) \); ) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(            $string .= chr\( int\( rand\(254\) \) \) ) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(               while \( \(length $string\) < $len \); ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(            push @$ref, $string; ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+(        \}; ) Tj
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+(    \}; ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 511.88 37 Tm
+(11) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+90 0 obj
+3695
+endobj
+91 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+92 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 91 0 R
+/Contents 89 0 R
+>>
+endobj
+93 0 obj
+<<
+/Length 94 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0.0000 Tw
+(Y al ejecutarlo obtenemos : ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(Ejecutando para `10000' items y durante `8' segundos ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(Benchmark: running optimal, zeroOrder for at least 8 CPU seconds... ) Tj
+/F10 10 Tf
+1 0 0 1 150.0 710.0 Tm
+0.0000 Tw
+(optimal: 26 wallclock secs \( 8.34 usr + 0.17 sys = 8.51 CPU\) @ 1.18/s \(n=10\) ) Tj
+1 0 0 1 150.0 698.0 Tm
+0.0000 Tw
+(zeroOrder: 26 wallclock secs \( 8.60 usr + 0.10 sys = 8.70 CPU\) @ 0.57/s \(n=5\) ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(                    s/iter  zeroOrder optimal ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(        zeroOrder    1.74       --      -51% ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(        optimal ) Tj
+1 0 0 1 246.0 650.0 Tm
+0.0000 Tw
+(0.851      104%      -- ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.1678 Tw
+(Ahora si, esto va tomando color no es cierto ?? Finalmente no pude sucumbir y decidí darle una vuelta) Tj
+1 0 0 1 102.0 614.0 Tm
+0.6312 Tw
+(de rosca adicional para ver cuál es el límite para decidir qué son muchos elementos, y empezar a) Tj
+1 0 0 1 102.0 602.0 Tm
+1.0656 Tw
+(disminuir la cantidad. La verdad es que aún con 10 elementos y la última búsqueda \(compleja\) el) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(método mejorado resultó un 20% mejor que el método directo. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(Conclusiones ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 542.0 Tm
+0.1864 Tw
+(Si en la ordenación de una array, la comparación de los elementos conlleva operaciones típicamente) Tj
+1 0 0 1 102.0 530.0 Tm
+0.8607 Tw
+(consumidoras de recursos \(en su mayoría CPU\) es conveniente usar el método indirecto aún con) Tj
+1 0 0 1 102.0 518.0 Tm
+1.0513 Tw
+(pocos elementos \(aún con 10 podría ser efectivo\). En cambio si se trata de comparaciones simples) Tj
+1 0 0 1 102.0 506.0 Tm
+0.4927 Tw
+(podría bastar con la forma simple, aún para 10.000 elementos, según las comparaciones. Si se trata) Tj
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(de comparaciones simples con pocos elementos, olvídalo, no hay problemas a resolver. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 470.0 Tm
+0.0000 Tw
+(Infografía ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 443.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 444.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 443.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Métodos de ordenamiento : ) Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://algoritmia.net/articles.php?id=31) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 429.2 Tm
+0 Tw
+() Tj
+ET
+q
+102 430.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 429.2 Tm
+/F20 10 Tf
+0 Tw
+(Sorting a list by a computable field \(Perl CookBook\) :) Tj
+1 0 0 1 102.0 417.2 Tm
+0.0000 Tw
+() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.unix.org.ua/orelly/perl/cookbook/ch04_16.htm) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 402.8 Tm
+0 Tw
+() Tj
+ET
+q
+102 403.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 402.8 Tm
+/F20 10 Tf
+0 Tw
+(Benchmark - benchmark running times of Perl code :) Tj
+1 0 0 1 102.0 390.8 Tm
+0.0000 Tw
+() Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl-5.8.6/lib/Benchmark.pm) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 376.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 377.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 376.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Perl builtin functions : ) Tj
+/F22 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod) Tj
+/F20 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 358.4 Tm
+0.0000 Tw
+(CaFe Perl en Perl ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 346.4 Tm
+0.4500 Tw
+(Y sigue el avance ... aunque se ha convertido casi en una cuestión puramente personal, de a poco todo) Tj
+1 0 0 1 102.0 334.4 Tm
+1.0258 Tw
+(va tomando su color. En este mes el enfoque fue hacia la facilidad de edición. Para esto la meta era) Tj
+1 0 0 1 102.0 322.4 Tm
+1.3520 Tw
+(poder usar un editor de texto con capacidades avanzadas \(al estilo de Koffice, OpenOffice.org o MS) Tj
+1 0 0 1 102.0 310.4 Tm
+1.1935 Tw
+(Word\) y a partir de ahí generar el formato POD, en lugar de trabajar sobre POD directamente que,) Tj
+1 0 0 1 102.0 298.4 Tm
+0.0000 Tw
+(convengamos, se empieza a hacer tedioso si se usa más allá de los comentarios en un programa. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 274.4 Tm
+0.2447 Tw
+(La meta fue cumplida parcialmente, hoy en día esta es la primer edición editada con OpenOffice.org,) Tj
+1 0 0 1 102.0 262.4 Tm
+0.6700 Tw
+(y convertida a formato POD usando el programa myoo2pod.pl. Este último no es más ni menos que) Tj
+1 0 0 1 102.0 250.4 Tm
+0.6929 Tw
+(una mejora del ejemplo oo2pod que viene incluido en el módulo OpenOffice::OODoc, pero que aún) Tj
+1 0 0 1 102.0 238.4 Tm
+0.6557 Tw
+(le falta implementar, básicamente, la traducción de los formatting codes \(bold, italic, links, etc.\) que) Tj
+1 0 0 1 102.0 226.4 Tm
+0.0000 Tw
+(son agregados en una tarea de post-edición manual sobre el formato POD. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 202.4 Tm
+0.8883 Tw
+(Como de costumbre si quieren saber un poco más de qué se trata, colaborar con esta mejora en la) Tj
+1 0 0 1 102.0 190.4 Tm
+0.7438 Tw
+(edición a través de la programación, o lo que sea pueden contactarme a victor \{at\} bit-man \{dot\}) Tj
+1 0 0 1 102.0 178.4 Tm
+0 Tw
+(com \{dot\} ar o acceder a la página web de esta mini-cruzada :) Tj
+1 0 0 1 102.0 166.4 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.bit-man.com.ar/es/CaFePMenPerl) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(12) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+94 0 obj
+5893
+endobj
+95 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+96 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [234.0 440.6 405.2 451.2]
+/Border [0 0 1]
+/C [1 1 0]
+/A 97 0 R
+/H /I
+>>
+endobj
+97 0 obj
+<<
+/S /URI
+/URI (http://algoritmia.net/articles.php?id=31)
+>>
+endobj
+98 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [113.0 414.2 366.2 424.8]
+/Border [0 0 1]
+/C [1 1 0]
+/A 99 0 R
+/H /I
+>>
+endobj
+99 0 obj
+<<
+/S /URI
+/URI (http://www.unix.org.ua/orelly/perl/cookbook/ch04_16.htm)
+>>
+endobj
+100 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [113.0 387.8 384.6 398.4]
+/Border [0 0 1]
+/C [1 1 0]
+/A 101 0 R
+/H /I
+>>
+endobj
+101 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl-5.8.6/lib/Benchmark.pm)
+>>
+endobj
+102 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [198.8 373.4 436.8 384.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 103 0 R
+/H /I
+>>
+endobj
+103 0 obj
+<<
+/S /URI
+/URI (http://search.cpan.org/~nwclark/perl/pod/perlfunc.pod)
+>>
+endobj
+104 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 163.4 288.8 174.0]
+/Border [0 0 1]
+/C [1 1 0]
+/A 105 0 R
+/H /I
+>>
+endobj
+105 0 obj
+<<
+/S /URI
+/URI (http://www.bit-man.com.ar/es/CaFePMenPerl)
+>>
+endobj
+106 0 obj
+[ 96 0 R 98 0 R 100 0 R 102 0 R 104 0 R  ]
+endobj
+107 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 95 0 R
+/Contents 93 0 R
+/Annots 106 0 R
+>>
+endobj
+108 0 obj
+<<
+/Length 109 0 R
+>>
+stream
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+/F20 24 Tf
+1 0 0 1 202.784 770 Tm
+(Table of Contents) Tj
+1 0 0 1 232.124 741.2 Tm
+(Issue02.pod) Tj
+/F20 10 Tf
+ET
+q
+0.95 g
+72 680.6 451 12 re
+f
+Q
+BT
+1 0 0 1 102 683.6 Tm
+(CaFe Perl v0.2 - Periódico de la Comunidad Perl de Capital Federal) Tj
+1 0 0 1 487.44 683.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 668.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 671.6 Tm
+(Editorial) Tj
+1 0 0 1 487.44 671.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 656.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 659.6 Tm
+(con el agregado de algún que otro punto que fue...) Tj
+1 0 0 1 487.44 659.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 644.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 647.6 Tm
+(el resumen de la lista sinceramente no tiene sentido, sobre todo...) Tj
+1 0 0 1 487.44 647.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 632.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 635.6 Tm
+(Si bien CaFe Perl va a seguir existiendo primariamente en su...) Tj
+1 0 0 1 487.44 635.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 620.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 623.6 Tm
+(PERlitas) Tj
+1 0 0 1 487.44 623.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 608.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 611.6 Tm
+(Gestionar y distribuir fácilmente contenidos en Internet) Tj
+1 0 0 1 487.44 611.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 596.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 599.6 Tm
+(Crear y gestionar comunidades online en su web site) Tj
+1 0 0 1 487.44 599.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 584.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 587.6 Tm
+(Publicar materiales en varios idiomas) Tj
+1 0 0 1 487.44 587.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 572.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 575.6 Tm
+(Cumplir con la sección 508 \(http://www.section508.gov/\)...) Tj
+1 0 0 1 487.44 575.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 560.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 563.6 Tm
+(MKDoc : http://www.mkdoc.org/) Tj
+1 0 0 1 487.44 563.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 548.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 551.6 Tm
+(MKDoc Ltd. : http://mkdoc.com) Tj
+1 0 0 1 487.44 551.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 536.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 539.6 Tm
+(SudorNews) Tj
+1 0 0 1 487.44 539.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 524.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 527.6 Tm
+(Perl Medic) Tj
+1 0 0 1 487.44 527.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 512.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 515.6 Tm
+(MySQL in a Nutshell) Tj
+1 0 0 1 487.44 515.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 500.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 503.6 Tm
+(5.8.7 RC1 está disponible) Tj
+1 0 0 1 487.44 503.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 488.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 491.6 Tm
+(mod_perl 2.0.0 disponible !!!) Tj
+1 0 0 1 487.44 491.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 476.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 479.6 Tm
+(Nueva lista relacionada con Perl : gentoo-perl) Tj
+1 0 0 1 487.44 479.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 464.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 467.6 Tm
+(Gateway wireless hecho con Perl) Tj
+1 0 0 1 487.44 467.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 452.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 455.6 Tm
+(Parrot 0.2.0) Tj
+1 0 0 1 487.44 455.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 440.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 443.6 Tm
+(Pugs 6.2.5) Tj
+1 0 0 1 487.44 443.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 428.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 431.6 Tm
+(Manipular documentos Word con Perl) Tj
+1 0 0 1 487.44 431.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 416.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 419.6 Tm
+(Ofertas laborales varias de Ten Roses) Tj
+1 0 0 1 487.44 419.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 404.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 407.6 Tm
+(Analista Funcional Senior \(Ten Roses\)) Tj
+1 0 0 1 487.44 407.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 392.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 395.6 Tm
+(Java Developer Junior \(Ten Roses\)) Tj
+1 0 0 1 487.44 395.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 380.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 383.6 Tm
+(Java Developer \(Ten Roses\)) Tj
+1 0 0 1 487.44 383.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 368.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 371.6 Tm
+(Front End Developer \(Ten Roses\)) Tj
+1 0 0 1 487.44 371.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 356.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 359.6 Tm
+(Analista de QA \(Sr./Ssr.\) \(Ten Roses\)) Tj
+1 0 0 1 487.44 359.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 344.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 347.6 Tm
+(Business Systems Developer \(Ten Roses\)) Tj
+1 0 0 1 487.44 347.6 Tm
+(5) Tj
+ET
+q
+1 g
+72 332.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 335.6 Tm
+(Mordiditas de aquí y de allá) Tj
+1 0 0 1 487.44 335.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 320.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 323.6 Tm
+(son una estructura de datos que, en otras palabras, es una...) Tj
+1 0 0 1 487.44 323.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 308.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 311.6 Tm
+(constan de una cantidad de elementos que 1\) son todos del...) Tj
+1 0 0 1 487.44 311.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 296.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 299.6 Tm
+(cada elemento se accede a través de un índice,...) Tj
+1 0 0 1 487.44 299.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 284.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 287.6 Tm
+(En Perl los arrays comienzan con el elemento cero \( $array[0]...) Tj
+1 0 0 1 487.44 287.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 272.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 275.6 Tm
+(Cuando se los define no se especifica el tamaño de la...) Tj
+1 0 0 1 487.44 275.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 260.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 263.6 Tm
+(Apple PowerBook con procesador PowerPC G3 de 400 MHz,...) Tj
+1 0 0 1 487.44 263.6 Tm
+(9) Tj
+ET
+q
+0.95 g
+72 248.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 251.6 Tm
+(Sistema operativo Mac OS X 10.3.9) Tj
+1 0 0 1 487.44 251.6 Tm
+(9) Tj
+ET
+q
+1 g
+72 236.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 239.6 Tm
+(Perl v5.8.1-RC3 built for darwin-thread-multi-2level) Tj
+1 0 0 1 487.44 239.6 Tm
+(9) Tj
+ET
+q
+0.95 g
+72 224.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 227.6 Tm
+(módulo Benchmark v1.0501) Tj
+1 0 0 1 487.44 227.6 Tm
+(9) Tj
+ET
+q
+1 g
+72 212.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 215.6 Tm
+(Métodos de ordenamiento :...) Tj
+1 0 0 1 481.88 215.6 Tm
+(12) Tj
+ET
+q
+0.95 g
+72 200.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 203.6 Tm
+(Sorting a list by a computable field \(Perl CookBook\) :) Tj
+1 0 0 1 481.88 203.6 Tm
+(12) Tj
+ET
+q
+1 g
+72 188.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 191.6 Tm
+(Benchmark - benchmark running times of Perl code :) Tj
+1 0 0 1 481.88 191.6 Tm
+(12) Tj
+ET
+q
+0.95 g
+72 176.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 179.6 Tm
+(Perl builtin functions :) Tj
+1 0 0 1 481.88 179.6 Tm
+(12) Tj
+ET
+q
+1 g
+72 164.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 167.6 Tm
+(CaFe Perl en Perl) Tj
+1 0 0 1 481.88 167.6 Tm
+(12) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 520.22 37 Tm
+(i) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+109 0 obj
+6165
+endobj
+110 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+111 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 110 0 R
+/Contents 108 0 R
+>>
+endobj
+112 0 obj
+<<
+/Length 113 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Issue02.pod) Tj
+1 0 0 1 438.55 797 Tm
+(Table of Contents) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(ii) Tj
+1 0 0 1 460.74 37 Tm
+(02 June 2005) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+113 0 obj
+245
+endobj
+114 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+115 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 114 0 R
+/Contents 112 0 R
+>>
+endobj
+116 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 119 0 R
+/Contents 117 0 R
+>>
+endobj
+117 0 obj
+<<
+/Length 118 0 R
+>>
+stream
+q
+1 0 0 rg
+180 626 8 130 re
+F
+Q
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+210 626 m
+523 626 l
+s
+BT
+/F21 30 Tf
+1 0 0 1 210 706 Tm
+0 -30 TD
+(POD Translation) Tj
+T* (by ) Tj
+0 0 0.8 rg
+/F22 30 Tf
+(pod2pdf) Tj
+/F21 9 Tf
+T* (ajf@afco.demon.co.uk) Tj
+/F03 48 Tf
+0 g
+1 0 0 1 179.492 371 Tm
+(Issue02.pod) Tj
+ET
+endstream
+endobj
+118 0 obj
+294
+endobj
+119 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F03 9 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+120 0 obj
+<<
+/Length 121 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Title Page) Tj
+1 0 0 1 465.2 797 Tm
+(Issue02.pod) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(02 June 2005) Tj
+1 0 0 1 488.54 37 Tm
+(Fly leaf) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+121 0 obj
+243
+endobj
+122 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+123 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 122 0 R
+/Contents 120 0 R
+>>
+endobj
+125 0 obj
+<<
+/Parent 124 0 R
+/Dest [111 0 R /Fit]
+/First 126 0 R
+/Last 126 0 R
+/Count 44 
+/Title (Table of Contents)
+>>
+endobj
+126 0 obj
+<<
+/Parent 125 0 R
+/Dest [24 0 R /FitH 766.4]
+/First 127 0 R
+/Last 169 0 R
+/Count 43 
+/Title (CaFe Perl v0.2 - Periódico de la Comunidad Perl de Capital Federal)
+>>
+endobj
+127 0 obj
+<<
+/Parent 126 0 R
+/Dest [24 0 R /FitH 742.4]
+/Next 131 0 R
+/First 128 0 R
+/Last 130 0 R
+/Count 3 
+/Title (Editorial)
+>>
+endobj
+128 0 obj
+<<
+/Parent 127 0 R
+/Dest [24 0 R /FitH 632]
+/Next 129 0 R
+/Title (con el agregado de algún que otro punto que fue sugerido en la encuesta)
+>>
+endobj
+129 0 obj
+<<
+/Parent 127 0 R
+/Dest [24 0 R /FitH 593.6]
+/Previous 128 0 R
+/Next 130 0 R
+/Title (el resumen de la lista sinceramente no tiene sentido, sobre todo porque no)
+>>
+endobj
+130 0 obj
+<<
+/Parent 127 0 R
+/Dest [24 0 R /FitH 567.2]
+/Previous 129 0 R
+/Title (Si bien CaFe Perl va a seguir existiendo primariamente en su formato POD,)
+>>
+endobj
+131 0 obj
+<<
+/Parent 126 0 R
+/Dest [24 0 R /FitH 489.2]
+/Previous 127 0 R
+/Next 138 0 R
+/First 132 0 R
+/Last 137 0 R
+/Count 6 
+/Title (PERlitas)
+>>
+endobj
+132 0 obj
+<<
+/Parent 131 0 R
+/Dest [24 0 R /FitH 438.8]
+/Next 133 0 R
+/Title (Gestionar y distribuir fácilmente contenidos en Internet)
+>>
+endobj
+133 0 obj
+<<
+/Parent 131 0 R
+/Dest [24 0 R /FitH 424.4]
+/Previous 132 0 R
+/Next 134 0 R
+/Title (Crear y gestionar comunidades online en su web site)
+>>
+endobj
+134 0 obj
+<<
+/Parent 131 0 R
+/Dest [24 0 R /FitH 410]
+/Previous 133 0 R
+/Next 135 0 R
+/Title (Publicar materiales en varios idiomas)
+>>
+endobj
+135 0 obj
+<<
+/Parent 131 0 R
+/Dest [24 0 R /FitH 395.6]
+/Previous 134 0 R
+/Next 136 0 R
+/Title (Cumplir con la sección 508 \(http://www.section508.gov/\) de standards )
+>>
+endobj
+136 0 obj
+<<
+/Parent 131 0 R
+/Dest [49 0 R /FitH 455.6]
+/Previous 135 0 R
+/Next 137 0 R
+/Title (MKDoc : http://www.mkdoc.org/)
+>>
+endobj
+137 0 obj
+<<
+/Parent 131 0 R
+/Dest [49 0 R /FitH 441.2]
+/Previous 136 0 R
+/Title (MKDoc Ltd. : http://mkdoc.com)
+>>
+endobj
+138 0 obj
+<<
+/Parent 126 0 R
+/Dest [49 0 R /FitH 423.2]
+/Previous 131 0 R
+/Next 155 0 R
+/First 139 0 R
+/Last 154 0 R
+/Count 16 
+/Title (SudorNews)
+>>
+endobj
+139 0 obj
+<<
+/Parent 138 0 R
+/Dest [49 0 R /FitH 408.8]
+/Next 140 0 R
+/Title (Perl Medic)
+>>
+endobj
+140 0 obj
+<<
+/Parent 138 0 R
+/Dest [49 0 R /FitH 322.4]
+/Previous 139 0 R
+/Next 141 0 R
+/Title (MySQL in a Nutshell)
+>>
+endobj
+141 0 obj
+<<
+/Parent 138 0 R
+/Dest [49 0 R /FitH 248]
+/Previous 140 0 R
+/Next 142 0 R
+/Title (5.8.7 RC1 está disponible)
+>>
+endobj
+142 0 obj
+<<
+/Parent 138 0 R
+/Dest [49 0 R /FitH 161.6]
+/Previous 141 0 R
+/Next 143 0 R
+/Title (mod_perl 2.0.0 disponible !!!)
+>>
+endobj
+143 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 782]
+/Previous 142 0 R
+/Next 144 0 R
+/Title (Nueva lista relacionada con Perl : gentoo-perl)
+>>
+endobj
+144 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 719.6]
+/Previous 143 0 R
+/Next 145 0 R
+/Title (Gateway wireless hecho con Perl)
+>>
+endobj
+145 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 657.2]
+/Previous 144 0 R
+/Next 146 0 R
+/Title (Parrot 0.2.0)
+>>
+endobj
+146 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 570.8]
+/Previous 145 0 R
+/Next 147 0 R
+/Title (Pugs 6.2.5)
+>>
+endobj
+147 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 496.4]
+/Previous 146 0 R
+/Next 148 0 R
+/Title (Manipular documentos Word con Perl)
+>>
+endobj
+148 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 446]
+/Previous 147 0 R
+/Next 149 0 R
+/Title (Ofertas laborales varias de Ten Roses)
+>>
+endobj
+149 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 347.6]
+/Previous 148 0 R
+/Next 150 0 R
+/Title (Analista Funcional Senior \(Ten Roses\))
+>>
+endobj
+150 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 237.2]
+/Previous 149 0 R
+/Next 151 0 R
+/Title (Java Developer Junior \(Ten Roses\))
+>>
+endobj
+151 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 174.8]
+/Previous 150 0 R
+/Next 152 0 R
+/Title (Java Developer \(Ten Roses\))
+>>
+endobj
+152 0 obj
+<<
+/Parent 138 0 R
+/Dest [64 0 R /FitH 100.4]
+/Previous 151 0 R
+/Next 153 0 R
+/Title (Front End Developer \(Ten Roses\))
+>>
+endobj
+153 0 obj
+<<
+/Parent 138 0 R
+/Dest [68 0 R /FitH 743.6]
+/Previous 152 0 R
+/Next 154 0 R
+/Title (Analista de QA \(Sr./Ssr.\) \(Ten Roses\))
+>>
+endobj
+154 0 obj
+<<
+/Parent 138 0 R
+/Dest [68 0 R /FitH 633.2]
+/Previous 153 0 R
+/Title (Business Systems Developer \(Ten Roses\))
+>>
+endobj
+155 0 obj
+<<
+/Parent 126 0 R
+/Dest [68 0 R /FitH 399.2]
+/Previous 138 0 R
+/Next 169 0 R
+/First 156 0 R
+/Last 168 0 R
+/Count 13 
+/Title (Mordiditas de aquí y de allá)
+>>
+endobj
+156 0 obj
+<<
+/Parent 155 0 R
+/Dest [72 0 R /FitH 359.6]
+/Next 157 0 R
+/Title (son una estructura de datos que, en otras palabras, es una forma de)
+>>
+endobj
+157 0 obj
+<<
+/Parent 155 0 R
+/Dest [72 0 R /FitH 345.2]
+/Previous 156 0 R
+/Next 158 0 R
+/Title (constan de una cantidad de elementos que 1\) son todos del mismo tipo y 2\))
+>>
+endobj
+158 0 obj
+<<
+/Parent 155 0 R
+/Dest [72 0 R /FitH 318.8]
+/Previous 157 0 R
+/Next 159 0 R
+/Title (cada elemento se accede a través de un índice, que es un número entero que)
+>>
+endobj
+159 0 obj
+<<
+/Parent 155 0 R
+/Dest [72 0 R /FitH 268.4]
+/Previous 158 0 R
+/Next 160 0 R
+/Title (En Perl los arrays comienzan con el elemento cero \( $array[0] es el primer)
+>>
+endobj
+160 0 obj
+<<
+/Parent 155 0 R
+/Dest [72 0 R /FitH 242]
+/Previous 159 0 R
+/Next 161 0 R
+/Title (Cuando se los define no se especifica el tamaño de la dimensión \(cantidad)
+>>
+endobj
+161 0 obj
+<<
+/Parent 155 0 R
+/Dest [84 0 R /FitH 377.6]
+/Previous 160 0 R
+/Next 162 0 R
+/Title (Apple PowerBook con procesador PowerPC G3 de 400 MHz, 768 MB de RAM)
+>>
+endobj
+162 0 obj
+<<
+/Parent 155 0 R
+/Dest [84 0 R /FitH 363.2]
+/Previous 161 0 R
+/Next 163 0 R
+/Title (Sistema operativo Mac OS X 10.3.9)
+>>
+endobj
+163 0 obj
+<<
+/Parent 155 0 R
+/Dest [84 0 R /FitH 348.8]
+/Previous 162 0 R
+/Next 164 0 R
+/Title (Perl v5.8.1-RC3 built for darwin-thread-multi-2level)
+>>
+endobj
+164 0 obj
+<<
+/Parent 155 0 R
+/Dest [84 0 R /FitH 334.4]
+/Previous 163 0 R
+/Next 165 0 R
+/Title (módulo Benchmark v1.0501)
+>>
+endobj
+165 0 obj
+<<
+/Parent 155 0 R
+/Dest [107 0 R /FitH 455.6]
+/Previous 164 0 R
+/Next 166 0 R
+/Title (Métodos de ordenamiento : http://algoritmia.net/articles.php?id=31)
+>>
+endobj
+166 0 obj
+<<
+/Parent 155 0 R
+/Dest [107 0 R /FitH 441.2]
+/Previous 165 0 R
+/Next 167 0 R
+/Title (Sorting a list by a computable field \(Perl CookBook\) :)
+>>
+endobj
+167 0 obj
+<<
+/Parent 155 0 R
+/Dest [107 0 R /FitH 414.8]
+/Previous 166 0 R
+/Next 168 0 R
+/Title (Benchmark - benchmark running times of Perl code :)
+>>
+endobj
+168 0 obj
+<<
+/Parent 155 0 R
+/Dest [107 0 R /FitH 388.4]
+/Previous 167 0 R
+/Title (Perl builtin functions :)
+>>
+endobj
+169 0 obj
+<<
+/Parent 126 0 R
+/Dest [107 0 R /FitH 370.4]
+/Previous 155 0 R
+/Title (CaFe Perl en Perl)
+>>
+endobj
+124 0 obj
+<<
+/Type /Outlines
+/Count 45
+/First 125 0 R
+/Last 169 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 4 0 R
+/PageMode /UseOutlines
+/Outlines 124 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Pages
+/Kids [ 116 0 R 123 0 R 111 0 R 115 0 R 24 0 R 28 0 R 49 0 R 64 0 R 68 0 R 72 0 R 76 0 R 80 0 R 84 0 R 88 0 R 92 0 R 107 0 R ]
+/Count 16
+/MediaBox [0 0 595 842]
+>>
+endobj
+xref
+0 170
+0000000000 65535 f 
+0000000015 00000 n 
+0000000171 00000 n 
+0000094905 00000 n 
+0000094995 00000 n 
+0000000271 00000 n 
+0000002371 00000 n 
+0000002470 00000 n 
+0000002568 00000 n 
+0000002668 00000 n 
+0000002772 00000 n 
+0000002868 00000 n 
+0000002969 00000 n 
+0000003073 00000 n 
+0000003181 00000 n 
+0000003279 00000 n 
+0000003382 00000 n 
+0000003488 00000 n 
+0000003602 00000 n 
+0000010116 00000 n 
+0000010137 00000 n 
+0000010285 00000 n 
+0000010410 00000 n 
+0000010474 00000 n 
+0000010502 00000 n 
+0000010600 00000 n 
+0000016681 00000 n 
+0000016702 00000 n 
+0000016826 00000 n 
+0000016909 00000 n 
+0000023414 00000 n 
+0000023435 00000 n 
+0000023594 00000 n 
+0000023719 00000 n 
+0000023778 00000 n 
+0000023903 00000 n 
+0000023957 00000 n 
+0000024082 00000 n 
+0000024176 00000 n 
+0000024301 00000 n 
+0000024379 00000 n 
+0000024504 00000 n 
+0000024616 00000 n 
+0000024741 00000 n 
+0000024846 00000 n 
+0000024969 00000 n 
+0000025052 00000 n 
+0000025175 00000 n 
+0000025286 00000 n 
+0000025363 00000 n 
+0000025461 00000 n 
+0000031934 00000 n 
+0000031955 00000 n 
+0000032091 00000 n 
+0000032216 00000 n 
+0000032293 00000 n 
+0000032418 00000 n 
+0000032509 00000 n 
+0000032634 00000 n 
+0000032697 00000 n 
+0000032822 00000 n 
+0000032899 00000 n 
+0000033024 00000 n 
+0000033116 00000 n 
+0000033172 00000 n 
+0000033270 00000 n 
+0000039487 00000 n 
+0000039508 00000 n 
+0000039645 00000 n 
+0000039728 00000 n 
+0000046235 00000 n 
+0000046256 00000 n 
+0000046393 00000 n 
+0000046476 00000 n 
+0000052034 00000 n 
+0000052055 00000 n 
+0000052180 00000 n 
+0000052263 00000 n 
+0000058144 00000 n 
+0000058165 00000 n 
+0000058290 00000 n 
+0000058373 00000 n 
+0000063302 00000 n 
+0000063323 00000 n 
+0000063460 00000 n 
+0000063543 00000 n 
+0000068403 00000 n 
+0000068424 00000 n 
+0000068549 00000 n 
+0000068632 00000 n 
+0000072381 00000 n 
+0000072402 00000 n 
+0000072527 00000 n 
+0000072610 00000 n 
+0000078557 00000 n 
+0000078578 00000 n 
+0000078738 00000 n 
+0000078863 00000 n 
+0000078941 00000 n 
+0000079066 00000 n 
+0000079159 00000 n 
+0000079286 00000 n 
+0000079384 00000 n 
+0000079511 00000 n 
+0000079603 00000 n 
+0000079730 00000 n 
+0000079810 00000 n 
+0000079870 00000 n 
+0000079970 00000 n 
+0000086191 00000 n 
+0000086213 00000 n 
+0000086328 00000 n 
+0000086414 00000 n 
+0000086715 00000 n 
+0000086736 00000 n 
+0000086839 00000 n 
+0000086925 00000 n 
+0000087011 00000 n 
+0000087361 00000 n 
+0000087382 00000 n 
+0000087508 00000 n 
+0000087807 00000 n 
+0000087828 00000 n 
+0000087931 00000 n 
+0000094827 00000 n 
+0000088017 00000 n 
+0000088144 00000 n 
+0000088333 00000 n 
+0000088471 00000 n 
+0000088637 00000 n 
+0000088819 00000 n 
+0000088986 00000 n 
+0000089141 00000 n 
+0000089294 00000 n 
+0000089453 00000 n 
+0000089596 00000 n 
+0000089782 00000 n 
+0000089919 00000 n 
+0000090042 00000 n 
+0000090199 00000 n 
+0000090299 00000 n 
+0000090426 00000 n 
+0000090564 00000 n 
+0000090701 00000 n 
+0000090853 00000 n 
+0000090992 00000 n 
+0000091112 00000 n 
+0000091230 00000 n 
+0000091372 00000 n 
+0000091515 00000 n 
+0000091662 00000 n 
+0000091805 00000 n 
+0000091941 00000 n 
+0000092082 00000 n 
+0000092231 00000 n 
+0000092365 00000 n 
+0000092555 00000 n 
+0000092712 00000 n 
+0000092895 00000 n 
+0000093098 00000 n 
+0000093281 00000 n 
+0000093475 00000 n 
+0000093650 00000 n 
+0000093791 00000 n 
+0000093951 00000 n 
+0000094090 00000 n 
+0000094272 00000 n 
+0000094437 00000 n 
+0000094596 00000 n 
+0000094715 00000 n 
+trailer
+<<
+/Size 170
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+95190
+%%EOF

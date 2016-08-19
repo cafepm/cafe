@@ -1,0 +1,458 @@
+=pod
+
+=head1 CaFe Perl v0.8 - Periódico de la Comunidad Perl de Capital Federal
+
+=head2 Editorial
+
+Hola Perl Mongers, bienvenidos a un nuevo número de CaFe Perl !!
+
+
+este número nos depara una sorpresa en la sección PERLitas : la entrevista a
+Julio Miño, un argentino que vive en EEUU y que utiliza Perl como
+herramienta diaria de trabajo. La otra novedad, si es que puede llamarse
+así, es que Julio pertenece al CaFe.pm. Seguramente vas a coincidir en más
+de un comentario.
+
+
+Cómo de costumbre una revisión de las noticias del mes, la respuesta al PoC
+del mes pasado y el PoC de este mes.
+
+
+Espero que lo disfruten.
+
+Hasta la próxima taza de CaFe Perl !!! ... eso sí, café del bueno ;-).
+
+
+Víctor A. Rodríguez (Bit-Man)
+
+
+
+=head2 
+PERlitas
+
+
+Entrevista realizada por Víctor A. Rodríguez
+
+
+Julio es uno de tantos como vos o yo, uno de tantos que trabaja todos los
+días buscando ideas nuevas y herramientas que lo ayuden a ser mejor y
+desempeñar su rol como está convencido debe hacerse. Julio usa Perl, como
+vos y yo, y está lejos de casa como muchos que no encontraron ?un lugar en
+el mundo? en donde les tocó nacer, sino allá lejos donde lo llevó la
+providencia. Julio está suscripto a CaFe.pm y es otro más que cuenta su
+historia ... como vos y yo.
+
+
+B<Julio, por favor, date a conocer al resto del grupo CaFe.pm>
+
+
+Mi nombre es Julio Miño y trabajo en VoIP (calling card, trafico mayorista,
+IVR, Dialer etc.).
+
+En este momento estoy viviendo en New Haven - Connecticut - USA ya que mi
+esposa es Médica y esta trabajando en un hospital de acá.
+
+Soy nuevo en Perl, pero con muchas ganas de seguir aprendiendo porque
+realmente me facilita mucho mi trabajo y me da la oportunidad de hacer cosas
+que antes me resultaba difícil de hacer.
+
+
+B<Cuál fue tu motivación para trabajar en Perl ??>
+
+
+Creo que mi motivación, es la que tienen muchos que no son programadores de
+algún lenguaje especifico, que por una u otras necesidades de trabajos
+puntuales, nos encontramos con la duda de que herramienta usar.
+
+Con sólo probarlo uno se da cuenta que te permite hacer cosas realmente
+poderosas y con una relativa facilidad de uso, sin la necesidad de tener que
+utilizar varias herramientas para hacer lo mismo.
+
+
+B<Tuviste alguna ayuda de otros proyectos Open Source ??>
+
+
+No directamente ya que estoy usando Perl hace poco tiempo, pero
+indirectamente si, y todo el tiempo!, las paginas dedicas a perl o proyectos
+en perl son una gran ayuda para tomar como ejemplos de cosas que uno
+necesita hacer diariamente.
+
+
+B<Que habilidades, relacionadas a Perl o no, adquiriste al trabajar con Perl
+??>
+
+
+Como Perl facilita las tareas administrativas de Linux, te relaciona mucho
+con el sistema operativo y eso es una gran ventaja.
+
+Además hay una gran cantidad de desarrollos que vienen con soporte de Perl y
+uno puede customizarlos sin grandes problemas.
+
+
+B<Generaste algún módulo de Perl ?? Fue usado en otros proyectos ??>
+
+
+Lamentablemente mis conocimiento todavía no aportaron mucho como para poder
+hacer algo interesante .. pero con el tiempo a lo mejor sale algo.
+
+
+B<Qué limitaciones le impuso Perl a tu trabajo ??>
+
+
+Por suerte ninguna por ahora, es mas, me facilitó hacer muchas cosas que
+antes no podía hacerlas o me tomaba mucho tiempo.
+
+
+B<Cómo se puede colaborar con tu trabajo ??>
+
+
+Lamentablemente no estoy trabajando en ningún proyecto en particular, pero
+sin duda la mejor forma de colaborar es opinar, opinar y opinar...
+
+Porque las dudas que a veces uno no se anima a decir por que son tontas,
+fáciles etc. son las respuestas para otros, y es realmente un desperdicio
+que alguien no aproveche esas preguntas/respuestas.
+
+
+B<Algún módulo favorito de CPAN ??>
+
+
+Como siempre trabajo con bases de datos sin dudas el que mas uso es: DBI
+pero CGI y Template Toolkit los uso mucho y son una gran ayuda.
+
+
+B<Algún programador o comunidad favorita ??>
+
+
+Cabe alguna duda?? CaFe.pm.org
+
+
+B<Hay algún grupo de Perl en su localidad ??>
+
+
+En la ciudad donde estoy lamentablemente no hay ninguno pero sí hay un grupo
+que no esta muy lejos:
+
+
+http://hartford.pm.org/
+
+
+y como estoy casi a la mitad de NY y Boston podría ir a algún grupo de ahí.
+
+
+B<Participás en algún grupo de Perl ??>
+
+
+Lamentablemente no por ahora ... pero ya voy a poder
+
+
+B<Alguna experiencia, divertida o no, que quieras compartir ??>
+
+
+Como divertido no tengo ninguna pero si puedo contarles que en este momento
+no estoy trabajando para una empresa en particular, si no que estoy haciendo
+algunas implementaciones para algunas empresas desde mi casa y estoy casi
+todo el día solo y cada vez que hago algo en Perl y veo que anda sin
+problemas además de ahorrarme mucho tiempo....
+
+me levanto y caliento la pava para unos mates y hablo solo como un loco de
+lo bueno que esta Perl!!..
+
+
+B<Algo más que quieras comentar ??>
+
+
+Solo agradecerles por la oportunidad de compartir mi experiencia, y por el
+trabajo que están haciendo apoyando a Perl, que al final este esfuerzo se
+traslada a la gente.
+
+También me gustaría agregar que es muy bueno poder ver que se le de la misma
+interés a la gente sin prejuzgar cuanto sabe o no de Perl y eso a los que
+nos estamos iniciando nos motiva aun más.
+
+
+
+
+
+
+=head2 
+SudorNews
+
+
+=head3 Seguimos con GPL 3.0 ...
+
+Hace 14 años un grupo de gente, entre ellos abogados, lanzó GPL 2. Hoy en
+día GPL es una licencia mucho más visible y por lo tanto cualquier cambio
+sobre ella puede causar un gran impacto sobre la industria, GPL, GNU y el
+futuro del Open Source. Es por eso que esta vez todo va a estar mucho más
+organizado. A esta altura la FSF (Free Software Foundation) ya repartió una
+serie de invitaciones a empresas y particulares, para formar los distintos
+comités que representan a los distintos tipos de usuarios de la licencia
+GPL, y se encargaran de recoger las opiniones sobre los distintos borradores
+que se vayan haciendo. Toda la información en http://gplv3.fsf.org/
+
+
+=head3 Subversion surge
+
+Todos sabemos que CVS es el sistema de versionado de archivo más conocido y
+usado, pero también es cierto que está mostrando debilidades en ciertas
+áreas, y es ahí donde se empiezan a ver los posibles sustitutos. Uno de
+ellos es Subversion ... y está hecho en Perl !! En muchos lados está
+teniendo un soporte de la industria bastante importante, y tanto que Apple
+tiene integración nativa de su plataforma de desarrollo Xcode con
+Subversion. Si quieren conocer un poco más pueden ir a
+http://developer.apple.com/tools/subversionxcode.html, que aunque en
+dialecto Mac es ameno y muy útil.
+
+
+=head3 Open Source en mercados emergentes
+
+Cómo el Open Source puede hacer una diferencia importante en la vida de cada
+uno de nosotros, a través del análisis de lo que pasa en tres culturas :
+India, China y Brasil
+http://insight.zdnet.co.uk/software/0,39020463,39236745,00.htm
+
+
+=head3 Nueva cara en SourceForge 
+
+Nuestro viejo amigo y anfitrión (que actualmente contiene más de diez mil
+proyectos y más de un millón de usuarios relacionados con el software libre)
+tiene una cara nueva ( http://www.sourceforge.net/ ). Entre otras cosas
+posee un interesante blog ( http://www.sourceforge.net/ ), renovadas y más
+precisas estadísticas para los proyectos. SourceForge sigue en pie, y tan
+robusto como siempre.
+
+
+=head3 Como se podría traducir BoF (Births of a Feather)?
+
+Esta entrada apareció en barrapunto, la contraparte española de slashdot (
+pueden ver la historia completa y la discusión en
+http://barrapunto.com/article.pl?sid=05/11/26/2023230 ) y voy a reproducir
+en forma textual esta entrada que no tiene desperdicio : ?Gnrfan nos cuenta:
+«Hace algún tiempo mirando, el programa de conferencias como la Debconf (
+http://www.debconf.org/ ), conocí la palabra BoF (
+http://en.wikipedia.org/wiki/BoF ), que significa "Birds of a Feather" ó
+"Aves de un mismo plumaje" haciendo una traducción literal. En realidad,
+como bien lo explica la Wikipedia (en inglés) este es un acrónimo geek que
+nace del proverbio anglosajón que dice "...Birds of a feather flock
+together..." ó algo así como "...las aves del mismo plumaje se reunen en
+bandada...". Si bien es cierto, este nombre puede sugerir algo a los
+angloparlantes, a nosotros los latinos/hispanos no nos dice nada de nada.
+Por eso me preguntaba si valdría la pena pensar en una traducción coherente.
+En un principio pensé en HmC ó "Harina del mismo costal", pero luego se me
+ocurrió AmC ó "Aves del mismo corral", como para seguir con el tema de los
+pajarracos. ¿Que opinas? ¿Debemos buscar una traducción? ¿Se te ocurre
+alguna otra expresión mejor que se entienda bien en todo el mundo de habla
+española? ó ¿Deberiamos acuñar algo mas simple como GiC ó "Gente con
+Intereses Comunes"?» La traducción que uso siempre del dicho "Birds of a
+feather flock together" (las aves del mismo plumaje se agrupan en bandadas)
+es "Dios los cría y ellos se juntan". Pero no vale para una sesión técnica.
+He visto el uso de "foro" para denominarlas, pero tampoco es el significado
+exacto. Algún barrapuntero sabrá más.?
+
+
+=head3 Qué código fuente leo ?
+
+Una de las preguntas típicas en nuestra sección PERLitas es ?En qué parte
+del código dirías que mire a alguien que está empezando ??. Bueno, alguien
+en barrapunto pensó en lo mismo y salió una excelente discusión (
+http://barrapunto.com/article.pl?sid=05/11/29/0124255 )
+
+
+=head3 Fue liberada la última versión de Catalyst
+
+Recientemente está disponible en CPAN ( http://search.cpan.org/~sri/ ) esta
+última versión, que sufre actualizaciones continuas, vio la luz luego de 3
+meses de intenso trabajo. Catalyst es un framework MVC para desarrollo web y
+puede encontrarse mucho más información en http://catalyst.perl.org
+
+
+=head3 Fue liberado Parrot 0.3.1
+
+Leo Toetsch liberó Parrot 0.3.1, la máquina virtual que dará soporte a Perl
+6 y otros lenguajes dinámicos. Más información en
+http://use.perl.org/article.pl?sid=05/11/06/1549213&tid=33&tid=42
+
+
+=head3 Lista de discusión sobre PBP
+
+EL libro ?Perl Best Practices? de Damian Conway tiene su propia lista de
+discusión en http://mail.pm.org/mailman/listinfo/pbp-pm . Algo para no
+perderse, aprender y admirar.
+
+
+=head3 Interviews a Randall Schwartz y Richard Foley
+
+Para aquellos que gustan de los Podcasts pueden disfrutar de una entrevista
+con Randall Schwartz en http://perlcast.com/2005/11/17/interview-with-
+randall-schwartz/ y otra a Richard Foley en
+http://perlcast.com/2005/11/23/interview-with-richard-foley/ . Enjoy !
+
+
+=head3 We all live in a yellow subroutine !!
+
+Uno de los bloques básicos de Perl son las subrutinas, y todos sabemos que
+pueden convertirse en algo más que eso. Hay alguien llamado Rob Kinyon que
+también lo sabe, y lo explora en
+http://www.perl.com/pub/a/2005/11/03/subroutines.html
+
+
+=head3 Server-side Perl scripts en PostgreSQL
+
+Muchos no lo saben pero la base PostgreSQL soporta una buena cantidad de
+lenguajes para ser usados como procedimientos dentro de ella, y uno de ellos
+es Perl. Un artículo corto, conciso y útil que encara este tema en
+http://www.oreillynet.com/pub/a/databases/2005/11/10/using-perl-in-
+postgresql.html
+
+
+=head3 Como construir un carrito con Perl
+
+Parece imposible, y al primera pregunta es : cómo hago las ruedas ??
+Tratándose de un carro de compras virtual es algo bastante simple, sobre
+todo si se tiene Handel que son una serie de módulos para poder implementar
+un carro de compras. Podés ver un artículo muy interesante y completo en
+http://www.perl.com/pub/a/2005/11/17/handel.html
+
+
+=head3 Nestlé patenta la cerveza de café
+
+Dos de los más grandes amores entre los programadores (unos por necesidad y
+el otro por diversión) fueron unidos por Nestlé para crear esta bebida :
+http://www.newscientist.com/article.ns?id=dn8248
+
+
+=head3 Cómo escribir código inmantenible
+
+Esto apareció en la lista hace ya un tiempo y se convierte en un clásico de
+cada persona que los lee : http://thc.org/root/phun/unmaintain.html
+
+
+=head3 Learning Perl
+
+Caso con toda seguridad este libro ha sido el más usado por quienes se
+inician en Perl. La buena noticia es que tuvo una re-ingeniería y una
+adecuación hacia Perl 5.8. Con toda seguridad se mueren por ir a
+http://www.oreilly.com/catalog/learnperl4/ y ver que les depara
+
+
+=head3 Perl Testing: A Developer's Notebook
+
+Que mejor forma de saber qué tan bueno es un programa que corriendo una
+serie de tests que puedan cubrir cada una de las derivaciones que tiene
+nuestro código. Este libro ( http://www.oreilly.com/catalog/perltestingadn/
+) posee una buena cantidad de ?manos a la obra? en contraste con otros que
+lo abordan desde un punto de vista más teórico.
+
+
+=head3 Modelado de documentos
+
+Cada vez que un sistema tiene que manejar documentos debe hacer un modelado
+de los mismos, que es algo bastante engorroso y consumidor de recursos. Una
+forma de hacerlo es usando el CMS Bricolage ( http://www.bricolage.cc/ ), y
+nunca está de más una buena explicación de cómo hacerlo (
+http://www.perl.com/pub/a/2005/11/23/bricolage_analysis.html )
+
+
+=head3 Capabilities en Perl (CaPerl)
+
+Cuando usamos código de otras personas o proyectos estamos, implícitamente,
+aceptando que hace lo que se proclama, y esto cuando se tiene una buena
+cantidad de líneas de código que fueron aportadas por otros proyectos
+entonces se convierte en un problema en lugar de una solución. Para esto
+nacieron las ?capabilities? y su implementación en Perl se llama CaPerl (
+http://caperl.links.org/ ).
+
+
+=head3 
+POC (peace of code)
+
+
+Antes que nada las respuestas a las preguntas del número anterior :
+
+
+=over 2
+
+=item * - que trabajo realiza la función shift y en qué variable se almacena el
+resultado ? : básicamente trabaja con arrays, extrayendo el primer valor de
+este y borrándolo del array (lo que causa una reducción). Ahora bien, al no
+especificar ningún array el que se utiliza es @_ que en este caso
+corresponde a los parámetros pasados a la rutina leer(). A su vez tampoco se
+especifica variable en donde almacenar este valor quitado del array, con lo
+cual se almacena en la variable $_
+
+=back
+
+=over 2
+
+=item * - que trabajo realiza la función split , y sobre qué variable trabaja ? :
+split parte al string pasado como segundo parámetro (en honor a la verdad
+puede hacerse split() de cualquier expresión que resulte en un string) en
+varios strings, usando como separador el patrón pasado como primer
+parámetro. En este caso no hay segundo parámetro, con lo cual se toma a $_
+como variable ... que es casualmente donde se almacenó el resultado del
+shift anterior
+
+=item * - a qué variable se aplica la comparación hecha dentro del if ? : una vez
+mas aparece la variable fantasma $_ como fuente de una función
+
+=item * - reescribir la sub utilizando variables explícitas :
+
+=back
+
+
+ sub lee($) {
+     my $aux = shift @_;
+     if ( $aux =~ /\d/ ) {
+         return split (" ", $aux) ;
+     };
+ }
+ 
+Si ahora usamos un poco de ?obfuscation? :
+
+
+ sub lee($) {
+ my $aux = shift @_;
+ return split (" ", $aux) 
+         if ( $aux =~ /\d/ );
+ }
+ 
+con lo que legamos a la versión original reemplazando a $aux por la variable
+muda $_
+
+
+Antes de pasar al PoC de este número sólo una cosa más : este es el tipo de
+práctica de codificación que hace que el código sea más compacto, pero tiene
+la ventaja de que es casi ilegible si no se tiene un ojo bien entrenado
+(debo reconocer que me tomó su buen tiempo el discernir el funcionamiento),
+y esto hace que no siempre esta forma de codificación sea la adecuada a la
+hora de compartir código con otras personas, que ni más ni menos de eso se
+trata el movimiento Open Source.
+
+
+Ahora el peace of code de esta semana !!!!!
+
+
+Dada la siguiente línea de comandos :
+
+
+ perl -e '@n=qw(bytes K M G T); $i=int(log($ARGV[0])/log(1024)); print $ARGV[0]/1024**$i.$n[$i]' 3456
+
+=over 2
+
+=item * - qué es una línea de comandos Perl ?
+
+=item * - qué operación realiza este programa Perl ?
+
+=item * - Para qué se usa la relación de logaritmos log() ?
+
+=item * - Alguna forma distinta de hacerlo ? (recuerden que TMTOWTDI)
+
+=back
+
+
+
+
+
+=cut
+

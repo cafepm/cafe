@@ -1,0 +1,646 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>
+      CaFe.pm - Perl Mongers de Capital Federal
+    </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+    <link rel="stylesheet" href="/main.css" />
+    
+  </head>
+  <body bgcolor="#454e70">
+    <div align="center">
+      <table width="95%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <font size="6" color="orange">
+              
+               CaFe.pm - Perl Mongers de Capital Federal
+               
+            </font>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <!-- INDICE BEGINS -->
+    <div align="center">
+      <table bgcolor="orange" border="0" cellpadding="0" cellspacing="0" width="95%">
+        <tbody>
+          <tr>
+            <td align="center">
+              <font face="verdana,helvetica,geneva,arial" size="2">
+                <b> <a href="/">Inicio</a> | 
+                 <a href="/miembros">Miembros</a> |
+                 <a href="/reuniones">Reuniones</a> | 
+                 <a href="/boletines">Boletines</a> |
+                 <a href="/reviews">Reviews</a> |
+                 <a href="/eventos">Eventos</a> |
+                 <a href="/documentos">Documentos</a> |
+                 <a href="/proyectos">Proyectos</a> |
+                 <a href="/biblos">Biblioteca</a> |
+                 <a href="/recursos">Recursos</a></b>
+              </font>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- INDICE ENDS -->
+        <br />
+    <div align="center">
+      <table border="0" cellpadding="0" cellspacing="0" width="95%" bgcolor="white">
+        <tr>
+          <td align="center">
+            <table border="0" cellpadding="0" cellspacing="0" width="80%">
+              <tr>
+                <td>
+                  <br />
+                  <p>
+                    <strong> <em><font size="5">
+                       Perl B&aacute;sico : Sesi&oacute;n 1
+                    </font>
+</em></strong>
+                  </p>
+                  <hr />
+                  <p>
+                    <em> Tutorial dado por Uriel Lizama (Julio de 2006) en el canal de IRC #perlenespanol de irc.freenode.org </em>
+                  </p>
+                  <p>
+                    Como primer tema de &eacute;sta sesi&oacute;n vamos a ver un poco de los inicios de Perl.
+                    No va a ser muy extenso pues es algo trivial, simplemente para entender un poco sus comienzos.
+                    
+                  </p>
+                  <p>
+                    Muy bien, antes que nada el lenguaje se llama Perl, solamente la primera P se pone en capitulares. Tradicionalmente el programa que ejecuta los scripts de Perl se llama perl, todo en min&uacute;sculas. Esto nos servir&aacute; para m&aacute;s adelante diferenciar entre el lenguaje y el programa.
+                    
+                  </p>
+                  <p>
+                    El lenguaje Perl toma su nombre de Practical Extraction and Report Language y fue ideado por Larry Wall. La primera versi&oacute;n sale en el a&ntilde;o de 1987.
+                    Originalmente Larry Wall lo describe como un excelente lenguaje optimizado para leer archivos de texto, extraer informaci&oacute;n de esos archivos y crear reportes basados en esa informaci&oacute;n, combinando lo mejor de C, sed, awk y sh. Para los que conocen alguno de los lenguajes y herramientas antes mencionados, se podr&aacute;n dar cuenta que la sint&aacute;xis del lenguaje es muy similar y no tendr&aacute;n mucho problema en adoptarlo.
+                    
+                  </p>
+                  <p>
+                    Perl se considera un lenguaje interpretado, es decir, no es necesaria una previa compilaci&oacute;n para poder ejecutarse, lo &uacute;nico que se necesita es darle al interprete, perl, el c&oacute;digo que queremos que ejecute.
+                    Desde sus inicios Perl ha avanzado mucho y ahora se encuentra en la versi&oacute;n 5 con la versi&oacute;n 6 en pleno desarrollo. Cabe mencionar que Perl hoy en d&iacute;a es usado para una gran variedad de cosas, desde avanzados programas de seguridad hasta sencillos CGIs para administrar formularios. Uno de los fuertes de Perl es la existencia de CPAN, un directorio de m&oacute;dulos que podemos integrar a nuestros scripts para facilitarnos la vida.
+                    
+                  </p>
+                  <p>
+                    CPAN es definitivamente uno de los &iacute;conos representativos de Perl
+                    otros lenguajes (proyectos) han querido implementar algo similar... pero han fallado
+                    Perl lleva a CPAN desde su nacimiento... la filosof&iacute;a comunitaria de Perl ha hecho de CPAN lo que es ahora...
+                    es el centro de distribuci&oacute;n comunitario de paquetes que ning&uacute;n otro lenguaje ha tenido
+                    sin duda, CPAN representa todo el trabajo que la comunidad de Perl ofrece, y que a su vez, es una excelente manera de contribuir con algo.
+                    
+                  </p>
+                  <p>
+                    Muy bien, esto es el inicio de Perl, y con ello podemos entender un poco m&aacute;s &eacute;ste bello lenguaje,
+                    
+                  </p>
+                  <hr />
+                  <p>
+                    <span class="justify"> <strong>LAS VARIABLES</strong></span>
+                  </p>
+                  <p>
+                    &Eacute;ste es nuestro primer tema, y en &eacute;l vamos a hablar de la pieza fundamental de cualquier lenguaje de programaci&oacute;n, las variables.
+                    
+                  </p>
+                  <hr />
+                  <p>
+                    <span class="justify"> <strong>&iquest;Qu&eacute; es una variable?</strong></span>
+                  </p>
+                  <p>
+                    Una variable como bien dice su nombre es algo que puede variar
+                    Al nosotros hacer un script no tenemos manera de saber toda la informaci&oacute;n que vamos a tener, ya sean resultados de sumas, entradas de datos, etc
+                    Para ello usamos las variables, para almacenar todos esos datos
+                    En Perl hay varios tipos de variables, y les vamos a hechar un vistazo a las mismas
+                    
+                  </p>
+                  <hr />
+                  <p>
+                    <span class="justify"> <strong>Las Escalares ($variable)</strong></span>
+                  </p>
+                  <p>
+                    En Perl la variable b&aacute;sica es la escalar. &Eacute;sta variable puede contener cualquier tipo de informaci&oacute;n ya sean n&uacute;meros, letras, cadenas de texto, signos, c&oacute;digo ASCII, etc as&iacute; como cosas m&aacute;s avanzadas como referencias que veremos m&aacute;s adelante.
+                    
+                  </p>
+                  <p>
+                    Para definir una variable escalar todo lo que tenemos que hacer es:
+                    
+                  </p>
+                  <pre>$variable
+</pre><p>
+                    El s&iacute;mbolo $ se usa para identificar a nuestra variable, y despu&eacute;s podemos usar el nombre que queramos.
+                    Para nombrar nuestras variables debemos de seguir un par de reglas:
+                    El nombre de nuestras variables &uacute;nicamente pueden nombrarse con valores alfan&uacute;mericos.
+                    El nombre de nuestras variables son sensibles al uso de may&uacute;sculas y min&uacute;sculas, esto significa que las variables $variable y $Variable son dos variables distintas.
+                    Al definir nuestra variables es buen h&aacute;bito usar el keyword my
+                    Otro punto importante es que las variables NO puden comenzar con n&uacute;meros
+                    Solamente letras o _ ya despu&eacute;s se puede usar cualquier c&aacute;racte alfan&uacute;merico
+                    Muy bien, ahora veamos como podemos definir una variable e iniciarla con un valor:
+                    
+                  </p>
+                  <pre>my $numero = 10;
+</pre><p>
+                    Tambi&eacute;n podemos definirla primero, y despu&eacute;s inicializarla:
+                    
+                  </p>
+                  <pre>my $numero;
+$numero = 10;
+</pre><p>
+                    En ambos casos nuestra variable terminar&aacute; con el valor 10.
+                    Podemos asignar el valor de una variable a otra, por ejemplo:
+                    
+                  </p>
+                  <pre><p>1   my $variableA = "Mi Variable";
+2
+3   my $variableB = $variableA;
+4
+5   my $variableC;
+6
+7   $variableC = $variableA;
+</p></pre><p>
+                    En la l&iacute;nea 1 definimos e inicializamos la variable $variableA con el valor Mi Variable.
+                    Luego en la l&iacute;nea 3 definimos e inicializamos la variable $variableB con el valor de $variableA
+                    de &eacute;sta manera ambas variable tendr&aacute;n el mismo valor.
+                    Y en las l&iacute;neas 5 y 7, definimos la variable, e inicializamos la variable en dos pasos distintos.
+                    En este momento podremos ver que cada l&iacute;nea de c&oacute;digo de Perl debe de acabar con un ;
+                    
+                  </p>
+                  <hr />
+                  <p>
+                    <span class="justify"> <strong> Los Arrays (@array) </strong></span>
+                  </p>
+                  <p>
+                    Ahora veamos el siguiente tipo de variable de Perl.
+                    Los arrays o arreglos como se les puede llamar en espa&ntilde;ol no son exactamente vectores, m&aacute;s que nada se les puede definir como una lista de cosas, est&aacute;s cosas pueden ser n&uacute;meros, letras, palabras o hasta variables. Este tipo de variable es un punto sumamente fuerte de Perl y que te ver&aacute;s usando m&aacute;s de una vez en tus scripts.
+                    Nuestro array se define de la siguiente manera
+                    
+                  </p>
+                  <pre>my @array;
+</pre><p>
+                    Vemos que debemos de usar el s&iacute;mbolo @ para definir nuestros arrays.
+                    Como los arrays son listas de cosas, es diferente la manera en que los inicializamos
+                    
+                  </p>
+                  <pre>my @array = ('Perro','Gato','Gallina','Pez');
+</pre><p>
+                    Aqu&iacute; definimos e inicializamos nuestra variable,
+                    <br />
+                    para definir la lista con la que queremos inicializar a nuestro array, ponemos todos los elementos de la lista entre par&eacute;ntesis y separando cada elemento por una coma.
+                    Aqu&iacute; como cada elemento de la lista es una cadena de texto, por eso los ponemos entre comillas sencillas, aunque tambi&eacute;n podr&iacute;an ser comillas dobles
+                    La separaci&oacute;n es por comas, as&iacute; que no importa la cantidad de espacios que haya entre cada elemento, a continuaci&oacute;n pongo un ejemplo:
+                    
+                  </p>
+                  <pre>1   my @array = (
+2                'Perro',
+3                'Gato',
+4                'Gallina',
+5                'Pez'
+6               );
+</pre><p>
+                    Ya que tenemos una lista de cosas cargadas dentro de nuestro array, ahora debemos de poder tomar alguno de estos elementos.
+                    A cada elemento dentro de nuestra lista le corresponde un n&uacute;mero, basado en su posici&oacute;n dentro de la lista.
+                    Lo hay que tener en mente, es que Perl empieza a contar los elementos desde 0 NO desde 1.
+                    Por lo que en nuestro array con la lista de animales, el elemento 0 ser&iacute;a Perro y el elemento 1 ser&iacute;a Gato, as&iacute; sucesivamente.
+                    Para tomar alg&uacute;n elemento de nuestra lista debemos de usar la siguiente sint&aacute;xis:
+                    
+                  </p>
+                  <pre>$array;
+</pre><p>
+                    En donde <num_elemento>
+                       es un n&uacute;mero que corresponde al elemento que queremos tomar, veamos un ejemplo
+                      
+                    </p>
+                    <pre>1 my @array = ('Perro','Gato','Gallina','Pez');
+2
+3 my $animal = $array;
+</pre><p>
+                      En la l&iacute;nea 1 definimos e inicializamos nuestro array, en la l&iacute;nea 3 asignamos el elemento 3 de nuestro array a la variable $animal
+                      &iquest;Saben cu&aacute;l ser&aacute; el valor de nuestra variable $animal?
+                      Si pensaron Pez est&aacute;n en lo correcto
+                      
+                    </p>
+                    <hr />
+                    <p>
+                      <span class="justify"> <strong> Los hashes (%hash) </strong></span>
+                    </p>
+                    <p>
+                      Ahora vamos a ver las variable de tipo %hash de Perl.
+                      La variable hash o arreglo asociativo es un tipo de variable sumamente especial en Perl, ya que pocos lenguajes cuentan con variables de este tipo. El hash es un tipo de lista por medio de la cual podemos llamar a sus valores por medio de llaves.
+                      As&iacute; dependiendo de la llave que se llame ser&aacute; el valor que se retorne.
+                      Entenderemos esto m&aacute;s a fondo ahora que veamos unos ejemplos.
+                      El hash se define de la siguiente manera:
+                      
+                    </p>
+                    <pre>my %hash;
+</pre><p>
+                      Vemos que el s&iacute;mbolo para diferenciar a las variables de tipo hash es el s&iacute;mbolo %. Ahora, como se explic&oacute; nuestro hash es una lista que corresponden a llaves y valores,
+                      Los hashes los podemos inicializar de dos mane                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;an con lo mismo
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operadores L&oacute;gicos</strong></span>
+                      </p>
+                      <p>
+                        Los operadores l&oacute;gicos normalmente los vamos a usar siempre que querramos controlar el flujo de nuestro programa, m&aacute;s adelante que veamos los Enunciados de Control veremos como.
+                        
+                      </p>
+                      <pre>1   op1 && op2   Operaci&oacute;n AND
+2   op1 || op2   Operaci&oacute;n OR
+3   !op1         Operaci&oacute;n NOT
+</pre><p>
+                        En s&iacute; es sencillo comprender que es un operador l&oacute;gico, el programa va a realizar una desici&oacute;n en base a dos operandos cuya condici&oacute;n puede retornar verdadero o falso.
+                        Si en alg&uacute;n momento hemos tomado la materia de l&oacute;gica en la escuela se nos ser&aacute; muy f&aacute;cil comprender estos operadores. A continuaci&oacute;n viene una tabla de resultados de los operadores, en la pr&iacute;mera columna viene el valor del operando1, en la segunda columna del operando2, y en la tercera y &uacute;ltima columna el resultado en Verdadero o Falso.
+                        
+                      </p>
+                      <pre>1  RESULTADO &&
+2   OP1     OP2     OP1 && OP2
+3   0       0       0
+4   1       0       0
+5   0       1       0
+6   1       1       1
+7
+8
+9  RESULTADO ||
+10  OP1     OP2     OP1 || OP2
+11  0       0       0
+12  1       0       1
+13  0       1       1
+14  1       1       1
+15
+16
+17 RESULTADO !
+18  OP1     !OP1
+19  0       1
+20  1       0
+</pre><hr />
+                      <p>
+                        <span class="justify"> <strong>Operadores a N&iacute;vel bit</strong></span>
+                      </p>
+                      <pre><p>op1 &amp; op2 
+Este operador AND compara dos bits y retorna un resultado de 1
+si ambos bits son 1, de lo contrario regresa 0.
+</p><p>op1 | op2 
+El operador OR compara dos bits y retorna un resultado de 1 si 
+los bits son complementarios, de lo contrario regresa 0.
+</p><p>op1 ^ op2 
+El operador OR EXCLUSIVO compara dos bits y retorna un resultado 
+de 1 si alguno o ambos bits son 1, de lo contrario retorna 0.
+</p><p>-op1 
+Este operador se usa para invertir todos los bits del operando.
+</p><p>op1 >> op2 
+El operador de DESPLAZAMIENTO A LA DERECHA mueve todos los bits
+a la derecha, se deshace del bit de la extrema derecha y asigna 0 
+al bit de la extrema izquierda, esto hace que cada movimiento 
+divida a op1 a la mitad.
+</p><p>op1 << op2 
+El operador de DESPLAZAMIENTO A LA IZQUIERDA mueve todos los bits
+a la izquierda, se deshace del bit de la extrema izquierda y 
+asigna 0 al bit de la extrema derecha, esto hace que cada 
+movimiento multiplique a op1 en 2.
+</p></pre><p>
+                        Ah&iacute; viene el listado de cada operador junto con su breve descripci&oacute;n
+                        Cabe destactar que estos operadores solamente funcionan con BITS
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operadores Relacionales Num&eacute;ricos</strong></span>
+                      </p>
+                      <p>
+                        Estos operadores se usan para verificar la relaci&oacute;n que hay entre dos operadores n&uacute;mericos.
+                        Ya se igualdad, mayor o menor, etc
+                        
+                      </p>
+                      <pre><p>op1 == op2 
+Este operador retornar&aacute; verdadero si ambos operadores son 
+verdaderos. Por ejemplo, lo siguiente es verdadero: 7 == 7
+</p><p>op1 != op2 
+La contraparte del operador anterior, esto regresar&aacute; verdadero
+si los operadores no son iguales. Por ejemplo, lo siguiente
+retornar&aacute; verdadero: 6 != 7
+</p><p>op1 &lt; op2 
+El operador retornar&aacute; verdadero si op1 es menor a op2. Por 
+ejemplo 2 &lt; 6 es verdadero.
+</p><p>op1 <= op2 
+El operador retornar&aacute; verdadero si op1 es menor o igual a op2. 
+Por ejemplo 4 <= 4 y 4 <= 5 son verdaderos.
+</p><p>op1 &gt; op2 
+El operador retornar&aacute; verdadero si op1 es mayor a op2. Por 
+ejemplo 6 &gt; 5 es verdadero.
+</p><p>op1 >= op2 
+El operador retornar&aacute; verdadero si op1 es mayor o igual a op2. 
+Por ejemplo 8 >= 8 y 8 >= 4 son verdaderos.
+</p><p>op1 <==> op2 
+Este operador es algo diferente pues en vez de dos posible 
+retornos, tiene 3. El operador retorna 1 si op1 es mayor a op2, 
+0 si op1 es igual a op2, y -1 si op1 es menor a op2.
+</p></pre><p>
+                        Ah&iacute; viene la tabla con los operadores y una breve descripci&oacute;n
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operadores Relacionales de Cadena</strong></span>
+                      </p>
+                      <p>
+                        Estos operadores se usan para verificar la relaci&oacute;n entre dos operandos de cadena, los operandos de cadena se consideran aquellos que no son n&uacute;mericos.
+                        
+                      </p>
+                      <pre><p>op1 eq op2 
+El operador retornar&aacute; verdadero si op1 es igual a op2. Por 
+ejemplo c eq c es verdadero.
+</p><p>op1 ne op2 
+El operador retonar&aacute; verdadero si op1 no es igual a op2. 
+Por ejemplo a ne b es verdadero.
+</p><p>op1 lt op2 
+El operador retornar&aacute; verdadero si op1 es menor a op2. 
+Por ejemplo a lt b es verdadero.
+</p><p>op1 le op2 
+El operador retornar&aacute; verdadero si op1 es menor o igual a op2. 
+Por ejemplo a le b y a le a son verdaderos.
+</p><p>op1 gt op2 
+El operador retornar&aacute; verdadero si op1 es mayor a op2. 
+Por ejemplo z gt a es verdadero.
+</p><p>op1 ge op2 
+El operador retornar&aacute; verdadero si op1 es mayor o igual a op2. 
+Por ejemplo z ge y y z ge z son verdaderos.
+</p><p>op1 cmp op2 
+El operador tiene tres posible retornos. 1 si op1 es mayor a 
+op2, 0 si op1 es igual a op2 y -1 si op1 es menor a op2.
+</p></pre><hr />
+                      <p>
+                        <span class="justify"> <strong>Operador Ternario</strong></span>
+                      </p>
+                      <p>
+                        El operador ternario es sumamente &uacute;til en Perl y realmente es una secuencia de operadores, su sint&aacute;xis es como sigue:
+                        
+                      </p>
+                      <pre>CONDICION ? PARTE-VERDADERA : PARTE-FALSA
+</pre><p>
+                        Lo que te permite el operador es evaluar la CONDICION y dependiendo de si es verdadera o falsa se regresar&aacute; la parte que corresponda. Esto se podr&aacute; comprender m&aacute;s con un ejemplo:
+                        
+                      </p>
+                      <pre>my $num = 10;
+my $var1 = ($num &gt; 5) ? Mayor : Menor;
+</pre><p>
+                        Lo que estamos haciendo es realizando una asignaci&oacute;n a la variable $var1 dependiendo de la condici&oacute;n.
+                        En este caso la condici&oacute;n es ($num &gt; 5), si esto resulta verdadero, la palabra Mayor se asignar&aacute; a la variable, de lo contrario ser&aacute; la palabra Menor.
+                        Este operador se podr&aacute; comprender m&aacute;s a fondo cuando veamos los enunciados de control en la siguiente sesi&oacute;n.
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operador de Rango (..)</strong></span>
+                      </p>
+                      <p>
+                        El operador de rango nos resulta sumamente &uacute;til cuando queremos crear arrays con valores contiguos. Por ejemplo, d&iacute;gamos que queremos crear un array con los n&uacute;meros del 1 al 10, uno estar&iacute;a tentado a hacerlo de la siguiente manera:
+                        
+                      </p>
+                      <pre>my @array = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+</pre><p>
+                        <em>NOTA: </em>Vemos como no usamos comillas para los valores en este caso debido a que los elementos son n&uacute;meros NO cadenas de texto <br />
+                        
+                        Esto resulta sumamente impr&aacute;ctico, y m&aacute;s si queremos asignar mucho m&aacute;s n&uacute;meros. Pero esto es posible comprimirlo usando el operador de rango:
+                        
+                      </p>
+                      <pre>my @array = (1..10);
+</pre><p>
+                        Ahora tendremos nuestro array con la lista de n&uacute;meros del 1 al 10
+                        Pero aparte el operador es inteligente, entonces si hacemos algo as&iacute;:
+                        
+                      </p>
+                      <pre>my @array = (01..10);
+</pre><p>
+                        Nuestro array contendr&aacute; correctamente los valores 01,02,03,04,05,06,07,08,09,10.
+                        Ahora veamos que pasa si usamos letras:
+                        
+                      </p>
+                      <pre>my @array = ('a'..'e');
+</pre><p>
+                        El resultado es justo como lo queremos a,b,c,d,e.
+                        Pongamos ahora en prueba a Perl, te puedes imaginar los valores que resultar&iacute;an de lo siguiente:
+                        
+                      </p>
+                      <pre>my @array = ('aa'..'af');
+</pre><p>
+                        Los valores ser&iacute;an aa,ab,ac,ad,ae,af.
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operador de Concatenaci&oacute;n</strong></span>
+                      </p>
+                      <p>
+                        Muchas veces no queremos sumar ni restar, o realizar ninguna operaci&oacute;n entre dos operandos, sino que queremos ``pegarlos''. Para eso tenemos el operador de concatenaci&oacute;n
+                        Este operador es un simple punto . y funciona de la siguiente manera:
+                        
+                      </p>
+                      <pre><p>1   my $saludo = "Hola me llamo ;
+2   my $nombre = Uriel";
+3
+4   my $frase = $saludo . $nombre;
+</p></pre><p>
+                        Como resultado nuestra variable $frase tendr&aacute; el valor Hola me llamo Uriel.
+                        Pero, que pasa si combinamos n&uacute;meros con cadenas:
+                        
+                      </p>
+                      <pre>my $edad = "Tengo  . 21 .  a&ntilde;os".
+</pre><p>
+                        Como resultado en la variable $edad tendremos el valor Tengo 21 a&ntilde;os, pues Perl realiza la conversi&oacute;n del n&uacute;mero 21 a una cadena detr&aacute;s de las cortinas de manera autom&aacute;tica.
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operador de Repetici&oacute;n</strong></span>
+                      </p>
+                      <p>
+                        Este operador lo usamos para duplicar una cadena n n&uacute;mero de veces. El operador se define con una x, por ejemplo:
+                        
+                      </p>
+                      <pre>my $var = "A" x 6;
+</pre><p>
+                        Esto genera el valor AAAAAA.
+                        
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>Operadores de Asignaci&oacute;n</strong></span>
+                      </p>
+                      <p>
+                        A trav&eacute;s de todo el tutorial hemos estado usando el operador de asignaci&oacute;n b&aacute;sico =. Ahora veremos que hay m&aacute;s maneras de asignar un valor a una variable.
+                        Por ejemplo, d&iacute;gamos que tenemos algo as&iacute;:
+                        
+                      </p>
+                      <pre>1   my $var = 1;
+2   my $num = 20;
+3
+4   $var = $var + $num;
+</pre><p>
+                        Al final obtendremos el valor 21 en nuestra variable $var, pero esto se ve demasiado repetitivo y tedioso, y pues como siempre Perl tiene una manera m&aacute;s simple de realizar las cosas, pues esto lo podr&iacute;amos lograr m&aacute;s sencillamente usando alguno de los operadores de asignaci&oacute;n.
+                        
+                      </p>
+                      <pre>$var += $num;
+</pre><p>
+                        Vemos como estamos usando un diferente operador de asignaci&oacute;n +=. Este operador lo que hace es sumar el valor de la derecha a nuestra variable de la izquierda.
+                        Hechemos una vistazo a otro ejemplo para entender un poco m&aacute;s. Lo m&aacute;s seguro es que sepas el valor final de nuestra variable con solo verlo, pues Perl es muy intuitivo:
+                        
+                      </p>
+                      <pre>my $num = 5;
+$num -= 4;
+</pre><p>
+                        &iquest;Puedes saber que valor tendr&aacute; $num?
+                        <br />
+                        Si dijiste 1 est&aacute;s en lo correcto.
+                        <br />
+                        Muy sencillo, veamos uno m&aacute;s:
+                        
+                      </p>
+                      <pre>my $num = 3;
+$num *= 3;
+</pre><p>
+                        &iquest;Cu&aacute;l ser&aacute; el valor?
+                        <br />
+                        Si dijiste 9, est&aacute;s en lo correcto
+                        <br />
+                        Aqu&iacute; est&aacute; la lista de todos los operadores de asignaci&oacute;n disponibles:
+                        
+                      </p>
+                      <pre>1   var = op1;
+2   var += op1;
+3   var -= op1;
+4   var *= op1;
+5   var /= op1;
+6   var %= op1;
+7   var .= op1;
+8   var <safe>*</safe>*= op1;
+9   var x= op1;
+10  var <<= op1;
+11  var >>= op1;
+12  var &= op1;
+13  var |= op1;
+14  var ^= op1;
+</pre><hr />
+                      <p>
+                        <span class="justify"> <strong>Orden de Precedencia</strong></span>
+                      </p>
+                      <p>
+                        Muchas veces nos encontraremos usando varios operadores en una misma expresi&oacute;n.
+                        
+                      </p>
+                      <pre>my $var = 10 + 5 * 4 / 2;
+</pre><p>
+                        Si esto sucede, &iquest;qu&eacute; operadores se ejecutan primero? Para esto Perl tiene un orden de precedencia, es un orden establecido en donde podemos ver que operadores se ejecutan primero y cuales al final. Es sumamente importante que tengamos siempre presente esto o si no nos encontraremos con resultados innesperados.
+                        Aqu&iacute; va una tabla con los operadores m&aacute;s usados ordenados por precedencia:
+                        
+                      </p>
+                      <pre>(), [], {}    LLamadas a funciones, par&eacute;ntesis
+++,--         Incremento y decremento
+<safe>*</safe>*            Exponenciaci&oacute;n
+*,/,%,x       Multiplicaci&oacute;n,divisi&oacute;n,m&oacute;dulo,repetici&oacute;n
++,-,.         Suma, resta, concatenaci&oacute;n de cadena
+&&            AND l&oacute;gico
+||            OR l&oacute;gico
+..            Operador de rango
+=             Operadores de asignaci&oacute;n
+</pre><p>
+                        Cabe destacar que la tabla para nada est&aacute; completa, faltan muchos operadores, los cuales se podr&aacute;n ver en la documentaci&oacute;n de Perl.
+                        Simplemente se enlistaron los m&aacute;s com&uacute;nes
+                        <br />
+                        Viendo la tabla te podr&iacute;as imagina el resultado de la siguiente operaci&oacute;n:
+                        
+                      </p>
+                      <pre>my $num = 10 + 4 / 2;
+</pre><p>
+                        <em> (M&uacute;sica de concurso) </em>
+                        Si dijiste que 7 est&aacute;s incorrecto, el resultado ser&aacute; 12. La raz&oacute;n de esto es que si vemos la tabla de precedencia podremos ver que la divisi&oacute;n tiene m&aacute;s precedencia que la suma, por lo que la primera operaci&oacute;n que se realiza es es 4/2, por lo que despu&eacute;s se realiza 10+2.
+                        Pero &iquest;qu&eacute; pasa si queremos que se ejecute la suma primero? Para eso nos sirven los par&eacute;ntesis que tienen la mayor precedencia:
+                        
+                      </p>
+                      <pre>my $num = (10 + 4) / 2;
+</pre><p>
+                        Ahora s&iacute;, como los par&eacute;ntesis ocupan el primer lugar de precedencia lo primero que se ejecuta es 10+4 y despu&eacute;s 14/7.
+                        Realmente es sencillo, solamente hay que recordar en todo momento los n&iacute;veles de precedencia, y SIEMPRE haya alguna duda, usa los par&eacute;ntesis.
+                        As&iacute; finalizamos con los operadores,
+                        <br />
+                        Podr&aacute;n pensar que es demasiada informaci&oacute;n, pero como dije al principio, son bastante intuitivos,
+                        Se terminar&aacute;n acostumbrando a ellos, pues junto con las variables, esto es lo m&aacute;s b&aacute;sico de Perl
+                        Muy bien, y as&iacute; finaliza la exposici&oacute;n de la primera sesi&oacute;n de Perl B&aacute;sico,
+                        Espero que &eacute;sta introducci&oacute;n les haya parecido buena, 
+                        Ahora vamos a continuar con las preguntas y respuestas acerca del tema,
+                        
+                      </p>
+                      <p>
+                        <strong> <em> MUUUUCHOS APLAUSOS </em></strong>
+                      </p>
+                      <hr />
+                      <p>
+                        <span class="justify"> <strong>PREGUNTAS Y RESPUESTAS </strong></span>
+                      </p>
+                      <p>
+                        <strong> Q. Los hashes, que utilidad se le puede dar en un script o programa ??? </strong>
+                      </p>
+                      <p>
+                        Con los hashes se pueden hacer hermosas estructuras de datos :) Seguramente ya llegara el momento para adelantar algo sobre hash de hashes anonimos. Por ejemplo, uno de los principales usos que se les d&aacute; en los CGIs es cuano se reciben los campos de un formulario. 
+                        Por lo menos, con un hash de hashes anonimos puedes representar la estructura de un grafo dirigido con pesos en sus arcos...
+                        
+                      </p>
+                      <p>
+                        <strong> Q. me podrian dar algun ejemplo para poder analizarlo ? </strong>
+                      </p>
+                      <pre>my %Campos = (
+<pre><br />'Nombre' => 'Uriel Lizama',
+<br />'Email'  => 'uriel AT baboonsoftware PUNTO com',
+'Edad'   => 21
+<br />);
+</pre></pre><p>
+                        Los puedes usar para pasar un numero variable de parametros a una subrutina, tambien para guardar los valores de los atributos de un objeto
+                        
+                      </p>
+                      <p>
+                        <strong> Q. la de $var = (condicion) ? verdadero : falso muchas veces necesit&eacute; algo as&iacute; y tuve que usar if else (cara de enojado) </strong>
+                      </p>
+                      <p>
+                        ese operador terciario se hereda de lenguajes de programacion como C/C++ :)
+                        
+                      </p>
+                      <p>
+                        <strong> Q. Hay un par de bugs.... bueno, he visto hasta 3... &iquest;como te los mando? </strong>
+                      </p>
+                      <p>
+                        Enviar los errores que encuentren a uriel_AT_baboonsoftware_PUNTO_com
+                        
+                      </p>
+                      <p>
+                        <strong> Q. Seg&uacute;n le&iacute; en las entradas que mandaste al comienzo asignarias algunos ejercicios para practicar, cierto ? </strong>
+                      </p>
+                      <p>
+                        Los ejercicios los pondr&eacute; en el foro de Perl en Espa&ntilde;ol ( <a href="http://perlenespanol.baboonsoftware.com/foro/">http://perlenespanol.baboonsoftware.com/foro/</a> ), ah&iacute; mismo se podr&aacute; dar ayuda para resolverlos,
+                        
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div align="center">
+          <table bgcolor="orange" border="0" cellpadding="0" cellspacing="0" width="95%">
+            <tbody>
+              <tr>
+                <td align="center">
+                  <p>
+                     <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" border="0" height="31" width="88" /></a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://cafe.pm.org/main.css"> <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a> <a href="http://webmake.taint.org/"> <img src="http://webmake.taint.org/BuiltWithWebMake.png" width="88" height="31" border="0" alt="Built With WebMake" /></a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </body>
+    </html>

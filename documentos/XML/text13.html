@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+<title>XML::Writer</title>
+</head>
+<body text=#000000 bgcolor=#333366 link=#0000CC vlink=#000080 alink=#0000CC>
+<center>
+<a href="text0.html">First page</a> <a href="text12.html">Back</a> <a href="text14.html">Continue</a> <a href="text42.html">Last page</a> <a href="XML.html">Overview</a> <a href="img13.html">Graphics</a></center><br>
+<h1><b><i><font color=#FF9966>Generaci&oacute;n de XML (XML::Writer)</b></i></font></h1><p>
+<ul><li><h2><font color=#FF0000></font></h2>
+<li><h2>use <b><font color=#94006B>XML::Writer</b></font></h2>
+<li><h2>my $xml;</h2>
+<li><h2>my $writer = <b><font color=#94006B>XML::Writer</b></font>-&gt;new( <b><font color=#FF0000>OUTPUT</b></font> =&gt; \$xml,</h2>
+<li><h2>                               <b><font color=#FF0000>NEWLINES</b></font> =&gt; 1,</h2>
+<li><h2>                               <b><font color=#FF0000>ENCODING</b></font> =&gt; 'utf-8');</h2>
+<li><h2>$writer-&gt;xmlDecl('utf-8');</h2>
+<li><h2>$writer-&gt;<b><font color=#666699>startTag</b></font>('<b>Survey</b>',</h2>
+<li><h2>                  'id' =&gt; <b><font color=#0000FF>$encuesta</b></font>);</h2>
+<li><h2>$writer-&gt;startTag('<b>name</b>');</h2>
+<li><h2>$writer-&gt;characters( <b><font color=#0000FF>$nombre</b></font> );</h2>
+<li><h2>$writer-&gt;endTag('<b>name</b>');</h2>
+<li><h2>$writer-&gt;startTag('<b>Answer</b>',</h2>
+<li><h2>                  'nQuest' =&gt; 9);</h2>
+<li><h2>$writer-&gt;endTag('<b>Answer</b>');</h2>
+<li><h2>$writer-&gt;<b><font color=#666699>endTag</b></font>('<b>Survey</b>');</h2>
+<li><h2>$writer-&gt;end();</h2>
+<li><h2><font color=#996633>## Procesar contenido XML dentro ubicado en $xml</font></h2>
+<li><h2><font color=#996633></font></h2>
+</ul><br>
+<h3>Notes:</h3>
+</body>
+</html>

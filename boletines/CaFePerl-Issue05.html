@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CaFe Perl v0.5 - Periódico de la Comunidad Perl de Capital Federal</title>
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#cafe_perl_v0_5__periódico_de_la_comunidad_perl_de_capital_federal">CaFe Perl v0.5 - Periódico de la Comunidad Perl de Capital Federal</a></li>
+	<ul>
+
+		<li><a href="#editorial">Editorial</a></li>
+		<li><a href="#perlitas">PERlitas</a></li>
+		<li><a href="#sudornews">SudorNews</a></li>
+		<ul>
+
+			<li><a href="#pugs_6_2_9">Pugs 6.2.9</a></li>
+			<li><a href="#www__kontent_0_01">WWW::Kontent 0.01</a></li>
+			<li><a href="#portando_test__builder_a_perl_6">Portando Test::Builder a Perl 6</a></li>
+			<li><a href="#parrot_0_2_3_serenity_liberado">Parrot 0.2.3 ``Serenity'' liberado</a></li>
+			<li><a href="#introducción_al_scripting_open_source_en_mac_os_x">Introducción al scripting Open Source en Mac OS X</a></li>
+			<li><a href="#introducción_al_lenguaje_sleep">Introducción al lenguaje Sleep</a></li>
+			<li><a href="#calificación_de_sistemas_open_source">Calificación de sistemas Open Source</a></li>
+			<li><a href="#el_sistema_lamp_pierde_cuota_de_mercado">El sistema LAMP pierde cuota de mercado</a></li>
+			<li><a href="#programming_in_perl_6_style_using_perl_5">Programming in Perl 6 style using Perl 5</a></li>
+			<li><a href="#grupo_unix_de_los_laboratorios_bell_desmantelado">Grupo Unix de los laboratorios Bell desmantelado</a></li>
+			<li><a href="#búsqueda_de_código_fuente_de_libros">Búsqueda de código fuente de libros</a></li>
+			<li><a href="#para_el_cv___yo_participo_en_un_proyecto_open_source">Para el CV : yo participo en un proyecto Open Source</a></li>
+			<li><a href="#evadiendo_el_fingerprinting_pasivo">Evadiendo el fingerprinting pasivo</a></li>
+			<li><a href="#building_a_3d_engine_in_perl">Building a 3D Engine in Perl</a></li>
+			<li><a href="#para_una_buena_programación__buenas_herramientas">Para una buena programación, buenas herramientas</a></li>
+			<li><a href="#y_seguimos_indexando____">Y seguimos indexando ...</a></li>
+			<li><a href="#openoffice__oodoc_2_003_disponible_en_cpan">OpenOffice::OODoc 2.003 disponible en CPAN</a></li>
+			<li><a href="#querés_probar_tus_conocimientos____">Querés probar tus conocimientos ...</a></li>
+			<li><a href="#testing_automatizado_de_gui">Testing automatizado de GUI</a></li>
+		</ul>
+
+		<li><a href="#poc__peace_of_code_">POC (peace of code)</a></li>
+	</ul>
+
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<hr />
+<h1><a name="cafe_perl_v0_5__periódico_de_la_comunidad_perl_de_capital_federal">CaFe Perl v0.5 - Periódico de la Comunidad Perl de Capital Federal</a></h1>
+<p>
+</p>
+<h2><a name="editorial">Editorial</a></h2>
+<p>Un mes complicado, difícil y con sus bemoles.</p>
+<p>Como saben este mes no está la sección Mordiditas de aquí y de allá, pero en
+verdad debo agradecer a Cristhian de codigolibre.org y a Manuel Sanguino por
+el ofrecimiento de ayuda. Lamentablemente no pudimos plasmarlo en algo
+concreto, pero seguramente más adelante van a aparecer por CaFe Perl.</p>
+<p>Este mes la entrevista de PERLitas es a GomoR al creador de Net::Packet. En
+esta nota recibí la ayuda de Leonardo Pigñer, que fue quién me sugirió a
+esta persona para la entrevista (y debo decir que no se equivocó al
+recomendármelo) y me dio las preguntas para hacerle. Algo para no perderse.</p>
+<p>Así que ya sabés, si querés entrevistar a alguien podés mandarme un e-mail y
+coordinamos como hacerlo y qué preguntas mandarle.</p>
+<p>Espero que lo disfruten.</p>
+<p>Hasta la próxima taza de CaFe Perl !!! ... eso sí, café del bueno ;-).</p>
+<p>Víctor A. Rodríguez (Bit-Man)</p>
+<p>
+</p>
+<h2><a name="perlitas">PERlitas</a></h2>
+<p>Entrevista realizada y traducida al español por Víctor A. Rodríguez</p>
+<p>Net::Packet es un conocido framework para enviar y recibir frames desde los
+layers 2 a 7 de una forma fácil. Simple de decir y simple de usar, pero qué
+hay acerca de GomoR, su creador ?? Ahora vas a saber acerca de él en esta
+entrevista, pero no te engañes : es alguien que conoce sobre seguridad,
+eligió Perl para desarrollar sus propias herramientas, tiene sus propias
+ideas y le gustan los Martinis con una aceituna. Alguien con clase.</p>
+<p><strong>Por favor GomoR, una introducción para el grupo CaFe.pm</strong></p>
+<p>Bien, mi trabajo mayormente es hacer asesoría de seguridad a varios niveles,
+desde red hasta aplicaciones web. Amo desarrollar algunos tests de
+vulnerabilidad y otros programas de red o seguridad, y ya que no quiero
+gastar mi tiempo en desarrollo, comencé a aprender Perl, hace dos años.</p>
+<p><strong>Así que decidió usar Perl solo porque estaba a la mano, porque era la duct
+tape, fue introducido por otra persona u otra razón ??</strong></p>
+<p>Elegí Perl debido a la multitud de módulos disponibles, y porque si hay un
+lenguaje que 'satisface todas las necesidades', creo que es Perl. Porque
+desarrollo programas para una variedad de campos (desde paquetes de red
+hasta frontends web y bases de datos), yo escogí Perl. Lo aprendí yo mismo
+leyendo los libros de O'Reilly, y leyendo código de distintos módulos.
+también amo el código que Perl genera, me gusta llamar a mi código como
+cierta forma de arte.</p>
+<p><strong>Por qué cree que algunos frames para generar exploits, como CORE Impact o
+CANVAS, principalmente fueron desarrollados usando Python en lugar de Perl
+??</strong></p>
+<p>Bueno, es una buena pregunta. Escuché que Metasploit también migrará a
+Python. Tengo ciertas ideas sobre eso, y creo que es porque es más fácil
+inyectar un intérprete Python en la memoria de un proceso remoto y Perl,
+debido a su estructura de filesystem, debería ser más difícil. Tengo un
+proyecto para trabajar sobre esto (que es inyectar el intérprete de Perl en
+un proceso remoto), sólo por el desafío de hacerlo. Pero no estoy seguro que
+pueda hacerlo. Tengo demasiadas cosas en que trabajar ahora.</p>
+<p><strong>Por qué decidió hacer Net::Packet cuando ya había hechos otros módulos que
+se encargaban del trabajo ??</strong></p>
+<p>Bueno, esta pregunta es siempre la misma: ``Por qué reinventar la rueda ?''.
+Principalmente respondo con dos razones. Primero, creo que la mejor forma de
+aprender sobre algo es desarrollarlo. Por ejemplo, para aprender cómo se
+transmite un paquete, hacé vos mismo el paquete. La segunda razón es que
+siempre estaba escribiendo las mismas funciones (abrir un descriptor usando
+Net::Pcap, poner siempre los mismos header IPv4 usando NetPacket o
+Net::RawIP, abrir el socket, enviar el paquete, analizar siempre los mismos
+campos para encontrar las respuestas, bla bla bla). No me gusta escribir
+siempre el mismo código, especialmente cuando es realmente fácil. Así que
+comencé a desarrollar Net::Packet desde cero (tengo como tarea el remover
+Net::Pcap como dependencia de Net::Packet), con una interfaz simple, y un
+poderoso motor para manejo de layers. Básicamente, se crea un frame object,
+y se ponen dentro todos los layers para llevar a cabo la tarea. Así, con
+Net::Packet es posible encapsular cualquier-cosa en cualquier-cosa (por
+ejemplo Net::Packet::VLAN), mandar el frame fácilmente y capturar la
+respuesta automágicamente. Los descriptores se abren automáticamente, sin
+necesidad de preocuparse, el sniffing the los frames se hace con un forked
+process, y el proceso principal puede llamar al método receive en forma
+asincrónica.</p>
+<p>No creo que los módulos actuales puedan hacer eso :-)</p>
+<p><strong>Y los mayores pros y contras entre Net::Packet y los otros módulos ??</strong></p>
+<p>Creo que Net::Packet es muy pesado en cuanto a memoria, y debido a la
+interfaz del framework, podría tardar más en ejecutar que el resto. La
+simplicidad tiene un precio. Trabajé para optimizar el uso de memoria y la
+velocidad, y tuve éxito con la velocidad. Creo que gané un factor de 10
+desde Net::Packet 1.28.</p>
+<p><strong>Mas allá de la habilidad de Perl, cuáles son los diferencias entre
+Net::Packet y libs en otros lenguajes tales como libpcap/libnet ??</strong></p>
+<p>Bueno, no hay equivalente de Net::Packet en C/C++ que yo conozca. Cuando
+escribí programas de red en C, me encontré lo mismo que en Perl y decidí
+desarrollar Net::Packet. Puedo comparar libnet con NetPacket o Net::RawIP, o
+libpcap, bueno, que en realidad es Net::Pcap.</p>
+<p>Hace tiempo comencé a escribir una lib en C que haga el trabajo de
+Net::Packet, pero el tiempo de desarrollo terminó por matarme.</p>
+<p><strong>A propósito, puede mencionar algún trabajo que haya hecho con Net::Packet ??</strong></p>
+<p>Si, el mejor OS fingerprinter que haya existido (chiste :-) ) : Net::SinFP.
+También desarrollé Net::Packet para que haga fácilmente pruebas de OS
+fingerprint y sin la limitación en la forma que se hacen los paquetes :
+<a href="http://www.gomor.org/cgi-bin/index.pl?mode=view;page=net_sinfp">http://www.gomor.org/cgi-bin/index.pl?mode=view;page=net_sinfp</a></p>
+<p>Este realmente no tiene POD :-)</p>
+<p><strong>Y que hay acerca de este módulo. Lo escribió como una prueba conceptual o
+fue concebido como un módulo desde el principio??</strong></p>
+<p>Esto no es una PoC (N.del.T : prueba de concepto). Fue hecho como un módulo,
+porque integré el OS fingerprinting en otros proyectos en los que trabajo.
+Así que es un módulo verdadero que se puede usar para hacer OS
+fingerprinting en sus programas.Y la base de firmas no está vacía :-)</p>
+<p>El archivo sinfp.pl que viene con el módulo es el programa que se compara
+con nmap -O. Pero hay más que OS fingerprinting activo, lo hay también
+pasivo, y fingerprints sobre IPv4 e IPv6. Este es el primer programa que
+hace OS fingerprinting para stacks IPv6. Aliento al lector a leer más sobre
+SinFP en el link anterior.</p>
+<p>Para este módulo también desarrollé DBIx::SQLite::Simple, para un fácil
+acceso a tablas de base de datos y otros elementos. haciendo un mapping
+entre entradas en las tablas y objetos : <a href="http://www.gomor.org/cgi-">http://www.gomor.org/cgi-</a>
+bin/index.pl?mode=view;page=dbix_sqlite_simple</p>
+<p><strong>Podría comparar la comunidad Perl en Francia con la de otros países ??</strong></p>
+<p>No puedo. No estoy involucrado en absoluto en ninguna comunidad Perl. Como
+un principio general no me gustan las comunidades. Podemos tener una
+entrevista filosófica para describir mis sentimientos sobre eso.</p>
+<p><strong>OK, iba a preguntar sobre ``la Comunidad de Seguridad'', pero en su lugar voy
+a preguntar ``Podría comparar al movimiento de Seguridad en Francia con los
+de otros países'' ??</strong></p>
+<p>Pienso que el ``toque Francés''en el campo de la seguridad es cada vez más
+grande. Hace no muchos años, no había casi franceses hablando sobre
+seguridad en las conferencias mundiales. Y ahora, en Francia, tenemos
+nuestra propia conferencia de seguridad que se pone mejor y mejor cada año.
+Se llama SSTIC (www.sstic.org).</p>
+<p>Principalmente esta conferencia es organizada por una revista francesa de
+seguridad llamada MISC (www.miscmag.com). También escribí dos artículos
+sobre OS fingerprinting en esta revista.</p>
+<p><strong>Y cuál cree que fueron los factores que empujaron a Francia hacia este nuevo
+estado ??</strong></p>
+<p>Siempre hay una brecha entre USA y el viejo continente. Y ahora la llenamos.
+Los nuevos estudiantes están más interesados en la seguridad, y los gusanos
+más importantes han puesto una advertencia de seguridad a los altos
+directivos en las compañías top. Así, hay más y más traajos de seguridad en
+Francia, y más y más franceses brillantes ``en escena''. Pero esto es una
+opinión personal, por supuesto.</p>
+<p>Otra cosa, cuando comencé a aprender sobre seguridad, cerca de 7 años atrás,
+no había tanta documentación en Internet como hay ahora. Hoy es más fácil
+aprender sobre muchos campos del área de seguridad.</p>
+<p><strong>Podríamos decir que la competencia elevó la calidad, no cree ??</strong></p>
+<p>Bueno, creo que la competencia es algo bueno. Voy a tomar un ejemplo
+personal. Antes de comenzar a investigar en OS fingerprinting, la mejor
+herramienta (según la opinión pública general) era nmap O. Así que
+necesitaba hacer algo mejor que nmap.</p>
+<p>Ahora dejo que otra gente juzgue si tuve algún éxito o no.</p>
+<p><strong>Creo que hubo una exposición pública de la seguridad desde 6 o 7 años a esta
+parte, y que ayudó a diseminarlo, y convertirlo en ``algo de lo que no se
+puede evitar hablar''</strong></p>
+<p>Bueno, no en Francia. Puede ser en otros países, pero no aquí. En Francia,
+si querés encontrar fácilmente un trabajo en seguridad, tenés que ir a
+París. En otras ciudades tenés que tener mucha suerte.</p>
+<p><strong>Y hablando de la seguridad, cuál es su opinión acerca de la revelación de
+vulnerabilidades hecha por Lynn en la convención Black Hat ?? (la que generó
+el ``ciscogate'') ??</strong></p>
+<p>Me gusta la pregunta. por lo que leí su ``anuncio'' no fue nada nuevo. FX, de
+phenoelit, ya habló acerca de desarrollar IOS shellcodes. El mayor problema
+en el caso de Lynn fue que trabaja en USA, y especialmente para ISS. Malo
+para él. Cisco e ISS son dos empresas con base en USA. La libertad en USA se
+está más y más cerca a la de un país con un régimen dictatorial. Lo que
+hace, para esa nación, es algo que no es políticamente correcto en absoluto.</p>
+<p><strong>Bueno, se sabe que esta idea genera algunos problemas, principalmente cuando
+son sobre dinero, ganancias, exposición pública y cosas como esas :-)</strong></p>
+<p>Si. No hablo acerca de la revelación de vulnerabilidades. Sólo digo mi forma
+personal de actuar es a través de la revelación responsable. Encontré
+algunas pequeñas vulnerabilidades en el producto BEA WebLogic mientras
+estaba haciendo un test de penetración (pentest) para mi actual cliente, y
+trabajé con BEA para resolverlo. OK, le toma toma tiempo al fabricante
+arreglar el problema, peor trabajé para una compañía de software antes, y se
+de lo que se está hablando.</p>
+<p><strong>Seguro. Siempre los puntos extremos no están bien posicionados (tienen una
+``postura radical''). Creo que la verdad está en el medio, entre los puntos
+extremos, actuando con responsabilidad</strong></p>
+<p>Si, y requiere cierta madurez el poder ver el área gris.</p>
+<p><strong>Siempre, y principalmente el tomar la responsabilidad depende de lo que
+hagas se puede afectar la vida diaria de millones de personas. Para bien o
+para mal</strong></p>
+<p>Exacto. Siempre debe poder evaluarse las consecuencias de nuestros actos.</p>
+<p><strong>Y cuáles son sus próximos proyectos ??</strong></p>
+<p>Una verdadera base de datos de vulnerabilidades. el objetivo son las
+personas que testean vulnerabilidades (pentesters)</p>
+<p><strong>Puede darme más detalles, suena jugoso !!</strong></p>
+<p>Actualmente implementé la base de datos. No hay descripción de la
+vulnerabilidad. Sólo mantengo información sobre vulnerabilidades que son
+útiles. Por ejemplo, una vulnerabilidad de consumo de memoria (memory
+exhaustion) no es muy útil. Pero una vulnerabilidad que es (o fue) explotada
+masivamente si lo es. El tipo de consecuencia del exploit es la información
+más grande. Un buffer overflow, en un producto, basado en un stack es
+información útil. Normalmente, en la bases de datos de vulnerabilidades
+(VDB), esta información está enmascarada en el campo de descripción.</p>
+<p>También agrego los requerimientos para explotarlo, por ejemplo credenciales
+válidas, o en el caso de la última vulnerabilidad MS05-039 es requerida una
+sesión nula. Mi VDB podrá (será) usable en herramientas de análisis de
+vulnerabilidades.</p>
+<p>Así que el API de la base de datos está implementada, y comencé a llenar la
+base con datos. Actualmente tiene 56 vulnerabilidades importantes, con links
+a los código de explotación y las referencias cruzadas más importantes.</p>
+<p><strong>Volviendo a Net::Packet (donde comenzó esta charla) : que consejo le darías
+a alguien que recién comienza en la programación de aplicaciones de red y
+que quiere usar Net::Packet ??</strong></p>
+<p>Que lea el libro de W. Stevens book : TCP/IP Illustrated volume I. Y puede
+ser también el volume II, pero personalmente nunca lo leí. Y también que lea
+todos los libros de O'Reilly sobre programación Perl. No estoy aquí para
+contestar preguntas sobre Perl (cuando respondo a preguntas sobre mis
+módulos en CPAN)</p>
+<p><strong>Y que consejo de su parte (además de leer libros) ?? ;-)</strong></p>
+<p>Lean, siempre lean. Nunca paren de leer.</p>
+<p><strong>Cómo puede alguien colaborar con Net::Packet o en cualquier proyecto que
+usted está llevando a cabo ??</strong></p>
+<p>Denme algunas capturas de paquetes de nuevos protocolos de nivel 2, 3 o 4.
+Esperen a que los implemente y prueben mis implementaciones (funcionen o
+no).</p>
+<p><strong>Y hablando de CPAN (en la pregunta previa), algún módulo favorito de CPAN ??</strong></p>
+<p>Puede ser LWP::* , o DBI::* y DBD::*</p>
+<p><strong>Qué considera más útil de esos módulos ??</strong></p>
+<p>Que esconden las tareas de bajo nivel que no quiero aprender.</p>
+<p><strong>Y qué usos de su trabajo lo sorprendieron ??</strong></p>
+<p>Un hombre de la NASA ;-) No se en qué proyecto está trabajando, pero me
+gusta saber que Net::Packet se usa en la NASA :-)</p>
+<p><strong>Parece como si Net::Packet viajó a la ISS (estación espacial internacional)
+!!</strong></p>
+<p>Hehe ;-) puede ser. Pero no lo creo.</p>
+<p><strong>Tiene alguna experiencia (divertida o no) que tuvo mientras estaba haciendo
+Net::Packet y que quiere compartir con nosotros ??</strong></p>
+<p>El llamado código portable de un OS a otro. No existe tal cosa como el
+código portable antes que escribas las funciones portables.</p>
+<p><strong>Bueno, creo que cuando se escribe código de bajo nivel y se lo quiere hacer
+portable aún un lenguaje portable no es suficiente. Hay cierto trabajo extra
+por hacer para esos bits que no fueron pensados para caber en el lenguaje</strong></p>
+<p>Si.</p>
+<p><strong>Bueno. Finalmente, algo más que nos quiera decir y no le haya preguntado ??</strong></p>
+<p>Bueno, creo que hablamos sobre las ideas más importantes.</p>
+<p>
+</p>
+<h2><a name="sudornews">SudorNews</a></h2>
+<p>
+</p>
+<h3><a name="pugs_6_2_9">Pugs 6.2.9</a></h3>
+<p>La última versión de Pugs ( <a href="http://pugscode.org/dist/Perl6-Pugs-6.2.9.tar.gz">http://pugscode.org/dist/Perl6-Pugs-6.2.9.tar.gz</a>
+) fue liberada. Pugs es una implementación del esperado Perl 6 escrita en
+Haskell. Para todos aquellos que quieran jugar con esta nueva versión pero
+no quieran (o no puedan) instalarla existe un Live CD que puede ser bajado
+desde <a href="http://linide.sf.net/pugs-livecd-6.2.9.iso">http://linide.sf.net/pugs-livecd-6.2.9.iso</a></p>
+<p>
+</p>
+<h3><a name="www__kontent_0_01">WWW::Kontent 0.01</a></h3>
+<p>Y ya empiezan a aparecer los primeros códigos escritos en Perl 6. Este es un
+web content management que puede ser ejecutado con Pugs. En particular este
+no está completo en todas sus funcionalidades ni está listo para producción,
+pero si para hacer un download, enterarse de qué se trata y jugar un poco.
+Para los interesados pueden dirigirse a
+<a href="http://search.cpan.org/~brentdax/WWW-Kontent-0.01/">http://search.cpan.org/~brentdax/WWW-Kontent-0.01/</a> y leer el archivo INSTALL
+para ver como dejarlo funcionando. Tengan cuidado, porque a pesar que está
+en CPAN no puede instalarse como un módulo. Quedan advertidos.</p>
+<p>
+</p>
+<h3><a name="portando_test__builder_a_perl_6">Portando Test::Builder a Perl 6</a></h3>
+<p>Parece que con el avance de Pugs y Parrot todo se está moviendo alrededor de
+Perl 6. Así que algunos está portando su código, y chromatic no podía dejar
+de poner sus manos en Test::Builder y portarlo a Perl 6. Algo digno de ser
+leído puede encontrarse en
+<a href="http://www.perl.com/pub/a/2005/07/28/test_builder_p6.html">http://www.perl.com/pub/a/2005/07/28/test_builder_p6.html</a></p>
+<p>
+</p>
+<h3><a name="parrot_0_2_3_serenity_liberado">Parrot 0.2.3 ``Serenity'' liberado</a></h3>
+<p>La nueva versión de Parrot fue liberada, y puede bajarse desde
+<a href="http://www.cpan.org/authors/id/L/LT/LTOETSCH/parrot-0.2.3.tar.gz.">http://www.cpan.org/authors/id/L/LT/LTOETSCH/parrot-0.2.3.tar.gz.</a> Parrot es
+una máquina virtual diseñada para ejecutar Perl6 y otros lenguajes
+dinámicos.</p>
+<p>
+</p>
+<h3><a name="introducción_al_scripting_open_source_en_mac_os_x">Introducción al scripting Open Source en Mac OS X</a></h3>
+<p>No será una maravilla, pero realmente parece una buena introducción a la
+diversidad y oferta del Open Source en cuanto a scripting. Véanlo en
+<a href="http://developer.apple.com/internet/opensource/opensourcescripting.html">http://developer.apple.com/internet/opensource/opensourcescripting.html</a></p>
+<p>
+</p>
+<h3><a name="introducción_al_lenguaje_sleep">Introducción al lenguaje Sleep</a></h3>
+<p>Por suerte hay mucho que creen que todavía Perl tiene muchas ideas útiles, y
+entre ellos está Raphael Mudge que inventó el lenguaje Sleep () basado
+principalmente en Perl y lo convirtió en un lenguaje de scripting que puede
+ser embebido en Java. Si quieren un poco más lean el artículo que está en
+<a href="http://today.java.net/pub/a/today/2005/07/14/sleep.html">http://today.java.net/pub/a/today/2005/07/14/sleep.html</a></p>
+<p>
+</p>
+<h3><a name="calificación_de_sistemas_open_source">Calificación de sistemas Open Source</a></h3>
+<p>Carnegie Mellon University, CodeZoo (O'Reilly), Intel y SpikeSource están
+lanzando un sistema de calificación orientado a enterprise adopters y
+desarrolladores. Comúnmente dentro de la industria hay cierta reticencia a
+usar open source mayormente por desconocimiento, y el que haya un proceso
+consensuado y open source hace que la adopción pueda verse facilitada. Más
+data en <a href="http://www.openbrr.org/">http://www.openbrr.org/</a></p>
+<p>
+</p>
+<h3><a name="el_sistema_lamp_pierde_cuota_de_mercado">El sistema LAMP pierde cuota de mercado</a></h3>
+<p>Según un estudio de Evans Data
+(http://www.javahispano.org/news.item.action?id=196370513), ha disminuido el
+número de programadores que usan PHP para realizar páginas web, como también
+ha disminuido el número de desarrolladores que planean usar PHP para futuros
+proyectos. Así como ha bajado el índice para PHP, también han disminuido el
+número de programadores de Perl y Python. Según el estudio, la disminución
+ha sido porque no se ha conseguido una importante cuota de mercado en el
+ámbito empresarial.</p>
+<p>
+</p>
+<h3><a name="programming_in_perl_6_style_using_perl_5">Programming in Perl 6 style using Perl 5</a></h3>
+<p>Un libro que promete llenar la brecha entre ambas versiones de una forma
+elegante , y ayudando a esclarecer y entrever ese futuro llamado Perl 6 (
+<a href="http://books.slashdot.org/article.pl?sid=05/08/16/0511217">http://books.slashdot.org/article.pl?sid=05/08/16/0511217</a> )</p>
+<p>
+</p>
+<h3><a name="grupo_unix_de_los_laboratorios_bell_desmantelado">Grupo Unix de los laboratorios Bell desmantelado</a></h3>
+<p>Indudablemente Unix es uno de los pilares de la industria informática, y
+como tal nació en los laboratorios del por entonces monopólico Bell
+Telephone. En este mes, ese mítico laboratorio fue oficialmente
+desmantelado. Como todo, lo bueno y lo malo, termina inexorablemente (
+<a href="http://www.unixreview.com/documents/s=9846/ur0508l/ur0508l.html">http://www.unixreview.com/documents/s=9846/ur0508l/ur0508l.html</a> )</p>
+<p>
+</p>
+<h3><a name="búsqueda_de_código_fuente_de_libros">Búsqueda de código fuente de libros</a></h3>
+<p>Una nueva facilidad para regocijo de todos los habitantes del ciberespacio :
+búsqueda de código en una buena cantidad de libros, fácil y rápido en
+<a href="http://perl.codefetch.com/">http://perl.codefetch.com/</a></p>
+<p>
+</p>
+<h3><a name="para_el_cv___yo_participo_en_un_proyecto_open_source">Para el CV : yo participo en un proyecto Open Source</a></h3>
+<p>Una de las opciones mas codiciadas en el último año de una carrera son las
+pasantías a una empresa, las que pueden resultar en un aporte substancial al
+CV o bien en una oportunidad laboral. Ahora bien si este codiciado premio no
+llega, no tenemos más que hacer de nuestras vidas ?? Básicamente no
+desesperarse es lo primero, y participar en un proyecto Open Source también
+agrega substancia al CV. Recordemos que lo preciado es el contacto con el
+mundo real :
+<a href="http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html">http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html</a></p>
+<p>
+</p>
+<h3><a name="evadiendo_el_fingerprinting_pasivo">Evadiendo el fingerprinting pasivo</a></h3>
+<p>Como leyeron en el artículo de PERLitas de este número, Perl juega un papel
+importante en el ambiente de seguridad. Uno de nuestros integrantes no es
+ajeno a esto, y puede leerse un artículo de ca0s en el último número de la
+revista electrónica SET : <a href="http://www.set-ezine.org/archivo/txt/set31.zip">http://www.set-ezine.org/archivo/txt/set31.zip</a></p>
+<p>
+</p>
+<h3><a name="building_a_3d_engine_in_perl">Building a 3D Engine in Perl</a></h3>
+<p>Y si señores, no es fanatismo pero Perl da para todo. Que no ?? Por qué no
+te fijás entonces en cómo hacer un engine 3D en Perl :
+<a href="http://www.perl.com/pub/a/2004/12/01/3d_engine.html,">http://www.perl.com/pub/a/2004/12/01/3d_engine.html,</a>
+<a href="http://www.perl.com/pub/a/2004/12/29/3d_engine.html,">http://www.perl.com/pub/a/2004/12/29/3d_engine.html,</a>
+<a href="http://www.perl.com/pub/a/2005/02/17/3d_engine.html">http://www.perl.com/pub/a/2005/02/17/3d_engine.html</a> y
+<a href="http://www.perl.com/pub/a/2005/08/04/3d_engine.html">http://www.perl.com/pub/a/2005/08/04/3d_engine.html</a></p>
+<p>
+</p>
+<h3><a name="para_una_buena_programación__buenas_herramientas">Para una buena programación, buenas herramientas</a></h3>
+<p>Y ya que Perl es el mejor lenguaje este trío sería fantástico e imbatible.
+Bueno, lean <a href="http://www.perl.com/pub/a/2005/08/25/tools.html">http://www.perl.com/pub/a/2005/08/25/tools.html</a> y si bien la
+oferta de hoy no es la panacea que deseamos/necesitamos/anhelamos estamos en
+la buena senda.</p>
+<p>
+</p>
+<h3><a name="y_seguimos_indexando____">Y seguimos indexando ...</a></h3>
+<p>El objetivo del POD Indexing Project ( <a href="http://pod-indexing.annocpan.org/">http://pod-indexing.annocpan.org/</a> )
+es hacer la documentación de Perl más accesible e indexable, específicamente
+agregar las palabras claves correspondientes en el código POD y generar
+herramientas para aprovecharlas, tanto en el indexado como en la búsqueda.</p>
+<p>
+</p>
+<h3><a name="openoffice__oodoc_2_003_disponible_en_cpan">OpenOffice::OODoc 2.003 disponible en CPAN</a></h3>
+<p>Y en el orden de buenas noticias salió la versión en CPAN para poder manejar
+documentos de OpenOffice.org en sus versiones 1.x y 2.x (
+<a href="http://search.cpan.org/dist/OpenOffice-OODoc">http://search.cpan.org/dist/OpenOffice-OODoc</a> ) ... vamos vamos, a actualizar
+esos módulos !!</p>
+<p>
+</p>
+<h3><a name="querés_probar_tus_conocimientos____">Querés probar tus conocimientos ...</a></h3>
+<p>simple, entrá a
+<a href="http://brainbench.com/xml/bb/common/testcenter/taketest.xml?testId=2365">http://brainbench.com/xml/bb/common/testcenter/taketest.xml?testId=2365</a> y
+hacé el test !!!</p>
+<p>
+</p>
+<h3><a name="testing_automatizado_de_gui">Testing automatizado de GUI</a></h3>
+<p>Si trabajas en Windows y no querés romperte el coco dando clicks a troche y
+moche para probar tus programas, ahora podés usar el módulo Win32::GuiTest
+module. Ahora si no querés perder el tiempo para empezar a usarlo, leete
+este articulito : <a href="http://www.perl.com/pub/a/2005/08/11/win32guitest.html">http://www.perl.com/pub/a/2005/08/11/win32guitest.html</a></p>
+<p>
+</p>
+<h2><a name="poc__peace_of_code_">POC (peace of code)</a></h2>
+<p>Este mes Andrés está ausente con aviso, así que lo voy a reemplazar yo ...
+bueno no exactamente yo sino el autor del artículo Evadiendo el
+Firngerprinting Pasivo ( <a href="http://www.set-ezine.org/archivo/txt/set31.zip">http://www.set-ezine.org/archivo/txt/set31.zip</a> ).
+Lo lamento, esta vez no hay acertijo :-(</p>
+<p>Básicamente este script sirve para tomar un paquete de red, previo desvío
+hacia este script con iptables, y modificarlos a nuestro antojo (si leen el
+artículo se van a dar cuenta de la utilidad).</p>
+<pre>
+ use IPTables::IPv4::IPQueue qw(:constants);
+ use NetPacket::IP qw(:ALL);
+ use NetPacket::TCP qw(:ALL);
+ 
+ use constant TIMEOUT =&gt; 1_000_000 * 2;
+ 
+ my $queue = new IPTables::IPv4::IPQueue(
+             copy_mode =&gt; IPQ_COPY_PACKET,
+             copy_range =&gt; 2048) 
+         or die IPTables::IPv4::IPQueue-&gt;errstr;
+ 
+ while (1) {
+     my $msg = $queue-&gt;get_message(TIMEOUT);
+     
+     if (!defined $msg) {
+         next if IPTables::IPv4::IPQueue-&gt;errstr eq 'Timeout';
+         die IPTables::IPv4::IPQueue-&gt;errstr; 
+     }
+ 
+     my $ip = NetPacket::IP-&gt;decode($msg-&gt;payload());
+     my $tcp = NetPacket::TCP-&gt;decode($ip-&gt;{data});
+ 
+     ########
+     ## Aqui podemos modificar IP &quot;$ip&quot; o TCP &quot;$tcp&quot;, 
+     ## antes de volver a enviarlo al Kernel 
+     ######## 
+ 
+     $ip-&gt;{data} = $tcp-&gt;encode($ip);
+     my $raw = $ip-&gt;encode;
+ 
+     $queue-&gt;set_verdict($msg-&gt;packet_id(), NF_ACCEPT, 
+                  length($raw), $raw);
+ 
+ }
+ 
+ 
+=cut</pre>
+
+</body>
+
+</html>
